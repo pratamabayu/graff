@@ -9010,8 +9010,9 @@ html[data-theme=dark] .alert.alert-warning {
 :root {
   --badge-padding: var(--padding-2xsmall);
   --badge-border-radius: var(--border-radius-2xsmall);
-  --badge-font-size: var(--font-size-small);
-  --badge-as-empty-size: var(--font-size-xsmall);
+  --badge-font-size: 11px;
+  --badge-as-empty-size: 6px;
+  --badge-box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
 
 .badge {
@@ -9022,7 +9023,7 @@ html[data-theme=dark] .alert.alert-warning {
   background: var(--color-primary);
   background-clip: padding-box;
   border-radius: var(--badge-border-radius);
-  box-shadow: 0 0 0 0.1rem var(--background-color-light);
+  box-shadow: var(--badge-box-shadow);
   color: var(--color-light);
   content: attr(data-badge);
   display: inline-block;
@@ -9555,7 +9556,7 @@ ul.nav-nested > li:last-child {
 }
 
 :root {
-  --dotnav-item-size: 0.7rem;
+  --dotnav-item-size: 8px;
   --dotnav-item-margin: var(--margin-xsmall);
   --dotnav-item-border: var(--border-width) solid var(--color-border-light);
   --dotnav-item-background: var(--color-background-light);

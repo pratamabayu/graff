@@ -15,6 +15,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>
@@ -29,6 +30,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>
@@ -44,6 +46,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>
@@ -55,6 +58,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>
@@ -70,6 +74,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>
@@ -81,6 +86,7 @@ categories_weight: 2
             <ul class="nav">
                 <li><a href="#" class="active">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
+                <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
             </ul>
         </div>

@@ -8,40 +8,127 @@ categories_weight: 2
 
 # Iconnav
 
+### Usage
+
+Use ```.iconnav``` in ```<ul>```.
+
+``` html
+<ul class="iconnav">
+    <li> ... </li>
+    <li> ... </li>
+</ul>
+```
+
+### Examples
+
+Fill the list with [graff default icons](/documentation/icon).
+
 <section>
     <ul class="iconnav">
-        <li><a href="#"><span class="gg-play-track-prev-o"></span></a></li>
-        <li class="active"><a href="#"><span class="gg-play-button-o" style="--ggs: 1.5"></span></a></li>
-        <li><a href="#"><span class="gg-play-track-next-o"></span></a></li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-left" />
+                </svg>
+            </a>
+        </li>
+        <li class="active">
+            <a href="#">
+                <svg class="icon" style="--icon-style: 1.5">
+                    <use xlink:href="icons/graff-icons.svg#sun" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-right" />
+                </svg>
+            </a>
+        </li>
     </ul>
 </section>
-
-<br/><br/>
 
 ``` html
 <section>
     <ul class="iconnav">
-        <li><a href="#"><span class="gg-play-track-prev-o"></span></a></li>
-        <li class="active"><a href="#"><span class="gg-play-button-o" style="--ggs: 1.5"></span></a></li>
-        <li><a href="#"><span class="gg-play-track-next-o"></span></a></li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-left" />
+                </svg>
+            </a>
+        </li>
+        <li class="active">
+            <a href="#">
+                <svg class="icon" style="--icon-style: 1.5">
+                    <use xlink:href="icons/graff-icons.svg#sun" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-right" />
+                </svg>
+            </a>
+        </li>
     </ul>
 </section>
 ```
 
+To change direction of navigation, add ```.iconnav-vertical```.
+
 <section>
     <ul class="iconnav iconnav-vertical">
-        <li><a href="#"><span class="gg-play-track-prev-o"></span></a></li>
-        <li class="active"><a href="#"><span class="gg-play-button-o" style="--ggs: 1.5"></span></a></li>
-        <li><a href="#"><span class="gg-play-track-next-o"></span></a></li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-up" />
+                </svg>
+            </a>
+        </li>
+        <li class="active">
+            <a href="#">
+                <svg class="icon" style="--icon-style: 1.5">
+                    <use xlink:href="icons/graff-icons.svg#sun" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-down" />
+                </svg>
+            </a>
+        </li>
     </ul>
 </section>
 
 ``` html
 <section>
     <ul class="iconnav iconnav-vertical">
-        <li><a href="#"><span class="gg-play-track-prev-o"></span></a></li>
-        <li class="active"><a href="#"><span class="gg-play-button-o" style="--ggs: 1.5"></span></a></li>
-        <li><a href="#"><span class="gg-play-track-next-o"></span></a></li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-up" />
+                </svg>
+            </a>
+        </li>
+        <li class="active">
+            <a href="#">
+                <svg class="icon" style="--icon-style: 1.5">
+                    <use xlink:href="icons/graff-icons.svg#sun" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#chevron-down" />
+                </svg>
+            </a>
+        </li>
     </ul>
 </section>
 ```

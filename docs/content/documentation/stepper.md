@@ -12,15 +12,9 @@ categories_weight: 2
 
 ``` html
 <ul class="stepper stepper-cycle stepper-steps-4">
-    <li class="step-completed">
-        // Your content
-    </li>
-    <li class="step-processing">
-        // Your content
-    </li>
-    <li>
-        // Your content
-    </li>
+    <li class="step-completed"> ... </li>
+    <li class="step-processing"> ... </li>
+    <li> ... </li>
 </ul>
 ```
 

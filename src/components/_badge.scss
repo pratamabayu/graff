@@ -1,8 +1,9 @@
 :root {
   --badge-padding: var(--padding-2xsmall);
   --badge-border-radius: var(--border-radius-2xsmall);
-  --badge-font-size: var(--font-size-small);
-  --badge-as-empty-size: var(--font-size-xsmall);
+  --badge-font-size: 11px;
+  --badge-as-empty-size: 6px;
+  --badge-box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
 
 .badge {
@@ -15,7 +16,7 @@
       background: var(--color-primary);
       background-clip: padding-box;
       border-radius: var(--badge-border-radius);
-      box-shadow: 0 0 0 0.1rem var(--background-color-light);
+      box-shadow: var(--badge-box-shadow);
       color: var(--color-light);
       content: attr(data-badge);
       display: inline-block;
