@@ -1,0 +1,39 @@
+:root {
+  --card-padding: var(--padding-medium);
+  --card-border-radius: var(--border-radius-2xsmall);
+  --card-primary-text-color: var(--color-light);
+  --card-primary-background: var(--color-primary);
+}
+
+.card {
+  border-radius: var(--card-border-radius);
+
+  display: flex;
+  flex-direction: column;
+
+  &.card-primary {
+    color: var(--card-primary-text-color);
+    background: var(--card-primary-background);
+  }
+
+  .card-header,
+  .card-body,
+  .card-footer {
+    padding: var(--card-padding);
+    padding-bottom: 0;
+
+    &:last-child {
+      padding-bottom: var(--card-padding);
+    }
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+  }
+
+  img.card-image {
+    border-radius: var(--card-border-radius);
+  }
+}
+
+@include button-on-dark(".card.card-primary");

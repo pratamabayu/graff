@@ -1,0 +1,52 @@
+:root {
+  --tab-item-padding: var(--padding-xsmall) var(--padding-medium);
+
+  --tab-item-text-color: var(--color-text);
+  --tab-item-hover-text-color: var(--color-primary-dark);
+  --tab-item-active-text-color: var(--color-primary);
+  --tab-item-active-background: transparent;
+  --tab-item-active-border-color: var(--color-primary);
+  --tab-item-pill-active-text-color: var(--color-light);
+  --tab-item-pill-active-background: var(--color-primary);
+  --tab-item-pill-active-border-color: var(--color-primary);
+
+  --tab-item-border-style: solid;
+  --tab-item-border-width: 0px 0px var(--border-width-thin) 0px;
+  --tab-item-pill-border-radius: var(--border-radius-2xsmall);
+}
+
+ul.tab {
+  padding: 0px;
+
+  > li {
+    margin: 0px;
+    list-style: none;
+    display: inline;
+
+    > a {
+      padding: var(--tab-item-padding);
+      text-decoration: none;
+      color: var(--tab-item-text-color);
+      line-height: 100%;
+
+      &:hover {
+        color: var(--tab-item-hover-text-color);
+      }
+    }
+
+    &.active > a {
+      border-style: var(--tab-item-border-style);
+      border-width: var(--tab-item-border-width);
+
+      border-color: var(--tab-item-active-border-color);
+      color: var(--tab-item-active-text-color);
+    }
+  }
+
+  &.tab-pills > li.active > a {
+    color: var(--tab-item-pill-active-text-color);
+    border-color: var(--tab-item-pill-active-border-color);
+    border-radius: var(--tab-item-pill-border-radius);
+    background: var(--tab-item-pill-active-background);
+  }
+}

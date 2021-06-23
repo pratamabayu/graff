@@ -1,0 +1,15 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $overflow in (auto, hidden, scroll, visible) {
+    .overflow-#{$overflow}#{$breakpoint-suffix} {
+      overflow: $overflow;
+    }
+  }
+
+  @each $orientation in (x, y) {
+    @each $overflow in (auto, hidden, scroll, visible) {
+      .overflow-#{$orientation}-#{$overflow}#{$breakpoint-suffix} {
+        overflow-#{$orientation}: $overflow;
+      }
+    }
+  }
+}

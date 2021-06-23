@@ -1,0 +1,29 @@
+<ul class="nav">
+    {{ $categories := .Site.Taxonomies.categories }}
+    {{ $categories_order := .Site.Params.categories_order }}
+    {{ $categories_hidden_header := .Site.Params.categories_hidden_header }}
+    {{ range $current := $categories_order }}
+        {{ range $name, $taxonomy := $categories }}
+            {{ if eq $name $current }}
+                {{ if in $categories_hidden_header $name }}
+                    {{ range $taxonomy.Pages }}
+                        {{ if ne .Title "" }}
+                        <li class="{{ if eq .Title $.Title }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ else }}
+                <li class="nav-header">
+                    <span>{{ $name | humanize | title }}</span>
+                    <ul class="nav-nested">
+                    {{ range $taxonomy.Pages }}
+                        {{ if ne .Title "" }}
+                        <li class="{{ if eq .Title $.Title }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</ul>

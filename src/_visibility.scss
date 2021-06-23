@@ -1,0 +1,7 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $visibility in (visible, hidden, collapse) {
+    .#{$visibility}#{$breakpoint-suffix} {
+      visibility: $visibility;
+    }
+  }
+}

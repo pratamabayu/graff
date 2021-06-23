@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="margin-large grid grid-4-columns grid-1-columns@m column-gap-medium">
+    <section class="none@m">
+        {{- partial "nav.html" . -}}
+    </section>
+    <section class="grid-column-span-3 grid-column-span-1@m">
+        {{.Content}}
+    </section>
+</section>
+{{ end }}

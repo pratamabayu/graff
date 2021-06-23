@@ -1,0 +1,52 @@
+:root {
+  --modal-overlay-backgruond: rgba(0, 0, 0, 0.1);
+  --modal-dialog-width: var(--width-large);
+  --modal-dialog-min-height: var(--height-small);
+
+  --modal-dialog-padding: var(--padding-medium);
+  --modal-dialog-background: var(--color-background-light);
+  --modal-dialog-border-radius: var(--border-radius-2xsmall);
+
+  --modal-z: 100;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: var(--modal-z);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  &:target {
+    display: block;
+  }
+}
+
+.modal-overlay {
+  width: 100vw;
+  touch-action: none;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--modal-overlay-backgruond);
+  opacity: 1;
+  transition: opacity 0.15s linear;
+}
+
+.modal-dialog {
+  background: var(--modal-dialog-background);
+  padding: var(--modal-dialog-padding);
+  border-radius: var(--modal-dialog-border-radius);
+  width: var(--modal-dialog-width);
+  min-height: var(--modal-dialog-min-height);
+
+  position: absolute;
+}

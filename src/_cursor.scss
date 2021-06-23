@@ -1,0 +1,7 @@
+@each $cursor
+    in (default, grab, pointer, not-allowed, progress, help, crosshair)
+  {
+    .cursor-#{$cursor} {
+      cursor: $cursor;
+    }
+  }

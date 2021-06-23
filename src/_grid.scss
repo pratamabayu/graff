@@ -1,0 +1,41 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  .grid#{$breakpoint-suffix} {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  @each $direction in (row, column) {
+    .grid-auto-flow-#{$direction}#{$breakpoint-suffix} {
+      grid-auto-flow: $direction;
+    }
+  }
+
+  @for $i from 1 through 12 {
+    .grid-#{$i}-columns#{$breakpoint-suffix} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+    .grid-#{$i}-rows#{$breakpoint-suffix} {
+      grid-template-rows: repeat($i, 1fr);
+    }
+
+    .grid-column-start-#{$i}#{$breakpoint-suffix} {
+      grid-column-start: $i;
+    }
+    .grid-column-end-#{$i}#{$breakpoint-suffix} {
+      grid-column-end: $i + 1;
+    }
+    .grid-column-span-#{$i}#{$breakpoint-suffix} {
+      grid-column-end: span $i;
+    }
+    .grid-row-start-#{$i}#{$breakpoint-suffix} {
+      grid-row-start: $i;
+    }
+    .grid-row-end-#{$i}#{$breakpoint-suffix} {
+      grid-row-end: $i + 1;
+    }
+    .grid-row-span-#{$i}#{$breakpoint-suffix} {
+      grid-row-end: span $i;
+    }
+  }
+}

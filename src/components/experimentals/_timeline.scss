@@ -1,0 +1,42 @@
+:root {
+  --timeline-line-border-width: var(--border-width);
+  --timeline-line-color: var(--color-background);
+  --timeline-item-point-border: var(--timeline-line-border-width) solid var(--color-primary);
+  --timeline-item-point-text-color: var(--color-gray);
+  --timeline-item-point-background: var(--color-background);
+  --timeline-item-point-size: calc(var(--font-size) * 2);
+  --timeline-item-point-active-background: var(--color-primary);
+  --timeline-item-point-active-border-color: var(--color-primary);
+  --timeline-item-offset: var(--padding-medium);
+}
+
+ul.timeline {
+  position: relative;
+  list-style: none;
+
+  > li {
+    border-left: var(--timeline-line-border-width) solid var(--timeline-line-color);
+    position: relative;
+    padding-left: var(--timeline-item-offset);
+    list-style: none;
+    &:last-child {
+      border: 0px;
+    }
+    &:before {
+      content: "";
+      width: var(--timeline-item-point-size);
+      height: var(--timeline-item-point-size);
+      background: var(--timeline-item-point-background);
+      border: var(--timeline-item-point-border);
+      border-radius: 50%;
+      position: absolute;
+      left: calc(calc(var(--timeline-item-point-size) / -2) - var(--timeline-line-border-width));
+      box-shadow: 0 0 0 0.1rem var(--background-light-color);
+    }
+    &.active:before {
+      background: var(--timeline-item-point-active-background);
+      border-color: var(--timeline-item-point-active-border-color);
+    }
+  }
+}
+

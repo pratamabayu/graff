@@ -1,0 +1,134 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $position in (relative, absolute, fixed, static, sticky) {
+    .position-#{$position}#{$breakpoint-suffix} {
+      position: $position;
+    }
+  }
+
+  .position-top#{$breakpoint-suffix} {
+    top: 0;
+  }
+
+  .position-bottom#{$breakpoint-suffix} {
+    bottom: 0;
+  }
+
+  .position-left#{$breakpoint-suffix} {
+    left: 0;
+  }
+
+  .position-right#{$breakpoint-suffix} {
+    right: 0;
+  }
+
+  .position-center#{$breakpoint-suffix} {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* in */
+
+  .position-top-center#{$breakpoint-suffix} {
+    top: 0;
+  }
+
+  .position-bottom-center#{$breakpoint-suffix} {
+    bottom: 0;
+  }
+
+  .position-top-center#{$breakpoint-suffix},
+  .position-bottom-center#{$breakpoint-suffix} {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .position-left-center#{$breakpoint-suffix} {
+    left: 0;
+  }
+
+  .position-right-center#{$breakpoint-suffix} {
+    right: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .position-left-center#{$breakpoint-suffix},
+  .position-right-center#{$breakpoint-suffix} {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .position-top-left#{$breakpoint-suffix} {
+    top: 0;
+    left: 0;
+  }
+
+  .position-bottom-left#{$breakpoint-suffix} {
+    bottom: 0;
+    left: 0;
+  }
+
+  .position-top-right#{$breakpoint-suffix} {
+    top: 0;
+    right: 0;
+  }
+
+  .position-bottom-right#{$breakpoint-suffix} {
+    bottom: 0;
+    right: 0;
+  }
+
+  /* out */
+  .position-bottom-center-out#{$breakpoint-suffix} {
+    top: 100%;
+  }
+
+  .position-top-center-out#{$breakpoint-suffix} {
+    bottom: 100%;
+  }
+
+  .position-bottom-center-out#{$breakpoint-suffix},
+  .position-top-center-out#{$breakpoint-suffix} {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .position-right-center-out#{$breakpoint-suffix} {
+    left: 100%;
+  }
+
+  .position-left-center-out#{$breakpoint-suffix} {
+    right: 100%;
+  }
+
+  .position-right-center-out#{$breakpoint-suffix},
+  .position-left-center-out#{$breakpoint-suffix} {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .position-bottom-left-out#{$breakpoint-suffix} {
+    top: 100%;
+    left: 0;
+  }
+
+  .position-top-left-out#{$breakpoint-suffix} {
+    bottom: 100%;
+    left: 0;
+  }
+
+  .position-bottom-right-out#{$breakpoint-suffix} {
+    top: 100%;
+    right: 0;
+  }
+
+  .position-top-right-out#{$breakpoint-suffix} {
+    bottom: 100%;
+    right: 0;
+  }
+}

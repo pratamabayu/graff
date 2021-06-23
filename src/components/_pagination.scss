@@ -1,0 +1,30 @@
+:root {
+  --pagination-item-text-color: var(--color-text);
+  --pagination-item-active-text-color: var(--color-primary);
+  --pagination-item-hover-text-color: var(--color-primary-dark);
+
+  --pagination-item-padding: var(--padding-small);
+}
+
+ul.pagination {
+  list-style: none;
+  padding: 0px;
+
+  > li {
+    display: inline;
+
+    > a {
+      color: var(--pagination-item-text-color);
+      padding: var(--pagination-item-padding);
+      text-decoration: none;
+    }
+
+    &.active > a {
+      color: var(--pagination-item-active-text-color);
+    }
+
+    &:not(.active) > a:hover {
+      color: var(--pagination-item-hover-text-color);
+    }
+  }
+}

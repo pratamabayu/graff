@@ -1,0 +1,55 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  .padding-2xsmall#{$breakpoint-suffix} {
+    padding: var(--padding-2xsmall) !important;
+  }
+
+  .padding-xsmall#{$breakpoint-suffix} {
+    padding: var(--padding-xsmall) !important;
+  }
+
+  .padding-small#{$breakpoint-suffix} {
+    padding: var(--padding-small) !important;
+  }
+
+  .padding-medium#{$breakpoint-suffix} {
+    padding: var(--padding-medium) !important;
+  }
+
+  .padding-large#{$breakpoint-suffix} {
+    padding: var(--padding-large) !important;
+  }
+
+  .padding-xlarge#{$breakpoint-suffix} {
+    padding: var(--padding-xlarge) !important;
+  }
+
+  .padding-remove-all#{$breakpoint-suffix} {
+    padding: 0px !important;
+  }
+
+  .padding-remove-left#{$breakpoint-suffix} {
+    padding-left: 0px !important;
+  }
+
+  .padding-remove-top#{$breakpoint-suffix} {
+    padding-top: 0px !important;
+  }
+
+  .padding-remove-right#{$breakpoint-suffix} {
+    padding-right: 0px !important;
+  }
+
+  .padding-remove-bottom#{$breakpoint-suffix} {
+    padding-bottom: 0px !important;
+  }
+
+  .padding-remove-horizontal#{$breakpoint-suffix} {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .padding-remove-vertical#{$breakpoint-suffix} {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}

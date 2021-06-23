@@ -1,0 +1,5 @@
+@each $fit in (auto, cover, contain) {
+  .fit-#{$fit} {
+    object-fit: $fit;
+  }
+}

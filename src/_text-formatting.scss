@@ -1,0 +1,86 @@
+$size-data: (
+  (2xsmall, xx-small),
+  (xsmall, x-small),
+  (small, small),
+  (medium, medium),
+  (large, large),
+  (xlarge, x-large),
+  (2xlarge, xx-large),
+  (smaller, smaller),
+  (larger, larger)
+) !default;
+
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $size-key, $size-value in $size-data {
+    .text-#{$size-key}#{$breakpoint-suffix} {
+      font-size: $size-value;
+    }
+  }
+
+  .text-normal#{$breakpoint-suffix} {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    white-space: normal;
+    word-break: normal;
+    word-wrap: normal;
+  }
+
+  @each $decoration in (line-through, overline, underline) {
+    .text-#{$decoration}#{$breakpoint-suffix} {
+      text-decoration: $decoration;
+    }
+  }
+
+  @each $decoration-style in (dashed, dotted, double, solid, wavy) {
+    .text-#{$decoration-style}#{$breakpoint-suffix} {
+      text-decoration-style: $decoration-style;
+    }
+  }
+
+  @each $weight in (lighter, bold, bolder) {
+    .text-#{$weight}#{$breakpoint-suffix} {
+      font-weight: $weight;
+    }
+  }
+
+  @each $style in (italic, oblique) {
+    .text-#{$style}#{$breakpoint-suffix} {
+      font-style: $style;
+    }
+  }
+
+  @each $transform in (capitalize, lowercase, uppercase) {
+    .text-#{$transform}#{$breakpoint-suffix} {
+      text-transform: $transform;
+    }
+  }
+
+  .text-small-caps#{$breakpoint-suffix} {
+    font-variant: small-caps;
+  }
+
+  .text-truncate#{$breakpoint-suffix} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @each $align in (left, right, justify) {
+    .text-#{$align}#{$breakpoint-suffix} {
+      text-align: $align;
+    }
+  }
+
+  .text-center#{$breakpoint-suffix} {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-nowrap#{$breakpoint-suffix} {
+    white-space: nowrap;
+  }
+}

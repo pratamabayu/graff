@@ -1,0 +1,98 @@
+$color-primary: #005BFF;
+$color-secondary: adjust-hue($color-primary, 180deg);
+$color-dark: #000;
+$color-light: #fff;
+$color-gray: lighten($color-dark, 55%);
+$color-border: lighten($color-dark, 65%);
+$color-background: lighten($color-dark, 93%);
+$color-text: lighten($color-dark, 5%);
+$color-link: $color-primary;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{darken($color-primary, 3%)};
+  --color-primary-light: #{lighten($color-primary, 3%)};
+
+  --color-secondary: #{$color-secondary};
+  --color-secondary-dark: #{darken($color-secondary, 3%)};
+  --color-secondary-light: #{lighten($color-secondary, 3%)};
+
+  --color-dark: #{$color-dark};
+  --color-light: #{$color-light};
+  --color-gray: #{$color-gray};
+  --color-gray-dark: #{darken($color-gray, 30%)};
+  --color-gray-light: #{lighten($color-gray, 20%)};
+
+  --color-border: #{$color-border};
+  --color-border-dark: #{darken($color-border, 10%)};
+  --color-border-light: #{lighten($color-border, 8%)};
+
+  --color-background: #{$color-background};
+  --color-background-dark: #{darken($color-background, 3%)};
+  --color-background-light: #{$color-light};
+
+  --color-text: #{$color-text};
+  --color-text-light: #{lighten($color-text, 30%)};
+
+  --color-success: #32b643;
+  --color-warning: #ffb700;
+  --color-error: #e85600;
+
+  --color-link: #{$color-link};
+  --color-link-dark: #{darken($color-link, 10%)};
+  --color-link-light: #{lighten($color-link, 10%)};
+
+  --color-code: #{lighten($color-text, 20%)};
+  --color-highlight: #ffe9b3;
+
+  --margin-2xsmall: 3px;
+  --margin-xsmall: 5px;
+  --margin-small: 10px;
+  --margin-medium: 20px;
+  --margin-large: 40px;
+  --margin-xlarge: 60px;
+
+  --padding-2xsmall: 3px;
+  --padding-xsmall: 5px;
+  --padding-small: 10px;
+  --padding-medium: 20px;
+  --padding-large: 40px;
+  --padding-xlarge: 60px;
+
+  --width-small: 150px;
+  --width-medium: 300px;
+  --width-large: 450px;
+  --width-xlarge: 600px;
+  --width-2xlarge: 750px;
+
+  --height-small: 150px;
+  --height-medium: 300px;
+  --height-large: 450px;
+  --height-xlarge: 600px;
+  --height-2xlarge: 750px;
+
+  --grid-gap-small: 10px;
+  --grid-gap-medium: 20px;
+  --grid-gap-large: 40px;
+
+  --border-radius-2xsmall: 3px;
+  --border-radius-xsmall: 5px;
+  --border-radius-small: 10px;
+  --border-radius-medium: 20px;
+  --border-radius-large: 40px;
+
+  --border-width: 2px;
+  --border-width-thin: 1px;
+  --border-width-thick: 3px;
+
+  --font-family: "Jost", Verdana, sans-serif;
+  --font-family-heading: var(--font-family);
+  --font-family-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  --font-family-blockquote: var(--font-family);
+
+  --font-size: 16px;
+  --font-size-xsmall: .4rem;
+  --font-size-small: .7rem;
+  --font-size-large: 1.2rem;
+  --font-size-xlarge: 1.8rem;
+}

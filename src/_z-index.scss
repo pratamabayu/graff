@@ -1,0 +1,11 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $z in (1, 2, 3, 4) {
+    .z-#{$z}#{$breakpoint-suffix} {
+      z-index: $z;
+    }
+  }
+
+  .z-auto#{$breakpoint-suffix} {
+    z-index: auto;
+  }
+}

@@ -1,0 +1,25 @@
+@each $style
+  in (
+    none,
+    armenian,
+    circle,
+    decimal,
+    decimal-leading-zero,
+    disc,
+    georgian,
+    inside,
+    lower-alpha,
+    lower-latin,
+    lower-roman,
+    lower-greek,
+    outside,
+    square,
+    upper-alpha,
+    upper-latin,
+    upper-roman
+  )
+{
+  .list-style-#{$style} {
+    list-style: $style;
+  }
+}

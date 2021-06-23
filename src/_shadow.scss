@@ -1,0 +1,16 @@
+$shadow-data: (
+  (small, 0 0px 1px rgba(0, 0, 0, 0.04)),
+  (medium, 0 4px 8px rgba(189, 189, 189, 0.15)),
+  (large, 0 10px 20px rgba(189, 189, 189, 0.23)),
+  (xlarge, 0 16px 32px rgba(189, 189, 189, 0.34)),
+  (highlight, inset 0 0px 1px rgba(255, 255, 255, 0.25)),
+  (none, none)
+) !default;
+
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $shadow-key, $shadow-value in $shadow-data {
+    .box-shadow-#{$shadow-key}#{$breakpoint-suffix} {
+      box-shadow: $shadow-value;
+    }
+  }
+}

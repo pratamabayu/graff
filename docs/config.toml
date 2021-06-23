@@ -1,0 +1,20 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Graff"
+theme = "dooc"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = false
+
+[params]
+google_analytics_id = ""
+project_name = "Graff"
+project_url = 'https://github.com/pratamabayu/graff'
+created_by_name = "Pratama Bayu Widagdo"
+created_by_url = "https://pratamabayu.com"
+copyright_years = "2021"
+categories_order = ["getting-started", "customize", "components", "utilities", "about"]
+categories_hidden_header = []

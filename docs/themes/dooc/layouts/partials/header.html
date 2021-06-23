@@ -1,0 +1,36 @@
+<header>
+    <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall" id="navbar">
+        <div class="margin-large margin-remove-vertical margin-remove-all@m">
+            <div class="flex align-items-center justify-content-start">
+                <div class="none inline@m">
+                    <a href="{{ .Page.Permalink }}#sidebar-primary" class="margin-medium margin-remove-vertical margin-remove-left">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5.99519C2 5.44556 2.44556 5 2.99519 5H11.0048C11.5544 5 12 5.44556 12 5.99519C12 6.54482 11.5544 6.99039 11.0048 6.99039H2.99519C2.44556 6.99039 2 6.54482 2 5.99519Z" fill="currentColor" /><path d="M2 11.9998C2 11.4501 2.44556 11.0046 2.99519 11.0046H21.0048C21.5544 11.0046 22 11.4501 22 11.9998C22 12.5494 21.5544 12.9949 21.0048 12.9949H2.99519C2.44556 12.9949 2 12.5494 2 11.9998Z" fill="currentColor" /><path d="M2.99519 17.0096C2.44556 17.0096 2 17.4552 2 18.0048C2 18.5544 2.44556 19 2.99519 19H15.0048C15.5544 19 16 18.5544 16 18.0048C16 17.4552 15.5544 17.0096 15.0048 17.0096H2.99519Z" fill="currentColor" /></svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="/" class="flex align-items-center justify-content-start">
+                        <div>
+                            <img src="/images/logo.png" width="48" />
+                        </div>
+                        <div class="margin-small margin-remove-vertical margin-remove-right">
+                            <h4 class="margin-remove-bottom primary-color">{{ .Site.Params.project_name }}</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="margin-large margin-remove-vertical margin-remove-all@m">
+            <ul class="navbar-nav">
+                <li>
+                    <a href="{{- .Site.Params.project_url -}}" target="_blank" class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    {{- partial "nav-offcanvas.html" . -}} 
+</header>

@@ -1,0 +1,18 @@
+:root {
+  --kbd-padding: 0 var(--padding-xsmall);
+  --kbd-background: var(--color-dark);
+  --kbd-text-color: var(--color-light);
+  --kbd-border-radius: var(--border-radius-2xsmall);
+}
+
+mark {
+  background: var(--color-highlight);
+}
+
+kbd {
+  padding: var(--kbd-padding);
+  background: var(--kbd-background);
+  color: var(--kbd-text-color);
+  border-radius: var(--kbd-border-radius);
+  font-family: var(--font-family);
+}

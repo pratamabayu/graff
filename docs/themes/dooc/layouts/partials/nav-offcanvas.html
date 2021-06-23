@@ -1,0 +1,18 @@
+<section class="offcanvas" id="sidebar-primary">
+    <div class="offcanvas-overlay">
+        <a href="{{ .Page.Permalink }}#close" class="block height-100vh"></a>
+    </div>
+    <div class="offcanvas-bar">
+        <div class="margin-medium margin-remove-horizontal">
+            <a href="/" class="flex align-items-center justify-content-start">
+                <div>
+                    <img src="/images/logo.png" width="48" />
+                </div>
+                <div class="margin-small margin-remove-vertical margin-remove-right">
+                    <h4 class="margin-remove-bottom primary-color">{{ .Site.Params.project_name }} <small>documentation</small></h4>
+                </div>
+            </a>
+        </div>
+        {{- partial "nav.html" . -}}
+    </div>
+</section>

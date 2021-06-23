@@ -1,0 +1,16 @@
+$ratio-data: (
+  (21\/9, 42.857143%)
+  (16\/9, 56.25%)
+  (4\/3, 75%)
+  (1\/1, 100%)
+) !default;
+
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $ratio-key, $ratio-value in $ratio-data {
+    .ratio-#{$ratio-key}#{$breakpoint-suffix}::before {
+      display: block;
+      content: "";
+      padding-top: $ratio-value;
+    }
+  }
+}

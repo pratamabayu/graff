@@ -1,0 +1,32 @@
+:root {
+  --breadcrumb-padding: var(--padding-small);
+  --breadcrumb-item-padding: var(--padding-small);
+  --breadcrumb-item-link-color: var(--color-primary);
+  --breadcrumb-item-link-hover-color: var(--color-primary-dark);
+}
+
+ul.breadcrumb {
+  list-style: none;
+  padding: var(--breadcrumb-padding);
+
+  > li {
+    display: inline;
+
+    + li {
+      &:before {
+        padding: var(--breadcrumb-item-padding);
+        color: var(--breadcrumb-item-link-color);
+        content: "/\00a0";
+      }
+    }
+
+    > a {
+      color: var(--breadcrumb-item-link-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--breadcrumb-item-link-hover-color);
+      }
+    }
+  }
+}

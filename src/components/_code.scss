@@ -1,0 +1,40 @@
+:root {
+  --code-padding: 0 var(--padding-xsmall);
+
+  --pre-code-text-color: var(--color-code);
+  --pre-code-background: var(--color-background);
+  --pre-code-border-radius: var(--border-radius-2xsmall);
+
+  --pre-padding: var(--padding-medium);
+  --pre-border-color: inherit;
+  --pre-border-width: var(--border-width-thin);
+}
+
+code,
+pre {
+  font-family: var(--code-font-family);
+  color: var(--pre-code-text-color);
+  border: none;
+  background-color: var(--pre-code-background);
+}
+
+code {
+  border-radius: var(--pre-code-border-radius);
+  padding: var(--code-padding);
+}
+
+pre {
+  border-radius: var(--pre-code-border-radius);
+  border: var(--pre-border-width) solid var(--pre-border-color);
+  overflow: auto;
+  width: 100%;
+
+  > code {
+    display: block;
+    padding: var(--pre-padding);
+    word-wrap: break-word;
+    white-space: pre;
+    tab-size: 4;
+    line-height: 1;
+  }
+}

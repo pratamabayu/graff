@@ -1,0 +1,41 @@
+$position-data: (
+  (center, center),
+  (top, top),
+  (right, right),
+  (bottom, bottom),
+  (left, left),
+  (right-top, right top),
+  (right-bottom, right bottom),
+  (left-top, left top),
+  (left-bottom, left bottom)
+) !default;
+
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $attachment in (fixed, local, scroll) {
+    .background-#{$attachment}#{$breakpoint-suffix} {
+      background-attachment: $attachment;
+    }
+  }
+
+  @each $repeat in (repeat, no-repeat, repeat-x, repeat-y) {
+    .background-#{$repeat}#{$breakpoint-suffix} {
+      background-repeat: $repeat;
+    }
+  }
+
+  @each $size in (auto, cover, contain) {
+    .background-#{$size}#{$breakpoint-suffix} {
+      background-size: $size;
+    }
+  }
+
+  @each $position-key, $position-value in $position-data {
+    .background-#{$position-key}#{$breakpoint-suffix} {
+      background-position: $position-value;
+    }
+  }
+
+  .background-none#{$breakpoint-suffix} {
+    background-image: none !important;
+  }
+}

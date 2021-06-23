@@ -1,0 +1,17 @@
+:root {
+  --spinner-background-color: var(--color-background);
+  --spinner-foreground-color: var(--color-primary);
+  --spinner-height: 48px;
+  --spinner-width: 48px;
+  --spinner-border-width: 6px;
+}
+
+.spinner {
+  border: var(--spinner-border-width) solid var(--spinner-background-color);
+  border-top: var(--spinner-border-width) solid
+    var(--spinner-foreground-color);
+  border-radius: 50%;
+  width: var(--spinner-width);
+  height: var(--spinner-height);
+  animation: spin 2s linear infinite;
+}

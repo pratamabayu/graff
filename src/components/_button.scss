@@ -1,0 +1,115 @@
+:root {
+  --button-padding: var(--padding-xsmall) var(--padding-medium);
+
+  --button-primary-text-color: var(--color-light);
+  --button-primary-background: var(--color-primary);
+  --button-primary-border-color: var(--color-primary);
+  --button-primary-hover-border-color: var(--color-primary-dark);
+  --button-primary-hover-background: var(--color-primary-dark);
+  --button-primary-on-dark-text-color: var(--color-text);
+  --button-primary-on-dark-background: var(--color-background-light);
+  --button-primary-on-dark-border-color: var(--color-background-light);
+  --button-primary-on-dark-hover-border-color: var(--color-background);
+  --button-primary-on-dark-hover-background: var(--color-background);
+  --button-default-text-color: var(--color-primary);
+  --button-default-border-color: var(--color-primary);
+  --button-default-hover-text-color: var(--color-primary-dark);
+  --button-default-hover-border-color: var(--color-primary-dark);
+  --button-default-on-dark-text-color: var(--color-light);
+  --button-default-on-dark-border-color: var(--color-background-light);
+  --button-default-on-dark-hover-text-color: var(--color-background);
+  --button-default-on-dark-hover-border-color: var(--color-background);
+
+  --button-border-width: var(--border-width-thin);
+  --button-border-radius: var(--border-radius-2xsmall);
+}
+
+button:focus {
+  outline: none;
+}
+
+.button {
+  padding: var(--button-padding) !important;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  height: auto;
+  line-height: 1rem;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+.button.button-primary {
+  color: var(--button-primary-text-color) !important;
+  background: var(--button-primary-background) !important;
+  border: var(--button-border-width) solid var(--button-primary-border-color) !important;
+  border-radius: var(--button-border-radius);
+}
+
+.button.button-primary:hover {
+  color: var(--button-primary-text-color) !important;
+  border: var(--button-border-width) solid var(--button-primary-hover-border-color) !important;
+  background: var(--button-primary-hover-background) !important;
+}
+
+.button.button-default {
+  color: var(--button-default-text-color) !important;
+  border: var(--button-border-width) solid var(--button-default-border-color) !important;
+  border-radius: var(--button-border-radius);
+  background: transparent;
+}
+
+.button.button-default:hover {
+  color: var(--button-default-hover-text-color) !important;
+  border: var(--button-border-width) solid var(--button-default-hover-border-color) !important;
+}
+
+.button:not(.button-primary):not(.button-default) {
+  color: var(--button-default-text-color) !important;
+  background: transparent;
+  font-weight: bolder;
+}
+
+.button:hover:not(.button-primary):not(.button-default) {
+  color: var(--button-default-hover-text-color) !important;
+}
+
+@mixin button-on-dark($prefix-selector) {
+  #{$prefix-selector} .button.button-primary {
+    color: var(--button-primary-on-dark-text-color) !important;
+    border: var(--button-border-width) solid var(--button-primary-on-dark-border-color) !important;
+    background: var(--button-primary-on-dark-background) !important;
+  }
+
+  #{$prefix-selector} .button.button-primary:hover {
+    color: var(--button-primary-on-dark-text-color) !important;
+    border: var(--button-border-width) solid
+      var(--button-primary-on-dark-hover-border-color) !important;
+    background: var(--button-primary-on-dark-hover-background) !important;
+  }
+
+  #{$prefix-selector} .button.button-default {
+    color: var(--button-default-on-dark-text-color) !important;
+    border: var(--button-border-width) solid var(--button-default-on-dark-border-color) !important;
+    background: transparent;
+  }
+
+  #{$prefix-selector} .button.button-default:hover {
+    color: var(--button-default-on-dark-hover-text-color) !important;
+    border: var(--button-border-width) solid
+      var(--button-default-on-dark-hover-border-color) !important;
+  }
+
+  #{$prefix-selector} .button:not(.button-primary):not(.button-default) {
+    color: var(--button-default-on-dark-text-color) !important;
+    background: transparent;
+    font-weight: bolder;
+  }
+
+  #{$prefix-selector} .button:hover:not(.button-primary):not(.button-default) {
+    color: var(--button-default-on-dark-hover-text-color) !important;
+  }
+}

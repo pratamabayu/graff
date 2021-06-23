@@ -1,0 +1,27 @@
+:root {
+  --dropdown-background: var(--color-background-light);
+  --dropdown-min-width: 200px;
+  --dropdown-padding: var(--padding-small) var(--padding-medium);
+}
+
+.dropdown {
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background: var(--dropdown-background);
+  padding: var(--dropdown-padding);
+  min-width: var(--dropdown-min-width);
+}
+
+* {
+  &:hover + .dropdown,
+  &:focus-within + .dropdown,
+  + .dropdown:hover,
+  + .dropdown:focus {
+    visibility: visible;
+    display: block;
+    transition: all ease 1s;
+  }
+}

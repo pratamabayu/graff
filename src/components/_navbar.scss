@@ -1,0 +1,154 @@
+:root {
+  --navbar-padding: var(--padding-medium);
+  --navbar-dark-background: var(--color-primary);
+
+  --navbar-item-padding: var(--padding-xsmall) var(--padding-medium);
+
+  --navbar-item-text-color: var(--color-text);
+  --navbar-item-hover-text-color: var(--color-primary-dark);
+  --navbar-item-active-text-color: var(--color-primary);
+  --navbar-item-active-background: transparent;
+  --navbar-item-pill-active-text-color: var(--color-light);
+  --navbar-item-pill-active-background: var(--color-primary);
+
+  --navbar-dark-item-text-color: var(--color-light);
+  --navbar-dark-item-hover-text-color: var(--color-background);
+  --navbar-dark-item-active-text-color: var(--color-light);
+  --navbar-dark-item-active-background: transparent;
+  --navbar-dark-item-pill-active-text-color: var(--color-primary);
+  --navbar-dark-item-pill-active-background: var(--color-light);
+
+  --navbar-item-border-width: 0px 0px var(--border-width-thin) 0px;
+  --navbar-item-pill-border-radius: var(--border-radius-2xsmall);
+
+  --navbar-dropdown-background: var(--color-background-light);
+  --navbar-dropdown-min-width: 200px;
+  --navbar-dropdown-padding: var(--padding-small) var(--padding-medium);
+}
+
+/* BRAND */
+
+.navbar-brand {
+  float: none;
+  display: inline;
+
+  > img {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding: var(--navbar-padding);
+
+  &.navbar-dark {
+    background: var(--navbar-dark-background);
+
+    ul.navbar-nav > li {
+      > a {
+        color: var(--navbar-dark-item-text-color);
+
+        &:hover {
+          color: var(--navbar-dark-item-hover-text-color);
+        }
+      }
+
+      &.active > a {
+        color: var(--navbar-dark-item-active-text-color);
+        border-color: var(--navbar-dark-item-active-text-color);
+        background: var(--navbar-dark-item-active-background);
+      }
+    }
+
+    &.navbar-pills ul.navbar-nav > li.active > a {
+      color: var(--navbar-dark-item-pill-active-text-color);
+      border-color: var(--navbar-dark-item-pill-active-background);
+      border-radius: var(--navbar-item-pill-border-radius);
+      background: var(--navbar-dark-item-pill-active-background);
+    }
+  }
+
+  &.navbar-light {
+    ul.navbar-nav > li {
+      > a {
+        color: var(--navbar-item-text-color);
+
+        &:hover {
+          color: var(--navbar-item-hover-text-color);
+        }
+      }
+
+      &.active > a {
+        color: var(--navbar-item-active-text-color);
+        background: var(--navbar-item-active-background);
+        border-color: var(--navbar-item-active-text-color);
+      }
+    }
+
+    &.navbar-pills ul.navbar-nav > li.active > a {
+      color: var(--navbar-item-pill-active-text-color);
+      background: var(--navbar-item-pill-active-background);
+      border-color: var(--navbar-item-pill-active-background);
+      border-radius: var(--navbar-item-pill-border-radius);
+    }
+  }
+
+  ul.navbar-nav {
+    padding: 0px;
+    display: block;
+    margin: auto 0;
+
+    > li {
+      margin: 0px;
+      list-style: none;
+      position: relative;
+
+      padding: 0px;
+      display: inline;
+
+      > a {
+        padding: var(--navbar-item-padding);
+        text-decoration: none;
+        line-height: 100%;
+      }
+
+      &.active > a {
+        border-style: solid;
+        border-width: var(--navbar-item-border-width);
+      }
+    }
+  }
+
+  ul.navbar-dropdown-nav {
+    display: block;
+
+    > li {
+      display: block;
+    }
+  }
+
+  .navbar-dropdown {
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background: var(--navbar-dropdown-background);
+    padding: var(--navbar-dropdown-padding);
+    min-width: var(--navbar-dropdown-min-width);
+  }
+
+  li {
+    &:hover > .navbar-dropdown,
+    &:focus-within > .navbar-dropdown,
+    > .navbar-dropdown:hover,
+    > .navbar-dropdown:focus {
+      visibility: visible;
+      display: block;
+      transition: all ease 1s;
+    }
+  }
+}
+
+@include button-on-dark(".navbar.navbar-dark");

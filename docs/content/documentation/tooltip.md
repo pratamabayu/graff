@@ -1,0 +1,18 @@
+---
+title: "Tooltip"
+date: 2021-06-17T13:58:33+07:00
+draft: false
+categories: ["Components"]
+categories_weight: 2
+---
+
+# Tooltip
+
+<p>Lorem ipsum dolor sit amet, <span class="tooltip">consectetur eiusmod tem<span class="tooltip-body">This is tooltip</span></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+
+``` html
+<p>
+    Lorem ipsum dolor sit amet, <span class="tooltip">consectetur eiusmod tem<span class="tooltip-body">This is tooltip</span></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+```

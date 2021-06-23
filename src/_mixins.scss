@@ -1,0 +1,14 @@
+$breakpoints-data: ((s, 640px), (m, 960px), (l, 1200px)) !default;
+
+@mixin with-breakpoints() {
+  @content("");
+
+  @each $breakpoint-key, $breakpoint-value in $breakpoints-data {
+    $breakpoint-suffix: "\\\@#{$breakpoint-key}";
+
+    // Prints a media query based on the value
+    @media screen and (max-width: $breakpoint-value) {
+      @content ($breakpoint-suffix);
+    }
+  }
+}

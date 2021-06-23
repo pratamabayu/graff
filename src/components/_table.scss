@@ -1,0 +1,43 @@
+:root {
+  --table-striped-background: var(--color-background);
+  --table-head-border-bottom: var(--border-width) solid var(--color-border-light);
+  --table-divider-border-bottom: var(--border-width-thin) solid var(--color-border-light);
+}
+
+table.table {
+  border-collapse: collapse;
+}
+
+table.table > thead > tr > th,
+table.table > tfoot > tr > td,
+table.table > tbody > tr > td {
+  padding: var(--padding-small);
+}
+
+table.table.table-smaller > thead > tr > th,
+table.table.table-smaller > tfoot > tr > td,
+table.table.table-smaller > tbody > tr > td {
+  padding: var(--padding-xsmall);
+}
+
+table.table.table-larger > thead > tr > th,
+table.table.table-larger > tfoot > tr > td,
+table.table.table-larger > tbody > tr > td {
+  padding: var(--padding-medium);
+}
+
+table.table > thead > tr {
+  border-bottom: var(--table-head-border-bottom);
+}
+
+table.table.table-striped > tbody > tr:nth-child(odd) {
+  background: var(--table-striped-background);
+}
+
+table.table.table-divider > tbody > tr {
+  border-bottom: var(--table-divider-border-bottom);
+}
+
+table.table.table-divider > tbody > tr:last-child {
+  border-bottom: none;
+}

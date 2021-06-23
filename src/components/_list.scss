@@ -1,0 +1,35 @@
+:root {
+  --list-striped-background: var(--color-background);
+  --list-divider-border-bottom: var(--border-width-thin) solid
+    var(--color-border-light);
+
+  --list-striped-item-border-radius: var(--border-radius-2xsmall);
+}
+
+ul.list {
+  padding: 0px;
+
+  > li {
+    padding: var(--padding-small);
+  }
+
+  &.list-smaller > li {
+    padding: var(--padding-xsmall);
+  }
+  &.list-larger > li {
+    padding: var(--padding-medium);
+  }
+
+  &.list-striped > li:nth-child(odd) {
+    background: var(--list-striped-background);
+    border-radius: var(--list-striped-item-border-radius);
+  }
+  
+  &.list-divider > li {
+    border-bottom: var(--list-divider-border-bottom);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

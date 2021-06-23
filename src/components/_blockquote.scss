@@ -1,0 +1,23 @@
+:root {
+  --blockquote-padding: var(--padding-small);
+  --blockquote-border-color: var(--color-border-light);
+  --blockquote-border-width: var(--border-width);
+  --blockquote-cite-margin: var(--margin-small) 0 0 0;
+}
+
+blockquote {
+  padding: var(--blockquote-padding);
+  font-family: var(--blockquote-font-family);
+  border: none;
+  border-left: var(--blockquote-border-width) solid
+    var(--blockquote-border-color);
+
+  cite {
+    display: block;
+    margin: var(--blockquote-cite-margin);
+
+    &::before {
+      content: "----- ";
+    }
+  }
+}

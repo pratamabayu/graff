@@ -1,0 +1,16 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $float in (none, right, left) {
+    .float-#{$float}#{$breakpoint-suffix} {
+      float: $float;
+    }
+  }
+
+  .clearfix#{$breakpoint-suffix}:before,
+  .clearfix#{$breakpoint-suffix}:after {
+    content: " ";
+    display: table;
+  }
+  .clearfix#{$breakpoint-suffix}:after {
+    clear: both;
+  }
+}

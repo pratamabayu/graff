@@ -1,0 +1,21 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  .flex#{$breakpoint-suffix} {
+    display: flex;
+  }
+
+  .flex-inline#{$breakpoint-suffix} {
+    display: inline-flex;
+  }
+
+  @each $direction in (row, column, row-reverse, column-reverse) {
+    .flex-#{$direction}#{$breakpoint-suffix} {
+      flex-direction: $direction;
+    }
+  }
+
+  @each $wrap in (wrap, wrap-reverse, nowrap) {
+    .flex-#{$wrap}#{$breakpoint-suffix} {
+      flex-wrap: $wrap;
+    }
+  }
+}

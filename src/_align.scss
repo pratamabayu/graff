@@ -1,0 +1,19 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $align
+    in (
+      auto,
+      baseline,
+      bottom,
+      middle,
+      top,
+      sub,
+      super,
+      text-bottom,
+      text-top
+    )
+  {
+    .align-#{$align}#{$breakpoint-suffix} {
+      vertical-align: $align;
+    }
+  }
+}

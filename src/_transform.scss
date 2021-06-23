@@ -1,0 +1,34 @@
+.rotate-90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.rotate-270 {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.flip-vertical {
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.flip-both,
+.flip-horizontal.flip-vertical {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+.flip-both,
+.flip-horizontal,
+.flip-vertical,
+.rotate-180,
+.rotate-270,
+.rotate-90 {
+  -webkit-filter: none;
+  filter: none;
+}

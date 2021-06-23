@@ -1,0 +1,65 @@
+$color-data: (
+  ("primary", "color-primary"),
+  ("primary-light", "color-primary-light"),
+  ("primary-dark", "color-primary-dark"),
+  ("secondary", "color-secondary"),
+  ("secondary-light", "color-secondary-light"),
+  ("secondary-dark", "color-secondary-dark"),
+  ("dark", "color-dark"),
+  ("light", "color-light"),
+  ("gray", "color-gray"),
+  ("gray-light", "color-gray-light"),
+  ("gray-dark", "color-gray-dark"),
+  ("success", "color-success"),
+  ("warning", "color-warning"),
+  ("error", "color-error")
+) !default;
+
+$predefined-background-color-data: (
+  ("background-color-background", "color-background"),
+  ("background-color-background-dark", "color-background-dark"),
+  ("background-color-background-light", "color-background-light")
+) !default;
+
+$predefined-color-data: (
+  ("color-text", "color-text"),
+  ("color-text-light", "color-text-light")
+) !default;
+
+$predefined-border-color-data: (
+  ("border-color", "color-border"),
+  ("border-color-dark", "color-border-dark"),
+  ("border-color-light", "color-border-light")
+) !default;
+
+@each $color-key, $color-value in $color-data {
+  .background-color-#{$color-key} {
+    background-color: var(--#{$color-value}) !important;
+  }
+
+  .color-#{$color-key} {
+    color: var(--#{$color-value}) !important;
+  }
+
+  .border-color-#{$color-key} {
+    border-color: var(--#{$color-value}) !important;
+  }
+}
+
+@each $color-key, $color-value in $predefined-background-color-data {
+  .#{$color-key} {
+    background-color: var(--#{$color-value}) !important;
+  }
+}
+
+@each $color-key, $color-value in $predefined-color-data {
+  .#{$color-key} {
+    color: var(--#{$color-value}) !important;
+  }
+}
+
+@each $color-key, $color-value in $predefined-border-color-data {
+  .#{$color-key} {
+    border-color: var(--#{$color-value}) !important;
+  }
+}

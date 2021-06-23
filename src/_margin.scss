@@ -1,0 +1,55 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  .margin-2xsmall#{$breakpoint-suffix} {
+    margin: var(--margin-2xsmall) !important;
+  }
+
+  .margin-xsmall#{$breakpoint-suffix} {
+    margin: var(--margin-xsmall) !important;
+  }
+
+  .margin-small#{$breakpoint-suffix} {
+    margin: var(--margin-small) !important;
+  }
+
+  .margin-medium#{$breakpoint-suffix} {
+    margin: var(--margin-medium) !important;
+  }
+
+  .margin-large#{$breakpoint-suffix} {
+    margin: var(--margin-large) !important;
+  }
+
+  .margin-xlarge#{$breakpoint-suffix} {
+    margin: var(--margin-xlarge) !important;
+  }
+
+  .margin-remove-all#{$breakpoint-suffix} {
+    margin: 0px !important;
+  }
+
+  .margin-remove-left#{$breakpoint-suffix} {
+    margin-left: 0px !important;
+  }
+
+  .margin-remove-top#{$breakpoint-suffix} {
+    margin-top: 0px !important;
+  }
+
+  .margin-remove-right#{$breakpoint-suffix} {
+    margin-right: 0px !important;
+  }
+
+  .margin-remove-bottom#{$breakpoint-suffix} {
+    margin-bottom: 0px !important;
+  }
+
+  .margin-remove-horizontal#{$breakpoint-suffix} {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .margin-remove-vertical#{$breakpoint-suffix} {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}

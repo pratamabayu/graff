@@ -1,0 +1,9 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $display
+    in (none, inline, block, inline-block, table, inline-table, table-cell, table-row)
+  {
+    .#{$display}#{$breakpoint-suffix} {
+      display: $display !important;
+    }
+  }
+}

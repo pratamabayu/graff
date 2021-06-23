@@ -1,0 +1,32 @@
+:root {
+    --tag-margin: var(--margin-xsmall);
+    --tag-padding: var(--padding-2xsmall) var(--padding-small);
+    --tag-background: var(--color-background);
+    --tag-border-radius: var(--border-radius-medium);
+    --tag-max-width: var(--width-small);
+    --tag-font-size: .9rem;
+
+    --tag-active-background: var(--color-primary);
+    --tag-active-color: var(--color-light);
+}
+
+.tag {
+    align-items: center;
+    background: var(--tag-background);
+    border-radius: var(--tag-border-radius);
+    display: inline-flex;
+    font-size: var(--tag-font-size);
+    margin: var(--tag-margin);
+    max-width: var(--tag-max-width);
+    overflow: hidden;
+    padding: var(--tag-padding);
+    text-decoration: none;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+  
+    &.active {
+      background: var(--tag-active-background);
+      color: var(--tag-active-color);
+    }
+  }

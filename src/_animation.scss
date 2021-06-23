@@ -1,0 +1,249 @@
+:root {
+  --animation-duration: 1s;
+  --animation-delay: 1s;
+}
+
+.animation-fade-in {
+  animation: fade-in var(--animation-duration) ease-in var(--animation-delay);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animation-fade-out {
+  animation: fade-out var(--animation-duration) ease-out var(--animation-delay);
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.animation-slide-left-fade-in {
+  opacity: 0;
+  animation: slide-left-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+@keyframes slide-left-fade-in {
+  from {
+    opacity: 0.8;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-slide-right-fade-in {
+  opacity: 0;
+  animation: slide-right-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+@keyframes slide-right-fade-in {
+  from {
+    opacity: 0.8;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-slide-up-fade-in {
+  opacity: 0;
+  animation: slide-up-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+@keyframes slide-up-fade-in {
+  from {
+    opacity: 0.8;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-slide-down-fade-in {
+  opacity: 0;
+  animation: slide-down-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+@keyframes slide-down-fade-in {
+  from {
+    opacity: 0.8;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-slide-left-fade-out {
+  animation: slide-left-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+@keyframes slide-left-fade-out {
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+.animation-slide-right-fade-out {
+  animation: slide-right-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+@keyframes slide-right-fade-out {
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.animation-slide-up-fade-out {
+  animation: slide-up-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+@keyframes slide-up-fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.animation-slide-down-fade-out {
+  animation: slide-down-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+@keyframes slide-down-fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+.animation-grow-x {
+  width: 0%;
+  animation: grow-x var(--animation-duration) ease var(--animation-delay) forwards;
+}
+
+@keyframes grow-x {
+  to { width: 100%; }
+}
+
+.animation-grow-on-hover {
+  transition: transform var(--animation-duration) var(--animation-delay);
+  backface-visibility: hidden;
+
+  &:hover {
+    transform: scale(1.025);
+  }
+}
+
+.animation-shrink-x {
+  animation: shrink-x var(--animation-duration) ease-in-out var(--animation-delay) forwards;
+}
+
+@keyframes shrink-x {
+  to { 
+    width: 0%;
+    padding: 0;
+    border: none;
+    visibility: collapse;
+  }
+}
+
+.animation-shrink-on-hover {
+  transition: transform var(--animation-duration) var(--animation-delay);
+  backface-visibility: hidden;
+
+  &:hover {
+    transform: scale(0.975);
+  }
+}
+
+.animation-scale-in {
+  animation: scale-in var(--animation-duration) cubic-bezier(0.2, 0, 0.13, 1.5) var(--animation-delay);
+}
+
+@keyframes scale-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animation-pulse {
+  animation: pulse var(--animation-duration) infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.animation-pulse-in {
+  animation: pulse-in var(--animation-duration);
+}
+
+@keyframes pulse-in {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.animation-spin {
+  animation: spin var(--animation-duration) infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

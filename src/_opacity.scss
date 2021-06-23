@@ -1,0 +1,7 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $opacity in (0, 25, 50, 75, 100) {
+    .opacity-#{$opacity}#{$breakpoint-suffix} {
+      opacity: $opacity/100;
+    }
+  }
+}
