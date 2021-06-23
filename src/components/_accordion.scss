@@ -7,9 +7,12 @@
   input:checked ~,
   &[open] {
     & .accordion-header {
-      .accordion-toggle:first-child {
+      .accordion-toggle {
         transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
+
+        transform-origin: center;
+        -webkit-transform-origin: center;
       }
     }
 

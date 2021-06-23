@@ -1,4 +1,15 @@
-.icon-gg {
-  display: inline-block !important;
+:root {
+  --icon-scale: 1;
+}
+
+.icon {
+  display: inline-block;
+  
+  width: calc(24px * var(--icon-scale));
+  height: calc(24px * var(--icon-scale));
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  text-align: center;
   vertical-align: middle;
 }

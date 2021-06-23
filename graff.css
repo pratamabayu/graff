@@ -14,7 +14,7 @@ https://github.com/pratamabayu/graff
   --color-secondary-dark: #f09a00;
   --color-secondary-light: #ffa90f;
   --color-dark: #000;
-  --color-light: #fff;
+  --color-light: #fafafa;
   --color-gray: #8c8c8c;
   --color-gray-dark: #404040;
   --color-gray-light: #bfbfbf;
@@ -23,7 +23,7 @@ https://github.com/pratamabayu/graff
   --color-border-light: #bababa;
   --color-background: #ededed;
   --color-background-dark: #e6e6e6;
-  --color-background-light: #fff;
+  --color-background-light: #fafafa;
   --color-text: #0d0d0d;
   --color-text-light: #595959;
   --color-success: #32b643;
@@ -69,7 +69,7 @@ https://github.com/pratamabayu/graff
   --border-width-thick: 3px;
   --font-family: "Jost", Verdana, sans-serif;
   --font-family-heading: var(--font-family);
-  --font-family-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  --font-family-code: "Ubuntu Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   --font-family-blockquote: var(--font-family);
   --font-size: 16px;
   --font-size-xsmall: .4rem;
@@ -82,7 +82,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-primary) !important;
 }
 
+.background-color-primary\@hover:hover {
+  background-color: var(--color-primary) !important;
+}
+
 .color-primary {
+  color: var(--color-primary) !important;
+}
+
+.color-primary\@hover:hover {
   color: var(--color-primary) !important;
 }
 
@@ -90,7 +98,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-primary) !important;
 }
 
+.border-color-primary\@hover:hover {
+  border-color: var(--color-primary) !important;
+}
+
 .background-color-primary-light {
+  background-color: var(--color-primary-light) !important;
+}
+
+.background-color-primary-light\@hover:hover {
   background-color: var(--color-primary-light) !important;
 }
 
@@ -98,7 +114,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-primary-light) !important;
 }
 
+.color-primary-light\@hover:hover {
+  color: var(--color-primary-light) !important;
+}
+
 .border-color-primary-light {
+  border-color: var(--color-primary-light) !important;
+}
+
+.border-color-primary-light\@hover:hover {
   border-color: var(--color-primary-light) !important;
 }
 
@@ -106,7 +130,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-primary-dark) !important;
 }
 
+.background-color-primary-dark\@hover:hover {
+  background-color: var(--color-primary-dark) !important;
+}
+
 .color-primary-dark {
+  color: var(--color-primary-dark) !important;
+}
+
+.color-primary-dark\@hover:hover {
   color: var(--color-primary-dark) !important;
 }
 
@@ -114,7 +146,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-primary-dark) !important;
 }
 
+.border-color-primary-dark\@hover:hover {
+  border-color: var(--color-primary-dark) !important;
+}
+
 .background-color-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.background-color-secondary\@hover:hover {
   background-color: var(--color-secondary) !important;
 }
 
@@ -122,7 +162,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-secondary) !important;
 }
 
+.color-secondary\@hover:hover {
+  color: var(--color-secondary) !important;
+}
+
 .border-color-secondary {
+  border-color: var(--color-secondary) !important;
+}
+
+.border-color-secondary\@hover:hover {
   border-color: var(--color-secondary) !important;
 }
 
@@ -130,7 +178,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-secondary-light) !important;
 }
 
+.background-color-secondary-light\@hover:hover {
+  background-color: var(--color-secondary-light) !important;
+}
+
 .color-secondary-light {
+  color: var(--color-secondary-light) !important;
+}
+
+.color-secondary-light\@hover:hover {
   color: var(--color-secondary-light) !important;
 }
 
@@ -138,7 +194,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-secondary-light) !important;
 }
 
+.border-color-secondary-light\@hover:hover {
+  border-color: var(--color-secondary-light) !important;
+}
+
 .background-color-secondary-dark {
+  background-color: var(--color-secondary-dark) !important;
+}
+
+.background-color-secondary-dark\@hover:hover {
   background-color: var(--color-secondary-dark) !important;
 }
 
@@ -146,7 +210,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-secondary-dark) !important;
 }
 
+.color-secondary-dark\@hover:hover {
+  color: var(--color-secondary-dark) !important;
+}
+
 .border-color-secondary-dark {
+  border-color: var(--color-secondary-dark) !important;
+}
+
+.border-color-secondary-dark\@hover:hover {
   border-color: var(--color-secondary-dark) !important;
 }
 
@@ -154,7 +226,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-dark) !important;
 }
 
+.background-color-dark\@hover:hover {
+  background-color: var(--color-dark) !important;
+}
+
 .color-dark {
+  color: var(--color-dark) !important;
+}
+
+.color-dark\@hover:hover {
   color: var(--color-dark) !important;
 }
 
@@ -162,7 +242,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-dark) !important;
 }
 
+.border-color-dark\@hover:hover {
+  border-color: var(--color-dark) !important;
+}
+
 .background-color-light {
+  background-color: var(--color-light) !important;
+}
+
+.background-color-light\@hover:hover {
   background-color: var(--color-light) !important;
 }
 
@@ -170,7 +258,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-light) !important;
 }
 
+.color-light\@hover:hover {
+  color: var(--color-light) !important;
+}
+
 .border-color-light {
+  border-color: var(--color-light) !important;
+}
+
+.border-color-light\@hover:hover {
   border-color: var(--color-light) !important;
 }
 
@@ -178,7 +274,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-gray) !important;
 }
 
+.background-color-gray\@hover:hover {
+  background-color: var(--color-gray) !important;
+}
+
 .color-gray {
+  color: var(--color-gray) !important;
+}
+
+.color-gray\@hover:hover {
   color: var(--color-gray) !important;
 }
 
@@ -186,7 +290,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-gray) !important;
 }
 
+.border-color-gray\@hover:hover {
+  border-color: var(--color-gray) !important;
+}
+
 .background-color-gray-light {
+  background-color: var(--color-gray-light) !important;
+}
+
+.background-color-gray-light\@hover:hover {
   background-color: var(--color-gray-light) !important;
 }
 
@@ -194,7 +306,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-gray-light) !important;
 }
 
+.color-gray-light\@hover:hover {
+  color: var(--color-gray-light) !important;
+}
+
 .border-color-gray-light {
+  border-color: var(--color-gray-light) !important;
+}
+
+.border-color-gray-light\@hover:hover {
   border-color: var(--color-gray-light) !important;
 }
 
@@ -202,7 +322,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-gray-dark) !important;
 }
 
+.background-color-gray-dark\@hover:hover {
+  background-color: var(--color-gray-dark) !important;
+}
+
 .color-gray-dark {
+  color: var(--color-gray-dark) !important;
+}
+
+.color-gray-dark\@hover:hover {
   color: var(--color-gray-dark) !important;
 }
 
@@ -210,7 +338,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-gray-dark) !important;
 }
 
+.border-color-gray-dark\@hover:hover {
+  border-color: var(--color-gray-dark) !important;
+}
+
 .background-color-success {
+  background-color: var(--color-success) !important;
+}
+
+.background-color-success\@hover:hover {
   background-color: var(--color-success) !important;
 }
 
@@ -218,7 +354,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-success) !important;
 }
 
+.color-success\@hover:hover {
+  color: var(--color-success) !important;
+}
+
 .border-color-success {
+  border-color: var(--color-success) !important;
+}
+
+.border-color-success\@hover:hover {
   border-color: var(--color-success) !important;
 }
 
@@ -226,7 +370,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-warning) !important;
 }
 
+.background-color-warning\@hover:hover {
+  background-color: var(--color-warning) !important;
+}
+
 .color-warning {
+  color: var(--color-warning) !important;
+}
+
+.color-warning\@hover:hover {
   color: var(--color-warning) !important;
 }
 
@@ -234,7 +386,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-warning) !important;
 }
 
+.border-color-warning\@hover:hover {
+  border-color: var(--color-warning) !important;
+}
+
 .background-color-error {
+  background-color: var(--color-error) !important;
+}
+
+.background-color-error\@hover:hover {
   background-color: var(--color-error) !important;
 }
 
@@ -242,7 +402,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-error) !important;
 }
 
+.color-error\@hover:hover {
+  color: var(--color-error) !important;
+}
+
 .border-color-error {
+  border-color: var(--color-error) !important;
+}
+
+.border-color-error\@hover:hover {
   border-color: var(--color-error) !important;
 }
 
@@ -250,7 +418,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-background) !important;
 }
 
+.background-color-background\@hover:hover {
+  background-color: var(--color-background) !important;
+}
+
 .background-color-background-dark {
+  background-color: var(--color-background-dark) !important;
+}
+
+.background-color-background-dark\@hover:hover {
   background-color: var(--color-background-dark) !important;
 }
 
@@ -258,7 +434,15 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-background-light) !important;
 }
 
+.background-color-background-light\@hover:hover {
+  background-color: var(--color-background-light) !important;
+}
+
 .color-text {
+  color: var(--color-text) !important;
+}
+
+.color-text\@hover:hover {
   color: var(--color-text) !important;
 }
 
@@ -266,7 +450,15 @@ https://github.com/pratamabayu/graff
   color: var(--color-text-light) !important;
 }
 
+.color-text-light\@hover:hover {
+  color: var(--color-text-light) !important;
+}
+
 .border-color {
+  border-color: var(--color-border) !important;
+}
+
+.border-color\@hover:hover {
   border-color: var(--color-border) !important;
 }
 
@@ -274,7 +466,15 @@ https://github.com/pratamabayu/graff
   border-color: var(--color-border-dark) !important;
 }
 
+.border-color-dark\@hover:hover {
+  border-color: var(--color-border-dark) !important;
+}
+
 .border-color-light {
+  border-color: var(--color-border-light) !important;
+}
+
+.border-color-light\@hover:hover {
   border-color: var(--color-border-light) !important;
 }
 
@@ -8214,6 +8414,87 @@ img {
   animation: fade-in var(--animation-duration) ease-in var(--animation-delay);
 }
 
+.animation-fade-out {
+  animation: fade-out var(--animation-duration) ease-out var(--animation-delay);
+}
+
+.animation-slide-left-fade-in {
+  opacity: 0;
+  animation: slide-left-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+.animation-slide-right-fade-in {
+  opacity: 0;
+  animation: slide-right-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+.animation-slide-up-fade-in {
+  opacity: 0;
+  animation: slide-up-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+.animation-slide-down-fade-in {
+  opacity: 0;
+  animation: slide-down-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
+}
+
+.animation-slide-left-fade-out {
+  animation: slide-left-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+.animation-slide-right-fade-out {
+  animation: slide-right-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+.animation-slide-up-fade-out {
+  animation: slide-up-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+.animation-slide-down-fade-out {
+  animation: slide-down-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+.animation-grow-x {
+  width: 0%;
+  animation: grow-x var(--animation-duration) ease var(--animation-delay) forwards;
+}
+
+.animation-grow\@hover {
+  transition: transform var(--animation-duration) var(--animation-delay);
+  backface-visibility: hidden;
+}
+.animation-grow\@hover:hover {
+  transform: scale(1.025);
+}
+
+.animation-shrink-x {
+  animation: shrink-x var(--animation-duration) ease-in-out var(--animation-delay) forwards;
+}
+
+.animation-shrink\@hover {
+  transition: transform var(--animation-duration) var(--animation-delay);
+  backface-visibility: hidden;
+}
+.animation-shrink\@hover:hover {
+  transform: scale(0.975);
+}
+
+.animation-scale-in {
+  animation: scale-in var(--animation-duration) cubic-bezier(0.2, 0, 0.13, 1.5) var(--animation-delay);
+}
+
+.animation-pulse {
+  animation: pulse var(--animation-duration) infinite linear;
+}
+
+.animation-pulse-in {
+  animation: pulse-in var(--animation-duration);
+}
+
+.animation-spin {
+  animation: spin var(--animation-duration) infinite linear;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -8222,10 +8503,6 @@ img {
     opacity: 1;
   }
 }
-.animation-fade-out {
-  animation: fade-out var(--animation-duration) ease-out var(--animation-delay);
-}
-
 @keyframes fade-out {
   from {
     opacity: 1;
@@ -8234,11 +8511,6 @@ img {
     opacity: 0;
   }
 }
-.animation-slide-left-fade-in {
-  opacity: 0;
-  animation: slide-left-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
 @keyframes slide-left-fade-in {
   from {
     opacity: 0.8;
@@ -8249,11 +8521,6 @@ img {
     transform: translateX(0);
   }
 }
-.animation-slide-right-fade-in {
-  opacity: 0;
-  animation: slide-right-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
 @keyframes slide-right-fade-in {
   from {
     opacity: 0.8;
@@ -8264,11 +8531,6 @@ img {
     transform: translateX(0);
   }
 }
-.animation-slide-up-fade-in {
-  opacity: 0;
-  animation: slide-up-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
 @keyframes slide-up-fade-in {
   from {
     opacity: 0.8;
@@ -8279,11 +8541,6 @@ img {
     transform: translateY(0);
   }
 }
-.animation-slide-down-fade-in {
-  opacity: 0;
-  animation: slide-down-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
 @keyframes slide-down-fade-in {
   from {
     opacity: 0.8;
@@ -8294,68 +8551,35 @@ img {
     transform: translateY(0);
   }
 }
-.animation-slide-left-fade-out {
-  animation: slide-left-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
 @keyframes slide-left-fade-out {
   to {
     opacity: 0;
     transform: translateX(-100%);
   }
 }
-.animation-slide-right-fade-out {
-  animation: slide-right-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
 @keyframes slide-right-fade-out {
   to {
     opacity: 0;
     transform: translateX(100%);
   }
 }
-.animation-slide-up-fade-out {
-  animation: slide-up-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
 @keyframes slide-up-fade-out {
   to {
     opacity: 0;
     transform: translateY(-100%);
   }
 }
-.animation-slide-down-fade-out {
-  animation: slide-down-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
 @keyframes slide-down-fade-out {
   to {
     opacity: 0;
     transform: translateY(100%);
   }
 }
-.animation-grow-x {
-  width: 0%;
-  animation: grow-x var(--animation-duration) ease var(--animation-delay) forwards;
-}
-
 @keyframes grow-x {
   to {
     width: 100%;
   }
 }
-.animation-grow-on-hover {
-  transition: transform var(--animation-duration) var(--animation-delay);
-  backface-visibility: hidden;
-}
-.animation-grow-on-hover:hover {
-  transform: scale(1.025);
-}
-
-.animation-shrink-x {
-  animation: shrink-x var(--animation-duration) ease-in-out var(--animation-delay) forwards;
-}
-
 @keyframes shrink-x {
   to {
     width: 0%;
@@ -8364,18 +8588,6 @@ img {
     visibility: collapse;
   }
 }
-.animation-shrink-on-hover {
-  transition: transform var(--animation-duration) var(--animation-delay);
-  backface-visibility: hidden;
-}
-.animation-shrink-on-hover:hover {
-  transform: scale(0.975);
-}
-
-.animation-scale-in {
-  animation: scale-in var(--animation-duration) cubic-bezier(0.2, 0, 0.13, 1.5) var(--animation-delay);
-}
-
 @keyframes scale-in {
   0% {
     opacity: 0;
@@ -8386,10 +8598,6 @@ img {
     transform: scale(1);
   }
 }
-.animation-pulse {
-  animation: pulse var(--animation-duration) infinite linear;
-}
-
 @keyframes pulse {
   0% {
     opacity: 0.3;
@@ -8401,10 +8609,6 @@ img {
     opacity: 0.3;
   }
 }
-.animation-pulse-in {
-  animation: pulse-in var(--animation-duration);
-}
-
 @keyframes pulse-in {
   0% {
     transform: scale3d(1, 1, 1);
@@ -8416,10 +8620,6 @@ img {
     transform: scale3d(1, 1, 1);
   }
 }
-.animation-spin {
-  animation: spin var(--animation-duration) infinite linear;
-}
-
 @keyframes spin {
   from {
     transform: rotate(0);
@@ -8455,7 +8655,7 @@ p.has-drop-cap:first-letter {
 
 code,
 pre {
-  font-family: var(--code-font-family);
+  font-family: var(--font-family-code);
   color: var(--pre-code-text-color);
   border: none;
   background-color: var(--pre-code-background);
@@ -8728,8 +8928,17 @@ a.button:hover {
   color: var(--button-default-on-dark-hover-text-color) !important;
 }
 
-.icon-gg {
-  display: inline-block !important;
+:root {
+  --icon-scale: 1;
+}
+
+.icon {
+  display: inline-block;
+  width: calc(24px * var(--icon-scale));
+  height: calc(24px * var(--icon-scale));
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  text-align: center;
   vertical-align: middle;
 }
 
@@ -9829,9 +10038,11 @@ ul.iconnav.iconnav-vertical > li {
   --accordion-body-margin: 0;
 }
 
-.accordion input:checked ~ .accordion-header .accordion-toggle:first-child, .accordion[open] .accordion-header .accordion-toggle:first-child {
+.accordion input:checked ~ .accordion-header .accordion-toggle, .accordion[open] .accordion-header .accordion-toggle {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
+  transform-origin: center;
+  -webkit-transform-origin: center;
 }
 .accordion input:checked ~ .accordion-body, .accordion[open] .accordion-body {
   max-height: var(--height-small);
@@ -9900,7 +10111,6 @@ ul.tab.tab-pills > li.active > a {
   background: var(--tab-item-pill-active-background);
 }
 
-/* Experimentals */
 :root {
   --stepper-line-border-width: var(--border-width);
   --stepper-line-color: var(--color-background);
@@ -10089,6 +10299,7 @@ ul.timeline > li.active:before {
   border-color: var(--timeline-item-point-active-border-color);
 }
 
+/* Experimentals */
 .carousel {
   position: relative;
 }

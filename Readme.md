@@ -12,7 +12,11 @@ You can read the documentation in https://graff.com/docs.html
     ```
     npm i sass -g
     ```
-3. Install ```hugo``` package globally, in terminal please type below
+3. Install ```svg-sprite-generator``` package globally, in terminal please type below
+    ```
+    npm i svg-sprite-generator -g 
+    ```
+4. Install ```hugo``` package globally, in terminal please type below
     ```
     brew install hugo
     ```
@@ -23,7 +27,15 @@ You can read the documentation in https://graff.com/docs.html
     ```
     ./build.sh
     ```
-4. Please navigate to ```/``` to find latest ```graff.css``` and ```graff.min.css```
+3. Please navigate to ```/``` to find latest ```graff.css``` and ```graff.min.css```
+
+# Packing icons
+1. Open the terminal
+2. Please type below
+    ```
+    ./pack-icons.sh
+    ```
+3. Please navigate to ```/``` to find latest ```graff-icons.svg```
 
 # Running the docs locally
 1. Open the terminal

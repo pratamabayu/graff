@@ -37,11 +37,23 @@ $predefined-border-color-data: (
     background-color: var(--#{$color-value}) !important;
   }
 
+  .background-color-#{$color-key}\@hover:hover {
+    background-color: var(--#{$color-value}) !important;
+  }
+
   .color-#{$color-key} {
     color: var(--#{$color-value}) !important;
   }
 
+  .color-#{$color-key}\@hover:hover {
+    color: var(--#{$color-value}) !important;
+  }
+
   .border-color-#{$color-key} {
+    border-color: var(--#{$color-value}) !important;
+  }
+
+  .border-color-#{$color-key}\@hover:hover {
     border-color: var(--#{$color-value}) !important;
   }
 }
@@ -50,16 +62,28 @@ $predefined-border-color-data: (
   .#{$color-key} {
     background-color: var(--#{$color-value}) !important;
   }
+
+  .#{$color-key}\@hover:hover {
+    background-color: var(--#{$color-value}) !important;
+  }
 }
 
 @each $color-key, $color-value in $predefined-color-data {
   .#{$color-key} {
     color: var(--#{$color-value}) !important;
   }
+
+  .#{$color-key}\@hover:hover {
+    color: var(--#{$color-value}) !important;
+  }
 }
 
 @each $color-key, $color-value in $predefined-border-color-data {
   .#{$color-key} {
+    border-color: var(--#{$color-value}) !important;
+  }
+
+  .#{$color-key}\@hover:hover {
     border-color: var(--#{$color-value}) !important;
   }
 }

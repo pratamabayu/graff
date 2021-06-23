@@ -1,7 +1,7 @@
 $color-primary: #005BFF;
 $color-secondary: adjust-hue($color-primary, 180deg);
 $color-dark: #000;
-$color-light: #fff;
+$color-light: rgb(250, 250, 250);
 $color-gray: lighten($color-dark, 55%);
 $color-border: lighten($color-dark, 65%);
 $color-background: lighten($color-dark, 93%);
@@ -87,7 +87,7 @@ $color-link: $color-primary;
 
   --font-family: "Jost", Verdana, sans-serif;
   --font-family-heading: var(--font-family);
-  --font-family-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  --font-family-code: "Ubuntu Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   --font-family-blockquote: var(--font-family);
 
   --font-size: 16px;

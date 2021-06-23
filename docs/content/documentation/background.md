@@ -23,7 +23,7 @@ categories_weight: 2
 ```
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-contain width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)">
+    <div class="background-contain background-no-repeat width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)">
         <h4>Contain</h4>
     </div>
     <div class="background-cover width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)">
@@ -32,9 +32,13 @@ categories_weight: 2
 </section>
 
 ``` html
-<section class="grid grid-2-columns gap-small">
-    <div class="background-contain width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)"></div>
-    <div class="background-cover width-1/1 height-medium" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)"></div>
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-contain background-no-repeat width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)">
+        <h4>Contain</h4>
+    </div>
+    <div class="background-cover width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/swiss-pine-snapped.jpg)">
+        <h4>Cover</h4>
+    </div>
 </section>
 ```
 

@@ -98,7 +98,11 @@ categories_weight: 2
         <div class="offcanvas-overlay"></div>
         <div class="offcanvas-bar">
             <div class="text-right">
-                <a href="{{< permalink >}}#close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" class="inline-block color-primary-dark:hover">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <ul class="nav">
                 <li class="nav-header">Header</li>
@@ -120,7 +124,11 @@ categories_weight: 2
         <div class="offcanvas-overlay"></div>
         <div class="offcanvas-bar">
             <div class="text-right">
-                <a href="#close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" class="inline-block color-primary-dark:hover">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <ul class="nav">
                 <li class="nav-header">Header</li>
