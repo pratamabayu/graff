@@ -9734,6 +9734,11 @@ ul.iconnav.iconnav-vertical > li {
 }
 .form-input.form-select[multiple] {
   height: auto;
+  padding: 0;
+  background-image: none !important;
+}
+.form-input.form-select[multiple] option {
+  padding: var(--form-input-padding);
 }
 .form-input::placeholder {
   color: var(--form-input-placeholder-color);

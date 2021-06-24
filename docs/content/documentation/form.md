@@ -455,3 +455,66 @@ categories_weight: 2
     </div>
 </section>
 ```
+
+### Select
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Country</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Country</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
+        </div>
+    </div>
+</section>
+```
+
+### File
+<section>
+    <div class="form-field">
+        <label class="form-label">Attachment</label>
+        <div class="form-control">
+            <input type="file" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Attachment</label>
+        <div class="form-control">
+            <input type="file" placeholder="e.g. class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+```

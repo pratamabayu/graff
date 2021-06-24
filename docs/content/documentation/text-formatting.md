@@ -6,7 +6,7 @@ categories: ["Components"]
 categories_weight: 2
 ---
 
-# Text Formatting
+# Text formatting
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <b>Bold text</b>

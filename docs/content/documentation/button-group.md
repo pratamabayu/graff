@@ -6,7 +6,7 @@ categories: ["Components"]
 categories_weight: 2
 ---
 
-# Button Group
+# Button group
 
 <div class="button-group">
     <button class="button">Button 1</button>
