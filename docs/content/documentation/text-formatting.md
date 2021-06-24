@@ -19,6 +19,7 @@ categories_weight: 2
     <ins>Inserted text</ins>
     <span>Text <sub>Subscript text</sub></span>
     <span>Text <sup>Superscript text</sup></span>
+    <code>Inline code</code>
     <kbd>Keyboard input text</kbd>
 <section>
 
@@ -34,12 +35,13 @@ categories_weight: 2
     <ins>Inserted text</ins>
     <span>Text <sub>Subscript text</sub></span>
     <span>Text <sup>Superscript text</sup></span>
+    <code>Inline code</code>
     <kbd>Keyboard input text</kbd>
 <section>
 ```
 
 <section>
-    <p>Lorem ipsum dolor <b>sit amet</b>, consectetur <strong>adipiscing</strong> elit, sed do eiusmod tempor incididunt ut labore et <i>dolore magna</i> aliqua. Ut enim ad <em>minim </em>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <mark>commodo</mark> consequat. Duis <small>aute irure dolor</small> in reprehenderit in voluptate velit esse cillum <del>dolore</del> eu fugiat <ins>nulla</ins> pariatur. Excepteur <sub>sint</sub> occaecat cupidatat <sup>non proident</sup>, sunt in culpa qui officia deserunt mollit <kbd>ctrl + c</kbd> anim id est laborum.</p>
+    <p>Lorem ipsum dolor <b>sit amet</b>, consectetur <strong>adipiscing</strong> elit, sed do eiusmod tempor incididunt ut labore et <i>dolore magna</i> aliqua. Ut enim ad <em>minim </em>, quis nostrud exercitation <code>ullamco laboris</code> nisi ut aliquip ex ea <mark>commodo</mark> consequat. Duis <small>aute irure dolor</small> in reprehenderit in voluptate velit esse cillum <del>dolore</del> eu fugiat <ins>nulla</ins> pariatur. Excepteur <sub>sint</sub> occaecat cupidatat <sup>non proident</sup>, sunt in culpa qui officia deserunt mollit <kbd>ctrl + c</kbd> anim id est laborum.</p>
 <section>
 
 ``` html
