@@ -11,4 +11,4 @@ categories_weight: 3
 ### Stock photos
 
 1. [Happy daughter](https://unsplash.com/photos/mEZ3PoFGs_k) by [Michael Dam](https://unsplash.com/@michaeldam)
-2. [Swiss pine snapped at the Speikboden, a skiarea in the Zillertal Alps!](https://unsplash.com/photos/nDjXr9XpHDk) by [Eberhard](https://unsplash.com/@eberhardgross)
+2. [Breathtaking mountains view at Quiraing, Skye, Scotland](https://unsplash.com/photos/b2O7T649-xE) by [Suganth](https://unsplash.com/@suganth)

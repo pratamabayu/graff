@@ -15,6 +15,9 @@
   --form-input-disabled-background: var(--color-background-light);
   --form-input-disabled-text-color: var(--color-gray);
 
+  --form-input-required-border: var(--border-width-thin) solid
+    var(--color-border-dark);
+
   --form-input-readonly-background: var(--color-background-light);
   --form-input-readonly-text-color: var(--color-text);
   --form-input-readonly-border: var(--border-width-thin) solid
@@ -22,7 +25,7 @@
 
   --form-input-invalid-text-color: var(--color-text);
   --form-input-invalid-border: var(--border-width-thin) solid
-    var(--color-primary);
+    var(--color-error);
 
   --form-input-select-background: var(--form-input-background);
   --form-input-checkbox-active-background: var(--color-primary);
@@ -170,10 +173,16 @@
     color: var(--form-input-disabled-text-color);
   }
 
+  &[required] {
+    border: var(--form-input-required-border);
+  }
+
   &[readonly] {
     background: var(--form-input-readonly-background);
     color: var(--form-input-readonly-text-color);
     border: var(--form-input-readonly-border);
+
+    pointer-events: none;
   }
 
   &[type="file"][read-only] {

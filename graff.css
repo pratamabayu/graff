@@ -862,7 +862,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2;
+  line-height: 2;
   margin-bottom: 0.75rem;
   margin-top: 0;
 }
@@ -9011,7 +9011,7 @@ html[data-theme=dark] .alert.alert-warning {
   --badge-padding: var(--padding-2xsmall);
   --badge-border-radius: var(--border-radius-2xsmall);
   --badge-font-size: 11px;
-  --badge-as-empty-size: 6px;
+  --badge-as-empty-size: 8px;
   --badge-box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
 
@@ -9647,13 +9647,15 @@ ul.iconnav.iconnav-vertical > li {
   --form-input-focus-border: var(--border-width-thin) solid var(--color-primary);
   --form-input-disabled-background: var(--color-background-light);
   --form-input-disabled-text-color: var(--color-gray);
+  --form-input-required-border: var(--border-width-thin) solid
+    var(--color-border-dark);
   --form-input-readonly-background: var(--color-background-light);
   --form-input-readonly-text-color: var(--color-text);
   --form-input-readonly-border: var(--border-width-thin) solid
     var(--color-border-light);
   --form-input-invalid-text-color: var(--color-text);
   --form-input-invalid-border: var(--border-width-thin) solid
-    var(--color-primary);
+    var(--color-error);
   --form-input-select-background: var(--form-input-background);
   --form-input-checkbox-active-background: var(--color-primary);
   --form-input-checkbox-active-border: var(--border-width) solid
@@ -9772,10 +9774,14 @@ ul.iconnav.iconnav-vertical > li {
   background: var(--form-input-disabled-background);
   color: var(--form-input-disabled-text-color);
 }
+.form-input[required] {
+  border: var(--form-input-required-border);
+}
 .form-input[readonly] {
   background: var(--form-input-readonly-background);
   color: var(--form-input-readonly-text-color);
   border: var(--form-input-readonly-border);
+  pointer-events: none;
 }
 .form-input[type=file][read-only] {
   border-style: var(--form-input-file-border-style);

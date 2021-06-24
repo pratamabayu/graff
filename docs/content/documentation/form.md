@@ -14,13 +14,13 @@ categories_weight: 2
     <div class="form-field">
         <label class="form-label">Name</label>
         <div class="form-control">
-            <input type="email" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
         </div>
     </div>
     <div class="form-field">
         <label class="form-label">Email</label>
         <div class="form-control">
-            <input type="password" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
+            <input type="email" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
         </div>
         <p class="form-message">This is a required field.</p>
     </div>
@@ -70,13 +70,13 @@ categories_weight: 2
     <div class="form-field">
         <label class="form-label">Name</label>
         <div class="form-control">
-            <input type="email" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
         </div>
     </div>
     <div class="form-field">
         <label class="form-label">Email</label>
         <div class="form-control">
-            <input type="password" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
+            <input type="email" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
         </div>
         <p class="form-message">This is a required field.</p>
     </div>
@@ -635,6 +635,200 @@ categories_weight: 2
                 <option value="Australia">Australia</option>
                 <option value="South Korea">South Korea</option>
             </select>
+        </div>
+    </div>
+</section>
+```
+
+### State
+
+##### Disabled
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="email" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" disabled/>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Gender</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" disabled>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Your favorite outfit?</label>
+        <div class="form-control flex flex-row column-gap-small">
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input" disabled/>Jacket
+            </label>
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input"/>Tshirt
+            </label>
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input"/>Texudo
+            </label>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
+        </div>
+    </div>
+    <div class="form-field">
+        <div class="form-control">
+            <label class="form-inline">
+                <input type="checkbox" class="form-input" disabled/>Remember me
+            </label>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" disabled/>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Gender</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" disabled>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Your favorite outfit?</label>
+        <div class="form-control flex flex-row column-gap-small">
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input" disabled/>Jacket
+            </label>
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input"/>Tshirt
+            </label>
+            <label class="form-inline">
+                <input type="radio" name="subscribed" class="form-input"/>Texudo
+            </label>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
+        </div>
+    </div>
+    <div class="form-field">
+        <div class="form-control">
+            <label class="form-inline">
+                <input type="checkbox" class="form-input" disabled/>Remember me
+            </label>
+        </div>
+    </div>
+</section>
+```
+
+##### Readonly
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="text" value="John Doe" class="form-input width-1/2 width-1/1@m" readonly/>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Gender</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" readonly>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can used here</textarea>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="text" value="John Doe" class="form-input width-1/2 width-1/1@m" readonly/>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Gender</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" readonly>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can used here</textarea>
+        </div>
+    </div>
+</section>
+```
+
+###### Required
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" required/>
+        </div>
+        <p class="form-message">This is a required field.</p>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" required/>
+        </div>
+        <p class="form-message">This is a required field.</p>
+    </div>
+</section>
+```
+
+###### Invalid
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Email</label>
+        <div class="form-control">
+            <input type="email" value="john.doe#" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Email</label>
+        <div class="form-control">
+            <input type="email" value="john.doe#" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
         </div>
     </div>
 </section>

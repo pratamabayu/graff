@@ -9,31 +9,31 @@ categories_weight: 2
 # Image
 
 <section class="padding-large">
-    <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
+    <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
 </section>
 
 ``` html
 <section class="padding-large">
-    <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
+    <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
 </section>
 ```
 
 <section class="grid grid-2-columns grid-1-columns@s column-gap-small row-gap-small">
     <div class="padding-large">
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1 border-radius-small" title="Swiss Pine Snapped"/>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-small" title="Swiss Pine Snapped"/>
     </div>
     <div class="padding-large">
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1 border-radius-medium" title="Swiss Pine Snapped"/>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-medium" title="Swiss Pine Snapped"/>
     </div>
 </section>
 
 ``` html
 <section class="grid grid-2-columns grid-1-columns@s column-gap-small row-gap-small">
     <div class="padding-large">
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1 border-radius-small" title="Swiss Pine Snapped"/>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-small" title="Swiss Pine Snapped"/>
     </div>
     <div class="padding-large">
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1 border-radius-medium" title="Swiss Pine Snapped"/>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-medium" title="Swiss Pine Snapped"/>
     </div>
 </section>
 ```
@@ -66,16 +66,16 @@ categories_weight: 2
 
 <section>
     <figure>
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
-        <figcaption class="text-center">Figure 1. Swiss pine snapped at the Speikboden</figcaption>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
+        <figcaption class="text-center">Figure 1. Breathtaking mountains view at Quiraing, Skye, Scotland</figcaption>
     </figure>
 </section>
 
 ``` html
 <section>
     <figure>
-        <img src="/images/documentation/swiss-pine-snapped.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
-        <figcaption class="text-center">Figure 1. Swiss pine snapped at the Speikboden</figcaption>
+        <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Swiss Pine Snapped"/>
+        <figcaption class="text-center">Figure 1. Breathtaking mountains view at Quiraing, Skye, Scotland</figcaption>
     </figure>
 </section>
 ```
