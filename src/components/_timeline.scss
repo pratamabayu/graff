@@ -31,7 +31,7 @@ ul.timeline {
       border-radius: 50%;
       position: absolute;
       left: calc(calc(var(--timeline-item-point-size) / -2) - var(--timeline-line-border-width));
-      box-shadow: 0 0 0 0.1rem var(--background-light-color);
+      box-shadow: 0 0 0 0.1rem var(--color-background-light);
     }
     &.active:before {
       background: var(--timeline-item-point-active-background);

@@ -84,24 +84,24 @@ $align-content-data: (
   }
 
   .gap-small#{$breakpoint-suffix} {
-    gap: var(--grid-gap-small);
+    gap: var(--gap-small);
   }
   .gap-medium#{$breakpoint-suffix} {
-    gap: var(--grid-gap-medium);
+    gap: var(--gap-medium);
   }
   .gap-large#{$breakpoint-suffix} {
-    gap: var(--grid-gap-large);
+    gap: var(--gap-large);
   }
 
   @each $direction in (row, column) {
     .#{$direction}-gap-small#{$breakpoint-suffix} {
-      #{$direction}-gap: var(--grid-gap-small);
+      #{$direction}-gap: var(--gap-small);
     }
     .#{$direction}-gap-medium#{$breakpoint-suffix} {
-      #{$direction}-gap: var(--grid-gap-medium);
+      #{$direction}-gap: var(--gap-medium);
     }
     .#{$direction}-gap-large#{$breakpoint-suffix} {
-      #{$direction}-gap: var(--grid-gap-large);
+      #{$direction}-gap: var(--gap-large);
     }
   }
 }

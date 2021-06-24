@@ -63,7 +63,7 @@ ul.stepper li:before {
   border: var(--stepper-item-point-border);
   background: var(--stepper-item-point-background);
   color: var(--stepper-item-point-text-color);
-  box-shadow: 0 0 0 0.1rem var(--background-light-color);
+  box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
 ul.stepper.stepper-small:not(.stepper-counter) li:before {
   width: var(--stepper-item-point-size-small);
