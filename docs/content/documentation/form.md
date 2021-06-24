@@ -8,6 +8,8 @@ categories_weight: 2
 
 # Form
 
+### Usage
+
 <section>
     <div class="form-field">
         <label class="form-label">Name</label>
@@ -120,6 +122,10 @@ categories_weight: 2
 </section>
 ```
 
+### Form <small>horizontal</small>
+
+##### Left aligned
+
 <section>
     <div class="form-field form-field-horizontal flex-column@m">
         <div class="form-field-header">
@@ -288,6 +294,8 @@ categories_weight: 2
 </section>
 ```
 
+##### Right aligned
+
 <section>
     <div class="form-field form-field-horizontal flex-column@m">
         <div class="form-field-header text-right text-left@m">
@@ -456,23 +464,15 @@ categories_weight: 2
 </section>
 ```
 
-### Select
+### Input
+
+##### Text
 
 <section>
     <div class="form-field">
-        <label class="form-label">Country</label>
+        <label class="form-label">Name</label>
         <div class="form-control">
-            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
-                <option value="Indonesia">Indonesia</option>
-                <option value="United States">United States</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Germany">Germany</option>
-                <option value="Japan">Japan</option>
-                <option value="Poland">Poland</option>
-                <option value="Qatar">Qatar</option>
-                <option value="Australia">Australia</option>
-                <option value="South Korea">South Korea</option>
-            </select>
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
         </div>
     </div>
 </section>
@@ -480,25 +480,60 @@ categories_weight: 2
 ``` html
 <section>
     <div class="form-field">
-        <label class="form-label">Country</label>
+        <label class="form-label">Name</label>
         <div class="form-control">
-            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
-                <option value="Indonesia">Indonesia</option>
-                <option value="United States">United States</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Germany">Germany</option>
-                <option value="Japan">Japan</option>
-                <option value="Poland">Poland</option>
-                <option value="Qatar">Qatar</option>
-                <option value="Australia">Australia</option>
-                <option value="South Korea">South Korea</option>
-            </select>
+            <input type="text" placeholder="e.g. John Doe" class="form-input width-1/2 width-1/1@m" />
         </div>
     </div>
 </section>
 ```
 
-### File
+##### Email
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Email</label>
+        <div class="form-control">
+            <input type="email" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Email</label>
+        <div class="form-control">
+            <input type="email" placeholder="e.g. john.doe@email.com" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+```
+
+##### Password
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Password</label>
+        <div class="form-control">
+            <input type="password" placeholder="e.g. 6 digits secure code" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Password</label>
+        <div class="form-control">
+            <input type="password" placeholder="e.g. 6 digits secure code" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+```
+
+##### File
+
 <section>
     <div class="form-field">
         <label class="form-label">Attachment</label>
@@ -513,7 +548,93 @@ categories_weight: 2
     <div class="form-field">
         <label class="form-label">Attachment</label>
         <div class="form-control">
-            <input type="file" placeholder="e.g. class="form-input width-1/2 width-1/1@m" />
+            <input type="file" class="form-input width-1/2 width-1/1@m" />
+        </div>
+    </div>
+</section>
+```
+
+### Select
+
+##### Dropdown select
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Country</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m">
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Country</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m">
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
+        </div>
+    </div>
+</section>
+```
+
+##### Multiple select
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Country with multiple state</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Country with multiple state</label>
+        <div class="form-control">
+            <select class="form-input form-select width-1/2 width-1/1@m" size="5" multiple>
+                <option value="Indonesia">Indonesia</option>
+                <option value="United States">United States</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Poland">Poland</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Australia">Australia</option>
+                <option value="South Korea">South Korea</option>
+            </select>
         </div>
     </div>
 </section>
