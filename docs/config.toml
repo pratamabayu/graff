@@ -9,6 +9,11 @@ unsafe = true
 [markup.highlight]
 codeFences = false
 
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+
 [params]
 google_analytics_id = ""
 project_name = "Graff"

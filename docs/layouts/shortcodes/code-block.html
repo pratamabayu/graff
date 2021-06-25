@@ -1,0 +1,13 @@
+<section>
+    {{ .Inner }}
+</section>
+
+<pre data-lang="{{ .Get "lang" }}" class="margin-remove-vertical">
+    <code>
+        {{ if eq (.Get "lang") "html" }}
+            {{ .Inner| htmlEscape | safeHTML }}
+        {{ else }}
+            {{ .Inner }}
+        {{ end }}
+    </code>
+</pre>

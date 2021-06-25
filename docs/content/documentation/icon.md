@@ -6,9 +6,9 @@ categories: ["Components"]
 categories_weight: 2
 ---
 
-# Icon
+{{< heading text="Icon" sub-text="Make it easier for users to perform a task or access an object" >}}
 
-### Usage
+## Usage
 
 Replace ```symbol-name``` with a preferred symbol name.
 
@@ -18,12 +18,13 @@ Replace ```symbol-name``` with a preferred symbol name.
 </svg>
 ```
 
-### Symbols
+## Collection
 
-##### Navigation 
+### Navigation
 
-<section class="margin-large margin-medium@m grid grid-4-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
+<section class="margin-large margin-medium@m grid grid-3-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
     {{< symbol name="menu" >}}
+    {{< symbol name="menu-grid-o" >}}
     {{< symbol name="menu-grid-r" >}}
     {{< symbol name="menu-left" >}}
     {{< symbol name="menu-right" >}}
@@ -31,19 +32,74 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="chevron-right" >}}
     {{< symbol name="chevron-down" >}}
     {{< symbol name="chevron-left" >}}
+    {{< symbol name="arrow-top-left" >}}
+    {{< symbol name="arrow-up" >}}
+    {{< symbol name="arrow-top-right" >}}
+    {{< symbol name="arrow-right" >}}
+    {{< symbol name="arrow-bottom-right" >}}
+    {{< symbol name="arrow-down" >}}
+    {{< symbol name="arrow-bottom-left" >}}
+    {{< symbol name="arrow-left" >}}
+    {{< symbol name="more" >}}
+    {{< symbol name="more-vertical" >}}
     {{< symbol name="close" >}}
 </section>
 
-##### Miscellaneous 
+### Action
 
-<section class="margin-large margin-medium@m grid grid-4-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
-    {{< symbol name="sun" >}}
-    {{< symbol name="moon" >}}
+<section class="margin-large margin-medium@m grid grid-3-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
+    {{< symbol name="push-up" >}}
+    {{< symbol name="push-right" >}}
+    {{< symbol name="push-down" >}}
+    {{< symbol name="push-left" >}}
+    {{< symbol name="block" >}}
+    {{< symbol name="unblock" >}}
+    {{< symbol name="search" >}}
+    {{< symbol name="zoom-in" >}}
+    {{< symbol name="zoom-out" >}}
+    {{< symbol name="plus" >}}
+    {{< symbol name="minus" >}}
+    {{< symbol name="share" >}}
+    {{< symbol name="reply" >}}
+    {{< symbol name="forward" >}}
+    {{< symbol name="export" >}}
+    {{< symbol name="import" >}}
+    {{< symbol name="lock" >}}
+    {{< symbol name="unlock" >}}
+    {{< symbol name="bookmark" >}}
+    {{< symbol name="flag" >}}
+    {{< symbol name="clipboard" >}}
+    {{< symbol name="attachment" >}}
+    {{< symbol name="options" >}}
+    {{< symbol name="layout-grid" >}}
+    {{< symbol name="layout-list" >}}
+    {{< symbol name="minimize" >}}
+    {{< symbol name="maximize" >}}
 </section>
 
-### Examples
+### Miscellaneous
 
-##### Scale
+<section class="margin-large margin-medium@m grid grid-3-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
+    {{< symbol name="sun" >}}
+    {{< symbol name="moon" >}}
+    {{< symbol name="bell" >}}
+    {{< symbol name="printer" >}}
+    {{< symbol name="mail" >}}
+    {{< symbol name="pin" >}}
+    {{< symbol name="shopping-bag" >}}
+    {{< symbol name="shopping-cart" >}}
+    {{< symbol name="briefcase" >}}
+    {{< symbol name="pen" >}}
+    {{< symbol name="code" >}}
+    {{< symbol name="eye" >}}
+    {{< symbol name="color-picker" >}}
+    {{< symbol name="qr" >}}
+    {{< symbol name="trash" >}}
+</section>
+
+## Appearance
+
+### Scale
 
 Use ```--icon-scale``` to scale the icons. To scale globally, set up in ```:root```.
 
@@ -85,7 +141,7 @@ Use ```--icon-scale``` to scale the icons. To scale globally, set up in ```:root
 </section>
 ```
 
-##### Appearance
+### Color
 
 Wrap the ```<svg>``` in a container, then use ```.color-*``` to style.
 

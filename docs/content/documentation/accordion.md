@@ -6,7 +6,26 @@ categories: ["Components"]
 categories_weight: 2
 ---
 
-# Accordion
+{{< heading text="Accordion" sub-text="Toggle details based on summary" >}}
+
+## Usage
+
+Add `accordion` class on `<details>` tag. Get into it, then add `accordion-header` on `<summary>` tag to display the title. Finally add `accordion-body` class in the next `<div>` tag to display the content.
+
+``` html
+<details class="accordion">
+      <summary class="accordion-header">
+          // The title
+      </summary>
+      <div class="accordion-body">
+          // The content
+      </div>
+  </details>
+```
+
+## Summary
+
+### Single summary
 
 <section>
     <details class="accordion">
@@ -39,6 +58,8 @@ categories_weight: 2
   </details>
 </section>
 ```
+
+### Multiple summaries
 
 <section>
     <details class="accordion">
@@ -96,6 +117,10 @@ categories_weight: 2
 </section>
 ```
 
+## Header
+
+### Icon toggle
+
 <section>
     <details class="accordion" open>
         <summary class="accordion-header flex align-items-center justify-content-start">
@@ -135,6 +160,10 @@ categories_weight: 2
     </details>
 </section>
 ```
+
+## Body
+
+### Any contents
 
 <section>
     <details class="accordion" open>
@@ -200,7 +229,7 @@ categories_weight: 2
   </details>
   <details class="accordion">
     <summary class="accordion-header">
-      <strong class="text-bold">Utilities</strong>
+      <strong class="text-bold">Latest photo</strong>
     </summary>
     <div class="accordion-body">
       <ul class="nav">

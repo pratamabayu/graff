@@ -25,7 +25,7 @@ https://github.com/pratamabayu/graff
   --color-background-dark: #e6e6e6;
   --color-background-light: #fafafa;
   --color-text: #0d0d0d;
-  --color-text-light: #595959;
+  --color-text-light: #737373;
   --color-success: #32b643;
   --color-warning: #ffb700;
   --color-error: #e85600;
@@ -862,7 +862,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 2;
+  line-height: 1.2;
   margin-bottom: 0.75rem;
   margin-top: 0;
 }
