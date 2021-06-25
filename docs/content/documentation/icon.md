@@ -60,6 +60,9 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="plus" >}}
     {{< symbol name="minus" >}}
     {{< symbol name="share" >}}
+    {{< symbol name="send" >}}
+    {{< symbol name="comment" >}}
+    {{< symbol name="link" >}}
     {{< symbol name="reply" >}}
     {{< symbol name="forward" >}}
     {{< symbol name="export" >}}
@@ -75,6 +78,21 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="layout-list" >}}
     {{< symbol name="minimize" >}}
     {{< symbol name="maximize" >}}
+    {{< symbol name="power" >}}
+    {{< symbol name="thumbs-up" >}}
+    {{< symbol name="thumbs-down" >}}
+    {{< symbol name="download" >}}
+    {{< symbol name="upload" >}}
+</section>
+
+### Social
+
+<section class="margin-large margin-medium@m grid grid-3-columns grid-2-columns@m gap-small" style="--icon-scale: .75">
+    {{< symbol name="facebook" >}}
+    {{< symbol name="instagram" >}}
+    {{< symbol name="twitter" >}}
+    {{< symbol name="youtube" >}}
+    {{< symbol name="github" >}}
 </section>
 
 ### Miscellaneous
@@ -85,6 +103,7 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="bell" >}}
     {{< symbol name="printer" >}}
     {{< symbol name="mail" >}}
+    {{< symbol name="phone" >}}
     {{< symbol name="pin" >}}
     {{< symbol name="shopping-bag" >}}
     {{< symbol name="shopping-cart" >}}
@@ -95,13 +114,14 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="color-picker" >}}
     {{< symbol name="qr" >}}
     {{< symbol name="trash" >}}
+    {{< symbol name="globe" >}}
 </section>
 
 ## Appearance
 
 ### Scale
 
-Use ```--icon-scale``` to scale the icons. To scale globally, set up in ```:root```.
+Use ```--icon-scale``` variable to scale the icons. To scale globally, set up in ```:root``` selector.
 
 <section class="flex align-items-center justify-content-start gap-medium">
     <svg class="icon" style="--icon-scale: .5">
@@ -143,7 +163,7 @@ Use ```--icon-scale``` to scale the icons. To scale globally, set up in ```:root
 
 ### Color
 
-Wrap the ```<svg>``` in a container, then use ```.color-*``` to style.
+Wrap the ```<svg>``` tag in a container, then use ```color-*``` class to style icon.
 
 <section class="flex align-items-center justify-content-start gap-medium">
     <span class="color-gray">

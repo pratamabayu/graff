@@ -1,14 +1,22 @@
-<svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path d="M9 7H7V9H9V7Z" fill="currentColor" />
-  <path d="M7 13V11H9V13H7Z" fill="currentColor" />
-  <path d="M7 15V17H9V15H7Z" fill="currentColor" />
-  <path d="M11 15V17H17V15H11Z" fill="currentColor" />
-  <path d="M17 13V11H11V13H17Z" fill="currentColor" />
-  <path d="M17 7V9H11V7H17Z" fill="currentColor" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,0.480069)">
+        <path d="M8,7L21,7C21.552,7 22,6.552 22,6C22,5.448 21.552,5 21,5L8,5C7.448,5 7,5.448 7,6C7,6.552 7.448,7 8,7Z" fill="currentColor"/>
+    </g>
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,0.480069)">
+        <path d="M8,13L21,13C21.552,13 22,12.552 22,12C22,11.448 21.552,11 21,11L8,11C7.448,11 7,11.448 7,12C7,12.552 7.448,13 8,13Z" fill="currentColor"/>
+    </g>
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,0.480069)">
+        <path d="M8,19L21,19C21.552,19 22,18.552 22,18C22,17.448 21.552,17 21,17L8,17C7.448,17 7,17.448 7,18C7,18.552 7.448,19 8,19Z" fill="currentColor"/>
+    </g>
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,0.480069)">
+        <circle cx="3" cy="6" r="1" fill="currentColor"/>
+    </g>
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,6.24003)">
+        <circle cx="3" cy="6" r="1" fill="currentColor"/>
+    </g>
+    <g transform="matrix(0.959994,0,0,0.959994,0.480069,12)">
+        <circle cx="3" cy="6" r="1" fill="currentColor"/>
+    </g>
 </svg>
