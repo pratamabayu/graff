@@ -1,0 +1,10 @@
+{{ if eq .Page.Params.table_of_contents true }}
+    {{ if and (.TableOfContents) (gt .WordCount .Site.Params.tocMinWordCount ) }}
+    <div class="position-fixed">
+        <h5>Table of contents</h5>
+        {{ $tocStyled := replace .TableOfContents `<ul>` (printf `<ul %s>` "class=\"list-style-none padding-medium padding-remove-vertical padding-remove-right\"") }}
+        {{ $tocStyled := replace $tocStyled `<a ` (printf `<a %s` "class=\"color-text color-primary-dark@hover\"") }}
+        {{ replace $tocStyled `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
+    </div>
+    {{ end }}
+{{ end }}

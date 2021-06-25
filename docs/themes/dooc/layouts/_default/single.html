@@ -8,7 +8,9 @@
             <section class="grid-column-span-3 grid-column-span-1@m">
                 {{.Content}}
             </section>
-            <section></section>
+            <section class="none@m">
+                {{- partial "table-of-contents.html" . -}}
+            </section>
         </section>
     </section>
 </section>

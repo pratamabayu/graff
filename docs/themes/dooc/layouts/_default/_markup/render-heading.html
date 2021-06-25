@@ -1,0 +1,10 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+    {{ if ne .Level 1 }}
+    <a href="{{ .Page.Permalink }}#{{ .Anchor | safeURL }}" class="color-gray-light color-gray@hover">
+        <svg class="icon">
+            <use xlink:href="icons/graff-icons.svg#link" />
+        </svg>
+    </a> 
+    {{ end }}
+    {{ .Text | safeHTML }}
+</h{{ .Level }}>

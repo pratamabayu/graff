@@ -7,6 +7,7 @@ aliases: [
 ]
 categories: ["Getting Started"]
 categories_weight: 1
+table_of_contents: false
 ---
 
 # Introduction

@@ -9786,7 +9786,7 @@ ul.iconnav.iconnav-vertical > li {
 .form-input[type=file][read-only] {
   border-style: var(--form-input-file-border-style);
 }
-.form-input:focus:invalid {
+.form-input:invalid, .form-input:focus:invalid {
   color: var(--form-input-invalid-text-color);
   border: var(--form-input-invalid-border);
 }

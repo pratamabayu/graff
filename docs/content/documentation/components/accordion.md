@@ -14,13 +14,13 @@ Add `accordion` class on `<details>` tag. Get into it, then add `accordion-heade
 
 ``` html
 <details class="accordion">
-      <summary class="accordion-header">
-          // The title
-      </summary>
-      <div class="accordion-body">
-          // The content
-      </div>
-  </details>
+    <summary class="accordion-header">
+        // The title
+    </summary>
+    <div class="accordion-body">
+        // The content
+    </div>
+</details>
 ```
 
 ## Summary

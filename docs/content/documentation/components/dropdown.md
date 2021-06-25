@@ -13,7 +13,7 @@ categories_weight: 2
         <button class="button button-primary">Dropdown</button>
         <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
             <ul class="nav">
-                <li><a href="#" class="active">Introduction</a></li>
+                <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
                 <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
@@ -28,7 +28,7 @@ categories_weight: 2
         <button class="button button-primary">Dropdown</button>
         <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
             <ul class="nav">
-                <li><a href="#" class="active">Introduction</a></li>
+                <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
                 <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
@@ -44,7 +44,7 @@ categories_weight: 2
         <div
             class="dropdown position-top-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
             <ul class="nav">
-                <li><a href="#" class="active">Introduction</a></li>
+                <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
                 <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>
@@ -56,7 +56,7 @@ categories_weight: 2
         <div
             class="dropdown position-bottom-right-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
             <ul class="nav">
-                <li><a href="#" class="active">Introduction</a></li>
+                <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
                 <li class="nav-divider"></li>
                 <li><a href="#">License</a></li>

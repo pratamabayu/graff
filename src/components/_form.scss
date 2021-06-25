@@ -189,6 +189,7 @@
     border-style: var(--form-input-file-border-style);
   }
 
+  &:invalid,
   &:focus:invalid {
     color: var(--form-input-invalid-text-color);
     border: var(--form-input-invalid-border);

@@ -1,1 +1,26 @@
 {{- partial "google-analytics.html" . -}}
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                const href = entry.target.querySelector('a').getAttribute("href");
+                let anchorElement = document.querySelector(`#TableOfContents a[href="${href}"]`);
+                console.log(anchorElement);
+                if (entry.intersectionRatio > 0) {
+                    anchorElement.classList.remove('color-text');
+                    anchorElement.classList.add('color-primary');
+                } else {
+                    anchorElement.classList.remove('color-primary');
+                    anchorElement.classList.add('color-text');
+                }
+            });
+        });
+
+        // Track all sections that have an `id` applied
+        document.querySelectorAll('h2[id],h3[id]').forEach((section) => {
+            observer.observe(section);
+        });
+    });
+</script>
