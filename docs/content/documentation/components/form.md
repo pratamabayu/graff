@@ -70,9 +70,11 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Input
+## Type
 
-### Text
+### Input
+
+#### Text
 
 <section>
     <div class="form-field">
@@ -94,7 +96,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-### Email
+#### Email
 
 <section>
     <div class="form-field">
@@ -116,7 +118,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-### Password
+#### Password
 
 <section>
     <div class="form-field">
@@ -138,7 +140,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-### File
+#### File
 
 <section>
     <div class="form-field">
@@ -160,7 +162,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Textarea
+### Textarea
 
 <section>
     <div class="form-field">
@@ -182,7 +184,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Radio
+### Radio
 
 <section>
     <div class="form-field">
@@ -214,7 +216,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Checkbox
+### Checkbox
 
 <section>
     <div class="form-field">
@@ -238,9 +240,9 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Select
+### Select
 
-### Dropdown select
+#### Dropdown select
 
 <section>
     <div class="form-field">
@@ -282,7 +284,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-### Multiple select
+#### Multiple select
 
 <section>
     <div class="form-field">
