@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Tooltip
+{{< heading text="Tooltip" sub-text="To display extra information about the specifically item" >}}
+
+## Usage
+
+Add `tooltip` class in inline (block) element.
 
 <p>Lorem ipsum dolor sit amet, <span class="tooltip">consectetur eiusmod tem<span class="tooltip-body">This is tooltip</span></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </p>

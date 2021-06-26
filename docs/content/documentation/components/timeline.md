@@ -6,9 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Timeline
+{{< heading text="Timeline" sub-text="The presentation of a chronological sequence of events that enables a user to understand temporal relationships quickly" >}}
 
 ## Usage
+
+Add `timeline` class in `<ul>` tag. The content in `<li>` tag can be anything. Add `active` class to current `<li>` tag.
 
 ``` html
 <ul class="timeline">
@@ -24,7 +26,9 @@ table_of_contents: true
 </ul>
 ```
 
-## Example
+## Content
+
+### Card as content
 
 <section>
     <ul class="timeline">
@@ -105,6 +109,98 @@ table_of_contents: true
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
+        </li>
+    </ul>
+</section>
+```
+
+### Accordion as content
+
+<section>
+    <ul class="timeline">
+        <li>
+            <details class="accordion margin-medium margin-remove-vertical">
+                <summary class="accordion-header">
+                    <strong>Title 1</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li class="active">
+            <details class="accordion margin-medium margin-remove-vertical" open>
+                <summary class="accordion-header">
+                    <strong>Title 2</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details class="accordion margin-medium margin-remove-vertical">
+                <summary class="accordion-header">
+                    <strong>Title 1</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
+        </li>
+    </ul>
+</section>
+
+``` html
+<section>
+    <ul class="timeline">
+        <li>
+            <details class="accordion margin-medium margin-remove-vertical">
+                <summary class="accordion-header">
+                    <strong>Title 1</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li class="active">
+            <details class="accordion margin-medium margin-remove-vertical" open>
+                <summary class="accordion-header">
+                    <strong>Title 2</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details class="accordion margin-medium margin-remove-vertical">
+                <summary class="accordion-header">
+                    <strong>Title 1</strong>
+                </summary>
+                <div class="accordion-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </details>
         </li>
     </ul>
 </section>

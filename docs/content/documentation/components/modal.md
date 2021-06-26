@@ -84,7 +84,11 @@ table_of_contents: true
         <div class="modal-overlay"></div>
         <div class="modal-dialog">
             <div class="text-right">
-                <a href="{{< permalink >}}#close" title="Close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" title="Close" class="inline-block">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -101,7 +105,11 @@ table_of_contents: true
         <div class="modal-overlay"></div>
         <div class="modal-dialog">
             <div class="text-right">
-                <a href="#close" title="Close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" title="Close" class="inline-block">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -118,7 +126,11 @@ table_of_contents: true
         <div class="modal-overlay"></div>
         <div class="modal-dialog position-center">
             <div class="text-right">
-                <a href="{{< permalink >}}#close" title="Close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" title="Close" class="inline-block">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -135,7 +147,11 @@ table_of_contents: true
         <div class="modal-overlay"></div>
         <div class="modal-dialog position-center">
             <div class="text-right">
-                <a href="#close" title="Close" class="inline-block"><span class="gg-close"></span></a>
+                <a href="{{< permalink >}}#close" title="Close" class="inline-block">
+                    <svg class="icon">
+                        <use xlink:href="icons/graff-icons.svg#close" />
+                    </svg>
+                </a>
             </div>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
