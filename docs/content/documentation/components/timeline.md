@@ -14,15 +14,9 @@ Add `timeline` class in `<ul>` tag. The content in `<li>` tag can be anything. A
 
 ``` html
 <ul class="timeline">
-    <li>
-        // Your content
-    </li>
-    <li class="active">
-        // Your content
-    </li>
-    <li>
-        // Your content
-    </li>
+    <li></li>
+    <li class="active"></li>
+    <li></li>
 </ul>
 ```
 
