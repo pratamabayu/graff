@@ -3,12 +3,12 @@ title: "Form"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Components"]
-categories_weight: 2
+table_of_contents: true
 ---
 
 # Form
 
-### Usage
+## Usage
 
 <section>
     <div class="form-field">
@@ -122,9 +122,9 @@ categories_weight: 2
 </section>
 ```
 
-### Form <small>horizontal</small>
+## Form - horizontal
 
-##### Left aligned
+### Left aligned
 
 <section>
     <div class="form-field form-field-horizontal flex-column@m">
@@ -294,7 +294,7 @@ categories_weight: 2
 </section>
 ```
 
-##### Right aligned
+### Right aligned
 
 <section>
     <div class="form-field form-field-horizontal flex-column@m">
@@ -464,9 +464,9 @@ categories_weight: 2
 </section>
 ```
 
-### Input
+## Input
 
-##### Text
+### Text
 
 <section>
     <div class="form-field">
@@ -488,7 +488,7 @@ categories_weight: 2
 </section>
 ```
 
-##### Email
+### Email
 
 <section>
     <div class="form-field">
@@ -510,7 +510,7 @@ categories_weight: 2
 </section>
 ```
 
-##### Password
+### Password
 
 <section>
     <div class="form-field">
@@ -532,7 +532,7 @@ categories_weight: 2
 </section>
 ```
 
-##### File
+### File
 
 <section>
     <div class="form-field">
@@ -554,9 +554,9 @@ categories_weight: 2
 </section>
 ```
 
-### Select
+## Select
 
-##### Dropdown select
+### Dropdown select
 
 <section>
     <div class="form-field">
@@ -598,7 +598,7 @@ categories_weight: 2
 </section>
 ```
 
-##### Multiple select
+### Multiple select
 
 <section>
     <div class="form-field">
@@ -640,9 +640,9 @@ categories_weight: 2
 </section>
 ```
 
-### State
+## State
 
-##### Disabled
+### Disabled
 
 <section>
     <div class="form-field">
@@ -736,7 +736,7 @@ categories_weight: 2
 </section>
 ```
 
-##### Readonly
+### Readonly
 
 <section>
     <div class="form-field">
@@ -788,7 +788,7 @@ categories_weight: 2
 </section>
 ```
 
-###### Required
+### Required
 
 <section>
     <div class="form-field">
@@ -812,7 +812,7 @@ categories_weight: 2
 </section>
 ```
 
-###### Invalid
+### Invalid
 
 <section>
     <div class="form-field">

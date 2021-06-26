@@ -3,7 +3,6 @@ title: "Icon"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Components"]
-categories_weight: 2
 table_of_contents: true
 ---
 
@@ -60,6 +59,7 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="zoom-out" >}}
     {{< symbol name="plus" >}}
     {{< symbol name="minus" >}}
+    {{< symbol name="readme" >}}
     {{< symbol name="share" >}}
     {{< symbol name="send" >}}
     {{< symbol name="comment" >}}
@@ -102,6 +102,9 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="sun" >}}
     {{< symbol name="moon" >}}
     {{< symbol name="bell" >}}
+    {{< symbol name="heart" >}}
+    {{< symbol name="home" >}}
+    {{< symbol name="user" >}}
     {{< symbol name="printer" >}}
     {{< symbol name="mail" >}}
     {{< symbol name="phone" >}}
@@ -116,6 +119,7 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="qr" >}}
     {{< symbol name="trash" >}}
     {{< symbol name="globe" >}}
+    {{< symbol name="support" >}}
 </section>
 
 ## Appearance
