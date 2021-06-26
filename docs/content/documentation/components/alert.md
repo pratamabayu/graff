@@ -6,36 +6,58 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Alert
+{{< heading text="Alert" sub-text="Displays a specified message" >}}
+
+## Usage
+
+Add `alert` class in `<div>` tag.
+
+<section>
+    <div class="alert">
+        This is alert
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="alert">
+        This is alert
+    </div>
+</section>
+```
+
+## Appearance
+
+Alert contains four styles to display messages, there are `alert-info`, `alert-success`, `alert-error`, and `alert-warning` classes.
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <div class="alert alert-info">
-        Alert info ...
+        This is info alert
     </div>
     <div class="alert alert-success">
-        Alert success ...
+        This is success alert
     </div>
     <div class="alert alert-error">
-        Alert danger ...
+        This is error alert
     </div>
     <div class="alert alert-warning">
-        Alert warning ...
+        This is warning alert
     </div>
 </section>
 
 ``` html
 <section class="flex flex-column justify-content-start row-gap-small">
     <div class="alert alert-info">
-        Alert info ...
+        This is info alert
     </div>
     <div class="alert alert-success">
-        Alert success ...
+        This is success alert
     </div>
     <div class="alert alert-error">
-        Alert danger ...
+        This is error alert
     </div>
     <div class="alert alert-warning">
-        Alert warning ...
+        This is warning alert
     </div>
 </section>
 ```

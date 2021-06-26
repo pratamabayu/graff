@@ -6,7 +6,13 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Breadcrumb
+{{< heading text="Breadcrumb" sub-text="Allows users to keep track and maintain awareness of their locations" >}}
+
+## Usage
+
+Add `breadcrumb` class to `<ul>` tag.
+
+## Example
 
 <div>
     <ul class="breadcrumb">

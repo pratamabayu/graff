@@ -6,9 +6,13 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Background
+{{< heading text="Background" sub-text="What's behind something" >}}
 
-### Example
+## Usage
+
+Add `background-*` and its combination class to block tag. A background can be a color or an image.
+
+## Background by color
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-color-background width-1/1 height-medium"></div>
@@ -21,6 +25,10 @@ table_of_contents: true
     <div class="background-color-primary width-1/1 height-medium"></div>
 </section>
 ```
+
+## Background by image
+
+### Size
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-contain background-no-repeat width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
@@ -42,6 +50,8 @@ table_of_contents: true
 </section>
 ```
 
+### Position
+
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-cover background-left-top width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Left top</h4>
@@ -61,6 +71,8 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+### Attachment
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-fixed width-1/1 height-medium" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)"></div>

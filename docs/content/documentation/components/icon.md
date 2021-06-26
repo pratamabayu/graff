@@ -79,7 +79,7 @@ Replace ```symbol-name``` with a preferred symbol name.
     {{< symbol name="layout-list" >}}
     {{< symbol name="minimize" >}}
     {{< symbol name="maximize" >}}
-    {{< symbol name="power" >}}
+    {{< symbol name="log-off" >}}
     {{< symbol name="thumbs-up" >}}
     {{< symbol name="thumbs-down" >}}
     {{< symbol name="download" >}}
