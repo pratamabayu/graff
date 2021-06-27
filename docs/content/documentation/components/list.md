@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# List
+{{< heading text="List" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Use `<ul>` tag for unordered list and `<ol>` tag for ordered list.
 
 <section class="flex justify-content-start column-gap-small">
     <ul>
@@ -39,6 +43,8 @@ table_of_contents: true
     </ul>
 </section>
 ```
+
+To change pointer style of list, add `list-style-*` class to `<ul>` tag.
 
 <section class="flex justify-content-start column-gap-small">
     <ul class="list-style-none">
@@ -84,13 +90,41 @@ table_of_contents: true
 </section>
 ```
 
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+## Appearance
+
+To change appearance, add `list` class to `<ul>` or `<ol>` tag.
+
+### Style
+
+#### Divider
+
+Add `list-divider` class to tag where `list` class is located.
+
+<section>
     <ul class="list list-style-none list-divider">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
         <li>Item 4</li>
     </ul>
+</section>
+
+``` html
+<section>
+    <ul class="list list-style-none list-divider">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</section>
+```
+
+#### Striped
+
+Add `list-striped` class to tag where `list` class is located.
+
+<section>
     <ul class="list list-style-none list-striped">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -100,13 +134,6 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
-    <ul class="list list-style-none list-divider">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ul>
     <ul class="list list-style-none list-striped">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -115,6 +142,10 @@ table_of_contents: true
     </ul>
 </section>
 ```
+
+### Size
+
+Add `list-larger` or `list-smaller` class where `list` class is located.
 
 <section class="grid grid-2-columns grid-1-columns@m column-gap-small">
     <ul class="list list-style-none list-striped list-larger">

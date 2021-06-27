@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Heading
+{{< heading text="Heading" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Semantically, set heading with `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` tag.
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <h1>Heading 1</h1>
@@ -15,7 +19,7 @@ table_of_contents: true
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-</div>
+</section>
 
 ``` html
 <section class="flex flex-column justify-content-start row-gap-small">
@@ -25,25 +29,79 @@ table_of_contents: true
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-</div>
+</section>
 ```
 
+furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and `sub-title` class to block element like `<div>` tag.
+
+<section class="flex flex-column justify-content-start row-gap-small">
+    <div class="heading">Heading</div>
+    <div class="sub-heading">Sub Heading</div>
+    <div class="title">Title</div>
+    <div class="sub-title">Sub Title</div>
+</section>
+
+``` html
+<section class="flex flex-column justify-content-start row-gap-small">
+    <div class="heading">Heading</div>
+    <div class="sub-heading">Sub Heading</div>
+    <div class="title">Title</div>
+    <div class="sub-title">Sub Title</div>
+</section>
+```
+
+## Appearance
+
+### With inline smaller heading
+
 <section class="flex flex-column justify-content-start row-gap-small">
     <h1>Heading 1 <small>small</small></h1>
     <h2>Heading 2 <small>small</small></h2>
     <h3>Heading 3 <small>small</small></h3>
-    <h4>Heading 4 <small>small</small></h4>
-    <h5>Heading 5 <small>small</small></h5>
-    <h6>Heading 6 <small>small</small></h6>
-</div>
+</section>
 
 ``` html
 <section class="flex flex-column justify-content-start row-gap-small">
     <h1>Heading 1 <small>small</small></h1>
     <h2>Heading 2 <small>small</small></h2>
     <h3>Heading 3 <small>small</small></h3>
-    <h4>Heading 4 <small>small</small></h4>
-    <h5>Heading 5 <small>small</small></h5>
-    <h6>Heading 6 <small>small</small></h6>
-</div>
+</section>
+```
+
+### With inline icon
+
+<section class="flex flex-column justify-content-start row-gap-small">
+    <h1>
+        <span>
+            <svg class="icon">
+                <use xlink:href="icons/graff-icons.svg#link" />
+            </svg>
+        </span>Heading 1
+    </h1>
+    <h2>
+        <span>
+            <svg class="icon">
+                <use xlink:href="icons/graff-icons.svg#link" />
+            </svg>
+        </span>Heading 2
+    </h2>
+</section>
+
+``` html
+<section class="flex flex-column justify-content-start row-gap-small">
+    <h1>
+        <span>
+            <svg class="icon">
+                <use xlink:href="icons/graff-icons.svg#link" />
+            </svg>
+        </span>Heading 1
+    </h1>
+    <h2>
+        <span>
+            <svg class="icon">
+                <use xlink:href="icons/graff-icons.svg#link" />
+            </svg>
+        </span>Heading 2
+    </h2>
+</section>
 ```

@@ -89,10 +89,19 @@ $color-link: $color-primary;
   --font-family-heading: var(--font-family);
   --font-family-code: "Ubuntu Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   --font-family-blockquote: var(--font-family);
+  --font-family-drop-cap: var(--font-family);
 
+  --font-size-xsmall: .5rem;
+  --font-size-small: .75rem;
   --font-size: 16px;
-  --font-size-xsmall: .4rem;
-  --font-size-small: .7rem;
-  --font-size-large: 1.2rem;
-  --font-size-xlarge: 1.8rem;
+  --font-size-large: 1.25rem;
+  --font-size-2xlarge: 1.5rem;
+  --font-size-3xlarge: 1.75rem;
+  --font-size-4xlarge: 2rem;
+  --font-size-5xlarge: 2.5rem;
+
+  --line-height: 1.5;
+  --line-height-heading: 1.2;
+
+  --heading-space-after: .75rem;
 }

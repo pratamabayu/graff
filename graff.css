@@ -71,11 +71,18 @@ https://github.com/pratamabayu/graff
   --font-family-heading: var(--font-family);
   --font-family-code: "Ubuntu Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   --font-family-blockquote: var(--font-family);
+  --font-family-drop-cap: var(--font-family);
+  --font-size-xsmall: .5rem;
+  --font-size-small: .75rem;
   --font-size: 16px;
-  --font-size-xsmall: .4rem;
-  --font-size-small: .7rem;
-  --font-size-large: 1.2rem;
-  --font-size-xlarge: 1.8rem;
+  --font-size-large: 1.25rem;
+  --font-size-2xlarge: 1.5rem;
+  --font-size-3xlarge: 1.75rem;
+  --font-size-4xlarge: 2rem;
+  --font-size-5xlarge: 2.5rem;
+  --line-height: 1.5;
+  --line-height-heading: 1.2;
+  --heading-space-after: .75rem;
 }
 
 .background-color-primary {
@@ -833,7 +840,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: var(--line-height);
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   color: var(--color-text);
@@ -862,29 +869,35 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2;
-  margin-bottom: 0.75rem;
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--heading-space-after);
   margin-top: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+}
+
 h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-5xlarge);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: var(--font-size-4xlarge);
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: var(--font-size-3xlarge);
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: var(--font-size-2xlarge);
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: var(--font-size-xlarge);
 }
 
 h6 {
@@ -8629,10 +8642,35 @@ img {
   }
 }
 /* Components */
-h1,
-h2,
-h3 {
+.heading,
+.sub-heading,
+.title,
+.sub-title {
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--heading-space-after);
+  font-weight: bolder;
+}
+
+.heading,
+.sub-heading,
+.title {
   font-family: var(--font-family-heading);
+}
+
+.heading {
+  font-size: var(--font-size-5xlarge);
+}
+
+.sub-heading {
+  font-size: var(--font-size-4xlarge);
+}
+
+.title {
+  font-size: var(--font-size-3xlarge);
+}
+
+.sub-title {
+  font-size: var(--font-size-2xlarge);
 }
 
 p.has-drop-cap:first-letter {
@@ -8641,6 +8679,7 @@ p.has-drop-cap:first-letter {
   font-size: 4rem;
   line-height: 80%;
   margin: 0.2em 0.2em 0em 0;
+  font-family: var(--font-family-drop-cap);
 }
 
 :root {

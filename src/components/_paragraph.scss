@@ -4,4 +4,6 @@ p.has-drop-cap:first-letter {
   font-size: 4rem;
   line-height: 80%;
   margin: 0.2em 0.2em 0em 0;
+
+  font-family: var(--font-family-drop-cap);
 }

@@ -6,7 +6,15 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Image
+{{< heading text="Image" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Add url of image at `src` attribute in `<img>` tag.
+
+``` html
+<img src="/images/documentation/breathtaking-mountains-view.jpg" />
+```
 
 <section class="padding-large">
     <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Breathtaking mountains view"/>
@@ -17,6 +25,12 @@ table_of_contents: true
     <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1" title="Breathtaking mountains view"/>
 </section>
 ```
+
+## Appearance
+
+### Border radius
+
+Add `border-radius-*` class to `<img>` tag.
 
 <section class="grid grid-2-columns grid-1-columns@s column-gap-small row-gap-small">
     <div class="padding-large">
@@ -63,6 +77,10 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+### In figure
+
+Sometimes, an image need to display as part of figure in an article, wrap `<img>` tag in `<figure` tag.
 
 <section>
     <figure>

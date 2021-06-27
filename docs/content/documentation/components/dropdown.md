@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Dropdown
+{{< heading text="Dropdown" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section class="flex justify-content-start column-gap-small">
     <span class="position-relative">

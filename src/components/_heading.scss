@@ -1,5 +1,30 @@
-h1,
-h2,
-h3 {
+.heading,
+.sub-heading,
+.title,
+.sub-title {
+  line-height: var(--line-height-heading);
+  margin-bottom: var(--heading-space-after);
+  font-weight: bolder;
+}
+
+.heading,
+.sub-heading,
+.title {
   font-family: var(--font-family-heading);
+}
+
+.heading {
+  font-size: var(--font-size-5xlarge);
+}
+
+.sub-heading {
+  font-size: var(--font-size-4xlarge);
+}
+
+.title {
+  font-size: var(--font-size-3xlarge);
+}
+
+.sub-title {
+  font-size: var(--font-size-2xlarge);
 }
