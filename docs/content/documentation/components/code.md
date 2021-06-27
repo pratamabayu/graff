@@ -6,21 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Code
+{{< heading text="Code" sub-text="Allow user to place code block" >}}
 
 ## Usage
 
-Write your code inside ```<pre><code>``` tag.
-
-```
-<pre>
-    <code>
-        // Your code ...
-    </code>
-</pre>
-```
-
-## Example
+Write your code inside `<pre><code>` tag.
 
 ```
 namespace MyProject

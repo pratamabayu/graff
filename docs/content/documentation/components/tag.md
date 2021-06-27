@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Tag
+{{< heading text="Tag" sub-text="A keyword or term assigned to a piece of information" >}}
+
+## Usage
+
+Add `tag` class in inline (block) element.
 
 <section class="flex justify-content-start column-gap-small">
     <span class="tag">Tag</span>
@@ -18,18 +22,40 @@ table_of_contents: true
 </section>
 ```
 
+## Appearance
+
+### Border radius
+
+Add `border-radius-*` class to inline-block element where `tag` class is located.
+
 <section class="flex justify-content-start column-gap-small">
-    <span class="tag">Crime</span>
     <span class="tag border-radius-xsmall">Thriller</span>
     <span class="tag border-radius-small">Romance</span>
+    <span class="tag border-radius-remove-all">Drama</span>
+</section>
+
+``` html
+<section class="flex justify-content-start column-gap-small">
+    <span class="tag border-radius-xsmall">Thriller</span>
+    <span class="tag border-radius-small">Romance</span>
+    <span class="tag border-radius-remove-all">Drama</span>
+</section>
+```
+
+### When state is active
+
+Add `active` class to inline-block element where `tag` class is located.
+
+<section class="flex justify-content-start column-gap-small">
+    <span class="tag active border-radius-xsmall">Thriller</span>
+    <span class="tag active border-radius-small">Romance</span>
     <span class="tag active border-radius-remove-all">Drama</span>
 </section>
 
 ``` html
 <section class="flex justify-content-start column-gap-small">
-    <span class="tag">Crime</span>
-    <span class="tag border-radius-xsmall">Thriller</span>
-    <span class="tag border-radius-small">Romance</span>
+    <span class="tag active border-radius-xsmall">Thriller</span>
+    <span class="tag active border-radius-small">Romance</span>
     <span class="tag active border-radius-remove-all">Drama</span>
 </section>
 ```

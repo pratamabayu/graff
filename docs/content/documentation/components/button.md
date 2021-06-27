@@ -6,7 +6,33 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Button
+{{< heading text="Button" sub-text="To represent clickable element" >}}
+
+## Usage
+
+Add `button` class to `<button>` tag.
+
+<section>
+    <button class="button">Button</button>
+</section>
+
+``` html
+<button class="button">Button</button>
+```
+
+> `button` class can be add to `<a>` tag
+
+<section>
+    <a href="#" class="button">Button</a>
+</section>
+
+``` html
+<a href="#" class="button">Button</a>
+```
+
+## Appearance
+
+Add `button-default` or `button-primary` class to change appearance of button
 
 <section class="flex justify-content-start column-gap-small">
     <div><button class="button">Button</button></div>
@@ -21,7 +47,6 @@ table_of_contents: true
     <div><button class="button button-default">Button</button></div>
 </section>
 ```
-
 <section class="flex justify-content-start column-gap-small">
     <a class="button">Button</a>
     <a class="button button-primary">Button</a>

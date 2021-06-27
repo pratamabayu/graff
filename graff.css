@@ -8724,16 +8724,22 @@ kbd {
 :root {
   --line-color: var(--color-border-light);
   --line-border-width: var(--border-width-thin);
+  --line-margin: var(--margin-small);
 }
 
 hr,
 .divider {
   border: none;
+}
+
+hr,
+.divider {
+  margin: var(--line-margin) 0;
   border-top: var(--line-border-width) solid var(--line-color);
 }
 
 .divider-vertical {
-  border: none;
+  margin: 0 var(--line-margin);
   border-left: var(--line-border-width) solid var(--line-color);
   width: var(--line-border-width);
 }

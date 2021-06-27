@@ -520,7 +520,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 </section>
 ```
 
-## Layout
+## Orientation
 
 ### Stacked
 

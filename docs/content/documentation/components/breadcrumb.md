@@ -12,8 +12,6 @@ table_of_contents: true
 
 Add `breadcrumb` class to `<ul>` tag.
 
-## Example
-
 <div>
     <ul class="breadcrumb">
         <li><a href="">Item 1</a></li>

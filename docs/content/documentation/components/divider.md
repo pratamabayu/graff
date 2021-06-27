@@ -6,7 +6,17 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Divider
+{{< heading text="Divider" sub-text="Horizontal or vertical rule to break section" >}}
+
+## usage
+
+Add `divider` class to `<div`> tag or just use semantic `<hr/>` tag.
+
+## Orientation
+
+### Horizontal
+
+Horizontal is default orientation.
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <div><hr/></div>
@@ -20,13 +30,19 @@ table_of_contents: true
 </section>
 ```
 
+### Vertical
+
+Add `divider-vertical` and `height-*` class to `<div`> tag where `divider` class is located
+
 <section class="flex justify-content-start column-gap-medium">
-    <div><div class="divider-vertical height-small"></div></div>
-    <div><div class="divider-vertical height-small"></div></div>
+    <div><hr class="divider divider-vertical height-small"/></div>
+    <div><div class="divider divider-vertical height-small"></div></div>
+    <div><div class="divider divider-vertical height-small"></div></div>
 </section>
 
 ``` html
 <section class="flex justify-content-start column-gap-medium">
+    <div><hr class="divider divider-vertical height-small"/></div>
     <div><div class="divider-vertical height-small"></div></div>
     <div><div class="divider-vertical height-small"></div></div>
 </section>
