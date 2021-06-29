@@ -5,4 +5,4 @@ draft: false
 categories: ["Utilities"]
 ---
 
-Utility content
+{{< heading text="Margin" sub-text="Lorem ipsum sit amet dolor" >}}

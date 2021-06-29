@@ -5,4 +5,4 @@ draft: false
 categories: ["Utilities"]
 ---
 
-{{< heading text="Width" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Space" sub-text="Lorem ipsum sit amet dolor" >}}

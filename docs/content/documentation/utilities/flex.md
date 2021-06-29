@@ -5,4 +5,4 @@ draft: false
 categories: ["Utilities"]
 ---
 
-Utility content
+{{< heading text="Flex" sub-text="Lorem ipsum sit amet dolor" >}}
