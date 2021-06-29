@@ -6,15 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Spinner
+{{< heading text="Spinner" sub-text="Lorem ipsum sit amet dolor" >}}
 
-### Usage
+## Usage
 
-``` html
-<div class="spinner"></div>
-```
-
-### Example
+Add `spinner` class to `<div>` tag.
 
 <section class="flex justify-content-start column-gap-small">
     <div class="spinner"></div>

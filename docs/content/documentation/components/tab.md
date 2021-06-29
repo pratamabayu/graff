@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Tab
+{{< heading text="Tab" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section>
     <ul class="tab">

@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Nav
+{{< heading text="Nav" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section class="grid grid-2-columns grid-1-columns@m column-gap-small">
     <ul class="nav">

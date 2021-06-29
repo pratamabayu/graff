@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Off-canvas
+{{< heading text="Off-canvas" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section>
     <a href="{{< permalink >}}#my-off-canvas-1" class="button button-default">Open off-canvas</a>

@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Table
+{{< heading text="Table" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section>
     <table class="table">

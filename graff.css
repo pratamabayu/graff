@@ -8827,45 +8827,40 @@ button:focus {
   white-space: nowrap;
   height: auto;
   line-height: 1rem;
+  vertical-align: middle;
 }
-
-a.button:hover {
-  text-decoration: none;
-}
-
 .button.button-primary {
   color: var(--button-primary-text-color) !important;
   background: var(--button-primary-background) !important;
   border: var(--button-border-width) solid var(--button-primary-border-color) !important;
   border-radius: var(--button-border-radius);
 }
-
 .button.button-primary:hover {
   color: var(--button-primary-text-color) !important;
   border: var(--button-border-width) solid var(--button-primary-hover-border-color) !important;
   background: var(--button-primary-hover-background) !important;
 }
-
 .button.button-default {
   color: var(--button-default-text-color) !important;
   border: var(--button-border-width) solid var(--button-default-border-color) !important;
   border-radius: var(--button-border-radius);
   background: transparent;
 }
-
 .button.button-default:hover {
   color: var(--button-default-hover-text-color) !important;
   border: var(--button-border-width) solid var(--button-default-hover-border-color) !important;
 }
-
 .button:not(.button-primary):not(.button-default) {
   color: var(--button-default-text-color) !important;
   background: transparent;
   font-weight: bolder;
 }
-
-.button:hover:not(.button-primary):not(.button-default) {
+.button:not(.button-primary):not(.button-default):hover {
   color: var(--button-default-hover-text-color) !important;
+}
+
+a.button:hover {
+  text-decoration: none;
 }
 
 .button-group > .button {
@@ -9055,7 +9050,7 @@ html[data-theme=dark] .alert.alert-warning {
 :root {
   --badge-padding: var(--padding-2xsmall);
   --badge-border-radius: var(--border-radius-2xsmall);
-  --badge-font-size: 11px;
+  --badge-font-size: .6875rem;
   --badge-as-empty-size: 8px;
   --badge-box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }

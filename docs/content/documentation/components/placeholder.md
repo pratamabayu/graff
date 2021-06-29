@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Placeholder
+{{< heading text="Placeholder" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Add `placeholder` class to `<div>` tag.
 
 <div>
     <div class="placeholder"><span>Drop here ...</span></div>

@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Navbar
+{{< heading text="Navbar" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section>
     <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall">

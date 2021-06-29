@@ -6,9 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Stepper
+{{< heading text="Stepper" sub-text="Lorem ipsum sit amet dolor" >}}
 
-### Usage
+## Usage
 
 ``` html
 <ul class="stepper stepper-cycle stepper-steps-4">
@@ -18,7 +18,7 @@ table_of_contents: true
 </ul>
 ```
 
-### Example
+## Example
 
 <section>
     <ul class="stepper stepper-cycle stepper-steps-4">

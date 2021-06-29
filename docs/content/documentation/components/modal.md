@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Modal
+{{< heading text="Modal" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <section>
     <a href="{{< permalink >}}#my-modal1" class="button button-default">Open modal</a>

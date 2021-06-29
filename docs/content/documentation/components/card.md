@@ -6,7 +6,9 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Card
+{{< heading text="Card" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
 
 <div class="card card-default">
     <div class="card-header">

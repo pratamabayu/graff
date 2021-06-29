@@ -6,7 +6,11 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-# Progress
+{{< heading text="Progress" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Semantically, add `<p>` tag and set value in`value` attribute.
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <progress value=".25" class="width-1/1"></progress>
@@ -21,6 +25,8 @@ table_of_contents: true
     <progress value=".75" class="width-1/1"></progress>
 </section>
 ```
+
+furthermore, hierarchically, add `progress`, `progress-bar`, and `progress-value` class to `<div>`. Then set value in `style` attribute use `width` variable in `%`.
 
 <section class="flex flex-column justify-content-start row-gap-small">
     <div class="progress">
@@ -59,6 +65,8 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+Add interdeterminate state in `<progress>` tag without set `value `attribute.
 
 <section>
     <progress max="100" class="width-1/1"></progress>
