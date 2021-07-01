@@ -68,37 +68,37 @@ $align-content-data: (
   }
 
   @each $items-key, $items-value in $justify-items-data {
-    .justify-items-#{$items-key}#{$breakpoint-suffix} {
+    .flex-justify-items-#{$items-key}#{$breakpoint-suffix} {
       justify-items: $items-value;
     }
   }
 
   @each $items-key, $items-value in $align-items-data {
-    .align-items-#{$items-key}#{$breakpoint-suffix} {
+    .flex-align-items-#{$items-key}#{$breakpoint-suffix} {
       align-items: $items-value;
     }
   }
 
   @each $self-key, $self-value in $justify-self-data {
-    .justify-self-#{$self-key}#{$breakpoint-suffix} {
+    .flex-justify-self-#{$self-key}#{$breakpoint-suffix} {
       justify-self: $self-value;
     }
   }
 
   @each $self-key, $self-value in $align-self-data {
-    .align-self-#{$self-key}#{$breakpoint-suffix} {
+    .flex-align-self-#{$self-key}#{$breakpoint-suffix} {
       align-self: $self-value;
     }
   }
 
   @each $content-key, $content-value in $justify-content-data {
-    .justify-content-#{$content-key}#{$breakpoint-suffix} {
+    .flex-justify-content-#{$content-key}#{$breakpoint-suffix} {
       justify-content: $content-value;
     }
   }
 
   @each $content-key, $content-value in $align-content-data {
-    .align-content-#{$content-key}#{$breakpoint-suffix} {
+    .flex-align-content-#{$content-key}#{$breakpoint-suffix} {
       align-content: $content-value;
     }
   }
