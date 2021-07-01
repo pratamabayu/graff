@@ -12,7 +12,7 @@ categories: ["Utilities"]
 Add `background-*` class to block element with [height](/documentation/utilities/height), especially with `background-image: url(...)` style.
 
 ``` html
-<div class="background-scroll height-small" style="background-image: url(...)">
+<div class="background-scroll height-small" style="background-image: url()">
     <!-- Your content ->
 </div>
 ```
