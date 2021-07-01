@@ -1,3 +1,51 @@
+$justify-items-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (stretch, stretch)
+) !default;
+
+$align-items-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (baseline, baseline),
+  (stretch, stretch)
+) !default;
+
+$justify-self-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (stretch, stretch)
+) !default;
+
+$align-self-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (baseline, baseline),
+  (stretch, stretch)
+) !default;
+
+$justify-content-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (between, space-between),
+  (around, space-around),
+  (evenly, space-evenly)
+) !default;
+
+$align-content-data: (
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (between, space-between),
+  (around, space-around),
+  (stretch, stretch)
+) !default;
+
 @include with-breakpoints() using ($breakpoint-suffix) {
   .flex#{$breakpoint-suffix} {
     display: flex;
@@ -16,6 +64,42 @@
   @each $wrap in (wrap, wrap-reverse, nowrap) {
     .flex-#{$wrap}#{$breakpoint-suffix} {
       flex-wrap: $wrap;
+    }
+  }
+
+  @each $items-key, $items-value in $justify-items-data {
+    .justify-items-#{$items-key}#{$breakpoint-suffix} {
+      justify-items: $items-value;
+    }
+  }
+
+  @each $items-key, $items-value in $align-items-data {
+    .align-items-#{$items-key}#{$breakpoint-suffix} {
+      align-items: $items-value;
+    }
+  }
+
+  @each $self-key, $self-value in $justify-self-data {
+    .justify-self-#{$self-key}#{$breakpoint-suffix} {
+      justify-self: $self-value;
+    }
+  }
+
+  @each $self-key, $self-value in $align-self-data {
+    .align-self-#{$self-key}#{$breakpoint-suffix} {
+      align-self: $self-value;
+    }
+  }
+
+  @each $content-key, $content-value in $justify-content-data {
+    .justify-content-#{$content-key}#{$breakpoint-suffix} {
+      justify-content: $content-value;
+    }
+  }
+
+  @each $content-key, $content-value in $align-content-data {
+    .align-content-#{$content-key}#{$breakpoint-suffix} {
+      align-content: $content-value;
     }
   }
 }

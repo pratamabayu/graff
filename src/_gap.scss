@@ -1,0 +1,23 @@
+@include with-breakpoints() using ($breakpoint-suffix) {
+  .gap-small#{$breakpoint-suffix} {
+    gap: var(--gap-small);
+  }
+  .gap-medium#{$breakpoint-suffix} {
+    gap: var(--gap-medium);
+  }
+  .gap-large#{$breakpoint-suffix} {
+    gap: var(--gap-large);
+  }
+
+  @each $direction in (row, column) {
+    .gap-#{$direction}-small#{$breakpoint-suffix} {
+      #{$direction}-gap: var(--gap-small);
+    }
+    .gap-#{$direction}-medium#{$breakpoint-suffix} {
+      #{$direction}-gap: var(--gap-medium);
+    }
+    .gap-#{$direction}-large#{$breakpoint-suffix} {
+      #{$direction}-gap: var(--gap-large);
+    }
+  }
+}

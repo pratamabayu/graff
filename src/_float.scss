@@ -5,12 +5,12 @@
     }
   }
 
-  .clearfix#{$breakpoint-suffix}:before,
-  .clearfix#{$breakpoint-suffix}:after {
+  .float-clear-both#{$breakpoint-suffix}:before,
+  .float-clear-both#{$breakpoint-suffix}:after {
     content: " ";
     display: table;
   }
-  .clearfix#{$breakpoint-suffix}:after {
+  .float-clear-both#{$breakpoint-suffix}:after {
     clear: both;
   }
 }
