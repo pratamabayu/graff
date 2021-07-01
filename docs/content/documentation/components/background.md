@@ -31,20 +31,20 @@ Add `background-*` and its combination class to block tag. A background can be a
 ### Size
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-contain background-no-repeat width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-contain background-no-repeat width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Contain</h4>
     </div>
-    <div class="background-cover width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Cover</h4>
     </div>
 </section>
 
 ``` html
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-contain background-no-repeat width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-contain background-no-repeat width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Contain</h4>
     </div>
-    <div class="background-cover width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Cover</h4>
     </div>
 </section>
@@ -53,20 +53,20 @@ Add `background-*` and its combination class to block tag. A background can be a
 ### Position
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-cover background-left-top width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover background-left-top width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Left top</h4>
     </div>
-    <div class="background-cover background-right-top width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover background-right-top width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Right top</h4>
     </div>
 </section>
 
 ``` html
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-cover background-left-top width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover background-left-top width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Left top</h4>
     </div>
-    <div class="background-cover background-right-top width-1/1 height-medium flex align-items-center justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+    <div class="background-cover background-right-top width-1/1 height-medium flex flex-align-items-center flex-justify-content-center" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
         <h4 class="color-light">Right top</h4>
     </div>
 </section>

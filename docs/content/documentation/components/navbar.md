@@ -11,7 +11,7 @@ table_of_contents: true
 ## Usage
 
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -29,7 +29,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -47,7 +47,7 @@ table_of_contents: true
 ```
 
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-dark border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-dark border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -65,7 +65,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-dark border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-dark border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -83,7 +83,7 @@ table_of_contents: true
 ```
 
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light navbar-pills border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light navbar-pills border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -101,7 +101,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light navbar-pills border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light navbar-pills border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -119,7 +119,7 @@ table_of_contents: true
 ```
 
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-dark navbar-pills border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-dark navbar-pills border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -137,7 +137,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-dark navbar-pills border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-dark navbar-pills border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -155,7 +155,7 @@ table_of_contents: true
 ```
 
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>
@@ -183,7 +183,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <nav class="flex align-items-center justify-content-between navbar navbar-light border-radius-2xsmall">
+    <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
                 <li><a href="#">Home</a></li>

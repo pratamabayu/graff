@@ -18,13 +18,13 @@ Add `divider` class to `<div`> tag or just use semantic `<hr/>` tag.
 
 Horizontal is default orientation.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div><hr/></div>
     <div><div class="divider"></div></div>
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div><hr/></div>
     <div><div class="divider"></div></div>
 </section>
@@ -34,14 +34,14 @@ Horizontal is default orientation.
 
 Add `divider-vertical` and `height-*` class to `<div`> tag where `divider` class is located
 
-<section class="flex justify-content-start column-gap-medium">
+<section class="flex flex-justify-content-start gap-column-medium">
     <div><hr class="divider divider-vertical height-small"/></div>
     <div><div class="divider divider-vertical height-small"></div></div>
     <div><div class="divider divider-vertical height-small"></div></div>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-medium">
+<section class="flex flex-justify-content-start gap-column-medium">
     <div><hr class="divider divider-vertical height-small"/></div>
     <div><div class="divider-vertical height-small"></div></div>
     <div><div class="divider-vertical height-small"></div></div>

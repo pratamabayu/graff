@@ -12,7 +12,7 @@ table_of_contents: true
 
 Use `<ul>` tag for unordered list and `<ol>` tag for ordered list.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -28,7 +28,7 @@ Use `<ul>` tag for unordered list and `<ol>` tag for ordered list.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -46,7 +46,7 @@ Use `<ul>` tag for unordered list and `<ol>` tag for ordered list.
 
 To change pointer style of list, add `list-style-*` class to `<ul>` tag.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <ul class="list-style-none">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -68,7 +68,7 @@ To change pointer style of list, add `list-style-*` class to `<ul>` tag.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <ul class="list-style-none">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -147,7 +147,7 @@ Add `list-striped` class to tag where `list` class is located.
 
 Add `list-larger` or `list-smaller` class where `list` class is located.
 
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="list list-style-none list-striped list-larger">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -163,7 +163,7 @@ Add `list-larger` or `list-smaller` class where `list` class is located.
 </section>
 
 ``` html
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="list list-style-none list-striped list-larger">
         <li>Item 1</li>
         <li>Item 2</li>

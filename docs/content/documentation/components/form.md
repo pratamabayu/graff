@@ -189,7 +189,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 <section>
     <div class="form-field">
         <label class="form-label">Already subscribe us?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input"/>Yes
             </label>
@@ -204,7 +204,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
 <section>
     <div class="form-field">
         <label class="form-label">Already subscribe us?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input"/>Yes
             </label>
@@ -348,7 +348,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     </div>
     <div class="form-field">
         <label class="form-label">Your favorite outfit?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input" disabled/>Jacket
             </label>
@@ -394,7 +394,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     </div>
     <div class="form-field">
         <label class="form-label">Your favorite outfit?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input" disabled/>Jacket
             </label>
@@ -549,7 +549,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     </div>
     <div class="form-field">
         <label class="form-label">Already subscribe us?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input"/>Yes
             </label>
@@ -605,7 +605,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     </div>
     <div class="form-field">
         <label class="form-label">Already subscribe us?</label>
-        <div class="form-control flex flex-row column-gap-small">
+        <div class="form-control flex flex-row gap-column-small">
             <label class="form-inline">
                 <input type="radio" name="subscribed" class="form-input"/>Yes
             </label>
@@ -684,7 +684,7 @@ To transform field to horizontal align, add `form-field-horizontal` class in `<d
             <label class="form-label">Already subscribe us? let's watch our latest videos</label>
         </div>
         <div class="form-field-body">
-            <div class="form-control flex flex-row column-gap-small">
+            <div class="form-control flex flex-row gap-column-small">
                 <label class="form-inline">
                     <input type="radio" name="subscribed" class="form-input"/>Yes
                 </label>
@@ -768,7 +768,7 @@ To transform field to horizontal align, add `form-field-horizontal` class in `<d
             <label class="form-label">Already subscribe us? let's watch our latest videos</label>
         </div>
         <div class="form-field-body">
-            <div class="form-control flex flex-row column-gap-small">
+            <div class="form-control flex flex-row gap-column-small">
                 <label class="form-inline">
                     <input type="radio" name="subscribed" class="form-input"/>Yes
                 </label>
@@ -856,7 +856,7 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
             <label class="form-label">Already subscribe us? let's watch our latest videos</label>
         </div>
         <div class="form-field-body">
-            <div class="form-control flex flex-row column-gap-small">
+            <div class="form-control flex flex-row gap-column-small">
                 <label class="form-inline">
                     <input type="radio" name="subscribed" class="form-input"/>Yes
                 </label>
@@ -940,7 +940,7 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
             <label class="form-label">Already subscribe us? let's watch our latest videos</label>
         </div>
         <div class="form-field-body">
-            <div class="form-control flex flex-row column-gap-small">
+            <div class="form-control flex flex-row gap-column-small">
                 <label class="form-inline">
                     <input type="radio" name="subscribed" class="form-input"/>Yes
                 </label>

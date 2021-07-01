@@ -437,28 +437,12 @@ https://github.com/pratamabayu/graff
   background-color: var(--color-background-dark) !important;
 }
 
-.background-color-background-light, color-background-light {
-  background-color: var(--background-color-link, color-link) !important;
+.background-color-background-light {
+  background-color: var(--color-background-light) !important;
 }
 
-.background-color-background-light, color-background-light\@hover:hover {
-  background-color: var(--background-color-link, color-link) !important;
-}
-
-.background-color-link-dark {
-  background-color: var(--color-link-dark) !important;
-}
-
-.background-color-link-dark\@hover:hover {
-  background-color: var(--color-link-dark) !important;
-}
-
-.background-color-link-light {
-  background-color: var(--color-link-light) !important;
-}
-
-.background-color-link-light\@hover:hover {
-  background-color: var(--color-link-light) !important;
+.background-color-background-light\@hover:hover {
+  background-color: var(--color-background-light) !important;
 }
 
 .color-text {
@@ -523,30 +507,6 @@ https://github.com/pratamabayu/graff
 
 .border-color-border-light\@hover:hover {
   border-color: var(--color-border-light) !important;
-}
-
-.border-color-link {
-  border-color: var(--color-link) !important;
-}
-
-.border-color-link\@hover:hover {
-  border-color: var(--color-link) !important;
-}
-
-.border-color-link-dark {
-  border-color: var(--color-link-dark) !important;
-}
-
-.border-color-link-dark\@hover:hover {
-  border-color: var(--color-link-dark) !important;
-}
-
-.border-color-link-light {
-  border-color: var(--color-link-light) !important;
-}
-
-.border-color-link-light\@hover:hover {
-  border-color: var(--color-link-light) !important;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

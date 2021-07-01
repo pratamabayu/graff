@@ -34,27 +34,27 @@ Add `button` class to `<button>` tag.
 
 Add `button-default` or `button-primary` class to change appearance of button
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div><button class="button">Button</button></div>
     <div><button class="button button-primary">Button</button></div>
     <div><button class="button button-default">Button</button></div>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div><button class="button">Button</button></div>
     <div><button class="button button-primary">Button</button></div>
     <div><button class="button button-default">Button</button></div>
 </section>
 ```
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <a class="button">Button</a>
     <a class="button button-primary">Button</a>
     <a class="button button-default">Button</a>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <a class="button">Button</a>
     <a class="button button-primary">Button</a>
     <a class="button button-default">Button</a>

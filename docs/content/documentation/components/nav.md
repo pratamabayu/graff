@@ -10,7 +10,7 @@ table_of_contents: true
 
 ## Usage
 
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
         <li class="nav-header">Header</li>
         <li class="active"><a href="">Item 1</a></li>
@@ -32,7 +32,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
         <li class="nav-header">Header</li>
         <li class="active"><a href="">Item 1</a></li>
@@ -54,7 +54,7 @@ table_of_contents: true
 </section>
 ```
 
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
         <li class="nav-header">Header</li>
         <li>
@@ -88,7 +88,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="grid grid-2-columns grid-1-columns@m column-gap-small">
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
         <li class="nav-header">Header</li>
         <li>

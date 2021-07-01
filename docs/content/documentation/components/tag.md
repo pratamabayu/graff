@@ -12,12 +12,12 @@ table_of_contents: true
 
 Add `tag` class in inline (block) element.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag">Tag</span>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag">Tag</span>
 </section>
 ```
@@ -28,14 +28,14 @@ Add `tag` class in inline (block) element.
 
 Add `border-radius-*` class to inline-block element where `tag` class is located.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag border-radius-xsmall">Thriller</span>
     <span class="tag border-radius-small">Romance</span>
     <span class="tag border-radius-remove-all">Drama</span>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag border-radius-xsmall">Thriller</span>
     <span class="tag border-radius-small">Romance</span>
     <span class="tag border-radius-remove-all">Drama</span>
@@ -46,14 +46,14 @@ Add `border-radius-*` class to inline-block element where `tag` class is located
 
 Add `active` class to inline-block element where `tag` class is located.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag active border-radius-xsmall">Thriller</span>
     <span class="tag active border-radius-small">Romance</span>
     <span class="tag active border-radius-remove-all">Drama</span>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="tag active border-radius-xsmall">Thriller</span>
     <span class="tag active border-radius-small">Romance</span>
     <span class="tag active border-radius-remove-all">Drama</span>

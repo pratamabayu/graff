@@ -67,7 +67,7 @@ Add `active` class to `<li>` tag.
 Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/documentation/utilities/flex).
 
 <div>
-    <ul class="pagination flex justify-content-center">
+    <ul class="pagination flex flex-justify-content-center">
         <li><a href="">Previous</a></li>
         <li><a href="">1</a></li>
         <li><a href="">2</a></li>
@@ -78,7 +78,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
 
 ``` html
 <div>
-    <ul class="pagination flex justify-content-center">
+    <ul class="pagination flex flex-justify-content-center">
         <li><a href="">Previous</a></li>
         <li><a href="">1</a></li>
         <li><a href="">2</a></li>
@@ -89,7 +89,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
 ```
 
 <div>
-    <ul class="pagination flex justify-content-end">
+    <ul class="pagination flex flex-justify-content-end">
         <li><a href="">Previous</a></li>
         <li><a href="">1</a></li>
         <li><a href="">2</a></li>
@@ -100,7 +100,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
 
 ``` html
 <div>
-    <ul class="pagination flex justify-content-end">
+    <ul class="pagination flex flex-justify-content-end">
         <li><a href="">Previous</a></li>
         <li><a href="">1</a></li>
         <li><a href="">2</a></li>
@@ -111,7 +111,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
 ```
 
 <div>
-    <ul class="pagination flex justify-content-between">
+    <ul class="pagination flex flex-justify-content-between">
         <li><a href="">Previous</a></li>
         <li><a href="">Next</a></li>
     </ul>
@@ -119,7 +119,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
 
 ``` html
 <div>
-    <ul class="pagination flex justify-content-between">
+    <ul class="pagination flex flex-justify-content-between">
         <li><a href="">Previous</a></li>
         <li><a href="">Next</a></li>
     </ul>

@@ -128,7 +128,7 @@ Replace ```symbol-name``` with a preferred symbol name.
 
 Use ```--icon-scale``` variable to scale the icons. To scale globally, set up in ```:root``` selector.
 
-<section class="flex align-items-center justify-content-start gap-medium">
+<section class="flex flex-align-items-center flex-justify-content-start gap-medium">
     <svg class="icon" style="--icon-scale: .5">
         <use xlink:href="icons/graff-icons.svg#sun" />
     </svg>
@@ -147,7 +147,7 @@ Use ```--icon-scale``` variable to scale the icons. To scale globally, set up in
 </section>
 
 ``` html
-<section class="flex align-items-center justify-content-start gap-medium">
+<section class="flex flex-align-items-center flex-justify-content-start gap-medium">
     <svg class="icon" style="--icon-scale: .5">
         <use xlink:href="icons/graff-icons.svg#sun" />
     </svg>
@@ -170,7 +170,7 @@ Use ```--icon-scale``` variable to scale the icons. To scale globally, set up in
 
 Wrap the ```<svg>``` tag in a container, then use ```color-*``` class to style icon.
 
-<section class="flex align-items-center justify-content-start gap-medium">
+<section class="flex flex-align-items-center flex-justify-content-start gap-medium">
     <span class="color-gray">
         <svg class="icon">
             <use xlink:href="icons/graff-icons.svg#sun" />
@@ -184,7 +184,7 @@ Wrap the ```<svg>``` tag in a container, then use ```color-*``` class to style i
 </section>
 
 ``` html
-<section class="flex align-items-center justify-content-start gap-medium">
+<section class="flex flex-align-items-center flex-justify-content-start gap-medium">
     <span class="color-gray">
         <svg class="icon">
             <use xlink:href="icons/graff-icons.svg#sun" />

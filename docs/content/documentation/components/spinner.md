@@ -12,12 +12,12 @@ table_of_contents: true
 
 Add `spinner` class to `<div>` tag.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div class="spinner"></div>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div class="spinner"></div>
 </section>
 ```

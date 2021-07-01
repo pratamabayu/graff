@@ -42,7 +42,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 
 ### Color
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge">Notifications</span>
     <span class="badge badge-info">Notifications</span>
     <span class="badge badge-success">Notifications</span>
@@ -51,7 +51,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge">Notifications</span>
     <span class="badge badge-info">Notifications</span>
     <span class="badge badge-success">Notifications</span>
@@ -60,7 +60,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 </section>
 ```
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge" data-badge="63">Notifications</span>
     <span class="badge badge-info" data-badge="63">Notifications</span>
     <span class="badge badge-success" data-badge="63">Notifications</span>
@@ -69,7 +69,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge" data-badge="63">Notifications</span>
     <span class="badge badge-info" data-badge="63">Notifications</span>
     <span class="badge badge-success" data-badge="63">Notifications</span>
@@ -80,13 +80,13 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 
 ### Position
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge badge-top-left" data-badge="63">Notifications</span>
     <span class="badge badge-success badge-bottom-right" data-badge="63">Notifications</span>
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="badge badge-top-left" data-badge="63">Notifications</span>
     <span class="badge badge-success badge-bottom-right" data-badge="63">Notifications</span>
 </section>
@@ -98,7 +98,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 
 Add `badge-*` class where the `button` class is located.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <button class="button button-primary badge badge-top-right">Inbox</button>
     <button class="button button-primary badge badge-warning badge-bottom-right">Inbox</button>
     <button class="button button-default badge badge-top-right" data-badge="5">Inbox</button>
@@ -106,7 +106,7 @@ Add `badge-*` class where the `button` class is located.
 </section>
 
 ```html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
   <button class="button button-primary badge badge-top-right">Inbox</button>
   <button class="button button-primary badge badge-warning badge-bottom-right">Inbox</button>
   <button class="button button-default badge badge-top-right" data-badge="5">Inbox</button>
@@ -118,7 +118,7 @@ Add `badge-*` class where the `button` class is located.
 
 Add `badge-for-border-radius-1/2` class where the `badge` class is located and add `border-radius-1/2` class to `<img>` tag.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <span class="inline-block badge badge-success badge-top-right badge-for-border-radius-1/2">
             <img src="/images/documentation/happy-daughter.jpg" width="32" height="32"
@@ -134,7 +134,7 @@ Add `badge-for-border-radius-1/2` class where the `badge` class is located and a
 </section>
 
 ```html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <span class="inline-block badge badge-success badge-top-right badge-for-border-radius-1/2">
             <img src="/images/documentation/happy-daughter.jpg" width="32" height="32"

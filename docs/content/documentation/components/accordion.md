@@ -123,8 +123,8 @@ Add `accordion` class on `<details>` tag. Get into it, then add `accordion-heade
 
 <section>
     <details class="accordion" open>
-        <summary class="accordion-header flex align-items-center justify-content-start">
-            <div class="flex align-items-center justify-content-start column-gap-small">
+        <summary class="accordion-header flex flex-align-items-center flex-justify-content-start">
+            <div class="flex flex-align-items-center flex-justify-content-start gap-column-small">
                 <svg class="accordion-toggle icon">
                     <use xlink:href="icons/graff-icons.svg#chevron-right" />
                 </svg>
@@ -143,8 +143,8 @@ Add `accordion` class on `<details>` tag. Get into it, then add `accordion-heade
 ```html
 <section>
     <details class="accordion" open>
-        <summary class="accordion-header flex align-items-center justify-content-start">
-            <div class="flex align-items-center justify-content-start column-gap-small">
+        <summary class="accordion-header flex flex-align-items-center flex-justify-content-start">
+            <div class="flex flex-align-items-center flex-justify-content-start gap-column-small">
                 <svg class="accordion-toggle icon">
                     <use xlink:href="icons/graff-icons.svg#chevron-right" />
                 </svg>

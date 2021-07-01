@@ -12,14 +12,14 @@ table_of_contents: true
 
 Semantically, add `<p>` tag and set value in`value` attribute.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <progress value=".25" class="width-1/1"></progress>
     <progress value=".5" class="width-1/1"></progress>
     <progress value=".75" class="width-1/1"></progress>
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <progress value=".25" class="width-1/1"></progress>
     <progress value=".5" class="width-1/1"></progress>
     <progress value=".75" class="width-1/1"></progress>
@@ -28,7 +28,7 @@ Semantically, add `<p>` tag and set value in`value` attribute.
 
 furthermore, hierarchically, add `progress`, `progress-bar`, and `progress-value` class to `<div>`. Then set value in `style` attribute use `width` variable in `%`.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="progress">
         <div class="progress-bar">
             <div class="progress-value" style="width: 25%"></div>
@@ -47,7 +47,7 @@ furthermore, hierarchically, add `progress`, `progress-bar`, and `progress-value
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="progress">
         <div class="progress-bar">
             <div class="progress-value" style="width: 25%"></div>

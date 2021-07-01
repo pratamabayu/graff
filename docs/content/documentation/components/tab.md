@@ -50,9 +50,9 @@ table_of_contents: true
 </section>
 ```
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <section>
-        <ul class="tab flex justify-content-center">
+        <ul class="tab flex flex-justify-content-center">
             <li><a href="">Tab Item 1</a></li>
             <li class="active"><a href="">Tab Item 2</a></li>
             <li><a href="">Tab Item 3</a></li>
@@ -60,7 +60,7 @@ table_of_contents: true
         </ul>
     </section>
     <section>
-        <ul class="tab flex justify-content-end">
+        <ul class="tab flex flex-justify-content-end">
             <li><a href="">Tab Item 1</a></li>
             <li class="active"><a href="">Tab Item 2</a></li>
             <li><a href="">Tab Item 3</a></li>
@@ -70,9 +70,9 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <section>
-        <ul class="tab flex justify-content-center">
+        <ul class="tab flex flex-justify-content-center">
             <li><a href="">Tab Item 1</a></li>
             <li class="active"><a href="">Tab Item 2</a></li>
             <li><a href="">Tab Item 3</a></li>
@@ -80,7 +80,7 @@ table_of_contents: true
         </ul>
     </section>
     <section>
-        <ul class="tab flex justify-content-end">
+        <ul class="tab flex flex-justify-content-end">
             <li><a href="">Tab Item 1</a></li>
             <li class="active"><a href="">Tab Item 2</a></li>
             <li><a href="">Tab Item 3</a></li>

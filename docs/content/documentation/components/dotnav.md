@@ -12,7 +12,7 @@ table_of_contents: true
 
 Add `dotnav` class to `<ul>` tag.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li><a href="#"></a></li>
@@ -24,7 +24,7 @@ Add `dotnav` class to `<ul>` tag.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li><a href="#"></a></li>
@@ -42,7 +42,7 @@ Add `dotnav` class to `<ul>` tag.
 
 Add `active` class `<li>` tag.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li class="active"><a href="#"></a></li>
@@ -54,7 +54,7 @@ Add `active` class `<li>` tag.
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li class="active"><a href="#"></a></li>
@@ -72,7 +72,7 @@ Add `active` class `<li>` tag.
 
 Horizontal is default orientation
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li class="active"><a href="#"></a></li>
@@ -92,7 +92,7 @@ Horizontal is default orientation
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav">
             <li class="active"><a href="#"></a></li>
@@ -116,7 +116,7 @@ Horizontal is default orientation
 
 Add `dotnav-vertical` class to `<ul>` tag where `dotnav-vertical` class is located.
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav dotnav-vertical">
             <li class="active"><a href="#"></a></li>
@@ -136,7 +136,7 @@ Add `dotnav-vertical` class to `<ul>` tag where `dotnav-vertical` class is locat
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <div>
         <ul class="dotnav dotnav-vertical">
             <li class="active"><a href="#"></a></li>

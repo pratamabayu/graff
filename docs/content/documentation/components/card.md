@@ -90,7 +90,7 @@ table_of_contents: true
 </div>
 ```
 
-<section class="flex flex-column@m justify-content-start column-gap-small row-gap-small">
+<section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default box-shadow-xlarge">
         <div class="card-header">
             <h2>Title</h2>
@@ -130,7 +130,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="flex flex-column@m justify-content-start column-gap-small row-gap-small">
+<section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default box-shadow-xlarge">
         <div class="card-header">
             <h2>Title</h2>
@@ -170,7 +170,7 @@ table_of_contents: true
 </section>
 ```
 
-<section class="flex flex-column@m justify-content-start column-gap-small row-gap-small">
+<section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default padding-medium box-shadow-xlarge">
         <div class="card-header">
             <div class="text-center">
@@ -216,7 +216,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="flex flex-column@m justify-content-start column-gap-small row-gap-small">
+<section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default padding-medium box-shadow-xlarge">
         <div class="card-header">
             <div class="text-center">

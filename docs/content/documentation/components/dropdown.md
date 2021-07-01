@@ -10,7 +10,7 @@ table_of_contents: true
 
 ## Usage
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
         <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
@@ -25,7 +25,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
         <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
@@ -40,7 +40,7 @@ table_of_contents: true
 </section>
 ```
 
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-default">Dropdown</button>
         <div
@@ -68,7 +68,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="flex justify-content-start column-gap-small">
+<section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-default">Dropdown</button>
         <div

@@ -30,7 +30,7 @@ Add `alert` class in `<div>` tag.
 
 Alert contains four styles to display messages, there are `alert-info`, `alert-success`, `alert-error`, and `alert-warning` classes.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="alert alert-info">
         This is info alert
     </div>
@@ -46,7 +46,7 @@ Alert contains four styles to display messages, there are `alert-info`, `alert-s
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="alert alert-info">
         This is info alert
     </div>

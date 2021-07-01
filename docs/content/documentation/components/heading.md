@@ -12,7 +12,7 @@ table_of_contents: true
 
 Semantically, set heading with `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` tag.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -22,7 +22,7 @@ Semantically, set heading with `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -34,7 +34,7 @@ Semantically, set heading with `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>
 
 furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and `sub-title` class to block element like `<div>` tag.
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="heading">Heading</div>
     <div class="sub-heading">Sub Heading</div>
     <div class="title">Title</div>
@@ -42,7 +42,7 @@ furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <div class="heading">Heading</div>
     <div class="sub-heading">Sub Heading</div>
     <div class="title">Title</div>
@@ -54,14 +54,14 @@ furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and
 
 ### With inline smaller heading
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>Heading 1 <small>small</small></h1>
     <h2>Heading 2 <small>small</small></h2>
     <h3>Heading 3 <small>small</small></h3>
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>Heading 1 <small>small</small></h1>
     <h2>Heading 2 <small>small</small></h2>
     <h3>Heading 3 <small>small</small></h3>
@@ -70,7 +70,7 @@ furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and
 
 ### With inline icon
 
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>
         <span>
             <svg class="icon">
@@ -88,7 +88,7 @@ furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and
 </section>
 
 ``` html
-<section class="flex flex-column justify-content-start row-gap-small">
+<section class="flex flex-column flex-justify-content-start gap-row-small">
     <h1>
         <span>
             <svg class="icon">

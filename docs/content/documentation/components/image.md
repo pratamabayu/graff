@@ -32,7 +32,7 @@ Add url of image at `src` attribute in `<img>` tag.
 
 Add `border-radius-*` class to `<img>` tag.
 
-<section class="grid grid-2-columns grid-1-columns@s column-gap-small row-gap-small">
+<section class="grid grid-2-columns grid-1-columns@s gap-column-small gap-row-small">
     <div class="padding-large">
         <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-small" title="Breathtaking mountains view"/>
     </div>
@@ -42,7 +42,7 @@ Add `border-radius-*` class to `<img>` tag.
 </section>
 
 ``` html
-<section class="grid grid-2-columns grid-1-columns@s column-gap-small row-gap-small">
+<section class="grid grid-2-columns grid-1-columns@s gap-column-small gap-row-small">
     <div class="padding-large">
         <img src="/images/documentation/breathtaking-mountains-view.jpg" class="width-1/1 border-radius-small" title="Breathtaking mountains view"/>
     </div>
@@ -52,7 +52,7 @@ Add `border-radius-*` class to `<img>` tag.
 </section>
 ```
 
-<section class="grid grid-3-columns grid-2-columns@m grid-1-columns@s column-gap-small row-gap-small">
+<section class="grid grid-3-columns grid-2-columns@m grid-1-columns@s gap-column-small gap-row-small">
     <div class="padding-large">
         <img src="/images/documentation/happy-daughter.jpg" class="width-1/1 border-radius-1/6" title="Happy daughter"/>
     </div>
@@ -65,7 +65,7 @@ Add `border-radius-*` class to `<img>` tag.
 </section>
 
 ``` html
-<section class="grid grid-3-columns grid-2-columns@m grid-1-columns@s column-gap-small row-gap-small">
+<section class="grid grid-3-columns grid-2-columns@m grid-1-columns@s gap-column-small gap-row-small">
     <div class="padding-large">
         <img src="/images/documentation/happy-daughter.jpg" class="width-1/1 border-radius-1/6" title="Happy daughter"/>
     </div>
