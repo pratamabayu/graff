@@ -6,3 +6,48 @@ categories: ["Utilities"]
 ---
 
 {{< heading text="Padding" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Add `padding-*` class to block or inline block element.
+
+``` html
+<div class="padding-medium">
+    <!-- Your content ->
+</div>
+```
+
+## Classes
+
+{{<table "table table-divider">}}
+| Class | Value |
+|----------|----------|
+| `padding-2xsmall` | `var(--padding-2xsmall)` |
+| `padding-xsmall` | `var(--padding-xsmall)` |
+| `padding-small` | `var(--padding-small)` |
+| `padding-medium` | `var(--padding-medium)` |
+| `padding-large` | `var(--padding-large)` |
+| `padding-xlarge` | `var(--padding-xlarge)` |
+| `padding-remove-all` |
+| `padding-remove-vertical` |
+| `padding-remove-horizontal` |
+| `padding-remove-top` |
+| `padding-remove-right` |
+| `padding-remove-bottom` |
+| `padding-remove-left` |
+{{</table>}}
+
+> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+
+## Variables
+
+{{<table "table table-divider">}}
+| Variable | Value |
+|----------|----------|
+| `--padding-2xsmall` | `3px` |
+| `--padding-xsmall` | `5px` |
+| `--padding-small` | `10px` |
+| `--padding-medium` | `20px` |
+| `--padding-large` | `40px` |
+| `--padding-xlarge` | `60px` |
+{{</table>}}

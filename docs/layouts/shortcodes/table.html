@@ -1,0 +1,7 @@
+{{ $htmlTable := .Inner | markdownify }}
+{{ $class := .Get 0 }}
+{{ $old := "<table>" }}
+{{ $new := printf "<div class=\"overflow-auto text-nowrap\"><table class=\"%s\">" $class }}
+{{ $htmlTable := replace $htmlTable $old $new }}
+{{ $htmlTable := replace $htmlTable "</table>" "</table></div>&nbsp;" }}
+{{ $htmlTable | safeHTML }}

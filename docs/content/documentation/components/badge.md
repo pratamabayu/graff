@@ -17,7 +17,7 @@ Add `badge` class and its `badge-*` class to inline (block) tag.
 ### Without data
 
 <section>
-    <span class="badge badge-bottom-right">Notifications</span>
+    <span class="badge">Notifications</span>
 </section>
 
 ```html

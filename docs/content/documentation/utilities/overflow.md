@@ -6,3 +6,34 @@ categories: ["Utilities"]
 ---
 
 {{< heading text="Overflow" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Add `overflow-*` class to block or inline block element.
+
+``` html
+<div class="overflow-auto">
+    <!-- Your content ->
+</div>
+```
+
+## Classes
+
+{{<table "table table-divider">}}
+| Class | Value |
+|----------|----------|
+| `overflow-auto` |
+| `overflow-hidden` |
+| `overflow-scroll` |
+| `overflow-visible` |
+| `overflow-x-auto` |
+| `overflow-y-auto` |
+| `overflow-x-hidden` |
+| `overflow-y-hidden` |
+| `overflow-x-scroll` |
+| `overflow-y-scroll` |
+| `overflow-x-visible` |
+| `overflow-y-visible` |
+{{</table>}}
+
+> Add suffix `@s`, `@m`, or `@l` to support breakpoints

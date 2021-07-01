@@ -82,16 +82,16 @@
   }
 
   /* out */
-  .position-bottom-center-out#{$breakpoint-suffix} {
-    top: 100%;
-  }
-
   .position-top-center-out#{$breakpoint-suffix} {
     bottom: 100%;
   }
 
-  .position-bottom-center-out#{$breakpoint-suffix},
-  .position-top-center-out#{$breakpoint-suffix} {
+  .position-bottom-center-out#{$breakpoint-suffix} {
+    top: 100%;
+  }
+
+  .position-top-center-out#{$breakpoint-suffix},
+  .position-bottom-center-out#{$breakpoint-suffix} {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);

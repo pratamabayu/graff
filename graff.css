@@ -66,7 +66,7 @@ https://github.com/pratamabayu/graff
   --border-radius-large: 40px;
   --border-width: 2px;
   --border-width-thin: 1px;
-  --border-width-thick: 3px;
+  --border-width-thick: 4px;
   --font-family: "Jost", Verdana, sans-serif;
   --font-family-heading: var(--font-family);
   --font-family-code: "Ubuntu Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -1045,16 +1045,16 @@ img {
 }
 
 /* out */
-.position-bottom-center-out {
-  top: 100%;
-}
-
 .position-top-center-out {
   bottom: 100%;
 }
 
-.position-bottom-center-out,
-.position-top-center-out {
+.position-bottom-center-out {
+  top: 100%;
+}
+
+.position-top-center-out,
+.position-bottom-center-out {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1192,16 +1192,16 @@ img {
   }
 
   /* out */
-  .position-bottom-center-out\@s {
-    top: 100%;
-  }
-
   .position-top-center-out\@s {
     bottom: 100%;
   }
 
-  .position-bottom-center-out\@s,
-.position-top-center-out\@s {
+  .position-bottom-center-out\@s {
+    top: 100%;
+  }
+
+  .position-top-center-out\@s,
+.position-bottom-center-out\@s {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1339,16 +1339,16 @@ img {
   }
 
   /* out */
-  .position-bottom-center-out\@m {
-    top: 100%;
-  }
-
   .position-top-center-out\@m {
     bottom: 100%;
   }
 
-  .position-bottom-center-out\@m,
-.position-top-center-out\@m {
+  .position-bottom-center-out\@m {
+    top: 100%;
+  }
+
+  .position-top-center-out\@m,
+.position-bottom-center-out\@m {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1486,16 +1486,16 @@ img {
   }
 
   /* out */
-  .position-bottom-center-out\@l {
-    top: 100%;
-  }
-
   .position-top-center-out\@l {
     bottom: 100%;
   }
 
-  .position-bottom-center-out\@l,
-.position-top-center-out\@l {
+  .position-bottom-center-out\@l {
+    top: 100%;
+  }
+
+  .position-top-center-out\@l,
+.position-bottom-center-out\@l {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -3374,7 +3374,7 @@ img {
 }
 
 .border-radius-1\/6 {
-  border-radius: calc(100% * 1 / 66.0) !important;
+  border-radius: calc(100% * 1 / 6.0) !important;
 }
 
 .border-radius-remove-all {
@@ -3517,7 +3517,7 @@ img {
   }
 
   .border-radius-1\/6\@s {
-    border-radius: calc(100% * 1 / 66.0) !important;
+    border-radius: calc(100% * 1 / 6.0) !important;
   }
 
   .border-radius-remove-all\@s {
@@ -3660,7 +3660,7 @@ img {
   }
 
   .border-radius-1\/6\@m {
-    border-radius: calc(100% * 1 / 66.0) !important;
+    border-radius: calc(100% * 1 / 6.0) !important;
   }
 
   .border-radius-remove-all\@m {
@@ -3803,7 +3803,7 @@ img {
   }
 
   .border-radius-1\/6\@l {
-    border-radius: calc(100% * 1 / 66.0) !important;
+    border-radius: calc(100% * 1 / 6.0) !important;
   }
 
   .border-radius-remove-all\@l {

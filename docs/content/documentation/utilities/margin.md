@@ -6,3 +6,48 @@ categories: ["Utilities"]
 ---
 
 {{< heading text="Margin" sub-text="Lorem ipsum sit amet dolor" >}}
+
+## Usage
+
+Add `margin-*` class to block or inline block element.
+
+``` html
+<div class="margin-medium">
+    <!-- Your content ->
+</div>
+```
+
+## Classes
+
+{{<table "table table-divider">}}
+| Class | Value |
+|----------|----------|
+| `margin-2xsmall` | `var(--margin-2xsmall)` |
+| `margin-xsmall` | `var(--margin-xsmall)` |
+| `margin-small` | `var(--margin-small)` |
+| `margin-medium` | `var(--margin-medium)` |
+| `margin-large` | `var(--margin-large)` |
+| `margin-xlarge` | `var(--margin-xlarge)` |
+| `margin-remove-all` |
+| `margin-remove-vertical` |
+| `margin-remove-horizontal` |
+| `margin-remove-top` |
+| `margin-remove-right` |
+| `margin-remove-bottom` |
+| `margin-remove-left` |
+{{</table>}}
+
+> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+
+## Variables
+
+{{<table "table table-divider">}}
+| Variable | Value |
+|----------|----------|
+| `--margin-2xsmall` | `3px` |
+| `--margin-xsmall` | `5px` |
+| `--margin-small` | `10px` |
+| `--margin-medium` | `20px` |
+| `--margin-large` | `40px` |
+| `--margin-xlarge` | `60px` |
+{{</table>}}
