@@ -10,7 +10,7 @@ table_of_contents: true
 
 ## Usage
 
-Add `background-*` class to block element with [height](/documentation/utilities/height), especially with `background-image: url(...)` style.
+Add `background-*` class to block element with [height](/documentation/utilities/height), especially with `background-image: url()` style.
 
 ``` html
 <div class="background-scroll height-small" style="background-image: url()">
