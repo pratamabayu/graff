@@ -3,6 +3,7 @@ title: "Background"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Background" sub-text="Lorem ipsum sit amet dolor" >}}
@@ -46,4 +47,4 @@ See implementation in [background component](/documentation/components/backgroun
 | `background-none` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints

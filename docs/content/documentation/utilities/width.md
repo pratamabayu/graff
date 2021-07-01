@@ -3,6 +3,7 @@ title: "Width"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Width" sub-text="Lorem ipsum sit amet dolor" >}}
@@ -47,7 +48,7 @@ Add `width-*` class to block or inline block element.
 | `width-20vw` | `20vw` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints
 
 ## Variables
 

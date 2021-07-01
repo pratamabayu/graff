@@ -23,13 +23,16 @@ $predefined-background-color-data: (
 
 $predefined-color-data: (
   ("color-text", "color-text"),
-  ("color-text-light", "color-text-light")
+  ("color-text-light", "color-text-light"),
+  ("color-link", "color-link"),
+  ("color-link-dark", "color-link-dark"),
+  ("color-link-light", "color-link-light")
 ) !default;
 
 $predefined-border-color-data: (
-  ("border-color", "color-border"),
-  ("border-color-dark", "color-border-dark"),
-  ("border-color-light", "color-border-light")
+  ("border-color-border", "color-border"),
+  ("border-color-border-dark", "color-border-dark"),
+  ("border-color-border-light", "color-border-light")
 ) !default;
 
 @each $color-key, $color-value in $color-data {

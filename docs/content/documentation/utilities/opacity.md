@@ -3,6 +3,7 @@ title: "Opacity"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Opacity" sub-text="Lorem ipsum sit amet dolor" >}}
@@ -29,4 +30,4 @@ Add `opacity-*` class to an element.
 | `opacity-100` | `1` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints

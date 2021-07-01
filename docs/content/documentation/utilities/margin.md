@@ -3,6 +3,7 @@ title: "Margin"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Margin" sub-text="Lorem ipsum sit amet dolor" >}}
@@ -37,7 +38,7 @@ Add `margin-*` class to block or inline block element.
 | `margin-remove-left` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints
 
 ## Variables
 

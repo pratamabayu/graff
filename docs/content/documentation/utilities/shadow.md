@@ -3,6 +3,7 @@ title: "Shadow"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Shadow" sub-text="Lorem ipsum sit amet dolor" >}}
@@ -30,4 +31,4 @@ Add `box-shadow-*` class to block or inline block element.
 | `box-shadow-highlight` | `inset 0 0px 1px rgba(255, 255, 255, 0.25)` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints

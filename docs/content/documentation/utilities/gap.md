@@ -3,13 +3,14 @@ title: "Gap"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Utilities"]
+table_of_contents: true
 ---
 
 {{< heading text="Gap" sub-text="Lorem ipsum sit amet dolor" >}}
 
 ## Usage
 
-Add `gap-*` class where `flex` or `grid` class is located.
+Add `gap-*` class to a tag where `flex`, `flex-inline`, or `grid` class is located.
 
 ``` html
 <div class="flex gap-column-small">
@@ -33,7 +34,7 @@ Add `gap-*` class where `flex` or `grid` class is located.
 | `gap-row-large` | `var(--gap-large)` |
 {{</table>}}
 
-> Add suffix `@s`, `@m`, or `@l` to support breakpoints
+> Add `@s`, `@m`, or `@l` suffix to support breakpoints
 
 ## Variables
 
