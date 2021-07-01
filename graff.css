@@ -2727,6 +2727,45 @@ img {
   object-fit: contain;
 }
 
+@media screen and (max-width: 640px) {
+  .fit-auto\@s {
+    object-fit: auto;
+  }
+
+  .fit-cover\@s {
+    object-fit: cover;
+  }
+
+  .fit-contain\@s {
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 960px) {
+  .fit-auto\@m {
+    object-fit: auto;
+  }
+
+  .fit-cover\@m {
+    object-fit: cover;
+  }
+
+  .fit-contain\@m {
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .fit-auto\@l {
+    object-fit: auto;
+  }
+
+  .fit-cover\@l {
+    object-fit: cover;
+  }
+
+  .fit-contain\@l {
+    object-fit: contain;
+  }
+}
 .cursor-default {
   cursor: default;
 }
@@ -2854,22 +2893,6 @@ img {
   display: inline-block !important;
 }
 
-.table {
-  display: table !important;
-}
-
-.inline-table {
-  display: inline-table !important;
-}
-
-.table-cell {
-  display: table-cell !important;
-}
-
-.table-row {
-  display: table-row !important;
-}
-
 @media screen and (max-width: 640px) {
   .none\@s {
     display: none !important;
@@ -2885,22 +2908,6 @@ img {
 
   .inline-block\@s {
     display: inline-block !important;
-  }
-
-  .table\@s {
-    display: table !important;
-  }
-
-  .inline-table\@s {
-    display: inline-table !important;
-  }
-
-  .table-cell\@s {
-    display: table-cell !important;
-  }
-
-  .table-row\@s {
-    display: table-row !important;
   }
 }
 @media screen and (max-width: 960px) {
@@ -2919,22 +2926,6 @@ img {
   .inline-block\@m {
     display: inline-block !important;
   }
-
-  .table\@m {
-    display: table !important;
-  }
-
-  .inline-table\@m {
-    display: inline-table !important;
-  }
-
-  .table-cell\@m {
-    display: table-cell !important;
-  }
-
-  .table-row\@m {
-    display: table-row !important;
-  }
 }
 @media screen and (max-width: 1200px) {
   .none\@l {
@@ -2951,22 +2942,6 @@ img {
 
   .inline-block\@l {
     display: inline-block !important;
-  }
-
-  .table\@l {
-    display: table !important;
-  }
-
-  .inline-table\@l {
-    display: inline-table !important;
-  }
-
-  .table-cell\@l {
-    display: table-cell !important;
-  }
-
-  .table-row\@l {
-    display: table-row !important;
   }
 }
 .overflow-auto {

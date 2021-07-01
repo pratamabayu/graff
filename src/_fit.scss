@@ -1,5 +1,8 @@
-@each $fit in (auto, cover, contain) {
-  .fit-#{$fit} {
-    object-fit: $fit;
+@include with-breakpoints() using ($breakpoint-suffix) {
+  @each $fit in (auto, cover, contain) {
+    .fit-#{$fit}#{$breakpoint-suffix} {
+      object-fit: $fit;
+    }
   }
 }
+
