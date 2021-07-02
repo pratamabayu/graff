@@ -8376,6 +8376,16 @@ img {
     padding-top: 100%;
   }
 }
+.flip-both,
+.flip-horizontal,
+.flip-vertical,
+.rotate-180,
+.rotate-270,
+.rotate-90 {
+  -webkit-filter: none;
+  filter: none;
+}
+
 .rotate-90 {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -8407,19 +8417,9 @@ img {
   transform: scale(-1, -1);
 }
 
-.flip-both,
-.flip-horizontal,
-.flip-vertical,
-.rotate-180,
-.rotate-270,
-.rotate-90 {
-  -webkit-filter: none;
-  filter: none;
-}
-
 :root {
   --animation-duration: 1s;
-  --animation-delay: .25s;
+  --animation-delay: .15s;
 }
 
 .animation-fade-in {
