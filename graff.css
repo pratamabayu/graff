@@ -1694,150 +1694,150 @@ img {
     visibility: collapse;
   }
 }
-.align-auto {
+.vertical-align-auto {
   vertical-align: auto;
 }
 
-.align-baseline {
+.vertical-align-baseline {
   vertical-align: baseline;
 }
 
-.align-bottom {
+.vertical-align-bottom {
   vertical-align: bottom;
 }
 
-.align-middle {
+.vertical-align-middle {
   vertical-align: middle;
 }
 
-.align-top {
+.vertical-align-top {
   vertical-align: top;
 }
 
-.align-sub {
+.vertical-align-sub {
   vertical-align: sub;
 }
 
-.align-super {
+.vertical-align-super {
   vertical-align: super;
 }
 
-.align-text-bottom {
+.vertical-align-text-bottom {
   vertical-align: text-bottom;
 }
 
-.align-text-top {
+.vertical-align-text-top {
   vertical-align: text-top;
 }
 
 @media screen and (max-width: 640px) {
-  .align-auto\@s {
+  .vertical-align-auto\@s {
     vertical-align: auto;
   }
 
-  .align-baseline\@s {
+  .vertical-align-baseline\@s {
     vertical-align: baseline;
   }
 
-  .align-bottom\@s {
+  .vertical-align-bottom\@s {
     vertical-align: bottom;
   }
 
-  .align-middle\@s {
+  .vertical-align-middle\@s {
     vertical-align: middle;
   }
 
-  .align-top\@s {
+  .vertical-align-top\@s {
     vertical-align: top;
   }
 
-  .align-sub\@s {
+  .vertical-align-sub\@s {
     vertical-align: sub;
   }
 
-  .align-super\@s {
+  .vertical-align-super\@s {
     vertical-align: super;
   }
 
-  .align-text-bottom\@s {
+  .vertical-align-text-bottom\@s {
     vertical-align: text-bottom;
   }
 
-  .align-text-top\@s {
+  .vertical-align-text-top\@s {
     vertical-align: text-top;
   }
 }
 @media screen and (max-width: 960px) {
-  .align-auto\@m {
+  .vertical-align-auto\@m {
     vertical-align: auto;
   }
 
-  .align-baseline\@m {
+  .vertical-align-baseline\@m {
     vertical-align: baseline;
   }
 
-  .align-bottom\@m {
+  .vertical-align-bottom\@m {
     vertical-align: bottom;
   }
 
-  .align-middle\@m {
+  .vertical-align-middle\@m {
     vertical-align: middle;
   }
 
-  .align-top\@m {
+  .vertical-align-top\@m {
     vertical-align: top;
   }
 
-  .align-sub\@m {
+  .vertical-align-sub\@m {
     vertical-align: sub;
   }
 
-  .align-super\@m {
+  .vertical-align-super\@m {
     vertical-align: super;
   }
 
-  .align-text-bottom\@m {
+  .vertical-align-text-bottom\@m {
     vertical-align: text-bottom;
   }
 
-  .align-text-top\@m {
+  .vertical-align-text-top\@m {
     vertical-align: text-top;
   }
 }
 @media screen and (max-width: 1200px) {
-  .align-auto\@l {
+  .vertical-align-auto\@l {
     vertical-align: auto;
   }
 
-  .align-baseline\@l {
+  .vertical-align-baseline\@l {
     vertical-align: baseline;
   }
 
-  .align-bottom\@l {
+  .vertical-align-bottom\@l {
     vertical-align: bottom;
   }
 
-  .align-middle\@l {
+  .vertical-align-middle\@l {
     vertical-align: middle;
   }
 
-  .align-top\@l {
+  .vertical-align-top\@l {
     vertical-align: top;
   }
 
-  .align-sub\@l {
+  .vertical-align-sub\@l {
     vertical-align: sub;
   }
 
-  .align-super\@l {
+  .vertical-align-super\@l {
     vertical-align: super;
   }
 
-  .align-text-bottom\@l {
+  .vertical-align-text-bottom\@l {
     vertical-align: text-bottom;
   }
 
-  .align-text-top\@l {
+  .vertical-align-text-top\@l {
     vertical-align: text-top;
   }
 }
@@ -8419,7 +8419,7 @@ img {
 
 :root {
   --animation-duration: 1s;
-  --animation-delay: 1s;
+  --animation-delay: .25s;
 }
 
 .animation-fade-in {
