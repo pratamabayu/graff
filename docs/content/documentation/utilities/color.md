@@ -23,6 +23,7 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 {{<table "table table-divider">}}
 | Class | Value |
 |----------|----------|
+| `color-transparent` | `transparent` |
 | `color-primary` | `var(--color-primary)` |
 | `color-primary-light` | `var(--color-primary-light)` |
 | `color-primary-dark` | `var(--color-primary-dark)` |
@@ -42,6 +43,7 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 | `color-link` | `var(--color-link)` |
 | `color-link-light` | `var(--color-link-light)` |
 | `color-link-dark` | `var(--color-link-dark)` |
+| `background-color-transparent` | `transparent` |
 | `background-color-primary` | `var(--color-primary)` |
 | `background-color-primary-light` | `var(--color-primary-light)` |
 | `background-color-primary-dark` | `var(--color-primary-dark)` |
@@ -59,6 +61,7 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 | `background-color-background` | `var(--color-background)` |
 | `background-color-background-light` | `var(--color-background-light)` |
 | `background-color-background-dark` | `var(--color-background-dark)` |
+| `border-color-transparent` | `transparent` |
 | `border-color-primary` | `var(--color-primary)` |
 | `border-color-primary-light` | `var(--color-primary-light)` |
 | `border-color-primary-dark` | `var(--color-primary-dark)` |

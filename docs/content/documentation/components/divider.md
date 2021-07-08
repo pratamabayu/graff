@@ -43,7 +43,7 @@ Add `divider-vertical` and `height-*` class to `<div`> tag where `divider` class
 ``` html
 <section class="flex flex-justify-content-start gap-column-medium">
     <div><hr class="divider divider-vertical height-small"/></div>
-    <div><div class="divider-vertical height-small"></div></div>
-    <div><div class="divider-vertical height-small"></div></div>
+    <div><div class="divider divider-vertical height-small"></div></div>
+    <div><div class="divider divider-vertical height-small"></div></div>
 </section>
 ```

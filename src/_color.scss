@@ -1,3 +1,7 @@
+$named-color-data: (
+  ("transparent", "transparent")
+) !default;
+
 $color-data: (
   ("primary", "color-primary"),
   ("primary-light", "color-primary-light"),
@@ -35,57 +39,56 @@ $predefined-border-color-data: (
   ("border-color-border-light", "color-border-light")
 ) !default;
 
-@each $color-key, $color-value in $color-data {
-  .background-color-#{$color-key} {
-    background-color: var(--#{$color-value}) !important;
+@each $color-key, $color-value in $named-color-data {
+  .background-color-#{$color-key},
+  .background-color-#{$color-key}\@hover:hover {
+    background-color: #{$color-value} !important;
   }
 
+  .color-#{$color-key},
+  .color-#{$color-key}\@hover:hover {
+    color: #{$color-value} !important;
+  }
+
+  .border-color-#{$color-key},
+  .border-color-#{$color-key}\@hover:hover {
+    border-color: #{$color-value} !important;
+  }
+}
+
+@each $color-key, $color-value in $color-data {
+  .background-color-#{$color-key},
   .background-color-#{$color-key}\@hover:hover {
     background-color: var(--#{$color-value}) !important;
   }
 
-  .color-#{$color-key} {
-    color: var(--#{$color-value}) !important;
-  }
-
+  .color-#{$color-key},
   .color-#{$color-key}\@hover:hover {
     color: var(--#{$color-value}) !important;
   }
 
-  .border-color-#{$color-key} {
-    border-color: var(--#{$color-value}) !important;
-  }
-
+  .border-color-#{$color-key},
   .border-color-#{$color-key}\@hover:hover {
     border-color: var(--#{$color-value}) !important;
   }
 }
 
 @each $color-key, $color-value in $predefined-background-color-data {
-  .#{$color-key} {
-    background-color: var(--#{$color-value}) !important;
-  }
-
+  .#{$color-key},
   .#{$color-key}\@hover:hover {
     background-color: var(--#{$color-value}) !important;
   }
 }
 
 @each $color-key, $color-value in $predefined-color-data {
-  .#{$color-key} {
-    color: var(--#{$color-value}) !important;
-  }
-
+  .#{$color-key},
   .#{$color-key}\@hover:hover {
     color: var(--#{$color-value}) !important;
   }
 }
 
 @each $color-key, $color-value in $predefined-border-color-data {
-  .#{$color-key} {
-    border-color: var(--#{$color-value}) !important;
-  }
-
+  .#{$color-key},
   .#{$color-key}\@hover:hover {
     border-color: var(--#{$color-value}) !important;
   }

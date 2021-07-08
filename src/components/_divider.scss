@@ -17,6 +17,7 @@ hr,
 
 .divider-vertical {
   margin: 0 var(--line-margin);
+  border-top: none;
   border-left: var(--line-border-width) solid var(--line-color);
   width: var(--line-border-width);
 }

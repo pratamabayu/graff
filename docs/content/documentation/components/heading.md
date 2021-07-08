@@ -32,21 +32,23 @@ Semantically, set heading with `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>
 </section>
 ```
 
-furthermore, heading can be done with add `heading`, `sub-heading`, `title`, and `sub-title` class to block element like `<div>` tag.
+furthermore, heading can be done with add `heading-*` class to block element like `<div>` tag.
 
 <section class="flex flex-column flex-justify-content-start gap-row-small">
-    <div class="heading">Heading</div>
-    <div class="sub-heading">Sub Heading</div>
-    <div class="title">Title</div>
-    <div class="sub-title">Sub Title</div>
+    <div class="heading-small">Small</div>
+    <div class="heading-medium">Medium</div>
+    <div class="heading-large">Large</div>
+    <div class="heading-xlarge">x-Large</div>
+    <div class="heading-2xlarge">2x-Large</div>
 </section>
 
 ``` html
 <section class="flex flex-column flex-justify-content-start gap-row-small">
-    <div class="heading">Heading</div>
-    <div class="sub-heading">Sub Heading</div>
-    <div class="title">Title</div>
-    <div class="sub-title">Sub Title</div>
+    <div class="heading-small">Small</div>
+    <div class="heading-medium">Medium</div>
+    <div class="heading-large">Large</div>
+    <div class="heading-xlarge">x Large</div>
+    <div class="heading-2xlarge">2x Large</div>
 </section>
 ```
 

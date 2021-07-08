@@ -10,7 +10,7 @@ table_of_contents: true
 
 ## Usage
 
-Add `fit-*` class to `<img>` tag.
+Add `fit-*` class to `<img>` or `<video>` tag.
 
 ``` html
 <img src="" class="fit-cover"/>

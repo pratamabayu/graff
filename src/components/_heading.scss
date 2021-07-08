@@ -1,30 +1,34 @@
-.heading,
-.sub-heading,
-.title,
-.sub-title {
-  line-height: var(--line-height-heading);
-  margin-bottom: var(--heading-space-after);
-  font-weight: bolder;
+:root {
+  --heading-font-size-small: 3rem;
+  --heading-font-size-medium: 4.5rem;
+  --heading-font-size-large: 6rem;
+  --heading-font-size-xlarge: 7.5rem;
+  --heading-font-size-2xlarge: 9rem;
+  
+  --heading-line-height: 1;
 }
 
-.heading,
-.sub-heading,
-.title {
+.heading-small,
+.heading-medium,
+.heading-large,
+.heading-xlarge,
+.heading-2xlarge {
   font-family: var(--font-family-heading);
+  line-height: var(--heading-line-height);
 }
 
-.heading {
-  font-size: var(--font-size-5xlarge);
+.heading-small {
+  font-size: var(--heading-font-size-small);
 }
-
-.sub-heading {
-  font-size: var(--font-size-4xlarge);
+.heading-medium {
+  font-size: var(--heading-font-size-medium);
 }
-
-.title {
-  font-size: var(--font-size-3xlarge);
+.heading-large {
+  font-size: var(--heading-font-size-large);
 }
-
-.sub-title {
-  font-size: var(--font-size-2xlarge);
+.heading-xlarge {
+  font-size: var(--heading-font-size-xlarge);
+}
+.heading-2xlarge {
+  font-size: var(--heading-font-size-2xlarge);
 }

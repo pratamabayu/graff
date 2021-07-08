@@ -30,4 +30,6 @@ Add `opacity-*` class to an element.
 | `opacity-100` | `1` |
 {{</table>}}
 
+> Add `@hover` suffix to support `:hover` state
+
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
