@@ -2,6 +2,9 @@
 title: "Accordion"
 date: 2021-06-17T13:58:33+07:00
 draft: false
+aliases: [
+    "/documentation/components"
+]
 categories: ["Components"]
 table_of_contents: true
 ---
