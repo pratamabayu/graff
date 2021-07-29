@@ -21,9 +21,12 @@ Add `fit-*` class to `<img>` or `<video>` tag.
 {{<table "table table-divider">}}
 | Class | Value |
 |----------|----------|
+| `fit-none` |
 | `fit-auto` |
-| `fit-cover` |
+| `fit-fill` |
 | `fit-contain` |
+| `fit-cover` |
+| `fit-scale-down` |
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints

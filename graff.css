@@ -2610,55 +2610,103 @@ img {
     white-space: nowrap;
   }
 }
+.fit-none {
+  object-fit: none;
+}
+
 .fit-auto {
   object-fit: auto;
 }
 
-.fit-cover {
-  object-fit: cover;
+.fit-fill {
+  object-fit: fill;
 }
 
 .fit-contain {
   object-fit: contain;
 }
 
+.fit-cover {
+  object-fit: cover;
+}
+
+.fit-scale-down {
+  object-fit: scale-down;
+}
+
 @media screen and (max-width: 640px) {
+  .fit-none\@s {
+    object-fit: none;
+  }
+
   .fit-auto\@s {
     object-fit: auto;
+  }
+
+  .fit-fill\@s {
+    object-fit: fill;
+  }
+
+  .fit-contain\@s {
+    object-fit: contain;
   }
 
   .fit-cover\@s {
     object-fit: cover;
   }
 
-  .fit-contain\@s {
-    object-fit: contain;
+  .fit-scale-down\@s {
+    object-fit: scale-down;
   }
 }
 @media screen and (max-width: 960px) {
+  .fit-none\@m {
+    object-fit: none;
+  }
+
   .fit-auto\@m {
     object-fit: auto;
+  }
+
+  .fit-fill\@m {
+    object-fit: fill;
+  }
+
+  .fit-contain\@m {
+    object-fit: contain;
   }
 
   .fit-cover\@m {
     object-fit: cover;
   }
 
-  .fit-contain\@m {
-    object-fit: contain;
+  .fit-scale-down\@m {
+    object-fit: scale-down;
   }
 }
 @media screen and (max-width: 1200px) {
+  .fit-none\@l {
+    object-fit: none;
+  }
+
   .fit-auto\@l {
     object-fit: auto;
+  }
+
+  .fit-fill\@l {
+    object-fit: fill;
+  }
+
+  .fit-contain\@l {
+    object-fit: contain;
   }
 
   .fit-cover\@l {
     object-fit: cover;
   }
 
-  .fit-contain\@l {
-    object-fit: contain;
+  .fit-scale-down\@l {
+    object-fit: scale-down;
   }
 }
 .cursor-default {
@@ -8267,47 +8315,6 @@ img {
     padding-top: 100%;
   }
 }
-.flip-both,
-.flip-horizontal,
-.flip-vertical,
-.rotate-180,
-.rotate-270,
-.rotate-90 {
-  -webkit-filter: none;
-  filter: none;
-}
-
-.rotate-90 {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.rotate-180 {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.rotate-270 {
-  -webkit-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-.flip-horizontal {
-  -webkit-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-.flip-vertical {
-  -webkit-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
-
-.flip-both,
-.flip-horizontal.flip-vertical {
-  -webkit-transform: scale(-1, -1);
-  transform: scale(-1, -1);
-}
-
 :root {
   --animation-duration: 1s;
   --animation-delay: .15s;
