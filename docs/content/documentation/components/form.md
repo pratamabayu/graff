@@ -988,6 +988,8 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
 
 ### With icon
 
+Add ```form-input-icon``` class to ```<span>``` tag inside tag where ```form-control``` class is located.
+
 <section>
     <div class="form-field">
         <label class="form-label">Name</label>
