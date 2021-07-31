@@ -8,11 +8,11 @@ categories_weight: 2
 
 # Installation
 
-Installing Graff can be done manually or via {{< link-to  href="https://en.wikipedia.org/wiki/Content_delivery_network" title="Content Delivery Network or CDN" >}}.
+Installing Graff can be done manually or via {{< link-to  href="https://en.wikipedia.org/wiki/Content_delivery_network" title="Content Delivery Network (CDN)" >}}.
 
 ## Install manually
 
-You can download Graff in github. Extract and include ```graff.min.css``` into your project and linking in your document head html.
+You can download {{< link-to  href="https://github.com/pratamabayu/graff" title="Graff in github" >}}. Extract and include ```graff.min.css``` into your project and linking in your document head html.
 
 ``` html
 <link href="path/to/graff.min.css" rel="stylesheet">
@@ -20,8 +20,16 @@ You can download Graff in github. Extract and include ```graff.min.css``` into y
 
 ## Install via CDN
 
-You can grab Graff from CDN and linking in your document head html.
+You can grab Graff from CDN and linking in your document head html
 
 ``` html
-<link href="https://unpkg.com/graff@latest/graff.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/pratamabayu/graff/graff.min.css" rel="stylesheet">
 ```
+
+or use a spesific version
+
+``` html
+<link href="https://cdn.jsdelivr.net/gh/pratamabayu/graff@0.9/graff.min.css" rel="stylesheet">
+```
+
+>   Recommended for production use

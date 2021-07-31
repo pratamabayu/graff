@@ -23,7 +23,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -52,7 +52,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -168,7 +168,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
 </section>
@@ -178,7 +178,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
 </section>
@@ -363,7 +363,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -409,7 +409,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5" disabled></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -443,7 +443,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can used here</textarea>
+            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can be used here</textarea>
         </div>
     </div>
 </section>
@@ -468,7 +468,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can used here</textarea>
+            <textarea class="form-input width-1/2 width-1/1@m" rows="5" readonly>I like the vision of your company and I wish my experiences can be used here</textarea>
         </div>
     </div>
 </section>
@@ -561,7 +561,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -617,7 +617,7 @@ From is structured with some fields through `form-field` class. Inside it, add `
     <div class="form-field">
         <label class="form-label">Reason to join</label>
         <div class="form-control">
-            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
     <div class="form-field">
@@ -700,7 +700,7 @@ To transform field to horizontal align, add `form-field-horizontal` class in `<d
         </div>
         <div class="form-field-body">
             <div class="form-control">
-                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/1" rows="5"></textarea>
+                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/1" rows="5"></textarea>
             </div>
         </div>
     </div>
@@ -784,7 +784,7 @@ To transform field to horizontal align, add `form-field-horizontal` class in `<d
         </div>
         <div class="form-field-body">
             <div class="form-control">
-                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/1" rows="5"></textarea>
+                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/1" rows="5"></textarea>
             </div>
         </div>
     </div>
@@ -872,7 +872,7 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
         </div>
         <div class="form-field-body">
             <div class="form-control">
-                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/1" rows="5"></textarea>
+                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/1" rows="5"></textarea>
             </div>
         </div>
     </div>
@@ -956,7 +956,7 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
         </div>
         <div class="form-field-body">
             <div class="form-control">
-                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can used here " class="form-input width-1/1" rows="5"></textarea>
+                <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/1" rows="5"></textarea>
             </div>
         </div>
     </div>
@@ -979,6 +979,64 @@ Just add the `text-right` class in the `<div`> tag where the `form-field-header`
                 <button type="submit" class="button button-primary">Send request</button>
                 <button type="submit" class="button">Reset to default</button>
             </div>
+        </div>
+    </div>
+</section>
+```
+
+## Appearance
+
+### With icon
+
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <span class="form-input-icon color-gray">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#user" />
+                </svg>
+            </span>
+            <input type="text" placeholder="e.g. Anna Marie" class="form-input width-1/2 width-1/1@m"/>
+        </div>
+        <p class="form-message">This is a required field.</p>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <span class="form-input-icon color-gray">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#reply" />
+                </svg>
+            </span>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
+        </div>
+    </div>
+</section>
+
+``` html
+<section>
+    <div class="form-field">
+        <label class="form-label">Name</label>
+        <div class="form-control">
+            <span class="form-input-icon color-gray">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#user" />
+                </svg>
+            </span>
+            <input type="text" placeholder="e.g. Anna Marie" class="form-input width-1/2 width-1/1@m"/>
+        </div>
+        <p class="form-message">This is a required field.</p>
+    </div>
+    <div class="form-field">
+        <label class="form-label">Reason to join</label>
+        <div class="form-control">
+            <span class="form-input-icon color-gray">
+                <svg class="icon">
+                    <use xlink:href="icons/graff-icons.svg#reply" />
+                </svg>
+            </span>
+            <textarea placeholder="e.g. I like the vision of your company and I wish my experiences can be used here " class="form-input width-1/2 width-1/1@m" rows="5"></textarea>
         </div>
     </div>
 </section>

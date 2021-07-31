@@ -9618,6 +9618,8 @@ ul.iconnav.iconnav-vertical > li {
   --form-inline-gap: var(--gap-small);
   --form-field-header-width: 200px;
   --form-field-header-margin: calc(var(--font-size) / 4) var(--gap-small) 0 0;
+  --form-input-icon-margin: calc(var(--font-size) / 3) var(--margin-small) 0 var(--margin-small);
+  --form-input-with-icon-padding-left: calc(var(--padding-small) * 3.5);
 }
 
 .form-field {
@@ -9760,6 +9762,19 @@ ul.iconnav.iconnav-vertical > li {
   border-top: 0;
   border-right: 0;
   transform: translate(40%, 60%) rotate(-50deg);
+}
+
+.form-input-icon {
+  position: absolute;
+  margin: var(--form-input-icon-margin);
+  display: flex;
+  place-items: center;
+}
+.form-input-icon .icon {
+  --icon-scale: .75;
+}
+.form-input-icon + .form-input {
+  padding-left: var(--form-input-with-icon-padding-left);
 }
 
 :root {
