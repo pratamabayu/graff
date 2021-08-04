@@ -1,10 +1,10 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 # Graff
-Graff is a light and modular CSS kit to accelerate styling. No javascript required to kick start.
+Graff is a lightweigt and modular CSS kit to accelerate styling. No javascript required to kick start.
 
 # Usage
-You can read the documentation in https://graff.com/docs.html
+You can read the documentation in https://graff.com/documentation
 
 # Prerequesite
 1. Download NPM in https://www.npmjs.com/get-npm and install it on your computer
