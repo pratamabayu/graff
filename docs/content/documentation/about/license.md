@@ -6,7 +6,7 @@ categories: ["About"]
 categories_weight: 2
 ---
 
-# The Graff License
+# The MIT License (MIT)
 
 Copyright 2021 Pratama Bayu Widagdo
 

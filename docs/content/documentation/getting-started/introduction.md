@@ -12,13 +12,24 @@ table_of_contents: false
 
 # Introduction
 
-Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with useful [components](/documentation/components) and [utilities](/documentation/utilities), just 144kb or 20kb gzip compressed.
+Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with beautiful [components](/documentation/components) and [utilities](/documentation/utilities), just 144kb or 20kb gzip compressed.
 
-Component is lorem while utility is. Sometime, a component need to adjust.
+Component is ready to use of style for UI while utility is to modify existing components or creating custom components without touching the CSS.
 
 ## Fully responsive
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Graff is fully responsive. It's be handled in [utilities](/documentation/utilities) with add suffix ```@s``` in small screen, ```@m``` in medium screen, or ```@l``` in large screen.
+
+``` html
+<section class="grid grid-4-columns grid-2-columns@m grid-1-columns@s">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+</section>
+```
+
+Defaultly, grid have 4 columns, but in medium screen have 2 columns and in small screen has 1 column.
 
 ## Dark mode support
 
