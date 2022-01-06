@@ -10054,23 +10054,23 @@ ul.stepper li {
 }
 
 ul.stepper.stepper-steps-2 li {
-  width: calc(100% / 2);
+  width: 50%;
 }
 
 ul.stepper.stepper-steps-3 li {
-  width: calc(100% / 3);
+  width: 33.3333333333%;
 }
 
 ul.stepper.stepper-steps-4 li {
-  width: calc(100% / 4);
+  width: 25%;
 }
 
 ul.stepper.stepper-steps-5 li {
-  width: calc(100% / 5);
+  width: 20%;
 }
 
 ul.stepper.stepper-steps-6 li {
-  width: calc(100% / 6);
+  width: 16.6666666667%;
 }
 
 ul.stepper li:before {
@@ -10195,7 +10195,7 @@ ul.timeline > li:before {
   border: var(--timeline-item-point-border);
   border-radius: 50%;
   position: absolute;
-  left: calc(calc(var(--timeline-item-point-size) / -2) - var(--timeline-line-border-width));
+  left: calc(var(--timeline-item-point-size) / -2 - var(--timeline-line-border-width));
   box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
 ul.timeline > li.active:before {

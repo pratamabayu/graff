@@ -2,7 +2,7 @@
   @each $opacity in (0, 25, 50, 75, 100) {
     .opacity-#{$opacity}#{$breakpoint-suffix},
     .opacity-#{$opacity}\@hover#{$breakpoint-suffix}:hover {
-      opacity: $opacity/100;
+      opacity: calc($opacity/100);
     }
   }
 }
