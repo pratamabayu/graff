@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{darken($color-primary, 3%)};
+  --color-primary-light: #{lighten($color-primary, 3%)};
+
+  --color-secondary: #{$color-secondary};
+  --color-secondary-dark: #{darken($color-secondary, 3%)};
+  --color-secondary-light: #{lighten($color-secondary, 3%)};
+
+  --color-dark: #{$color-dark};
+  --color-light: #{$color-light};
+  
+  --color-gray: #{$color-gray};
+  --color-gray-dark: #{darken($color-gray, 10%)}; // old is 30%
+  --color-gray-light: #{lighten($color-gray, 40%)}; // old is 20%
+
+  --color-border: #{$color-border};
+  --color-border-dark: #{darken($color-border, 10%)};
+  --color-border-light: #{lighten($color-border, 8%)};
+
+  --color-background: #{$color-background};
+  --color-background-dark: #{darken($color-background, 3%)};
+  --color-background-light: #{$color-light};
+
+  --color-text: #{$color-text};
+  --color-text-light: #{lighten($color-text, 40%)};
+
+  --color-success: #32b643;
+  --color-warning: #ffb700;
+  --color-error: #e85600;
+
+  --color-link: #{$color-link};
+  --color-link-dark: #{darken($color-link, 10%)};
+  --color-link-light: #{lighten($color-link, 10%)};
+
+  --color-code: #{lighten($color-text, 20%)};
+  --color-highlight: #ffe9b3;
+}

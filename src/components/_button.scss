@@ -6,19 +6,19 @@
   --button-primary-border-color: var(--color-primary);
   --button-primary-hover-border-color: var(--color-primary-dark);
   --button-primary-hover-background: var(--color-primary-dark);
-  --button-primary-on-dark-text-color: var(--color-text);
-  --button-primary-on-dark-background: var(--color-background-light);
-  --button-primary-on-dark-border-color: var(--color-background-light);
-  --button-primary-on-dark-hover-border-color: var(--color-background);
-  --button-primary-on-dark-hover-background: var(--color-background);
+  --button-primary-on-dark-text-color: var(--color-dark);
+  --button-primary-on-dark-background: var(--color-light);
+  --button-primary-on-dark-border-color: var(--color-light);
+  --button-primary-on-dark-hover-border-color: var(--color-gray-light);
+  --button-primary-on-dark-hover-background: var(--color-gray-light);
   --button-default-text-color: var(--color-primary);
   --button-default-border-color: var(--color-primary);
   --button-default-hover-text-color: var(--color-primary-dark);
   --button-default-hover-border-color: var(--color-primary-dark);
   --button-default-on-dark-text-color: var(--color-light);
-  --button-default-on-dark-border-color: var(--color-background-light);
-  --button-default-on-dark-hover-text-color: var(--color-background);
-  --button-default-on-dark-hover-border-color: var(--color-background);
+  --button-default-on-dark-border-color: var(--color-light);
+  --button-default-on-dark-hover-text-color: var(--color-gray-light);
+  --button-default-on-dark-hover-border-color: var(--color-gray-light);
 
   --button-border-width: var(--border-width-thin);
   --button-border-radius: var(--border-radius-2xsmall);

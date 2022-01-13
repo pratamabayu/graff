@@ -12,13 +12,13 @@
 
   --form-input-focus-border: var(--border-width-thin) solid var(--color-primary);
 
-  --form-input-disabled-background: var(--color-background-light);
+  --form-input-disabled-background: var(--form-input-background);
   --form-input-disabled-text-color: var(--color-gray);
 
   --form-input-required-border: var(--border-width-thin) solid
     var(--color-border-dark);
 
-  --form-input-readonly-background: var(--color-background-light);
+  --form-input-readonly-background: var(--form-input-background);
   --form-input-readonly-text-color: var(--color-text);
   --form-input-readonly-border: var(--border-width-thin) solid
     var(--color-border-light);
@@ -173,7 +173,7 @@
   &[disabled] {
     cursor: not-allowed;
     background: var(--form-input-disabled-background);
-    color: var(--form-input-disabled-text-color);
+    //color: var(--form-input-disabled-text-color);
   }
 
   &[required] {
@@ -182,7 +182,7 @@
 
   &[readonly] {
     background: var(--form-input-readonly-background);
-    color: var(--form-input-readonly-text-color);
+    //color: var(--form-input-readonly-text-color);
     border: var(--form-input-readonly-border);
 
     pointer-events: none;
@@ -194,7 +194,7 @@
 
   &:invalid,
   &:focus:invalid {
-    color: var(--form-input-invalid-text-color);
+    //color: var(--form-input-invalid-text-color);
     border: var(--form-input-invalid-border);
   }
 

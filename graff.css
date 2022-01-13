@@ -7,33 +7,6 @@ https://github.com/pratamabayu/graff
 */
 /* Utilities */
 :root {
-  --color-primary: #005BFF;
-  --color-primary-dark: #0056f0;
-  --color-primary-light: #0f65ff;
-  --color-secondary: #ffa400;
-  --color-secondary-dark: #f09a00;
-  --color-secondary-light: #ffa90f;
-  --color-dark: #000;
-  --color-light: #fafafa;
-  --color-gray: #8c8c8c;
-  --color-gray-dark: #404040;
-  --color-gray-light: #bfbfbf;
-  --color-border: #a6a6a6;
-  --color-border-dark: #8c8c8c;
-  --color-border-light: #bababa;
-  --color-background: #ededed;
-  --color-background-dark: #e6e6e6;
-  --color-background-light: #fafafa;
-  --color-text: #0d0d0d;
-  --color-text-light: #737373;
-  --color-success: #32b643;
-  --color-warning: #ffb700;
-  --color-error: #e85600;
-  --color-link: #005BFF;
-  --color-link-dark: #0049cc;
-  --color-link-light: #337cff;
-  --color-code: #404040;
-  --color-highlight: #ffe9b3;
   --margin-2xsmall: 3px;
   --margin-xsmall: 5px;
   --margin-small: 10px;
@@ -83,6 +56,36 @@ https://github.com/pratamabayu/graff
   --line-height: 1.5;
   --line-height-heading: 1.2;
   --heading-space-after: .75rem;
+}
+
+:root {
+  --color-primary: #005BFF;
+  --color-primary-dark: #0056f0;
+  --color-primary-light: #0f65ff;
+  --color-secondary: #ffa400;
+  --color-secondary-dark: #f09a00;
+  --color-secondary-light: #ffa90f;
+  --color-dark: #000;
+  --color-light: #fafafa;
+  --color-gray: #8c8c8c;
+  --color-gray-dark: #737373;
+  --color-gray-light: #f2f2f2;
+  --color-border: #a6a6a6;
+  --color-border-dark: #8c8c8c;
+  --color-border-light: #bababa;
+  --color-background: #ededed;
+  --color-background-dark: #e6e6e6;
+  --color-background-light: #fafafa;
+  --color-text: #0d0d0d;
+  --color-text-light: #737373;
+  --color-success: #32b643;
+  --color-warning: #ffb700;
+  --color-error: #e85600;
+  --color-link: #005BFF;
+  --color-link-dark: #0049cc;
+  --color-link-light: #337cff;
+  --color-code: #404040;
+  --color-highlight: #ffe9b3;
 }
 
 .background-color-transparent,
@@ -8315,229 +8318,6 @@ img {
     padding-top: 100%;
   }
 }
-:root {
-  --animation-duration: 1s;
-  --animation-delay: .15s;
-}
-
-.animation-fade-in {
-  animation: fade-in var(--animation-duration) ease-in var(--animation-delay);
-}
-
-.animation-fade-out {
-  animation: fade-out var(--animation-duration) ease-out var(--animation-delay);
-}
-
-.animation-slide-left-fade-in {
-  opacity: 0;
-  animation: slide-left-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
-.animation-slide-right-fade-in {
-  opacity: 0;
-  animation: slide-right-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
-.animation-slide-up-fade-in {
-  opacity: 0;
-  animation: slide-up-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
-.animation-slide-down-fade-in {
-  opacity: 0;
-  animation: slide-down-fade-in var(--animation-duration) ease-in var(--animation-delay) forwards;
-}
-
-.animation-slide-left-fade-out {
-  animation: slide-left-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
-.animation-slide-right-fade-out {
-  animation: slide-right-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
-.animation-slide-up-fade-out {
-  animation: slide-up-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
-.animation-slide-down-fade-out {
-  animation: slide-down-fade-out var(--animation-duration) ease-out var(--animation-delay) forwards;
-}
-
-.animation-grow-x {
-  width: 0%;
-  animation: grow-x var(--animation-duration) ease var(--animation-delay) forwards;
-}
-
-.animation-grow\@hover {
-  transition: transform var(--animation-duration) var(--animation-delay);
-  backface-visibility: hidden;
-}
-.animation-grow\@hover:hover {
-  transform: scale(1.025);
-}
-
-.animation-shrink-x {
-  animation: shrink-x var(--animation-duration) ease-in-out var(--animation-delay) forwards;
-}
-
-.animation-shrink\@hover {
-  transition: transform var(--animation-duration) var(--animation-delay);
-  backface-visibility: hidden;
-}
-.animation-shrink\@hover:hover {
-  transform: scale(0.975);
-}
-
-.animation-scale-in {
-  animation: scale-in var(--animation-duration) cubic-bezier(0.2, 0, 0.13, 1.5) var(--animation-delay);
-}
-
-.animation-pulse {
-  animation: pulse var(--animation-duration) infinite linear;
-}
-
-.animation-pulse-in {
-  animation: pulse-in var(--animation-duration);
-}
-
-.animation-spin {
-  animation: spin var(--animation-duration) infinite linear;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-@keyframes slide-left-fade-in {
-  from {
-    opacity: 0.8;
-    transform: translateX(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes slide-right-fade-in {
-  from {
-    opacity: 0.8;
-    transform: translateX(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes slide-up-fade-in {
-  from {
-    opacity: 0.8;
-    transform: translateY(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes slide-down-fade-in {
-  from {
-    opacity: 0.8;
-    transform: translateY(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes slide-left-fade-out {
-  to {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-}
-@keyframes slide-right-fade-out {
-  to {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-}
-@keyframes slide-up-fade-out {
-  to {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-}
-@keyframes slide-down-fade-out {
-  to {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-}
-@keyframes grow-x {
-  to {
-    width: 100%;
-  }
-}
-@keyframes shrink-x {
-  to {
-    width: 0%;
-    padding: 0;
-    border: none;
-    visibility: collapse;
-  }
-}
-@keyframes scale-in {
-  0% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes pulse {
-  0% {
-    opacity: 0.3;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.3;
-  }
-}
-@keyframes pulse-in {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-  50% {
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* Components */
 :root {
   --heading-font-size-small: 3rem;
@@ -8703,19 +8483,19 @@ a:hover {
   --button-primary-border-color: var(--color-primary);
   --button-primary-hover-border-color: var(--color-primary-dark);
   --button-primary-hover-background: var(--color-primary-dark);
-  --button-primary-on-dark-text-color: var(--color-text);
-  --button-primary-on-dark-background: var(--color-background-light);
-  --button-primary-on-dark-border-color: var(--color-background-light);
-  --button-primary-on-dark-hover-border-color: var(--color-background);
-  --button-primary-on-dark-hover-background: var(--color-background);
+  --button-primary-on-dark-text-color: var(--color-dark);
+  --button-primary-on-dark-background: var(--color-light);
+  --button-primary-on-dark-border-color: var(--color-light);
+  --button-primary-on-dark-hover-border-color: var(--color-gray-light);
+  --button-primary-on-dark-hover-background: var(--color-gray-light);
   --button-default-text-color: var(--color-primary);
   --button-default-border-color: var(--color-primary);
   --button-default-hover-text-color: var(--color-primary-dark);
   --button-default-hover-border-color: var(--color-primary-dark);
   --button-default-on-dark-text-color: var(--color-light);
-  --button-default-on-dark-border-color: var(--color-background-light);
-  --button-default-on-dark-hover-text-color: var(--color-background);
-  --button-default-on-dark-hover-border-color: var(--color-background);
+  --button-default-on-dark-border-color: var(--color-light);
+  --button-default-on-dark-hover-text-color: var(--color-gray-light);
+  --button-default-on-dark-hover-border-color: var(--color-gray-light);
   --button-border-width: var(--border-width-thin);
   --button-border-radius: var(--border-radius-2xsmall);
 }
@@ -9359,7 +9139,7 @@ ul.nav-nested > li:last-child {
   --navbar-item-pill-active-text-color: var(--color-light);
   --navbar-item-pill-active-background: var(--color-primary);
   --navbar-dark-item-text-color: var(--color-light);
-  --navbar-dark-item-hover-text-color: var(--color-background);
+  --navbar-dark-item-hover-text-color: var(--color-gray-light);
   --navbar-dark-item-active-text-color: var(--color-light);
   --navbar-dark-item-active-background: transparent;
   --navbar-dark-item-pill-active-text-color: var(--color-primary);
@@ -9590,11 +9370,11 @@ ul.iconnav.iconnav-vertical > li {
   --form-input-hover-border: var(--border-width-thin) solid
     var(--color-primary-dark);
   --form-input-focus-border: var(--border-width-thin) solid var(--color-primary);
-  --form-input-disabled-background: var(--color-background-light);
+  --form-input-disabled-background: var(--form-input-background);
   --form-input-disabled-text-color: var(--color-gray);
   --form-input-required-border: var(--border-width-thin) solid
     var(--color-border-dark);
-  --form-input-readonly-background: var(--color-background-light);
+  --form-input-readonly-background: var(--form-input-background);
   --form-input-readonly-text-color: var(--color-text);
   --form-input-readonly-border: var(--border-width-thin) solid
     var(--color-border-light);
@@ -9719,14 +9499,12 @@ ul.iconnav.iconnav-vertical > li {
 .form-input[disabled] {
   cursor: not-allowed;
   background: var(--form-input-disabled-background);
-  color: var(--form-input-disabled-text-color);
 }
 .form-input[required] {
   border: var(--form-input-required-border);
 }
 .form-input[readonly] {
   background: var(--form-input-readonly-background);
-  color: var(--form-input-readonly-text-color);
   border: var(--form-input-readonly-border);
   pointer-events: none;
 }
@@ -9734,7 +9512,6 @@ ul.iconnav.iconnav-vertical > li {
   border-style: var(--form-input-file-border-style);
 }
 .form-input:invalid, .form-input:focus:invalid {
-  color: var(--form-input-invalid-text-color);
   border: var(--form-input-invalid-border);
 }
 .form-input[type=file]:focus:invalid {

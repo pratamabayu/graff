@@ -7,6 +7,8 @@ https://github.com/pratamabayu/graff
 
 /* Utilities */
 @import 'src/variables';
+@import 'src/variables@base';
+@import 'src/variables@light';
 @import 'src/functions';
 @import 'src/mixins';
 @import 'src/color';
