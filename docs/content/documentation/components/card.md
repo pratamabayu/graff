@@ -91,7 +91,7 @@ table_of_contents: true
 ```
 
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
-    <div class="card card-default box-shadow-xlarge">
+    <div class="card card-default box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <h2>Title</h2>
         </div>
@@ -109,7 +109,7 @@ table_of_contents: true
             </div>
         </div>
     </div>
-    <div class="card card-primary box-shadow-xlarge">
+    <div class="card card-primary box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <h2>Title</h2>
         </div>
@@ -131,7 +131,7 @@ table_of_contents: true
 
 ``` html
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
-    <div class="card card-default box-shadow-xlarge">
+    <div class="card card-default box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <h2>Title</h2>
         </div>
@@ -149,7 +149,7 @@ table_of_contents: true
             </div>
         </div>
     </div>
-    <div class="card card-primary box-shadow-xlarge">
+    <div class="card card-primary box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <h2>Title</h2>
         </div>
@@ -171,7 +171,7 @@ table_of_contents: true
 ```
 
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
-    <div class="card card-default padding-medium box-shadow-xlarge">
+    <div class="card card-default padding-medium box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <div class="text-center">
                 <img src="/images/documentation/happy-daughter.jpg" width="128" height="128"
@@ -192,7 +192,7 @@ table_of_contents: true
             </div>
         </div>
     </div>
-    <div class="card card-primary padding-medium box-shadow-xlarge">
+    <div class="card card-primary padding-medium box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <div class="text-center">
                 <img src="/images/documentation/happy-daughter.jpg" width="128" height="128"
@@ -217,7 +217,7 @@ table_of_contents: true
 
 ``` html
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
-    <div class="card card-default padding-medium box-shadow-xlarge">
+    <div class="card card-default padding-medium box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <div class="text-center">
                 <img src="/images/documentation/happy-daughter.jpg" width="128" height="128"
@@ -238,7 +238,7 @@ table_of_contents: true
             </div>
         </div>
     </div>
-    <div class="card card-primary padding-medium box-shadow-xlarge">
+    <div class="card card-primary padding-medium box-shadow-xlarge box-shadow-none@dark">
         <div class="card-header">
             <div class="text-center">
                 <img src="/images/documentation/happy-daughter.jpg" width="128" height="128"

@@ -162,7 +162,7 @@ table_of_contents: true
                 <li class="active"><a href="#">Features</a></li>
                 <li>
                     <a href="#">Community</a>
-                    <div class="navbar-dropdown position-bottom-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+                    <div class="navbar-dropdown position-bottom-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
                         <ul class="navbar-dropdown-nav nav">
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Forum</a></li>
@@ -190,7 +190,7 @@ table_of_contents: true
                 <li class="active"><a href="#">Features</a></li>
                 <li>
                     <a href="#">Community</a>
-                    <div class="navbar-dropdown position-bottom-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+                    <div class="navbar-dropdown position-bottom-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
                         <ul class="navbar-dropdown-nav nav">
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Forum</a></li>

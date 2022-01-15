@@ -1,4 +1,4 @@
-:root {
+.dark {
   --color-border: #{lighten($color-border, 40%)};
   --color-border-dark: #{lighten($color-border, 50%)};
   --color-border-light: #{lighten($color-border, 30%)};

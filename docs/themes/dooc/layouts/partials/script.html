@@ -1,3 +1,43 @@
+<script>
+    if (localStorage.theme === 'dark' || 
+    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+
+        setDarkTheme();
+    } else {
+
+        setLightTheme();
+    }
+
+    function toggleTheme() {
+
+        if (document.documentElement.classList.contains('dark')) {
+
+            localStorage.theme = 'light';
+            setLightTheme();
+        } else {
+
+            localStorage.theme = 'dark';
+            setDarkTheme();
+        }
+    }
+
+    function setLightTheme() {
+
+        let themeIcon = document.getElementById('theme-icon');
+        themeIcon.setAttribute("xlink:href", "icons/graff-icons.svg#sun"); 
+
+        document.documentElement.classList.remove('dark');
+    }
+
+    function setDarkTheme() {
+
+        let themeIcon = document.getElementById('theme-icon');
+        themeIcon.setAttribute("xlink:href", "icons/graff-icons.svg#moon");
+
+        document.documentElement.classList.add('dark');
+    }
+</script>
+
 {{- partial "google-analytics.html" . -}}
 
 <script>

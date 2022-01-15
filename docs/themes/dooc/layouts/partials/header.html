@@ -26,6 +26,13 @@
         <div class="margin-large margin-remove-vertical margin-remove-all@m">
             <ul class="navbar-nav">
                 <li>
+                    <a class="color-text color-primary-dark@hover" onclick="toggleTheme()">
+                        <svg class="icon">
+                            <use id="theme-icon" xlink:href="icons/graff-icons.svg#sun" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
                     <a href="{{- .Site.Params.project_url -}}" target="_blank" class="color-text color-primary-dark@hover">
                         <svg class="icon">
                             <use xlink:href="icons/graff-icons.svg#github" />

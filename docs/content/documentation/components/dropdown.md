@@ -13,7 +13,7 @@ table_of_contents: true
 <section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
-        <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+        <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
@@ -28,7 +28,7 @@ table_of_contents: true
 <section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
-        <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+        <div class="dropdown margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
@@ -44,7 +44,7 @@ table_of_contents: true
     <span class="position-relative">
         <button class="button button-default">Dropdown</button>
         <div
-            class="dropdown position-top-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+            class="dropdown position-top-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
@@ -56,7 +56,7 @@ table_of_contents: true
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
         <div
-            class="dropdown position-bottom-right-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+            class="dropdown position-bottom-right-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
@@ -72,7 +72,7 @@ table_of_contents: true
     <span class="position-relative">
         <button class="button button-default">Dropdown</button>
         <div
-            class="dropdown position-top-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+            class="dropdown position-top-left-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>
@@ -84,7 +84,7 @@ table_of_contents: true
     <span class="position-relative">
         <button class="button button-primary">Dropdown</button>
         <div
-            class="dropdown position-bottom-right-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge">
+            class="dropdown position-bottom-right-out margin-small margin-remove-horizontal border-radius-2xsmall box-shadow-xlarge box-shadow-none@dark">
             <ul class="nav">
                 <li class="active"><a href="#">Introduction</a></li>
                 <li><a href="#">Installation</a></li>

@@ -14,3 +14,7 @@ $shadow-data: (
     }
   }
 }
+
+.dark .box-shadow-none\@dark {
+  box-shadow: none;
+}
