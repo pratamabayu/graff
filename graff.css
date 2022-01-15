@@ -145,14 +145,14 @@ https://github.com/pratamabayu/graff
 .background-color-primary,
 .background-color-primary\@hover:hover,
 .dark .background-color-primary\@dark,
-.dark .background-color-primary\@hover\@dark {
+.dark .background-color-primary\@hover\@dark:hover {
   background-color: var(--color-primary) !important;
 }
 
 .color-primary,
 .color-primary\@hover:hover,
 .dark .color-primary\@dark,
-.dark .color-primary\@hover\@dark {
+.dark .color-primary\@hover\@dark:hover {
   color: var(--color-primary) !important;
 }
 
@@ -166,14 +166,14 @@ https://github.com/pratamabayu/graff
 .background-color-primary-light,
 .background-color-primary-light\@hover:hover,
 .dark .background-color-primary-light\@dark,
-.dark .background-color-primary-light\@hover\@dark {
+.dark .background-color-primary-light\@hover\@dark:hover {
   background-color: var(--color-primary-light) !important;
 }
 
 .color-primary-light,
 .color-primary-light\@hover:hover,
 .dark .color-primary-light\@dark,
-.dark .color-primary-light\@hover\@dark {
+.dark .color-primary-light\@hover\@dark:hover {
   color: var(--color-primary-light) !important;
 }
 
@@ -187,14 +187,14 @@ https://github.com/pratamabayu/graff
 .background-color-primary-dark,
 .background-color-primary-dark\@hover:hover,
 .dark .background-color-primary-dark\@dark,
-.dark .background-color-primary-dark\@hover\@dark {
+.dark .background-color-primary-dark\@hover\@dark:hover {
   background-color: var(--color-primary-dark) !important;
 }
 
 .color-primary-dark,
 .color-primary-dark\@hover:hover,
 .dark .color-primary-dark\@dark,
-.dark .color-primary-dark\@hover\@dark {
+.dark .color-primary-dark\@hover\@dark:hover {
   color: var(--color-primary-dark) !important;
 }
 
@@ -208,14 +208,14 @@ https://github.com/pratamabayu/graff
 .background-color-secondary,
 .background-color-secondary\@hover:hover,
 .dark .background-color-secondary\@dark,
-.dark .background-color-secondary\@hover\@dark {
+.dark .background-color-secondary\@hover\@dark:hover {
   background-color: var(--color-secondary) !important;
 }
 
 .color-secondary,
 .color-secondary\@hover:hover,
 .dark .color-secondary\@dark,
-.dark .color-secondary\@hover\@dark {
+.dark .color-secondary\@hover\@dark:hover {
   color: var(--color-secondary) !important;
 }
 
@@ -229,14 +229,14 @@ https://github.com/pratamabayu/graff
 .background-color-secondary-light,
 .background-color-secondary-light\@hover:hover,
 .dark .background-color-secondary-light\@dark,
-.dark .background-color-secondary-light\@hover\@dark {
+.dark .background-color-secondary-light\@hover\@dark:hover {
   background-color: var(--color-secondary-light) !important;
 }
 
 .color-secondary-light,
 .color-secondary-light\@hover:hover,
 .dark .color-secondary-light\@dark,
-.dark .color-secondary-light\@hover\@dark {
+.dark .color-secondary-light\@hover\@dark:hover {
   color: var(--color-secondary-light) !important;
 }
 
@@ -250,14 +250,14 @@ https://github.com/pratamabayu/graff
 .background-color-secondary-dark,
 .background-color-secondary-dark\@hover:hover,
 .dark .background-color-secondary-dark\@dark,
-.dark .background-color-secondary-dark\@hover\@dark {
+.dark .background-color-secondary-dark\@hover\@dark:hover {
   background-color: var(--color-secondary-dark) !important;
 }
 
 .color-secondary-dark,
 .color-secondary-dark\@hover:hover,
 .dark .color-secondary-dark\@dark,
-.dark .color-secondary-dark\@hover\@dark {
+.dark .color-secondary-dark\@hover\@dark:hover {
   color: var(--color-secondary-dark) !important;
 }
 
@@ -271,14 +271,14 @@ https://github.com/pratamabayu/graff
 .background-color-dark,
 .background-color-dark\@hover:hover,
 .dark .background-color-dark\@dark,
-.dark .background-color-dark\@hover\@dark {
+.dark .background-color-dark\@hover\@dark:hover {
   background-color: var(--color-dark) !important;
 }
 
 .color-dark,
 .color-dark\@hover:hover,
 .dark .color-dark\@dark,
-.dark .color-dark\@hover\@dark {
+.dark .color-dark\@hover\@dark:hover {
   color: var(--color-dark) !important;
 }
 
@@ -292,14 +292,14 @@ https://github.com/pratamabayu/graff
 .background-color-light,
 .background-color-light\@hover:hover,
 .dark .background-color-light\@dark,
-.dark .background-color-light\@hover\@dark {
+.dark .background-color-light\@hover\@dark:hover {
   background-color: var(--color-light) !important;
 }
 
 .color-light,
 .color-light\@hover:hover,
 .dark .color-light\@dark,
-.dark .color-light\@hover\@dark {
+.dark .color-light\@hover\@dark:hover {
   color: var(--color-light) !important;
 }
 
@@ -313,14 +313,14 @@ https://github.com/pratamabayu/graff
 .background-color-gray,
 .background-color-gray\@hover:hover,
 .dark .background-color-gray\@dark,
-.dark .background-color-gray\@hover\@dark {
+.dark .background-color-gray\@hover\@dark:hover {
   background-color: var(--color-gray) !important;
 }
 
 .color-gray,
 .color-gray\@hover:hover,
 .dark .color-gray\@dark,
-.dark .color-gray\@hover\@dark {
+.dark .color-gray\@hover\@dark:hover {
   color: var(--color-gray) !important;
 }
 
@@ -334,14 +334,14 @@ https://github.com/pratamabayu/graff
 .background-color-gray-light,
 .background-color-gray-light\@hover:hover,
 .dark .background-color-gray-light\@dark,
-.dark .background-color-gray-light\@hover\@dark {
+.dark .background-color-gray-light\@hover\@dark:hover {
   background-color: var(--color-gray-light) !important;
 }
 
 .color-gray-light,
 .color-gray-light\@hover:hover,
 .dark .color-gray-light\@dark,
-.dark .color-gray-light\@hover\@dark {
+.dark .color-gray-light\@hover\@dark:hover {
   color: var(--color-gray-light) !important;
 }
 
@@ -355,14 +355,14 @@ https://github.com/pratamabayu/graff
 .background-color-gray-dark,
 .background-color-gray-dark\@hover:hover,
 .dark .background-color-gray-dark\@dark,
-.dark .background-color-gray-dark\@hover\@dark {
+.dark .background-color-gray-dark\@hover\@dark:hover {
   background-color: var(--color-gray-dark) !important;
 }
 
 .color-gray-dark,
 .color-gray-dark\@hover:hover,
 .dark .color-gray-dark\@dark,
-.dark .color-gray-dark\@hover\@dark {
+.dark .color-gray-dark\@hover\@dark:hover {
   color: var(--color-gray-dark) !important;
 }
 
@@ -376,14 +376,14 @@ https://github.com/pratamabayu/graff
 .background-color-success,
 .background-color-success\@hover:hover,
 .dark .background-color-success\@dark,
-.dark .background-color-success\@hover\@dark {
+.dark .background-color-success\@hover\@dark:hover {
   background-color: var(--color-success) !important;
 }
 
 .color-success,
 .color-success\@hover:hover,
 .dark .color-success\@dark,
-.dark .color-success\@hover\@dark {
+.dark .color-success\@hover\@dark:hover {
   color: var(--color-success) !important;
 }
 
@@ -397,14 +397,14 @@ https://github.com/pratamabayu/graff
 .background-color-warning,
 .background-color-warning\@hover:hover,
 .dark .background-color-warning\@dark,
-.dark .background-color-warning\@hover\@dark {
+.dark .background-color-warning\@hover\@dark:hover {
   background-color: var(--color-warning) !important;
 }
 
 .color-warning,
 .color-warning\@hover:hover,
 .dark .color-warning\@dark,
-.dark .color-warning\@hover\@dark {
+.dark .color-warning\@hover\@dark:hover {
   color: var(--color-warning) !important;
 }
 
@@ -418,14 +418,14 @@ https://github.com/pratamabayu/graff
 .background-color-error,
 .background-color-error\@hover:hover,
 .dark .background-color-error\@dark,
-.dark .background-color-error\@hover\@dark {
+.dark .background-color-error\@hover\@dark:hover {
   background-color: var(--color-error) !important;
 }
 
 .color-error,
 .color-error\@hover:hover,
 .dark .color-error\@dark,
-.dark .color-error\@hover\@dark {
+.dark .color-error\@hover\@dark:hover {
   color: var(--color-error) !important;
 }
 
@@ -439,77 +439,77 @@ https://github.com/pratamabayu/graff
 .background-color-background,
 .background-color-background\@hover:hover,
 .dark .background-color-background\@dark,
-.dark .background-color-background\@hover\@dark {
+.dark .background-color-background\@hover\@dark:hover {
   background-color: var(--color-background) !important;
 }
 
 .background-color-background-dark,
 .background-color-background-dark\@hover:hover,
 .dark .background-color-background-dark\@dark,
-.dark .background-color-background-dark\@hover\@dark {
+.dark .background-color-background-dark\@hover\@dark:hover {
   background-color: var(--color-background-dark) !important;
 }
 
 .background-color-background-light,
 .background-color-background-light\@hover:hover,
 .dark .background-color-background-light\@dark,
-.dark .background-color-background-light\@hover\@dark {
+.dark .background-color-background-light\@hover\@dark:hover {
   background-color: var(--color-background-light) !important;
 }
 
 .color-text,
 .color-text\@hover:hover,
 .dark .color-text\@dark,
-.dark .color-text\@hover\@dark {
+.dark .color-text\@hover\@dark:hover {
   color: var(--color-text) !important;
 }
 
 .color-text-light,
 .color-text-light\@hover:hover,
 .dark .color-text-light\@dark,
-.dark .color-text-light\@hover\@dark {
+.dark .color-text-light\@hover\@dark:hover {
   color: var(--color-text-light) !important;
 }
 
 .color-link,
 .color-link\@hover:hover,
 .dark .color-link\@dark,
-.dark .color-link\@hover\@dark {
+.dark .color-link\@hover\@dark:hover {
   color: var(--color-link) !important;
 }
 
 .color-link-dark,
 .color-link-dark\@hover:hover,
 .dark .color-link-dark\@dark,
-.dark .color-link-dark\@hover\@dark {
+.dark .color-link-dark\@hover\@dark:hover {
   color: var(--color-link-dark) !important;
 }
 
 .color-link-light,
 .color-link-light\@hover:hover,
 .dark .color-link-light\@dark,
-.dark .color-link-light\@hover\@dark {
+.dark .color-link-light\@hover\@dark:hover {
   color: var(--color-link-light) !important;
 }
 
 .border-color-border,
 .border-color-border\@hover:hover,
 .dark .border-color-border\@dark,
-.dark .border-color-border\@hover\@dark {
+.dark .border-color-border\@hover\@dark:hover {
   border-color: var(--color-border) !important;
 }
 
 .border-color-border-dark,
 .border-color-border-dark\@hover:hover,
 .dark .border-color-border-dark\@dark,
-.dark .border-color-border-dark\@hover\@dark {
+.dark .border-color-border-dark\@hover\@dark:hover {
   border-color: var(--color-border-dark) !important;
 }
 
 .border-color-border-light,
 .border-color-border-light\@hover:hover,
 .dark .border-color-border-light\@dark,
-.dark .border-color-border-light\@hover\@dark {
+.dark .border-color-border-light\@hover\@dark:hover {
   border-color: var(--color-border-light) !important;
 }
 

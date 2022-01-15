@@ -66,14 +66,14 @@ $predefined-border-color-data: (
   .background-color-#{$color-key},
   .background-color-#{$color-key}\@hover:hover,
   .dark .background-color-#{$color-key}\@dark,
-  .dark .background-color-#{$color-key}\@hover\@dark {
+  .dark .background-color-#{$color-key}\@hover\@dark:hover {
     background-color: var(--#{$color-value}) !important;
   }
 
   .color-#{$color-key},
   .color-#{$color-key}\@hover:hover,
   .dark .color-#{$color-key}\@dark,
-  .dark .color-#{$color-key}\@hover\@dark {
+  .dark .color-#{$color-key}\@hover\@dark:hover {
     color: var(--#{$color-value}) !important;
   }
 
@@ -89,7 +89,7 @@ $predefined-border-color-data: (
   .#{$color-key},
   .#{$color-key}\@hover:hover,
   .dark .#{$color-key}\@dark,
-  .dark .#{$color-key}\@hover\@dark {
+  .dark .#{$color-key}\@hover\@dark:hover {
     background-color: var(--#{$color-value}) !important;
   }
 }
@@ -98,7 +98,7 @@ $predefined-border-color-data: (
   .#{$color-key},
   .#{$color-key}\@hover:hover,
   .dark .#{$color-key}\@dark,
-  .dark .#{$color-key}\@hover\@dark {
+  .dark .#{$color-key}\@hover\@dark:hover {
     color: var(--#{$color-value}) !important;
   }
 }
@@ -107,7 +107,7 @@ $predefined-border-color-data: (
   .#{$color-key},
   .#{$color-key}\@hover:hover,
   .dark .#{$color-key}\@dark,
-  .dark .#{$color-key}\@hover\@dark {
+  .dark .#{$color-key}\@hover\@dark:hover {
     border-color: var(--#{$color-value}) !important;
   }
 }
