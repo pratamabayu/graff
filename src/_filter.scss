@@ -1,1 +1,8 @@
-
+@each $value in (25, 50, 75) {
+  .filter-brightness-#{$value},
+  .filter-brightness-#{$value}\@hover:hover,
+  .dark .filter-brightness-#{$value}\@dark,
+  .dark .filter-brightness-#{$value}\@hover\@dark:hover {
+    filter: brightness(calc($value/100));
+  }
+}
