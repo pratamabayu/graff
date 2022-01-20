@@ -1,7 +1,8 @@
 :root {
+  --form-input-text-color: var(--color-text);
   --form-input-padding: var(--padding-xsmall) var(--padding-small);
   --form-input-border: var(--border-width-thin) solid var(--color-border-light);
-  --form-input-background: var(--color-light);
+  --form-input-background: var(--color-background-light);
   --form-input-box-shadow: none;
   --form-input-border-radius: var(--border-radius-2xsmall);
 
@@ -30,7 +31,7 @@
   --form-input-select-background: var(--form-input-background);
   --form-input-checkbox-active-background: var(--color-primary);
   --form-input-checkbox-active-border: var(--border-width) solid
-    var(--form-input-background);
+    var(--color-light);
   --form-input-radio-active-background: var(--form-input-background);
   --form-input-radio-active-border: calc(var(--border-width) * 2) solid
     var(--color-primary);
@@ -109,6 +110,8 @@
   -moz-appearance: none;
   appearance: none;
   outline: none;
+
+  color: var(--form-input-text-color);
 
   &.form-select {
     background-image: var(--form-input-select-arrow) !important;
@@ -216,6 +219,7 @@
 
   &[type="checkbox"]:checked {
     background: var(--form-input-checkbox-active-background);
+    border-color: var(--form-input-checkbox-active-background);
   }
 
   &[type="checkbox"]:checked:after {

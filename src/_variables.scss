@@ -112,8 +112,8 @@ $color-link: $color-primary;
 
 .dark {
   --color-border: #{lighten($color-border, 40%)};
-  --color-border-dark: #{lighten($color-border, 50%)};
-  --color-border-light: #{lighten($color-border, 30%)};
+  --color-border-dark: #{lighten($color-border, 4%)};
+  --color-border-light: #{lighten($color-border, 2%)};
 
   --color-background: #{$color-text};
   --color-background-dark: #{darken($color-text, 3%)};
