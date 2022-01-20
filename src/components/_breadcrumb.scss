@@ -15,7 +15,6 @@ ul.breadcrumb {
     + li {
       &:before {
         padding: var(--breadcrumb-item-padding);
-        color: var(--breadcrumb-item-link-color);
         content: "/\00a0";
       }
     }
