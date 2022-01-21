@@ -33,4 +33,12 @@ Defaultly, grid have 4 columns, but in medium screen have 2 columns and in small
 
 ## Dark mode support
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Defaultly, Graff in light mode. You can turn on the dark mode with add `dark` class on `<html>` tag.
+
+``` html
+<!DOCTYPE html>
+<html class="dark">
+    <head></head>
+    <body></body>
+</html>
+```
