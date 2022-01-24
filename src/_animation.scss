@@ -3,13 +3,13 @@
   --animation-delay: 1s;
 }
 
-@each $delay in (1s, 2s, 3s, 4s, 5s) {
-  .animation-delay-#{$delay} {
-    --animation-delay: #{$delay};
+@each $delay-key, $delay-value in ((\.25s, .25s), (\.5s, .5s), (\.75s, .75s), (1s, 1s), (2s, 2s), (3s, 3s), (4s, 4s), (5s, 5s)) {
+  .animation-delay-#{$delay-key} {
+    --animation-delay: #{$delay-value};
   }
 }
 
-@each $duration-key, $duration-value in ((slow, 2s), (slower, 3s), (fast, .8s), (faster, .5s)) {
+@each $duration-key, $duration-value in ((slow, 2s), (slower, 3s), (fast, .75s), (faster, .5s)) {
   .animation-duration-#{$duration-key} {
     --animation-duration: #{$duration-value};
   }

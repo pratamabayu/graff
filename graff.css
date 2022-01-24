@@ -8478,6 +8478,18 @@ img {
   --animation-delay: 1s;
 }
 
+.animation-delay-\.25s {
+  --animation-delay: 0.25s;
+}
+
+.animation-delay-\.5s {
+  --animation-delay: 0.5s;
+}
+
+.animation-delay-\.75s {
+  --animation-delay: 0.75s;
+}
+
 .animation-delay-1s {
   --animation-delay: 1s;
 }
@@ -8507,7 +8519,7 @@ img {
 }
 
 .animation-duration-fast {
-  --animation-duration: 0.8s;
+  --animation-duration: 0.75s;
 }
 
 .animation-duration-faster {
