@@ -8475,7 +8475,43 @@ img {
 
 :root {
   --animation-duration: 1s;
-  --animation-delay: .15s;
+  --animation-delay: 1s;
+}
+
+.animation-delay-1s {
+  --animation-delay: 1s;
+}
+
+.animation-delay-2s {
+  --animation-delay: 2s;
+}
+
+.animation-delay-3s {
+  --animation-delay: 3s;
+}
+
+.animation-delay-4s {
+  --animation-delay: 4s;
+}
+
+.animation-delay-5s {
+  --animation-delay: 5s;
+}
+
+.animation-duration-slow {
+  --animation-duration: 2s;
+}
+
+.animation-duration-slower {
+  --animation-duration: 3s;
+}
+
+.animation-duration-fast {
+  --animation-duration: 0.8s;
+}
+
+.animation-duration-faster {
+  --animation-duration: 0.5s;
 }
 
 .animation-fade-in {

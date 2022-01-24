@@ -10,15 +10,8 @@ categories_weight: 1
 
 Graff is designed to highly customizable. It can be done by changing value in {{< link-to  href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" title="CSS custom properties (variables)" >}}. There are 2 types of variables.
 
-1. [Core variables](/documentation/customize/concept#core-variables), shared global variables for utilities and componenents.
-2. [Component variables](/documentation/customize/concept#component-variables), some component specific variables.
+1. [Core variables](/documentation/customize/variables#core-variables), shared global variables for utilities and componenents.
+2. [Component variables](/documentation/customize/variables#component-variables), component-specific variables.
 
-## Core variables
+## Best practices
 
-Core variables is 75 important variables to customize UI globally. They are ```--color-*```, ```--margin-*```, ```--padding-*```, ```--width-*```, ```--height-*```, ```--gap-*```, ```--border-*```, ```--font-*```, ```--line-height-*```, and ```--heading-space-*```.
-
-## Component variables
-
-Component variables have prefix ```--{component_name}-*``` with ```{component_name}``` will be replaced with the name of component in lower case, for example [Accordion](/documentation/components/accordion) component has prefix ```--accordion-*```. Please go to component page for details.
-
->   Be careful playing with this, it might cause problems with UI consistency

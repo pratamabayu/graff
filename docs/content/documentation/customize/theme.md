@@ -3,7 +3,7 @@ title: "Theme"
 date: 2021-06-17T13:58:33+07:00
 draft: false
 categories: ["Customize"]
-categories_weight: 2
+categories_weight: 3
 ---
 
 # Theme

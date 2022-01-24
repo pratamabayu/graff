@@ -1,6 +1,18 @@
 :root {
   --animation-duration: 1s;
-  --animation-delay: .15s;
+  --animation-delay: 1s;
+}
+
+@each $delay in (1s, 2s, 3s, 4s, 5s) {
+  .animation-delay-#{$delay} {
+    --animation-delay: #{$delay};
+  }
+}
+
+@each $duration-key, $duration-value in ((slow, 2s), (slower, 3s), (fast, .8s), (faster, .5s)) {
+  .animation-duration-#{$duration-key} {
+    --animation-duration: #{$duration-value};
+  }
 }
 
 .animation-fade-in {
@@ -98,7 +110,7 @@
 }
 
 .animation-spin {
-  animation: spin var(--animation-duration) infinite linear;
+  animation: spin var(--animation-duration) infinite linear;;
 }
 
 @keyframes fade-in {
