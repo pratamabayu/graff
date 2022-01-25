@@ -6,7 +6,7 @@ categories: ["Getting Started"]
 categories_weight: 2
 ---
 
-{{< heading text="Installation" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Installation" sub-text="Steps to ready to use Graff" >}}
 
 Installing Graff can be done manually or via {{< link-to  href="https://en.wikipedia.org/wiki/Content_delivery_network" title="Content Delivery Network (CDN)" >}}.
 

@@ -6,7 +6,7 @@ categories: ["Customize"]
 categories_weight: 2
 ---
 
-{{< heading text="Variables" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Variables" sub-text="A logical grouping whose values can be changed" >}}
 
 ## Core variables
 

@@ -6,7 +6,7 @@ categories: ["Getting Started"]
 categories_weight: 3
 ---
 
-{{< heading text="What's new" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="What's new" sub-text="There for improvement" >}}
 
 ## 0.9
 

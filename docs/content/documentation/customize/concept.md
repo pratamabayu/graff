@@ -6,7 +6,7 @@ categories: ["Customize"]
 categories_weight: 1
 ---
 
-{{< heading text="Concept" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Concept" sub-text="Something to understand in using Graff" >}}
 
 Graff is designed to highly customizable. It can be done by changing value in {{< link-to  href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" title="CSS custom properties (variables)" >}}. There are 2 types of variables.
 
