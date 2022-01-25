@@ -39,16 +39,3 @@ Add `margin-*` class to block or inline block element.
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--margin-2xsmall` | `3px` |
-| `--margin-xsmall` | `5px` |
-| `--margin-small` | `10px` |
-| `--margin-medium` | `20px` |
-| `--margin-large` | `40px` |
-| `--margin-xlarge` | `60px` |
-{{</table>}}

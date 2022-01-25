@@ -39,16 +39,3 @@ Add `padding-*` class to block or inline block element.
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--padding-2xsmall` | `3px` |
-| `--padding-xsmall` | `5px` |
-| `--padding-small` | `10px` |
-| `--padding-medium` | `20px` |
-| `--padding-large` | `40px` |
-| `--padding-xlarge` | `60px` |
-{{</table>}}

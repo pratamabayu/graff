@@ -10,7 +10,7 @@ categories_weight: 1
 table_of_contents: false
 ---
 
-# Introduction
+{{< heading text="Introduction" sub-text="Lorem ipsum sit amet dolor" >}}
 
 Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with beautiful [components](/documentation/components) and [utilities](/documentation/utilities), just 144kb or 20kb gzip compressed.
 

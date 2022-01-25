@@ -35,13 +35,3 @@ Add `gap-*` class to a tag where `flex`, `flex-inline`, or `grid` class is locat
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--gap-small` | `10px` |
-| `--gap-medium` | `20px` |
-| `--gap-large` | `40px` |
-{{</table>}}

@@ -82,37 +82,3 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 {{</table>}}
 
 > Add `@hover` suffix to support `:hover` state
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--color-primary` | `#005BFF` |
-| `--color-primary-light` | `#0f65ff` |
-| `--color-primary-dark` | `#0056f0` |
-| `--color-secondary` | `#ffa400` |
-| `--color-secondary-light` | `#ffa90f` |
-| `--color-secondary-dark` | `#f09a00` |
-| `--color-dark` | `#000` |
-| `--color-light` | `#fafafa` |
-| `--color-gray` | `#8c8c8c` |
-| `--color-gray-light` | `#bfbfbf` |
-| `--color-gray-dark` | `#404040` |
-| `--color-border` | `#a6a6a6` |
-| `--color-border-light` | `#bababa` |
-| `--color-border-dark` | `#8c8c8c` |
-| `--color-background` | `#ededed` |
-| `--color-background-light` | `#fafafa` |
-| `--color-background-dark` | `#e6e6e6` |
-| `--color-text` | `#0d0d0d` |
-| `--color-text-light` | `#737373` |
-| `--color-success` | `#32b643` |
-| `--color-warning` | `#ffb700` |
-| `--color-error` | `#e85600` |
-| `--color-link` | `#005BFF` |
-| `--color-link-light` | `#337cff` |
-| `--color-link-dark` | `#0049cc` |
-| `--color-code` | `#404040` |
-| `--color-highlight` | `#ffe9b3` |
-{{</table>}}

@@ -85,7 +85,10 @@ https://github.com/pratamabayu/graff
   --font-size-heading-h1: 2.5rem;
   --line-height: 1.5;
   --line-height-heading: 1.2;
+  --heading-space-after: 1rem;
   --heading-space-after: 0.75rem;
+  --animation-duration: 1s;
+  --animation-delay: 1s;
 }
 
 .dark {
@@ -898,6 +901,7 @@ h4,
 h5,
 h6 {
   line-height: var(--line-height-heading);
+  margin-top: var(--heading-space-before);
   margin-bottom: var(--heading-space-after);
   margin-top: 0;
 }
@@ -8471,11 +8475,6 @@ img {
 .dark .filter-brightness-75\@dark,
 .dark .filter-brightness-75\@hover\@dark:hover {
   filter: brightness(0.75);
-}
-
-:root {
-  --animation-duration: 1s;
-  --animation-delay: 1s;
 }
 
 .animation-delay-\.25s {

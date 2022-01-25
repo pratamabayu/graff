@@ -14,7 +14,7 @@ Add `height-*` class to block or inline block element.
 
 ``` html
 <div class="height-medium">
-    <!-- Your content ->
+    <!-- Your content -->
 </div>
 ```
 
@@ -49,15 +49,3 @@ Add `height-*` class to block or inline block element.
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--height-small` | `150px` |
-| `--height-medium` | `300px` |
-| `--height-large` | `450px` |
-| `--height-xlarge` | `600px` |
-| `--height-2xlarge` | `750px` |
-{{</table>}}

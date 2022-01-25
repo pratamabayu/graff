@@ -60,18 +60,3 @@ Add `border-*` class to block or inline block element.
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--border-width` | `2px` |
-| `--border-width-thin` | `1px` |
-| `--border-width-thick` | `4px` |
-| `--border-radius-2xsmall` | `3px` |
-| `--border-radius-xsmall` | `5px` |
-| `--border-radius-small` | `10px` |
-| `--border-radius-medium` | `20px` |
-| `--border-radius-large` | `40px` |
-{{</table>}}

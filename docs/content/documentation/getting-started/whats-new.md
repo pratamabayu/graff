@@ -6,7 +6,7 @@ categories: ["Getting Started"]
 categories_weight: 3
 ---
 
-# What's new
+{{< heading text="What's new" sub-text="Lorem ipsum sit amet dolor" >}}
 
 ## 0.9
 

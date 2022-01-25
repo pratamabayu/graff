@@ -14,7 +14,7 @@ Add `width-*` class to block or inline block element.
 
 ``` html
 <div class="width-medium">
-    <!-- Your content ->
+    <!-- Your content -->
 </div>
 ```
 
@@ -49,15 +49,3 @@ Add `width-*` class to block or inline block element.
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--width-small` | `150px` |
-| `--width-medium` | `300px` |
-| `--width-large` | `450px` |
-| `--width-xlarge` | `600px` |
-| `--width-2xlarge` | `750px` |
-{{</table>}}

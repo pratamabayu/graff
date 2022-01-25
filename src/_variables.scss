@@ -107,7 +107,11 @@ $color-link: $color-primary;
   --line-height: 1.5;
   --line-height-heading: 1.2;
 
+  --heading-space-after: 1rem;
   --heading-space-after: 0.75rem;
+
+  --animation-duration: 1s;
+  --animation-delay: 1s;
 }
 
 .dark {

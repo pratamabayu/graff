@@ -1,8 +1,3 @@
-:root {
-  --animation-duration: 1s;
-  --animation-delay: 1s;
-}
-
 @each $delay-key, $delay-value in ((\.25s, .25s), (\.5s, .5s), (\.75s, .75s), (1s, 1s), (2s, 2s), (3s, 3s), (4s, 4s), (5s, 5s)) {
   .animation-delay-#{$delay-key} {
     --animation-delay: #{$delay-value};

@@ -17,7 +17,7 @@ Add `animation-*` class to an element.
 
 ``` html
 <div class="animation-spin">
-    <!-- Your content ->
+    <!-- Your content -->
 </div>
 ```
 
@@ -26,6 +26,17 @@ Add `animation-*` class to an element.
 {{<table "table table-divider">}}
 | Class | Value |
 |----------|----------|
+| `animation-delay-.25s` | `.25s` |
+| `animation-delay-.5s` | `.5s` |
+| `animation-delay-.75s` | `.75s` |
+| `animation-delay-2s` | `2s` |
+| `animation-delay-3s` | `3s` |
+| `animation-delay-4s` | `4s` |
+| `animation-delay-5s` | `5s` |
+| `animation-duration-faster` | `.5s` |
+| `animation-duration-fast` | `.75s` |
+| `animation-duration-slow` | `2s` |
+| `animation-duration-slower` | `3s` |
 | `animation-fade-in` |
 | `animation-fade-out` |
 | `animation-slide-left-fade-in` |
@@ -44,13 +55,4 @@ Add `animation-*` class to an element.
 | `animation-pulse` |
 | `animation-pulse-in` |
 | `animation-spin` |
-{{</table>}}
-
-## Variables
-
-{{<table "table table-divider">}}
-| Variable | Value |
-|----------|----------|
-| `--animation-duration` | `1s` |
-| `--animation-delay` | `.25s` |
 {{</table>}}
