@@ -12,7 +12,7 @@ Graff is designed to make it easy to change the appearance to fit your brand by 
 
 ## Creating brand color theme
 
-To quickly create a theme you simply change the values of the variables associated with your brand colors in ```:root``` scope.
+To quickly create a theme you simply change the values of the variables associated with your brand colors in `:root` selector.
 
 ``` css
 :root {
@@ -28,11 +28,11 @@ To quickly create a theme you simply change the values of the variables associat
 }
 ```
 
->   Practial tips. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using ```button-primary``` class.
+>   Practial tips. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
 
 ## Creating colorful theme
 
-For a more colorful setting. You can change the value of the [color variables](/documentation/customize/variables#color). Make sure the theme performs perfectly on light mode before turn changes on dark mode in ```.dark``` scope.
+For a more colorful setting. You can change the value of the [color variables](/documentation/customize/variables#color). Make sure the theme performs perfectly on light mode before turn changes on dark mode in `.dark` selector.
 
 ``` css
 .dark {
@@ -48,11 +48,11 @@ For a more colorful setting. You can change the value of the [color variables](/
 }
 ```
 
->   Practical tips. You just need to adjust the color of the ```border```, ```background```, ```text```, and ```code``` in dark mode
+>   Practical tips. You just need to adjust the color of the `border`, `background`, `text`, and `code` in dark mode
 
 ## Choosing font for theme
 
-Say you have a font that fits your brand. You can make changes to the [font variables](/documentation/customize/variables#font).
+Sometimes, you have preferred fonts that fits your brand, for example `Jost` for main font and `Ubuntu Mono` for code font. You can make changes to the [font variables](/documentation/customize/variables#font).
 
 ``` css
 :root {
@@ -61,12 +61,14 @@ Say you have a font that fits your brand. You can make changes to the [font vari
 }
 ```
 
-then, linking your font using ```<link>``` tag inside the ```<head>``` tag
+then, linking your font using `<link>` tag inside the `<head>` tag
 
 ``` html
 <head>
+    ...
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    ...
 </head>
 ```
 

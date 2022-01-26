@@ -12,7 +12,7 @@ Installing Graff can be done manually or via {{< link-to  href="https://en.wikip
 
 ## Install manually
 
-You can download {{< link-to  href="https://github.com/pratamabayu/graff" title="Graff in github" >}}. Extract and include ```graff.min.css``` into your project and linking in your document head html.
+You can download {{< link-to  href="https://github.com/pratamabayu/graff" title="Graff in github" >}}. Extract and include `graff.min.css` into your project and linking in your document head html.
 
 ``` html
 <link href="path/to/graff.min.css" rel="stylesheet">

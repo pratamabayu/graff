@@ -6,10 +6,12 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Card" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Card" sub-text="Presenting content and actions about a single subject" >}}
 
 ## Usage
 
+Add `card` class on block tag. Get into it, then add `card-header` class on block tag to display the title, add `card-body` class in the next block tag to display the content, and finally add `card-footer` the next block tag to display the actions.
+
 <div class="card card-default">
     <div class="card-header">
         <h2>Title</h2>
@@ -50,45 +52,9 @@ table_of_contents: true
 </div>
 ```
 
-<div class="card card-primary">
-    <div class="card-header">
-        <h2>Title</h2>
-    </div>
-    <div class="card-body">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore
-            et dolore magna aliqua.
-        </p>
-    </div>
-    <div class="card-footer">
-        <div>
-            <button class="button button-default">Like it!</button>
-            <button class="button button-primary">Download</button>
-        </div>
-    </div>
-</div>
+## Appearance
 
-``` html
-<div class="card card-primary">
-    <div class="card-header">
-        <h2>Title</h2>
-    </div>
-    <div class="card-body">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore
-            et dolore magna aliqua.
-        </p>
-    </div>
-    <div class="card-footer">
-        <div>
-            <button class="button button-default">Like it!</button>
-            <button class="button button-primary">Download</button>
-        </div>
-    </div>
-</div>
-```
+Add `card-default` or `card-primary` class to change appearance of card
 
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default box-shadow-xlarge box-shadow-none@dark">
@@ -169,6 +135,12 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+>   Practical tips. When play with `box-shadow-*` class make sure add `box-shadow-none@dark` class to hide the shadows so the UI can perform perfectly in dark mode.
+
+## More examples
+
+Add `padding-*` to make breath space. Sometimes, you need add and arrange components inside the header, body, and footer. For example add image in header.
 
 <section class="flex flex-column@m flex-justify-content-start gap-column-small gap-row-small">
     <div class="card card-default padding-medium box-shadow-xlarge box-shadow-none@dark">

@@ -18,7 +18,7 @@ Component is ready to use of style for UI while utility is to modify existing co
 
 ## Fully responsive
 
-Graff is fully responsive. It's be handled in [utilities](/documentation/utilities) with add suffix ```@s``` in small screen, ```@m``` in medium screen, or ```@l``` in large screen.
+Graff is fully responsive. It's be handled in [utilities](/documentation/utilities) with add suffix `@s` in small screen, `@m` in medium screen, or `@l` in large screen.
 
 ``` html
 <section class="grid grid-4-columns grid-2-columns@m grid-1-columns@s">

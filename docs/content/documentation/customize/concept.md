@@ -18,7 +18,7 @@ Graff is designed to highly customizable. It can be done by changing value in {{
 
 Graff is ready to used CSS3 file. No need complicated setup environment to customize.
 
-1. Edit the CSS variables value on ```:root``` scoped
-2. Then in HTML, embed the CSS code directly on ```<style>``` tag or link the CSS file using ```<link>``` tag
+1. Edit the CSS variables value on `:root` selector
+2. Then in HTML, embed the CSS code directly on `<style>` tag or link the CSS file using `<link>` tag
 
 >   See how to [theme](/documentation/customize/theme) your UI

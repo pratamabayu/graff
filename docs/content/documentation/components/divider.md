@@ -8,7 +8,7 @@ table_of_contents: true
 
 {{< heading text="Divider" sub-text="Horizontal or vertical rule to break section" >}}
 
-## usage
+## Usage
 
 Add `divider` class to `<div`> tag or just use semantic `<hr/>` tag.
 

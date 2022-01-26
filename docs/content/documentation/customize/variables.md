@@ -10,7 +10,7 @@ categories_weight: 2
 
 ## Core variables
 
-Core variables is 77 important variables to customize UI globally. They are ```--color-*```, ```--margin-*```, ```--padding-*```, ```--width-*```, ```--height-*```, ```--gap-*```, ```--border-*```, ```--font-*```, ```--line-height-*```, ```--heading-space-*```, and ```--animation-*```
+Core variables is 77 important variables to customize UI globally. They are `--color-*`, `--margin-*`, `--padding-*`, `--width-*`, `--height-*`, `--gap-*`, `--border-*`, `--font-*`, `--line-height-*`, ```--heading-space-*```, and `--animation-*`
 
 ### Color
 
@@ -170,6 +170,6 @@ Core variables is 77 important variables to customize UI globally. They are ```-
 
 ## Component variables
 
-Component variables have prefix ```--{component_name}-*``` with ```{component_name}``` will be replaced with the name of component in lower case, for example [Accordion](/documentation/components/accordion) component has prefix ```--accordion-*```. Please go to component page for details.
+Component variables have prefix `--{component_name}-*` with `{component_name}` will be replaced with the name of component in lower case, for example [Accordion](/documentation/components/accordion) component has prefix `--accordion-*`. Please go to component page for details.
 
 >   Be careful playing with this, it might cause problems with UI consistency

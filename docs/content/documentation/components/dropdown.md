@@ -6,9 +6,24 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Dropdown" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Dropdown" sub-text="Allows a user to select a value from a series of options in overlay state" >}}
 
 ## Usage
+
+Add `dropdown` class in `<div>` tag after a html element, for example `<button>`, then wrap them with `<span>` tag with `position-relative` class.
+
+``` html
+<span class="position-relative">
+    <button class="button button-primary">Dropdown</button>
+    <div class="dropdown">
+        // The content
+    </div>
+</span>
+```
+
+## Appearance
+
+Add `margin-*` and `border-*` classes in `<div>` tag where the `dropdown` class is located to make dropdown perform more perfectly.
 
 <section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
@@ -39,6 +54,16 @@ table_of_contents: true
     </span>
 </section>
 ```
+
+>   Practical tips. When play with `box-shadow-*` class make sure add `box-shadow-none@dark` class to hide the shadows so the UI can perform perfectly in dark mode.
+
+## Layout
+
+### Position
+
+To place and align the dropdown, add `position-*` class in `<div>` tag where the `dropdown` class is located.
+
+>   See [position utility](/documentation/utilities/position) documentation
 
 <section class="flex flex-justify-content-start gap-column-small">
     <span class="position-relative">
