@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="List" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="List" sub-text="Any information displayed or organized in a logical or linear formation" >}}
 
 ## Usage
 

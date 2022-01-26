@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Pagination" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Pagination" sub-text="A sequence of pages which are connected and have similar content" >}}
 
 ## Usage
 

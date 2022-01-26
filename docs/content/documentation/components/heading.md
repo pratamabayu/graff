@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Heading" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Heading" sub-text="Short phrase describing what the succeeding section is all about" >}}
 
 ## Usage
 

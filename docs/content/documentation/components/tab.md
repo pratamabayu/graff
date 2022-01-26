@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Tab" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Tab" sub-text="Allows multiple sections to be contained within a single area" >}}
 
 ## Usage
 

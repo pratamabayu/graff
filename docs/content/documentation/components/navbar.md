@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Navbar" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Navbar" sub-text="The primary and prominent options of interactions with the interface" >}}
 
 ## Usage
 

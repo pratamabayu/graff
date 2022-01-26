@@ -23,6 +23,8 @@ Add `dropdown` class in `<div>` tag after a html element, for example `<button>`
 
 ## Appearance
 
+### Box models
+
 Add `margin-*` and `border-*` classes in `<div>` tag where the `dropdown` class is located to make dropdown perform more perfectly.
 
 <section class="flex flex-justify-content-start gap-column-small">
@@ -56,8 +58,6 @@ Add `margin-*` and `border-*` classes in `<div>` tag where the `dropdown` class 
 ```
 
 >   Practical tips. When play with `box-shadow-*` class make sure add `box-shadow-none@dark` class to hide the shadows so the UI can perform perfectly in dark mode.
-
-## Layout
 
 ### Position
 

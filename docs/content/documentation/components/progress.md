@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Progress" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Progress" sub-text="Shows the progression of a task" >}}
 
 ## Usage
 

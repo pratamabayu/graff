@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Spinner" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Spinner" sub-text="The most used wait indicators" >}}
 
 ## Usage
 

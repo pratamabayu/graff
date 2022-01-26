@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Image" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Image" sub-text="A visual representation of something" >}}
 
 ## Usage
 

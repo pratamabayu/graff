@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Stepper" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Stepper" sub-text="To convey progress through numbered steps" >}}
 
 ## Usage
 

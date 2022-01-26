@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Dotnav" sub-text="A floating navigation bar with anchor links to present sections" >}}
+{{< heading text="Dotnav" sub-text="A navigation bar with anchor links to present sections" >}}
 
 ## Usage
 

@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Modal" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Modal" sub-text="A mode that disables the main window but keeps it visible" >}}
 
 ## Usage
 

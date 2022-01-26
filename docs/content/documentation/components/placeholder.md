@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Placeholder" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Placeholder" sub-text="Reserved space for content that will appear soon" >}}
 
 ## Usage
 

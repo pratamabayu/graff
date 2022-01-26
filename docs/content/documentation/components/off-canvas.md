@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Off-canvas" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Off-canvas" sub-text="A sidebar that can be toggled to appear from the edges of the viewport" >}}
 
 ## Usage
 
