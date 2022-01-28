@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Border" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Border" sub-text="Sets an element's border" >}}
 
 ## Usage
 

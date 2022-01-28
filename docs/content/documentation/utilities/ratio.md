@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Ratio" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Ratio" sub-text="Lets you create boxes that maintain proportional dimensions where the height and width of a box are calculated" >}}
 
 ## Usage
 

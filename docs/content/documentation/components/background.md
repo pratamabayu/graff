@@ -85,3 +85,7 @@ Add `background-*` and its combination class to block tag. A background can be a
     <div class="background-scroll width-1/1 height-medium" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)"></div>
 </section>
 ```
+
+## Variables
+
+Coming soon

@@ -179,3 +179,6 @@ Add `list-larger` or `list-smaller` class where `list` class is located.
 </section>
 ```
 
+## Variables
+
+Coming soon

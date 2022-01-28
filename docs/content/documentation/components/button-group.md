@@ -169,3 +169,7 @@ Add `button-group-vertical` class to `<div>` tag where `button-group` class is l
     <button class="button button-default">Button 2</button>
 </div>
 ```
+
+## Variables
+
+Coming soon

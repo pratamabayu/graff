@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Fit" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Fit" sub-text="Sets how the content of a replaced element, such as an image or video, should be resized to fit its container" >}}
 
 ## Usage
 

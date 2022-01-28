@@ -145,3 +145,7 @@ table_of_contents: true
     </ul>
 </section>
 ```
+
+## Variables
+
+Coming soon

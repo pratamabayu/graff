@@ -89,3 +89,7 @@ table_of_contents: true
     </section>
 </section>
 ```
+
+## Variables
+
+Coming soon

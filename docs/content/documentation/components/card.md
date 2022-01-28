@@ -233,3 +233,7 @@ Add `padding-*` to make breath space. Sometimes, you need add and arrange compon
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

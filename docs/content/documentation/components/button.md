@@ -60,3 +60,7 @@ Add `button-default` or `button-primary` class to change appearance of button
     <a class="button button-default">Button</a>
 </section>
 ```
+
+## Variables
+
+Coming soon

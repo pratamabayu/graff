@@ -49,3 +49,7 @@ Add `text-right` class in `<blockquote>` tag.
     <cite>Anna Marie, 1989</cite>
 </blockquote>
 ```
+
+## Variables
+
+Coming soon

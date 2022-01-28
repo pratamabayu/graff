@@ -243,3 +243,7 @@ Add `accordion` class on `<details>` tag. Get into it, then add `accordion-heade
   </details>
 </section>
 ```
+
+## Variables
+
+Coming soon

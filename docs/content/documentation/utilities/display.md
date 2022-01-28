@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Display" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Display" sub-text="Sets whether an element is treated as a block or inline element and the layout used for its children">}}
 
 ## Usage
 

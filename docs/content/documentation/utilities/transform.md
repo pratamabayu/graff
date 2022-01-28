@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Transform" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Transform" sub-text="Lets you rotate, scale, skew, or translate an element" >}}
 
 ## Usage
 

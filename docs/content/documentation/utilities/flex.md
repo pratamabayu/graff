@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Flex" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Flex" sub-text="Allows responsive elements within a container to be automatically arranged depending upon screen size" >}}
 
 ## Usage
 

@@ -120,3 +120,7 @@ To place and align the dropdown, add `position-*` class in `<div>` tag where the
     </span>
 </section>
 ```
+
+## Variables
+
+Coming soon

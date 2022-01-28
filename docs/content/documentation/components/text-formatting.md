@@ -137,3 +137,7 @@ Add as inner text in `<kbd>` tag.
 ``` html
 <p>Lorem ipsum dolor sit amet <kbd>Ctrl + C</kbd> consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 ```
+
+## Variables
+
+Coming soon

@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Opacity" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Opacity" sub-text="Allows you to change the opaqueness of an element." >}}
 
 ## Usage
 

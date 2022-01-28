@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Margin" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Margin" sub-text="Used to create space around elements, outside of any defined borders" >}}
 
 ## Usage
 

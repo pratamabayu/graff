@@ -56,3 +56,6 @@ Add `had-drop-cap` class to `<p>` tag
 </section>
 ```
 
+## Variables
+
+Coming soon

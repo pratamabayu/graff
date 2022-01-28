@@ -6,4 +6,4 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Filter" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Filter" sub-text="Applies graphical effects like blur or color shift to an element" >}}

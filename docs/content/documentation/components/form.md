@@ -1043,3 +1043,7 @@ Add ```form-input-icon``` class to ```<span>``` tag inside tag where ```form-con
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

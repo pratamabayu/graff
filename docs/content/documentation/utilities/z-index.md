@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Z-index" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Z-index" sub-text="Specifies the stack order of an element" >}}
 
 ## Usage
 

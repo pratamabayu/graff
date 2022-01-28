@@ -125,3 +125,7 @@ Add `flex` class to `ul` tag where `pagination` class is located. See [flex](/do
     </ul>
 </div>
 ```
+
+## Variables
+
+Coming soon

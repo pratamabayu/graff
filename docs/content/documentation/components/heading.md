@@ -107,3 +107,7 @@ furthermore, heading can be done with add `heading-*` class to block element lik
     </h2>
 </section>
 ```
+
+## Variables
+
+Coming soon

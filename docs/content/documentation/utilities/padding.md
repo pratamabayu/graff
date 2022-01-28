@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Padding" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Padding" sub-text="Used to generate space around an element's content, inside of any defined borders" >}}
 
 ## Usage
 

@@ -77,3 +77,7 @@ Add interdeterminate state in `<progress>` tag without set `value `attribute.
     <progress max="100" class="width-1/1"></progress>
 </section>
 ```
+
+## Variables
+
+Coming soon

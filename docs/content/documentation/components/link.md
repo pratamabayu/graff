@@ -37,3 +37,7 @@ Sometimes, the link need to have different color, add `color-*` class to `<a>` t
     <a href="https://graff.com/" class="color-text-light color-text@hover">This is a link</a>
 </section>
 ```
+
+## Variables
+
+Coming soon

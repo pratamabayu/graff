@@ -197,3 +197,7 @@ Wrap the ```<svg>``` tag in a container, then use ```color-*``` class to style i
     </a>
 </section>
 ```
+
+## Variables
+
+Coming soon

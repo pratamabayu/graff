@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Float" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Float" sub-text="Specifies whether an element should float to the left, right, or not at all" >}}
 
 ## Usage
 

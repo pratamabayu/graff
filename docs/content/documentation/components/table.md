@@ -465,3 +465,7 @@ table_of_contents: true
     </figure>
 </section>
 ```
+
+## Variables
+
+Coming soon

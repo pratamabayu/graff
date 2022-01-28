@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Shadow" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Shadow" sub-text="Adds shadow effects around an element's frame" >}}
 
 ## Usage
 

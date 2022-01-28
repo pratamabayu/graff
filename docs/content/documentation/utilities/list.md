@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="List" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="List" sub-text="Set different list item markers for ordered lists and unordered lists" >}}
 
 ## Usage
 

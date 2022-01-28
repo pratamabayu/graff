@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Position" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Position" sub-text="Sets how an element is positioned in a document" >}}
 
 ## Usage
 

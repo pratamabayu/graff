@@ -163,3 +163,7 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

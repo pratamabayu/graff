@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Background" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Background" sub-text="Used to add background effects for elements" >}}
 
 ## Usage
 

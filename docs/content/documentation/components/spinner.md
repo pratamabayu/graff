@@ -21,3 +21,7 @@ Add `spinner` class to `<div>` tag.
     <div class="spinner"></div>
 </section>
 ```
+
+## Variables
+
+Coming soon

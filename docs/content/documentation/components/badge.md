@@ -149,3 +149,7 @@ Add `badge-for-border-radius-1/2` class where the `badge` class is located and a
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

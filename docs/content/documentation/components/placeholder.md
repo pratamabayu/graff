@@ -41,3 +41,7 @@ Add `placeholder` class to `<div>` tag.
     <div class="placeholder padding-medium"><span>Drop here ...</span></div>
 </div>
 ```
+
+## Variables
+
+Coming soon

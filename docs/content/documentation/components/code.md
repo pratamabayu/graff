@@ -41,3 +41,7 @@ namespace MyProject
     </code>
 </pre>
 ```
+
+## Variables
+
+Coming soon

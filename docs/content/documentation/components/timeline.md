@@ -199,3 +199,7 @@ Add `timeline` class in `<ul>` tag. The content in `<li>` tag can be anything. A
     </ul>
 </section>
 ```
+
+## Variables
+
+Coming soon

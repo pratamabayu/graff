@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Cursor" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Cursor" sub-text="Specifies the mouse cursor to be displayed when pointing over an element">}}
 
 ## Usage
 

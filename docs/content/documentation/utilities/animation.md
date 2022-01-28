@@ -9,7 +9,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Animation" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Animation" sub-text="Allows the animation of elements" >}}
 
 ## Usage
 

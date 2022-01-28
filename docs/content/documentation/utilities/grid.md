@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Grid" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Grid" sub-text="A two-dimensional layout system that lets you lay content out in rows and columns" >}}
 
 ## Usage
 

@@ -209,3 +209,7 @@ table_of_contents: true
     </nav>
 </section>
 ```
+
+## Variables
+
+Coming soon

@@ -61,3 +61,7 @@ Alert contains four styles to display messages, there are `alert-info`, `alert-s
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

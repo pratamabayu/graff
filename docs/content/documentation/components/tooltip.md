@@ -20,3 +20,7 @@ Add `tooltip` class in inline (block) element.
     Lorem ipsum dolor sit amet, <span class="tooltip">consectetur eiusmod tem<span class="tooltip-body">This is tooltip</span></span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </p>
 ```
+
+## Variables
+
+Coming soon

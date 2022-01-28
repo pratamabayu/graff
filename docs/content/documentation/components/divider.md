@@ -47,3 +47,7 @@ Add `divider-vertical` and `height-*` class to `<div`> tag where `divider` class
     <div><div class="divider divider-vertical height-small"></div></div>
 </section>
 ```
+
+## Variables
+
+Coming soon

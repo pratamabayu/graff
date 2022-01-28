@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Vertical align" sub-text="How to set next to each other on a line are lined up" >}}
+{{< heading text="Vertical align" sub-text="Sets the vertical alignment of an element" >}}
 
 ## Usage
 

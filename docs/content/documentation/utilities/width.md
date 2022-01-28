@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Width" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Width" sub-text="Sets the width of an element" >}}
 
 ## Usage
 

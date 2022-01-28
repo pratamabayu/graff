@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Color" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Color" sub-text="Sets color value of element" >}}
 
 ## Usage
 

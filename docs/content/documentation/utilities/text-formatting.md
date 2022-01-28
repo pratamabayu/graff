@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Text formatting" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Text formatting" sub-text="Used to format text and style text" >}}
 
 ## Usage
 

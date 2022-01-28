@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Gap" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Gap" sub-text="Defines the size of the gap between the rows and columns" >}}
 
 ## Usage
 

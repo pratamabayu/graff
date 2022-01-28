@@ -97,3 +97,7 @@ Sometimes, an image need to display as part of figure in an article, wrap `<img>
     </figure>
 </section>
 ```
+
+## Variables
+
+Coming soon

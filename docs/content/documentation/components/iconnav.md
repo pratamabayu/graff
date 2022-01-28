@@ -194,3 +194,7 @@ Add `iconnav-vertical` class to `<ul>` tag where `iconnav-vertical` class is loc
     </ul>
 </section>
 ```
+
+## Variables
+
+Coming soon

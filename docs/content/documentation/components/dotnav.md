@@ -155,3 +155,7 @@ Add `dotnav-vertical` class to `<ul>` tag where `dotnav-vertical` class is locat
     </div>
 </section>
 ```
+
+## Variables
+
+Coming soon

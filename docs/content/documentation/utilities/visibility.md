@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Visibility" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Visibility" sub-text="Specifies whether or not an element is visible" >}}
 
 ## Usage
 

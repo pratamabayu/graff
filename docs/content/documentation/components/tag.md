@@ -59,3 +59,7 @@ Add `active` class to inline-block element where `tag` class is located.
     <span class="tag active border-radius-remove-all">Drama</span>
 </section>
 ```
+
+## Variables
+
+Coming soon

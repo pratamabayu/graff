@@ -6,7 +6,7 @@ categories: ["Utilities"]
 table_of_contents: true
 ---
 
-{{< heading text="Overflow" sub-text="Lorem ipsum sit amet dolor" >}}
+{{< heading text="Overflow" sub-text="Specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area" >}}
 
 ## Usage
 
