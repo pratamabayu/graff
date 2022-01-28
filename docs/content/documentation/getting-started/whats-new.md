@@ -6,7 +6,7 @@ categories: ["Getting Started"]
 categories_weight: 3
 ---
 
-{{< heading text="What's new" sub-text="There for improvement" >}}
+{{< heading text="What's new" sub-text="There for improvement of Graff" >}}
 
 ## 0.9
 
