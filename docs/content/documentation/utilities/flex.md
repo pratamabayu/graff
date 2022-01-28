@@ -14,7 +14,7 @@ Add `flex-*` class to an element where `flex` or `flex-inline` class is located.
 
 ``` html
 <div class="flex flex-justify-content-start">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

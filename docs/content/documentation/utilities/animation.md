@@ -17,7 +17,7 @@ Add `animation-*` class to an element.
 
 ``` html
 <div class="animation-spin">
-    <!-- Your content -->
+    // Your content
 </div>
 ```
 

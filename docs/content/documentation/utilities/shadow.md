@@ -14,7 +14,7 @@ Add `box-shadow-*` class to block or inline block element.
 
 ``` html
 <div class="box-shadow-">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

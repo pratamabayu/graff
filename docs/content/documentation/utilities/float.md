@@ -14,7 +14,7 @@ Add `float-*` class to block or inline block element.
 
 ``` html
 <div class="float-right">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

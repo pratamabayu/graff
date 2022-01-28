@@ -14,7 +14,7 @@ Add `vertical-align-*` class to inline or inline block element.
 
 ``` html
 <span class="vertical-align-middle">
-    <!-- Your content ->
+    // Your content
 </span>
 ```
 

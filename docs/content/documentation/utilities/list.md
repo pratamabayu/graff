@@ -14,11 +14,11 @@ Add `list-*` class to an `<ul>` or `<ol>` tag.
 
 ``` html
 <ul class="list-style-square">
-    <!-- Your content ->
+    // Your content
 </ul>
 
 <ol class="list-style-upper-alpha">
-    <!-- Your content ->
+    // Your content
 </ol>
 ```
 

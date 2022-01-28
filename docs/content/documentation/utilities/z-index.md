@@ -14,7 +14,7 @@ Add `z-*` class to an element.
 
 ``` html
 <div class="z-1">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

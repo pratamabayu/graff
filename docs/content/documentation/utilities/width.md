@@ -14,7 +14,7 @@ Add `width-*` class to block or inline block element.
 
 ``` html
 <div class="width-medium">
-    <!-- Your content -->
+    // Your content
 </div>
 ```
 

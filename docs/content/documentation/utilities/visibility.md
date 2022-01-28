@@ -14,7 +14,7 @@ Add `visible`, `hidden`, or `collapse` class to an element.
 
 ``` html
 <div class="visible">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

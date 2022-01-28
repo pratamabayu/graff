@@ -14,7 +14,7 @@ Add `text-*` class to block or inline block element.
 
 ``` html
 <div class="text-center">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

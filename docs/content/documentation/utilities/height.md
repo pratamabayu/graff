@@ -14,7 +14,7 @@ Add `height-*` class to block or inline block element.
 
 ``` html
 <div class="height-medium">
-    <!-- Your content -->
+    // Your content
 </div>
 ```
 

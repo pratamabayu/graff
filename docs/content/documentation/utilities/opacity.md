@@ -14,7 +14,7 @@ Add `opacity-*` class to an element.
 
 ``` html
 <div class="opacity-25">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

@@ -14,7 +14,7 @@ Add `margin-*` class to block or inline block element.
 
 ``` html
 <div class="margin-medium">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

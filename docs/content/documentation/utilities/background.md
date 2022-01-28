@@ -14,7 +14,7 @@ Add `background-*` class to block element with [height](/documentation/utilities
 
 ``` html
 <div class="background-scroll height-small" style="background-image: url()">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

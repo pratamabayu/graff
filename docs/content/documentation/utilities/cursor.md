@@ -14,7 +14,7 @@ Add `cursor-*` class to an element.
 
 ``` html
 <div class="cursor-pointer">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

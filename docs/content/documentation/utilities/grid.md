@@ -14,7 +14,7 @@ Add `grid-*` class to an element where `grid` class is located.
 
 ``` html
 <div class="grid grid-3-columns">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

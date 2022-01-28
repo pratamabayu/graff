@@ -14,7 +14,7 @@ Add `rotate-*` and `flip-*` class to an element.
 
 ``` html
 <div class="rotate-90">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

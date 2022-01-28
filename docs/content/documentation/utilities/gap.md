@@ -14,7 +14,7 @@ Add `gap-*` class to a tag where `flex`, `flex-inline`, or `grid` class is locat
 
 ``` html
 <div class="flex gap-column-small">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

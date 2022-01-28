@@ -14,7 +14,7 @@ Add `border-*` class to block or inline block element.
 
 ``` html
 <div class="border-width">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

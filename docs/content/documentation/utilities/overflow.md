@@ -14,7 +14,7 @@ Add `overflow-*` class to block or inline block element.
 
 ``` html
 <div class="overflow-auto">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

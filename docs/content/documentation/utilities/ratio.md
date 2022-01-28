@@ -14,7 +14,7 @@ Add `ratio-*` class to block or inline block element.
 
 ``` html
 <div class="ratio-16/9">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

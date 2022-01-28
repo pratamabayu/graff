@@ -14,7 +14,7 @@ Add `padding-*` class to block or inline block element.
 
 ``` html
 <div class="padding-medium">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

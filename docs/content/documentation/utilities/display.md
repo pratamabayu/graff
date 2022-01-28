@@ -14,7 +14,7 @@ Add `none`, `inline`, `block`, or `inline-block` class to an element.
 
 ``` html
 <div class="inline">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

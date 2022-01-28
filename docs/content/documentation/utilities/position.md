@@ -14,7 +14,7 @@ Add `position-*` class to block or inline block element.
 
 ``` html
 <div class="position-sticky">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 

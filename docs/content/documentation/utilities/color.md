@@ -14,7 +14,7 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 
 ``` html
 <div class="color-primary color-primary-dark@hover">
-    <!-- Your content ->
+    // Your content
 </div>
 ```
 
