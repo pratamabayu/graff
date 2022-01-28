@@ -18,11 +18,20 @@ startLevel = 2
 google_analytics_id = ""
 project_name = "Graff"
 project_url = 'https://github.com/pratamabayu/graff'
-project_description = "Graff is a lightweight and modular kit to accelerate styling."
-project_keywords = "Graff, lightweight, modular, kit, accelerate, styling"
+project_description = "Graff is a lightweight and modular CSS kit to accelerate styling."
+project_slogan = "A lightweight and modular CSS kit to accelerate styling"
+project_keywords = "Graff, lightweight, modular, CSS, kit, accelerate, styling"
 created_by_name = "Pratama Bayu Widagdo"
 created_by_url = "https://pratamabayu.com"
 copyright_years = "2021"
 categories_order = ["getting-started", "customize", "components", "utilities", "about"]
 categories_hidden_header = []
 tocMinWordCount = 80
+
+[menu]
+[[menu.main]]
+  name = 'Documentation'
+  url = '/documentation/'
+  weight = 0
+  [menu.main.params]
+    class = 'none@m'

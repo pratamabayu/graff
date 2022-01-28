@@ -25,9 +25,11 @@
         </div>
         <div class="margin-large margin-remove-vertical margin-remove-all@m">
             <ul class="navbar-nav">
-                <li>
-                    <a href="/documentation" class="none@m">Documentation</a>
-                </li>
+                {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" title="{{ .Title }}" class="{{ with .Params.class }}{{ . }}{{ end }}">{{- .Name -}}</a>
+                    </li>
+                {{ end }}
                 <li>
                     <a href="{{- .Site.Params.project_url -}}" target="_blank" class="color-text color-text-light@hover">
                         <svg class="icon">
