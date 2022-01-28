@@ -28,7 +28,7 @@ To quickly create a theme you simply change the values of the variables associat
 }
 ```
 
->   Practial tips. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
+>   **Practial tips**. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
 
 ## Creating colorful theme
 
@@ -48,7 +48,7 @@ For a more colorful setting. You can change the value of the [color variables](/
 }
 ```
 
->   Practical tips. You just need to adjust the color of the `border`, `background`, `text`, and `code` in dark mode
+>   **Practical tips**. You just need to adjust the color of the `border`, `background`, `text`, and `code` in dark mode
 
 ## Choosing font for theme
 
@@ -72,7 +72,7 @@ then, linking your font using `<link>` tag inside the `<head>` tag
 </head>
 ```
 
->   Practical tips. Use [google fonts](https://fonts.google.com/) when pick your fonts or self hosted your fonts
+>   **Practical tips**. Use [google fonts](https://fonts.google.com/) when pick your fonts or self hosted your fonts
 
 ## Best practices for theming
 

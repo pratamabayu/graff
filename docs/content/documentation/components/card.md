@@ -136,7 +136,7 @@ Add `card-default` or `card-primary` class to change appearance of card
 </section>
 ```
 
->   Practical tips. When play with `box-shadow-*` class make sure add `box-shadow-none@dark` class to hide the shadows so the UI can perform perfectly in dark mode.
+>   **Practical tips**. When play with `box-shadow-*` class make sure add `box-shadow-none@dark` class to hide the shadows so the UI can perform perfectly in dark mode.
 
 ## More examples
 

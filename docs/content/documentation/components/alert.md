@@ -6,7 +6,7 @@ categories: ["Components"]
 table_of_contents: true
 ---
 
-{{< heading text="Alert" sub-text="Displays a specified message" >}}
+{{< heading text="Alert" sub-text="To display a specified message" >}}
 
 ## Usage
 

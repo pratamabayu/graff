@@ -47,19 +47,6 @@ Add `button-default` or `button-primary` class to change appearance of button
     <div><button class="button button-default">Button</button></div>
 </section>
 ```
-<section class="flex flex-justify-content-start gap-column-small">
-    <a class="button">Button</a>
-    <a class="button button-primary">Button</a>
-    <a class="button button-default">Button</a>
-</section>
-
-``` html
-<section class="flex flex-justify-content-start gap-column-small">
-    <a class="button">Button</a>
-    <a class="button button-primary">Button</a>
-    <a class="button button-default">Button</a>
-</section>
-```
 
 ## Variables
 
