@@ -28,7 +28,7 @@ To quickly create a theme you simply change the values of the variables associat
 }
 ```
 
->   **Practial tips**. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
+>   **Practical tips**. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
 
 ## Creating colorful theme
 
