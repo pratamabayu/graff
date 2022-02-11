@@ -9139,25 +9139,21 @@ a.button:hover {
   color: var(--alert-warning-text-color);
 }
 
-.alert.alert-outline.alert-info {
-  border: var(--alert-border-width) solid var(--color-dark);
+.alert.alert-outline {
   background: none;
   color: inherit;
+}
+.alert.alert-outline.alert-info {
+  border: var(--alert-border-width) solid var(--color-dark);
 }
 .alert.alert-outline.alert-success {
   border: var(--alert-border-width) solid var(--color-success);
-  background: none;
-  color: inherit;
 }
 .alert.alert-outline.alert-error {
   border: var(--alert-border-width) solid var(--color-error);
-  background: none;
-  color: inherit;
 }
 .alert.alert-outline.alert-warning {
   border: var(--alert-border-width) solid var(--color-warning);
-  background: none;
-  color: inherit;
 }
 
 :root {

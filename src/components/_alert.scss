@@ -32,25 +32,20 @@
 
 .alert {
   &.alert-outline {
+    background: none;
+    color: inherit;
+
     &.alert-info {
       border: var(--alert-border-width) solid var(--color-dark);
-      background: none;
-      color: inherit;
     }
     &.alert-success {
       border: var(--alert-border-width) solid var(--color-success);
-      background: none;
-      color: inherit;
     }
     &.alert-error {
       border: var(--alert-border-width) solid var(--color-error);
-      background: none;
-      color: inherit;
     }
     &.alert-warning {
       border: var(--alert-border-width) solid var(--color-warning);
-      background: none;
-      color: inherit;
     }
   }
 }
