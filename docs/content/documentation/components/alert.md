@@ -12,12 +12,6 @@ table_of_contents: true
 
 Add `alert` class in `<div>` tag.
 
-<section>
-    <div class="alert">
-        This is alert
-    </div>
-</section>
-
 ``` html
 <section>
     <div class="alert">
@@ -57,6 +51,40 @@ Alert contains four styles to display messages, there are `alert-info`, `alert-s
         This is error alert
     </div>
     <div class="alert alert-warning">
+        This is warning alert
+    </div>
+</section>
+```
+
+To get outlined alert, add `alert-outline` class where the `alert` class is located.
+
+<section class="flex flex-column flex-justify-content-start gap-row-small">
+    <div class="alert alert-outline alert-info">
+        This is info alert
+    </div>
+    <div class="alert alert-outline alert-success">
+        This is success alert
+    </div>
+    <div class="alert alert-outline alert-error">
+        This is error alert
+    </div>
+    <div class="alert alert-outline alert-warning">
+        This is warning alert
+    </div>
+</section>
+
+``` html
+<section class="flex flex-column flex-justify-content-start gap-row-small">
+    <div class="alert alert-outline alert-info">
+        This is info alert
+    </div>
+    <div class="alert alert-outline alert-success">
+        This is success alert
+    </div>
+    <div class="alert alert-outline alert-error">
+        This is error alert
+    </div>
+    <div class="alert alert-outline alert-warning">
         This is warning alert
     </div>
 </section>

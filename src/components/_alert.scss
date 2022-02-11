@@ -2,6 +2,10 @@
   --alert-padding: var(--padding-small) var(--padding-medium);
   --alert-border-radius: var(--border-radius-2xsmall);
   --alert-border-width: var(--border-width-thin);
+
+  --alert-success-text-color: var(--color-light);
+  --alert-error-text-color: var(--color-light);
+  --alert-warning-text-color: var(--color-dark);
 }
 
 .alert {
@@ -14,20 +18,20 @@
   }
   &.alert-success {
     background: var(--color-success);
-    color: var(--color-light);
+    color: var(--alert-success-text-color);
   }
-  &.alert.alert-error {
+  &.alert-error {
     background: var(--color-error);
-    color: var(--color-light);
+    color: var(--alert-error-text-color);
   }
   &.alert-warning {
     background: var(--color-warning);
-    color: var(--color-light);
+    color: var(--alert-warning-text-color);
   }
 }
 
-html[data-theme="dark"] {
-  .alert {
+.alert {
+  &.alert-outline {
     &.alert-info {
       border: var(--alert-border-width) solid var(--color-dark);
       background: none;
