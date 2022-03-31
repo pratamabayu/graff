@@ -92,6 +92,12 @@ https://github.com/pratamabayu/graff
 }
 
 .dark {
+  --color-primary: #2666d9;
+  --color-primary-dark: #2460cc;
+  --color-primary-light: #336fdb;
+  --color-secondary: #d99926;
+  --color-secondary-dark: #cc9024;
+  --color-secondary-light: #db9f33;
   --color-border: white;
   --color-border-dark: #b0b0b0;
   --color-border-light: #ababab;
@@ -101,6 +107,9 @@ https://github.com/pratamabayu/graff
   --color-text: #ededed;
   --color-text-light: white;
   --color-code: white;
+  --color-link: #2666d9;
+  --color-link-dark: #1f52ad;
+  --color-link-light: #5285e0;
 }
 
 .background-color-transparent,

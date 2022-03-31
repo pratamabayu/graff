@@ -115,6 +115,14 @@ $color-link: $color-primary;
 }
 
 .dark {
+  --color-primary: #{desaturate($color-primary, 30%)};
+  --color-primary-dark: #{desaturate(darken($color-primary, 3%), 30%)};
+  --color-primary-light: #{desaturate(lighten($color-primary, 3%), 30%)};
+
+  --color-secondary: #{desaturate($color-secondary, 30%)};
+  --color-secondary-dark: #{desaturate(darken($color-secondary, 3%), 30%)};
+  --color-secondary-light: #{desaturate(lighten($color-secondary, 3%), 30%)};
+
   --color-border: #{lighten($color-border, 40%)};
   --color-border-dark: #{lighten($color-border, 4%)};
   --color-border-light: #{lighten($color-border, 2%)};
@@ -127,4 +135,8 @@ $color-link: $color-primary;
   --color-text-light: #{lighten($color-background, 40%)};
 
   --color-code: #{lighten($color-background, 20%)};
+
+  --color-link: #{desaturate($color-link, 30%)};
+  --color-link-dark: #{desaturate(darken($color-link, 10%), 30%)};
+  --color-link-light: #{desaturate(lighten($color-link, 10%), 30%)};
 }
