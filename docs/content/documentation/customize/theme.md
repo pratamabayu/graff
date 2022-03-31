@@ -30,6 +30,24 @@ To quickly create a theme you simply change the values of the variables associat
 
 >   **Practical tips**. Use dark color for brand (primary) color. When using brand color as background on UI component, the foreground color is designed using light color. For example, the case of [button](/documentation/components/button) component when using `button-primary` class.
 
+To get the best appearance in dark mode, usually you need to desaturate the colors. You can change the dark mode colors in `.dark` selector.
+
+``` css
+.dark {
+    --color-primary: #2666d9;
+    --color-primary-dark: #2460cc;
+    --color-primary-light: #336fdb;
+    --color-secondary: #d99926;
+    --color-secondary-dark: #cc9024;
+    --color-secondary-light: #db9f33;
+    --color-link: #2666d9;
+    --color-link-dark: #1f52ad;
+    --color-link-light: #5285e0;
+}
+```
+
+>   **Practical tips**. Decrease saturation about 20-30% depending on the hue for primary, secondary, and link colors in dark mode.
+
 ## Creating colorful theme
 
 For a more colorful setting. You can change the value of the [color variables](/documentation/customize/variables#color). Make sure the theme performs perfectly on light mode before turn changes on dark mode in `.dark` selector.
@@ -48,7 +66,7 @@ For a more colorful setting. You can change the value of the [color variables](/
 }
 ```
 
->   **Practical tips**. You just need to adjust the color of the `border`, `background`, `text`, and `code` in dark mode
+>   **Practical tips**. You just need to adjust the color of the `border`, `background`, `text`, and `code` in dark mode.
 
 ## Choosing font for theme
 
@@ -72,7 +90,7 @@ then, linking your font using `<link>` tag inside the `<head>` tag
 </head>
 ```
 
->   **Practical tips**. Use [google fonts](https://fonts.google.com/) when pick your fonts or self hosted your fonts
+>   **Practical tips**. Use [google fonts](https://fonts.google.com/) when pick your fonts or self hosted your fonts.
 
 ## Best practices for theming
 
