@@ -81,7 +81,7 @@ ul.stepper.stepper-counter li:before {
   content: counter(step);
   counter-increment: step;
 }
-ul.stepper.stepper-cycle li:before {
+ul.stepper.stepper-circle li:before {
   border-radius: 50%;
 }
 ul.stepper.stepper-square li:before {

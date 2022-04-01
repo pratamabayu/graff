@@ -10318,7 +10318,7 @@ ul.stepper.stepper-counter li:before {
   counter-increment: step;
 }
 
-ul.stepper.stepper-cycle li:before {
+ul.stepper.stepper-circle li:before {
   border-radius: 50%;
 }
 

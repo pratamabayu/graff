@@ -10,8 +10,10 @@ table_of_contents: true
 
 ## Usage
 
+Add `stepper` class in `<ul>` tag. The content in `<li>` tag can be anything. Add `active` class to current `<li>` tag.
+
 ``` html
-<ul class="stepper stepper-cycle stepper-steps-4">
+<ul class="stepper stepper-circle stepper-steps-4">
     <li class="step-completed"> ... </li>
     <li class="step-processing"> ... </li>
     <li> ... </li>
@@ -21,7 +23,7 @@ table_of_contents: true
 ## Example
 
 <section>
-    <ul class="stepper stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-completed">Step 3</li>
@@ -31,7 +33,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <ul class="stepper stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-completed">Step 3</li>
@@ -63,7 +65,7 @@ table_of_contents: true
 ```
 
 <section>
-    <ul class="stepper stepper-small stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-small stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-processing">Step 2</li>
         <li>Step 3</li>
@@ -73,7 +75,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <ul class="stepper stepper-small stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-small stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-processing">Step 2</li>
         <li>Step 3</li>
@@ -83,7 +85,7 @@ table_of_contents: true
 ```
 
 <section>
-    <ul class="stepper stepper-square stepper-small stepper-cycle stepper-steps-5">
+    <ul class="stepper stepper-square stepper-small stepper-steps-5">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-completed">Step 3</li>
@@ -94,7 +96,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <ul class="stepper stepper-square stepper-small stepper-cycle stepper-steps-5">
+    <ul class="stepper stepper-square stepper-small stepper-steps-5">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-completed">Step 3</li>
@@ -105,7 +107,7 @@ table_of_contents: true
 ```
 
 <section>
-    <ul class="stepper stepper-smaller stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-smaller stepper-circle stepper-steps-4">
         <li class="step-processing">Step 1</li>
         <li>Step 2</li>
         <li>Step 3</li>
@@ -115,7 +117,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <ul class="stepper stepper-smaller stepper-cycle stepper-steps-4">
+    <ul class="stepper stepper-smaller stepper-circle stepper-steps-4">
         <li class="step-processing">Step 1</li>
         <li>Step 2</li>
         <li>Step 3</li>
@@ -125,7 +127,7 @@ table_of_contents: true
 ```
 
 <section>
-    <ul class="stepper stepper-square stepper-smaller stepper-cycle stepper-steps-5">
+    <ul class="stepper stepper-square stepper-smaller stepper-steps-5">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-processing">Step 3</li>
@@ -136,7 +138,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <ul class="stepper stepper-square stepper-smaller stepper-cycle stepper-steps-5">
+    <ul class="stepper stepper-square stepper-smaller stepper-steps-5">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
         <li class="step-processing">Step 3</li>
