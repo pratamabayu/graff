@@ -26,6 +26,12 @@ Add `background-*` and its combination class to block tag. A background can be a
 </section>
 ```
 
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/2 width-1/1 background-gradient background-gradient-direction-0deg background-gradient-from-primary background-gradient-to-transparent background-gradient-to-4/5"></div>
+    </div>
+</section>
+
 ## Background by image
 
 ### Size

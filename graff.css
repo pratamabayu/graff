@@ -13,26 +13,26 @@ https://github.com/pratamabayu/graff
   --color-secondary: #ffa400;
   --color-secondary-dark: #f09a00;
   --color-secondary-light: #ffa90f;
-  --color-dark: #000;
-  --color-light: #fafafa;
-  --color-gray: #8c8c8c;
-  --color-gray-dark: #737373;
-  --color-gray-light: #d9d9d9;
-  --color-border: #a6a6a6;
-  --color-border-dark: #8c8c8c;
-  --color-border-light: #bababa;
-  --color-background: #ededed;
-  --color-background-dark: #e6e6e6;
-  --color-background-light: #fafafa;
-  --color-text: #0d0d0d;
-  --color-text-light: #737373;
+  --color-dark: #1b1c1e;
+  --color-light: #fffefd;
+  --color-gray: #a4a7ad;
+  --color-gray-dark: #898d95;
+  --color-gray-light: #f5f5f6;
+  --color-border: #bfc1c5;
+  --color-border-dark: #a4a7ad;
+  --color-border-light: #d5d6d9;
+  --color-background: #e7e8ea;
+  --color-background-dark: #dfe0e2;
+  --color-background-light: #eff0f1;
+  --color-text: #27292b;
+  --color-text-light: #898d95;
   --color-success: #32b643;
   --color-warning: #ffb700;
   --color-error: #e85600;
   --color-link: #005bff;
   --color-link-dark: #0049cc;
   --color-link-light: #337cff;
-  --color-code: #404040;
+  --color-code: #575b61;
   --color-highlight: #ffe9b3;
   --margin-2xsmall: 3px;
   --margin-xsmall: 5px;
@@ -99,12 +99,12 @@ https://github.com/pratamabayu/graff
   --color-secondary-dark: #cc9024;
   --color-secondary-light: #db9f33;
   --color-border: white;
-  --color-border-dark: #b0b0b0;
-  --color-border-light: #ababab;
-  --color-background: #0d0d0d;
-  --color-background-dark: #050505;
-  --color-background-light: #141414;
-  --color-text: #ededed;
+  --color-border-dark: white;
+  --color-border-light: white;
+  --color-background: #27292b;
+  --color-background-dark: #202123;
+  --color-background-light: #2e3033;
+  --color-text: #e7e8ea;
   --color-text-light: white;
   --color-code: white;
   --color-link: #2666d9;
@@ -116,42 +116,21 @@ https://github.com/pratamabayu/graff
 .background-color-transparent\@hover:hover,
 .dark .background-color-transparent\@dark,
 .dark .background-color-transparent\@hover\@dark {
-  background-color: !important;
+  background-color: transparent !important;
 }
 
 .color-transparent,
 .color-transparent\@hover:hover,
 .dark .color-transparent\@dark,
 .dark .color-transparent\@hover\@dark {
-  color: !important;
+  color: transparent !important;
 }
 
 .border-color-transparent,
 .border-color-transparent\@hover:hover,
 .dark .border-color-transparent\@dark,
 .dark .border-color-transparent\@hover\@dark {
-  border-color: !important;
-}
-
-.background-color-transparent,
-.background-color-transparent\@hover:hover,
-.dark .background-color-transparent\@dark,
-.dark .background-color-transparent\@hover\@dark {
-  background-color: !important;
-}
-
-.color-transparent,
-.color-transparent\@hover:hover,
-.dark .color-transparent\@dark,
-.dark .color-transparent\@hover\@dark {
-  color: !important;
-}
-
-.border-color-transparent,
-.border-color-transparent\@hover:hover,
-.dark .border-color-transparent\@dark,
-.dark .border-color-transparent\@hover\@dark {
-  border-color: !important;
+  border-color: transparent !important;
 }
 
 .background-color-primary,
@@ -8752,6 +8731,1033 @@ img {
     transform: rotate(360deg);
   }
 }
+.background-gradient-direction-0deg {
+  --background-gradient-direction: 0deg;
+}
+
+.background-gradient-direction-45deg {
+  --background-gradient-direction: 45deg;
+}
+
+.background-gradient-direction-90deg {
+  --background-gradient-direction: 90deg;
+}
+
+.background-gradient-from-transparent {
+  --background-gradient-from-color: transparent;
+}
+
+.background-gradient-to-transparent {
+  --background-gradient-to-color: transparent;
+}
+
+.background-gradient-from-primary {
+  --background-gradient-from-color: var(--color-primary);
+}
+
+.background-gradient-to-primary {
+  --background-gradient-to-color: var(--color-primary);
+}
+
+.background-gradient-from-primary-light {
+  --background-gradient-from-color: var(--color-primary-light);
+}
+
+.background-gradient-to-primary-light {
+  --background-gradient-to-color: var(--color-primary-light);
+}
+
+.background-gradient-from-primary-dark {
+  --background-gradient-from-color: var(--color-primary-dark);
+}
+
+.background-gradient-to-primary-dark {
+  --background-gradient-to-color: var(--color-primary-dark);
+}
+
+.background-gradient-from-secondary {
+  --background-gradient-from-color: var(--color-secondary);
+}
+
+.background-gradient-to-secondary {
+  --background-gradient-to-color: var(--color-secondary);
+}
+
+.background-gradient-from-secondary-light {
+  --background-gradient-from-color: var(--color-secondary-light);
+}
+
+.background-gradient-to-secondary-light {
+  --background-gradient-to-color: var(--color-secondary-light);
+}
+
+.background-gradient-from-secondary-dark {
+  --background-gradient-from-color: var(--color-secondary-dark);
+}
+
+.background-gradient-to-secondary-dark {
+  --background-gradient-to-color: var(--color-secondary-dark);
+}
+
+.background-gradient-from-dark {
+  --background-gradient-from-color: var(--color-dark);
+}
+
+.background-gradient-to-dark {
+  --background-gradient-to-color: var(--color-dark);
+}
+
+.background-gradient-from-light {
+  --background-gradient-from-color: var(--color-light);
+}
+
+.background-gradient-to-light {
+  --background-gradient-to-color: var(--color-light);
+}
+
+.background-gradient-from-gray {
+  --background-gradient-from-color: var(--color-gray);
+}
+
+.background-gradient-to-gray {
+  --background-gradient-to-color: var(--color-gray);
+}
+
+.background-gradient-from-gray-light {
+  --background-gradient-from-color: var(--color-gray-light);
+}
+
+.background-gradient-to-gray-light {
+  --background-gradient-to-color: var(--color-gray-light);
+}
+
+.background-gradient-from-gray-dark {
+  --background-gradient-from-color: var(--color-gray-dark);
+}
+
+.background-gradient-to-gray-dark {
+  --background-gradient-to-color: var(--color-gray-dark);
+}
+
+.background-gradient-from-success {
+  --background-gradient-from-color: var(--color-success);
+}
+
+.background-gradient-to-success {
+  --background-gradient-to-color: var(--color-success);
+}
+
+.background-gradient-from-warning {
+  --background-gradient-from-color: var(--color-warning);
+}
+
+.background-gradient-to-warning {
+  --background-gradient-to-color: var(--color-warning);
+}
+
+.background-gradient-from-error {
+  --background-gradient-from-color: var(--color-error);
+}
+
+.background-gradient-to-error {
+  --background-gradient-to-color: var(--color-error);
+}
+
+.background-gradient-from-background {
+  --background-gradient-from-color: var(--color-background);
+}
+
+.background-gradient-to-background {
+  --background-gradient-to-color: var(--color-background);
+}
+
+.background-gradient-from-background-light {
+  --background-gradient-from-color: var(--color-background-light);
+}
+
+.background-gradient-to-background-light {
+  --background-gradient-to-color: var(--color-background-light);
+}
+
+.background-gradient-from-background-dark {
+  --background-gradient-from-color: var(--color-background-dark);
+}
+
+.background-gradient-to-background-dark {
+  --background-gradient-to-color: var(--color-background-dark);
+}
+
+.background-gradient-from-0 {
+  --background-gradient-from-stop: 0;
+}
+
+.background-gradient-to-0 {
+  --background-gradient-to-stop: 0;
+}
+
+.background-gradient-from-1\/1 {
+  --background-gradient-from-stop: 100%;
+}
+
+.background-gradient-to-1\/1 {
+  --background-gradient-to-stop: 100%;
+}
+
+.background-gradient-from-1\/2 {
+  --background-gradient-from-stop: 50%;
+}
+
+.background-gradient-to-1\/2 {
+  --background-gradient-to-stop: 50%;
+}
+
+.background-gradient-from-1\/3 {
+  --background-gradient-from-stop: calc(100% * 1 / 3.001);
+}
+
+.background-gradient-to-1\/3 {
+  --background-gradient-to-stop: calc(100% * 1 / 3.001);
+}
+
+.background-gradient-from-2\/3 {
+  --background-gradient-from-stop: calc(100% * 2 / 3.001);
+}
+
+.background-gradient-to-2\/3 {
+  --background-gradient-to-stop: calc(100% * 2 / 3.001);
+}
+
+.background-gradient-from-1\/4 {
+  --background-gradient-from-stop: 25%;
+}
+
+.background-gradient-to-1\/4 {
+  --background-gradient-to-stop: 25%;
+}
+
+.background-gradient-from-3\/4 {
+  --background-gradient-from-stop: 75%;
+}
+
+.background-gradient-to-3\/4 {
+  --background-gradient-to-stop: 75%;
+}
+
+.background-gradient-from-1\/5 {
+  --background-gradient-from-stop: 20%;
+}
+
+.background-gradient-to-1\/5 {
+  --background-gradient-to-stop: 20%;
+}
+
+.background-gradient-from-2\/5 {
+  --background-gradient-from-stop: 40%;
+}
+
+.background-gradient-to-2\/5 {
+  --background-gradient-to-stop: 40%;
+}
+
+.background-gradient-from-3\/5 {
+  --background-gradient-from-stop: 60%;
+}
+
+.background-gradient-to-3\/5 {
+  --background-gradient-to-stop: 60%;
+}
+
+.background-gradient-from-4\/5 {
+  --background-gradient-from-stop: 80%;
+}
+
+.background-gradient-to-4\/5 {
+  --background-gradient-to-stop: 80%;
+}
+
+.background-gradient-from-1\/6 {
+  --background-gradient-from-stop: calc(100% * 1 / 6.001);
+}
+
+.background-gradient-to-1\/6 {
+  --background-gradient-to-stop: calc(100% * 1 / 6.001);
+}
+
+.background-gradient {
+  background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+}
+
+@media screen and (max-width: 640px) {
+  .background-gradient-direction-0deg\@s {
+    --background-gradient-direction: 0deg;
+  }
+
+  .background-gradient-direction-45deg\@s {
+    --background-gradient-direction: 45deg;
+  }
+
+  .background-gradient-direction-90deg\@s {
+    --background-gradient-direction: 90deg;
+  }
+
+  .background-gradient-from-transparent\@s {
+    --background-gradient-from-color: transparent;
+  }
+
+  .background-gradient-to-transparent\@s {
+    --background-gradient-to-color: transparent;
+  }
+
+  .background-gradient-from-primary\@s {
+    --background-gradient-from-color: var(--color-primary);
+  }
+
+  .background-gradient-to-primary\@s {
+    --background-gradient-to-color: var(--color-primary);
+  }
+
+  .background-gradient-from-primary-light\@s {
+    --background-gradient-from-color: var(--color-primary-light);
+  }
+
+  .background-gradient-to-primary-light\@s {
+    --background-gradient-to-color: var(--color-primary-light);
+  }
+
+  .background-gradient-from-primary-dark\@s {
+    --background-gradient-from-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-to-primary-dark\@s {
+    --background-gradient-to-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-from-secondary\@s {
+    --background-gradient-from-color: var(--color-secondary);
+  }
+
+  .background-gradient-to-secondary\@s {
+    --background-gradient-to-color: var(--color-secondary);
+  }
+
+  .background-gradient-from-secondary-light\@s {
+    --background-gradient-from-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-to-secondary-light\@s {
+    --background-gradient-to-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-from-secondary-dark\@s {
+    --background-gradient-from-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-to-secondary-dark\@s {
+    --background-gradient-to-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-from-dark\@s {
+    --background-gradient-from-color: var(--color-dark);
+  }
+
+  .background-gradient-to-dark\@s {
+    --background-gradient-to-color: var(--color-dark);
+  }
+
+  .background-gradient-from-light\@s {
+    --background-gradient-from-color: var(--color-light);
+  }
+
+  .background-gradient-to-light\@s {
+    --background-gradient-to-color: var(--color-light);
+  }
+
+  .background-gradient-from-gray\@s {
+    --background-gradient-from-color: var(--color-gray);
+  }
+
+  .background-gradient-to-gray\@s {
+    --background-gradient-to-color: var(--color-gray);
+  }
+
+  .background-gradient-from-gray-light\@s {
+    --background-gradient-from-color: var(--color-gray-light);
+  }
+
+  .background-gradient-to-gray-light\@s {
+    --background-gradient-to-color: var(--color-gray-light);
+  }
+
+  .background-gradient-from-gray-dark\@s {
+    --background-gradient-from-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-to-gray-dark\@s {
+    --background-gradient-to-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-from-success\@s {
+    --background-gradient-from-color: var(--color-success);
+  }
+
+  .background-gradient-to-success\@s {
+    --background-gradient-to-color: var(--color-success);
+  }
+
+  .background-gradient-from-warning\@s {
+    --background-gradient-from-color: var(--color-warning);
+  }
+
+  .background-gradient-to-warning\@s {
+    --background-gradient-to-color: var(--color-warning);
+  }
+
+  .background-gradient-from-error\@s {
+    --background-gradient-from-color: var(--color-error);
+  }
+
+  .background-gradient-to-error\@s {
+    --background-gradient-to-color: var(--color-error);
+  }
+
+  .background-gradient-from-background\@s {
+    --background-gradient-from-color: var(--color-background);
+  }
+
+  .background-gradient-to-background\@s {
+    --background-gradient-to-color: var(--color-background);
+  }
+
+  .background-gradient-from-background-light\@s {
+    --background-gradient-from-color: var(--color-background-light);
+  }
+
+  .background-gradient-to-background-light\@s {
+    --background-gradient-to-color: var(--color-background-light);
+  }
+
+  .background-gradient-from-background-dark\@s {
+    --background-gradient-from-color: var(--color-background-dark);
+  }
+
+  .background-gradient-to-background-dark\@s {
+    --background-gradient-to-color: var(--color-background-dark);
+  }
+
+  .background-gradient-from-0\@s {
+    --background-gradient-from-stop: 0;
+  }
+
+  .background-gradient-to-0\@s {
+    --background-gradient-to-stop: 0;
+  }
+
+  .background-gradient-from-1\/1\@s {
+    --background-gradient-from-stop: 100%;
+  }
+
+  .background-gradient-to-1\/1\@s {
+    --background-gradient-to-stop: 100%;
+  }
+
+  .background-gradient-from-1\/2\@s {
+    --background-gradient-from-stop: 50%;
+  }
+
+  .background-gradient-to-1\/2\@s {
+    --background-gradient-to-stop: 50%;
+  }
+
+  .background-gradient-from-1\/3\@s {
+    --background-gradient-from-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-to-1\/3\@s {
+    --background-gradient-to-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-from-2\/3\@s {
+    --background-gradient-from-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-to-2\/3\@s {
+    --background-gradient-to-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-from-1\/4\@s {
+    --background-gradient-from-stop: 25%;
+  }
+
+  .background-gradient-to-1\/4\@s {
+    --background-gradient-to-stop: 25%;
+  }
+
+  .background-gradient-from-3\/4\@s {
+    --background-gradient-from-stop: 75%;
+  }
+
+  .background-gradient-to-3\/4\@s {
+    --background-gradient-to-stop: 75%;
+  }
+
+  .background-gradient-from-1\/5\@s {
+    --background-gradient-from-stop: 20%;
+  }
+
+  .background-gradient-to-1\/5\@s {
+    --background-gradient-to-stop: 20%;
+  }
+
+  .background-gradient-from-2\/5\@s {
+    --background-gradient-from-stop: 40%;
+  }
+
+  .background-gradient-to-2\/5\@s {
+    --background-gradient-to-stop: 40%;
+  }
+
+  .background-gradient-from-3\/5\@s {
+    --background-gradient-from-stop: 60%;
+  }
+
+  .background-gradient-to-3\/5\@s {
+    --background-gradient-to-stop: 60%;
+  }
+
+  .background-gradient-from-4\/5\@s {
+    --background-gradient-from-stop: 80%;
+  }
+
+  .background-gradient-to-4\/5\@s {
+    --background-gradient-to-stop: 80%;
+  }
+
+  .background-gradient-from-1\/6\@s {
+    --background-gradient-from-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient-to-1\/6\@s {
+    --background-gradient-to-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient\@s {
+    background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+  }
+}
+@media screen and (max-width: 960px) {
+  .background-gradient-direction-0deg\@m {
+    --background-gradient-direction: 0deg;
+  }
+
+  .background-gradient-direction-45deg\@m {
+    --background-gradient-direction: 45deg;
+  }
+
+  .background-gradient-direction-90deg\@m {
+    --background-gradient-direction: 90deg;
+  }
+
+  .background-gradient-from-transparent\@m {
+    --background-gradient-from-color: transparent;
+  }
+
+  .background-gradient-to-transparent\@m {
+    --background-gradient-to-color: transparent;
+  }
+
+  .background-gradient-from-primary\@m {
+    --background-gradient-from-color: var(--color-primary);
+  }
+
+  .background-gradient-to-primary\@m {
+    --background-gradient-to-color: var(--color-primary);
+  }
+
+  .background-gradient-from-primary-light\@m {
+    --background-gradient-from-color: var(--color-primary-light);
+  }
+
+  .background-gradient-to-primary-light\@m {
+    --background-gradient-to-color: var(--color-primary-light);
+  }
+
+  .background-gradient-from-primary-dark\@m {
+    --background-gradient-from-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-to-primary-dark\@m {
+    --background-gradient-to-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-from-secondary\@m {
+    --background-gradient-from-color: var(--color-secondary);
+  }
+
+  .background-gradient-to-secondary\@m {
+    --background-gradient-to-color: var(--color-secondary);
+  }
+
+  .background-gradient-from-secondary-light\@m {
+    --background-gradient-from-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-to-secondary-light\@m {
+    --background-gradient-to-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-from-secondary-dark\@m {
+    --background-gradient-from-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-to-secondary-dark\@m {
+    --background-gradient-to-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-from-dark\@m {
+    --background-gradient-from-color: var(--color-dark);
+  }
+
+  .background-gradient-to-dark\@m {
+    --background-gradient-to-color: var(--color-dark);
+  }
+
+  .background-gradient-from-light\@m {
+    --background-gradient-from-color: var(--color-light);
+  }
+
+  .background-gradient-to-light\@m {
+    --background-gradient-to-color: var(--color-light);
+  }
+
+  .background-gradient-from-gray\@m {
+    --background-gradient-from-color: var(--color-gray);
+  }
+
+  .background-gradient-to-gray\@m {
+    --background-gradient-to-color: var(--color-gray);
+  }
+
+  .background-gradient-from-gray-light\@m {
+    --background-gradient-from-color: var(--color-gray-light);
+  }
+
+  .background-gradient-to-gray-light\@m {
+    --background-gradient-to-color: var(--color-gray-light);
+  }
+
+  .background-gradient-from-gray-dark\@m {
+    --background-gradient-from-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-to-gray-dark\@m {
+    --background-gradient-to-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-from-success\@m {
+    --background-gradient-from-color: var(--color-success);
+  }
+
+  .background-gradient-to-success\@m {
+    --background-gradient-to-color: var(--color-success);
+  }
+
+  .background-gradient-from-warning\@m {
+    --background-gradient-from-color: var(--color-warning);
+  }
+
+  .background-gradient-to-warning\@m {
+    --background-gradient-to-color: var(--color-warning);
+  }
+
+  .background-gradient-from-error\@m {
+    --background-gradient-from-color: var(--color-error);
+  }
+
+  .background-gradient-to-error\@m {
+    --background-gradient-to-color: var(--color-error);
+  }
+
+  .background-gradient-from-background\@m {
+    --background-gradient-from-color: var(--color-background);
+  }
+
+  .background-gradient-to-background\@m {
+    --background-gradient-to-color: var(--color-background);
+  }
+
+  .background-gradient-from-background-light\@m {
+    --background-gradient-from-color: var(--color-background-light);
+  }
+
+  .background-gradient-to-background-light\@m {
+    --background-gradient-to-color: var(--color-background-light);
+  }
+
+  .background-gradient-from-background-dark\@m {
+    --background-gradient-from-color: var(--color-background-dark);
+  }
+
+  .background-gradient-to-background-dark\@m {
+    --background-gradient-to-color: var(--color-background-dark);
+  }
+
+  .background-gradient-from-0\@m {
+    --background-gradient-from-stop: 0;
+  }
+
+  .background-gradient-to-0\@m {
+    --background-gradient-to-stop: 0;
+  }
+
+  .background-gradient-from-1\/1\@m {
+    --background-gradient-from-stop: 100%;
+  }
+
+  .background-gradient-to-1\/1\@m {
+    --background-gradient-to-stop: 100%;
+  }
+
+  .background-gradient-from-1\/2\@m {
+    --background-gradient-from-stop: 50%;
+  }
+
+  .background-gradient-to-1\/2\@m {
+    --background-gradient-to-stop: 50%;
+  }
+
+  .background-gradient-from-1\/3\@m {
+    --background-gradient-from-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-to-1\/3\@m {
+    --background-gradient-to-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-from-2\/3\@m {
+    --background-gradient-from-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-to-2\/3\@m {
+    --background-gradient-to-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-from-1\/4\@m {
+    --background-gradient-from-stop: 25%;
+  }
+
+  .background-gradient-to-1\/4\@m {
+    --background-gradient-to-stop: 25%;
+  }
+
+  .background-gradient-from-3\/4\@m {
+    --background-gradient-from-stop: 75%;
+  }
+
+  .background-gradient-to-3\/4\@m {
+    --background-gradient-to-stop: 75%;
+  }
+
+  .background-gradient-from-1\/5\@m {
+    --background-gradient-from-stop: 20%;
+  }
+
+  .background-gradient-to-1\/5\@m {
+    --background-gradient-to-stop: 20%;
+  }
+
+  .background-gradient-from-2\/5\@m {
+    --background-gradient-from-stop: 40%;
+  }
+
+  .background-gradient-to-2\/5\@m {
+    --background-gradient-to-stop: 40%;
+  }
+
+  .background-gradient-from-3\/5\@m {
+    --background-gradient-from-stop: 60%;
+  }
+
+  .background-gradient-to-3\/5\@m {
+    --background-gradient-to-stop: 60%;
+  }
+
+  .background-gradient-from-4\/5\@m {
+    --background-gradient-from-stop: 80%;
+  }
+
+  .background-gradient-to-4\/5\@m {
+    --background-gradient-to-stop: 80%;
+  }
+
+  .background-gradient-from-1\/6\@m {
+    --background-gradient-from-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient-to-1\/6\@m {
+    --background-gradient-to-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient\@m {
+    background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+  }
+}
+@media screen and (max-width: 1200px) {
+  .background-gradient-direction-0deg\@l {
+    --background-gradient-direction: 0deg;
+  }
+
+  .background-gradient-direction-45deg\@l {
+    --background-gradient-direction: 45deg;
+  }
+
+  .background-gradient-direction-90deg\@l {
+    --background-gradient-direction: 90deg;
+  }
+
+  .background-gradient-from-transparent\@l {
+    --background-gradient-from-color: transparent;
+  }
+
+  .background-gradient-to-transparent\@l {
+    --background-gradient-to-color: transparent;
+  }
+
+  .background-gradient-from-primary\@l {
+    --background-gradient-from-color: var(--color-primary);
+  }
+
+  .background-gradient-to-primary\@l {
+    --background-gradient-to-color: var(--color-primary);
+  }
+
+  .background-gradient-from-primary-light\@l {
+    --background-gradient-from-color: var(--color-primary-light);
+  }
+
+  .background-gradient-to-primary-light\@l {
+    --background-gradient-to-color: var(--color-primary-light);
+  }
+
+  .background-gradient-from-primary-dark\@l {
+    --background-gradient-from-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-to-primary-dark\@l {
+    --background-gradient-to-color: var(--color-primary-dark);
+  }
+
+  .background-gradient-from-secondary\@l {
+    --background-gradient-from-color: var(--color-secondary);
+  }
+
+  .background-gradient-to-secondary\@l {
+    --background-gradient-to-color: var(--color-secondary);
+  }
+
+  .background-gradient-from-secondary-light\@l {
+    --background-gradient-from-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-to-secondary-light\@l {
+    --background-gradient-to-color: var(--color-secondary-light);
+  }
+
+  .background-gradient-from-secondary-dark\@l {
+    --background-gradient-from-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-to-secondary-dark\@l {
+    --background-gradient-to-color: var(--color-secondary-dark);
+  }
+
+  .background-gradient-from-dark\@l {
+    --background-gradient-from-color: var(--color-dark);
+  }
+
+  .background-gradient-to-dark\@l {
+    --background-gradient-to-color: var(--color-dark);
+  }
+
+  .background-gradient-from-light\@l {
+    --background-gradient-from-color: var(--color-light);
+  }
+
+  .background-gradient-to-light\@l {
+    --background-gradient-to-color: var(--color-light);
+  }
+
+  .background-gradient-from-gray\@l {
+    --background-gradient-from-color: var(--color-gray);
+  }
+
+  .background-gradient-to-gray\@l {
+    --background-gradient-to-color: var(--color-gray);
+  }
+
+  .background-gradient-from-gray-light\@l {
+    --background-gradient-from-color: var(--color-gray-light);
+  }
+
+  .background-gradient-to-gray-light\@l {
+    --background-gradient-to-color: var(--color-gray-light);
+  }
+
+  .background-gradient-from-gray-dark\@l {
+    --background-gradient-from-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-to-gray-dark\@l {
+    --background-gradient-to-color: var(--color-gray-dark);
+  }
+
+  .background-gradient-from-success\@l {
+    --background-gradient-from-color: var(--color-success);
+  }
+
+  .background-gradient-to-success\@l {
+    --background-gradient-to-color: var(--color-success);
+  }
+
+  .background-gradient-from-warning\@l {
+    --background-gradient-from-color: var(--color-warning);
+  }
+
+  .background-gradient-to-warning\@l {
+    --background-gradient-to-color: var(--color-warning);
+  }
+
+  .background-gradient-from-error\@l {
+    --background-gradient-from-color: var(--color-error);
+  }
+
+  .background-gradient-to-error\@l {
+    --background-gradient-to-color: var(--color-error);
+  }
+
+  .background-gradient-from-background\@l {
+    --background-gradient-from-color: var(--color-background);
+  }
+
+  .background-gradient-to-background\@l {
+    --background-gradient-to-color: var(--color-background);
+  }
+
+  .background-gradient-from-background-light\@l {
+    --background-gradient-from-color: var(--color-background-light);
+  }
+
+  .background-gradient-to-background-light\@l {
+    --background-gradient-to-color: var(--color-background-light);
+  }
+
+  .background-gradient-from-background-dark\@l {
+    --background-gradient-from-color: var(--color-background-dark);
+  }
+
+  .background-gradient-to-background-dark\@l {
+    --background-gradient-to-color: var(--color-background-dark);
+  }
+
+  .background-gradient-from-0\@l {
+    --background-gradient-from-stop: 0;
+  }
+
+  .background-gradient-to-0\@l {
+    --background-gradient-to-stop: 0;
+  }
+
+  .background-gradient-from-1\/1\@l {
+    --background-gradient-from-stop: 100%;
+  }
+
+  .background-gradient-to-1\/1\@l {
+    --background-gradient-to-stop: 100%;
+  }
+
+  .background-gradient-from-1\/2\@l {
+    --background-gradient-from-stop: 50%;
+  }
+
+  .background-gradient-to-1\/2\@l {
+    --background-gradient-to-stop: 50%;
+  }
+
+  .background-gradient-from-1\/3\@l {
+    --background-gradient-from-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-to-1\/3\@l {
+    --background-gradient-to-stop: calc(100% * 1 / 3.001);
+  }
+
+  .background-gradient-from-2\/3\@l {
+    --background-gradient-from-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-to-2\/3\@l {
+    --background-gradient-to-stop: calc(100% * 2 / 3.001);
+  }
+
+  .background-gradient-from-1\/4\@l {
+    --background-gradient-from-stop: 25%;
+  }
+
+  .background-gradient-to-1\/4\@l {
+    --background-gradient-to-stop: 25%;
+  }
+
+  .background-gradient-from-3\/4\@l {
+    --background-gradient-from-stop: 75%;
+  }
+
+  .background-gradient-to-3\/4\@l {
+    --background-gradient-to-stop: 75%;
+  }
+
+  .background-gradient-from-1\/5\@l {
+    --background-gradient-from-stop: 20%;
+  }
+
+  .background-gradient-to-1\/5\@l {
+    --background-gradient-to-stop: 20%;
+  }
+
+  .background-gradient-from-2\/5\@l {
+    --background-gradient-from-stop: 40%;
+  }
+
+  .background-gradient-to-2\/5\@l {
+    --background-gradient-to-stop: 40%;
+  }
+
+  .background-gradient-from-3\/5\@l {
+    --background-gradient-from-stop: 60%;
+  }
+
+  .background-gradient-to-3\/5\@l {
+    --background-gradient-to-stop: 60%;
+  }
+
+  .background-gradient-from-4\/5\@l {
+    --background-gradient-from-stop: 80%;
+  }
+
+  .background-gradient-to-4\/5\@l {
+    --background-gradient-to-stop: 80%;
+  }
+
+  .background-gradient-from-1\/6\@l {
+    --background-gradient-from-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient-to-1\/6\@l {
+    --background-gradient-to-stop: calc(100% * 1 / 6.001);
+  }
+
+  .background-gradient\@l {
+    background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+  }
+}
 /* Components */
 :root {
   --heading-font-size-small: 3rem;
@@ -8803,7 +9809,7 @@ p.has-drop-cap:first-letter {
 :root {
   --code-padding: 0 var(--padding-xsmall);
   --pre-code-text-color: var(--color-code);
-  --pre-code-background: var(--color-background);
+  --pre-code-background: var(--color-background-dark);
   --pre-code-border-radius: var(--border-radius-2xsmall);
   --pre-padding: var(--padding-medium);
   --pre-border-color: inherit;
