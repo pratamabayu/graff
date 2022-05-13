@@ -1,0 +1,87 @@
+$background-gradient-direction-data: (
+  (0deg, 0deg),
+  (45deg, 45deg),
+  (90deg, 90deg)
+) !default;
+
+$background-gradient-named-color-data: (
+  ("transparent", "transparent"),
+) !default;
+
+$background-gradient-color-data: (
+  ("primary", "color-primary"),
+  ("primary-light", "color-primary-light"),
+  ("primary-dark", "color-primary-dark"),
+  ("secondary", "color-secondary"),
+  ("secondary-light", "color-secondary-light"),
+  ("secondary-dark", "color-secondary-dark"),
+  ("dark", "color-dark"),
+  ("light", "color-light"),
+  ("gray", "color-gray"),
+  ("gray-light", "color-gray-light"),
+  ("gray-dark", "color-gray-dark"),
+  ("success", "color-success"),
+  ("warning", "color-warning"),
+  ("error", "color-error"),
+  ("background", "color-background"),
+  ("background-light", "color-background-light"),
+  ("background-dark", "color-background-dark")
+) !default;
+
+$background-gradient-stop-data: (
+  (0, 0),
+  (1\/1, 100%),
+  (1\/2, 50%),
+  (1\/3, unquote("calc(100% * 1 / 3.001)")),
+  (2\/3, unquote("calc(100% * 2 / 3.001)")),
+  (1\/4, 25%),
+  (3\/4, 75%),
+  (1\/5, 20%),
+  (2\/5, 40%),
+  (3\/5, 60%),
+  (4\/5, 80%),
+  (1\/6, unquote("calc(100% * 1 / 6.001)"))
+) !default;
+
+@include with-breakpoints() using ($breakpoint-suffix) {
+  
+  @each $direction-key, $direction-value in $background-gradient-direction-data {
+    .background-gradient-direction-#{$direction-key}#{$breakpoint-suffix} {
+      --background-gradient-direction: #{$direction-value};
+    }
+  }
+
+  @each $color-key, $color-value in $background-gradient-named-color-data {
+    .background-gradient-from-#{$color-key}#{$breakpoint-suffix} {
+      --background-gradient-from-color: #{$color-value};
+    }
+
+    .background-gradient-to-#{$color-key}#{$breakpoint-suffix} {
+      --background-gradient-to-color: #{$color-value};
+    }
+  }
+
+  @each $color-key, $color-value in $background-gradient-color-data {
+    .background-gradient-from-#{$color-key}#{$breakpoint-suffix} {
+      --background-gradient-from-color: var(--#{$color-value});
+    }
+
+    .background-gradient-to-#{$color-key}#{$breakpoint-suffix} {
+      --background-gradient-to-color: var(--#{$color-value});
+    }
+  }
+
+  @each $stop-key, $stop-value in $background-gradient-stop-data {
+    .background-gradient-from-#{$stop-key}#{$breakpoint-suffix} {
+      --background-gradient-from-stop: #{$stop-value};
+    }
+
+    .background-gradient-to-#{$stop-key}#{$breakpoint-suffix} {
+      --background-gradient-to-stop: #{$stop-value};
+    }
+  }
+
+  .background-gradient#{$breakpoint-suffix} {
+    background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+  }
+}
