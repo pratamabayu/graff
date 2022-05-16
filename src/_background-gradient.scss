@@ -1,6 +1,10 @@
 $background-gradient-direction-data: (
   (0deg, 0deg),
+  (15deg, 15deg),
+  (30deg, 30deg),
   (45deg, 45deg),
+  (60deg, 60deg),
+  (75deg, 75deg),
   (90deg, 90deg)
 ) !default;
 
@@ -44,12 +48,6 @@ $background-gradient-stop-data: (
 ) !default;
 
 @include with-breakpoints() using ($breakpoint-suffix) {
-  
-  @each $direction-key, $direction-value in $background-gradient-direction-data {
-    .background-gradient-direction-#{$direction-key}#{$breakpoint-suffix} {
-      --background-gradient-direction: #{$direction-value};
-    }
-  }
 
   @each $color-key, $color-value in $background-gradient-named-color-data {
     .background-gradient-from-#{$color-key}#{$breakpoint-suffix} {
@@ -81,7 +79,9 @@ $background-gradient-stop-data: (
     }
   }
 
-  .background-gradient#{$breakpoint-suffix} {
-    background: linear-gradient(var(--background-gradient-direction), var(--background-gradient-from-color) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color) var(--background-gradient-to-stop, 100%));
+  @each $direction-key, $direction-value in $background-gradient-direction-data {
+    .background-gradient-#{$direction-key}#{$breakpoint-suffix} {
+      background: linear-gradient(#{$direction-value}, var(--background-gradient-from-color, var(--color-dark)) var(--background-gradient-from-stop, 0%), var(--background-gradient-to-color, transparent) var(--background-gradient-to-stop, 100%));
+    }
   }
 }
