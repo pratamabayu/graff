@@ -14,5 +14,5 @@ It's initial release.
 
 1. Add core variables to support basic theming
 2. Add animation, background, border, color, cursor, display, filter, fit, flex, float, gap, grid, height, list, margin, opacity, overflow, padding, position, ratio, shadow, text-formatting, vertical-align, visibility, width, and z-index utilities
-3. Add accordion, alert, background, badge, blockquote, breadcrumb, button-group, button, card, code, dotnav, dropdown, form, heading, icon, iconnav, image, link, list, modal, nav, navbar, off-canvas, pagination, paragraph, placeholder, progress, spinner, stepper, tab, table, tag, text-formatting, timeline, and tooltip components.
+3. Add accordion, alert, background, background-gradient, badge, blockquote, breadcrumb, button-group, button, card, code, dotnav, dropdown, form, heading, icon, iconnav, image, link, list, modal, nav, navbar, off-canvas, pagination, paragraph, placeholder, progress, spinner, stepper, tab, table, tag, text-formatting, timeline, and tooltip components.
 4. Add dark mode

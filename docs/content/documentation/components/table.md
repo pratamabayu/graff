@@ -390,6 +390,256 @@ table_of_contents: true
 </section>
 ```
 
+<section class="overflow-auto height-small">
+    <table class="table table-sticky-vertically width-1/1">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+            <tr>
+                <td>Jin Doe</td>
+                <td>jin.doe@email.com</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>Jun Doe</td>
+                <td>jun.doe@email.com</td>
+                <td>Malaysia</td>
+            </tr>
+            <tr>
+                <td>Jean Doe</td>
+                <td>jean.doe@email.com</td>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+``` html
+<section class="overflow-auto height-small">
+    <table class="table table-sticky-vertically width-1/1">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+            <tr>
+                <td>Jin Doe</td>
+                <td>jin.doe@email.com</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>Jun Doe</td>
+                <td>jun.doe@email.com</td>
+                <td>Malaysia</td>
+            </tr>
+            <tr>
+                <td>Jean Doe</td>
+                <td>jean.doe@email.com</td>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+```
+
+<section class="overflow-auto width-medium">
+    <table class="table table-sticky-horizontally width-xlarge">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="background-color-background-light">John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+``` html
+<section class="overflow-auto width-medium">
+    <table class="table table-sticky-horizontally width-xlarge">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="background-color-background-light">John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+```
+
+<section class="overflow-auto height-medium width-medium">
+    <table class="table table-sticky-vertically table-sticky-horizontally width-xlarge">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="background-color-background-light">John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jin Doe</td>
+                <td>jin.doe@email.com</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jun Doe</td>
+                <td>jun.doe@email.com</td>
+                <td>Malaysia</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jean Doe</td>
+                <td>jean.doe@email.com</td>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+``` html
+<section class="overflow-auto height-medium width-medium">
+    <table class="table table-sticky-vertically table-sticky-horizontally width-xlarge">
+        <thead>
+            <tr>
+                <th class="background-color-background-light">Name</th>
+                <th class="background-color-background-light">Email</th>
+                <th class="background-color-background-light">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="background-color-background-light">John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jin Doe</td>
+                <td>jin.doe@email.com</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jun Doe</td>
+                <td>jun.doe@email.com</td>
+                <td>Malaysia</td>
+            </tr>
+            <tr>
+                <td class="background-color-background-light">Jean Doe</td>
+                <td>jean.doe@email.com</td>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+```
+
 <section>
     <figure>
         <figcaption>Figure 1. How to define persons for dummy purpose</figcaption>

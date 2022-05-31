@@ -16,8 +16,8 @@ https://github.com/pratamabayu/graff
   --color-dark: #1b1c1e;
   --color-light: #fffefd;
   --color-gray: #a4a7ad;
-  --color-gray-dark: #898d95;
-  --color-gray-light: #f5f5f6;
+  --color-gray-dark: #575b61;
+  --color-gray-light: #bfc1c5;
   --color-border: #bfc1c5;
   --color-border-dark: #a4a7ad;
   --color-border-light: #d5d6d9;
@@ -10410,20 +10410,33 @@ table.table.table-larger > tbody > tr > td {
   padding: var(--padding-medium);
 }
 
-table.table > thead > tr {
+table.table > thead th {
   border-bottom: var(--table-head-border-bottom);
 }
 
-table.table.table-striped > tbody > tr:nth-child(odd) {
+table.table.table-striped > tbody tr:nth-child(odd) {
   background: var(--table-striped-background);
 }
-
-table.table.table-divider > tbody > tr {
+table.table.table-divider > tbody tr {
   border-bottom: var(--table-divider-border-bottom);
 }
-
-table.table.table-divider > tbody > tr:last-child {
+table.table.table-divider > tbody tr:last-child {
   border-bottom: none;
+}
+table.table.table-sticky-vertically > thead th {
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+table.table.table-sticky-horizontally > thead th:first-child {
+  left: 0;
+  position: sticky;
+  z-index: 3;
+}
+table.table.table-sticky-horizontally > tbody td:first-child {
+  left: 0;
+  position: sticky;
+  z-index: 1;
 }
 
 :root {

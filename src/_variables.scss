@@ -21,8 +21,8 @@ $color-link: $color-primary;
   --color-light: #{$color-light};
 
   --color-gray: #{$color-gray};
-  --color-gray-dark: #{darken($color-gray, 10%)}; // old is 30%
-  --color-gray-light: #{lighten($color-gray, 30%)}; // old is 20%
+  --color-gray-dark: #{darken($color-gray, 30%)};
+  --color-gray-light: #{lighten($color-gray, 10%)};
 
   --color-border: #{$color-border};
   --color-border-dark: #{darken($color-border, 10%)};
