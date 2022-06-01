@@ -18,7 +18,7 @@ Add `background-*` class to block element with [height](/documentation/utilities
 </div>
 ```
 
-See implementation in [background component](/documentation/components/background).
+See implementation in [background component](http://localhost:1313/documentation/components/background/#background-by-image).
 
 ## Classes
 

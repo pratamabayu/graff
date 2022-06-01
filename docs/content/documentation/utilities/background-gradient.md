@@ -18,7 +18,7 @@ Add `background-gradient-*` class to block element.
 </div>
 ```
 
-See implementation in [background component](/documentation/components/background).
+See implementation in [background component](/documentation/components/background/#background-with-overlay).
 
 ## Classes
 
