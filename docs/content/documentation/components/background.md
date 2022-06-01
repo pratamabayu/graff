@@ -26,15 +26,6 @@ Add `background-*` and its combination class to block tag. A background can be a
 </section>
 ```
 
-<section class="grid grid-2-columns grid-1-columns@m gap-small">
-    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
-        <div class="height-1/3 width-1/1 background-gradient-0deg background-gradient-from-primary flex flex-align-items-end flex-justify-content-end padding-medium color-light">
-        <div>
-            <h4>The title</h4>
-        </div>
-    </div>
-</section>
-
 ## Background by image
 
 ### Size
@@ -92,6 +83,84 @@ Add `background-*` and its combination class to block tag. A background can be a
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-fixed width-1/1 height-medium" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)"></div>
     <div class="background-scroll width-1/1 height-medium" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)"></div>
+</section>
+```
+
+## Background with overlay
+
+### Solid color overlay
+
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/6 width-1/1 background-color-dark flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/6 width-1/1 background-color-primary flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+``` html
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/6 width-1/1 background-color-dark flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/6 width-1/1 background-color-primary flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+### Linear gradient color overlay
+
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/4 width-1/1 background-gradient-0deg background-gradient-from-dark flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/4 width-1/1 background-gradient-0deg background-gradient-from-primary flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+``` html
+<section class="grid grid-2-columns grid-1-columns@m gap-small">
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/4 width-1/1 background-gradient-0deg background-gradient-from-dark flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
+    <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
+        <div class="height-1/4 width-1/1 background-gradient-0deg background-gradient-from-primary flex flex-align-items-end flex-justify-content-end padding-medium color-light">
+            <div>
+                <h4>The title</h4>
+            </div>
+        </div>
+    </div>
 </section>
 ```
 

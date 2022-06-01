@@ -391,7 +391,7 @@ table_of_contents: true
 ```
 
 <section class="overflow-auto height-small">
-    <table class="table table-sticky-vertically width-1/1">
+    <table class="table table-divider table-sticky-vertically width-1/1">
         <thead>
             <tr>
                 <th class="background-color-background-light">Name</th>
@@ -490,7 +490,7 @@ table_of_contents: true
 </section>
 ```
 
-<section class="overflow-auto width-medium">
+<section class="overflow-auto width-large">
     <table class="table table-sticky-horizontally width-xlarge">
         <thead>
             <tr>
@@ -515,7 +515,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="overflow-auto width-medium">
+<section class="overflow-auto width-large">
     <table class="table table-sticky-horizontally width-xlarge">
         <thead>
             <tr>
@@ -540,7 +540,7 @@ table_of_contents: true
 </section>
 ```
 
-<section class="overflow-auto height-medium width-medium">
+<section class="overflow-auto height-small width-large">
     <table class="table table-sticky-vertically table-sticky-horizontally width-xlarge">
         <thead>
             <tr>
@@ -590,7 +590,7 @@ table_of_contents: true
 </section>
 
 ``` html
-<section class="overflow-auto height-medium width-medium">
+<section class="overflow-auto height-small width-large">
     <table class="table table-sticky-vertically table-sticky-horizontally width-xlarge">
         <thead>
             <tr>

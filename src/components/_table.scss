@@ -5,7 +5,8 @@
 }
 
 table.table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
 
 table.table > thead > tr > th,
@@ -26,17 +27,17 @@ table.table.table-larger > tbody > tr > td {
   padding: var(--padding-medium);
 }
 
-table.table > thead th {
-  border-bottom: var(--table-head-border-bottom);
-}
-
 table.table {
+
+  > thead th {
+    border-bottom: var(--table-head-border-bottom);
+  }
 
   &.table-striped {
 
     > tbody {
+      
       tr {
-
         &:nth-child(odd) {
           background: var(--table-striped-background);
         }
@@ -48,9 +49,12 @@ table.table {
 
     > tbody {
       tr {
-        border-bottom: var(--table-divider-border-bottom);
 
-        &:last-child {
+        td {
+          border-bottom: var(--table-divider-border-bottom);
+        }
+
+        &:last-child td {
           border-bottom: none;
         }
       }

@@ -80,6 +80,18 @@ See implementation in [background component](/documentation/components/backgroun
 | `background-gradient-from-3/5` | `60%` |
 | `background-gradient-from-4/5` | `80%` |
 | `background-gradient-from-1/6` | `16.66%` |
+| `background-gradient-to-0` | `0%` |
+| `background-gradient-to-1/1` | `100%` |
+| `background-gradient-to-1/2` | `50%` |
+| `background-gradient-to-1/3` | `33.33%` |
+| `background-gradient-to-2/3` | `66.66%` |
+| `background-gradient-to-1/4` | `25%` |
+| `background-gradient-to-3/4` | `75%` |
+| `background-gradient-to-1/5` | `20%` |
+| `background-gradient-to-2/5` | `40%` |
+| `background-gradient-to-3/5` | `60%` |
+| `background-gradient-to-4/5` | `80%` |
+| `background-gradient-to-1/6` | `16.66%` |
 {{</table>}}
 
 > Add `@s`, `@m`, or `@l` suffix to support breakpoints

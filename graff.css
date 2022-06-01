@@ -10389,7 +10389,8 @@ ul.list.list-divider > li:last-child {
 }
 
 table.table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
 
 table.table > thead > tr > th,
@@ -10413,14 +10414,13 @@ table.table.table-larger > tbody > tr > td {
 table.table > thead th {
   border-bottom: var(--table-head-border-bottom);
 }
-
 table.table.table-striped > tbody tr:nth-child(odd) {
   background: var(--table-striped-background);
 }
-table.table.table-divider > tbody tr {
+table.table.table-divider > tbody tr td {
   border-bottom: var(--table-divider-border-bottom);
 }
-table.table.table-divider > tbody tr:last-child {
+table.table.table-divider > tbody tr:last-child td {
   border-bottom: none;
 }
 table.table.table-sticky-vertically > thead th {
@@ -11319,11 +11319,9 @@ ul.tab.tab-pills > li.active > a {
 ul.stepper {
   padding: 0px;
 }
-
 ul.stepper.stepper-counter {
   counter-reset: step;
 }
-
 ul.stepper li {
   list-style-type: none;
   float: left;
@@ -11331,27 +11329,21 @@ ul.stepper li {
   text-align: center;
   color: var(--stepper-item-text-color);
 }
-
 ul.stepper.stepper-steps-2 li {
   width: 50%;
 }
-
 ul.stepper.stepper-steps-3 li {
   width: 33.3333333333%;
 }
-
 ul.stepper.stepper-steps-4 li {
   width: 25%;
 }
-
 ul.stepper.stepper-steps-5 li {
   width: 20%;
 }
-
 ul.stepper.stepper-steps-6 li {
   width: 16.6666666667%;
 }
-
 ul.stepper li:before {
   width: var(--stepper-item-point-size);
   height: var(--stepper-item-point-size);
@@ -11365,34 +11357,6 @@ ul.stepper li:before {
   color: var(--stepper-item-point-text-color);
   box-shadow: 0 0 0 0.1rem var(--color-background-light);
 }
-
-ul.stepper.stepper-small:not(.stepper-counter) li:before {
-  width: var(--stepper-item-point-size-small);
-  height: var(--stepper-item-point-size-small);
-  line-height: var(--stepper-item-point-size-small);
-  margin: 0 auto calc(var(--stepper-item-point-size-small) / 2) auto;
-}
-
-ul.stepper.stepper-smaller:not(.stepper-counter) li:before {
-  width: var(--stepper-item-point-size-smaller);
-  height: var(--stepper-item-point-size-smaller);
-  line-height: var(--stepper-item-point-size-smaller);
-  margin: 0 auto calc(var(--stepper-item-point-size-smaller) / 2) auto;
-}
-
-ul.stepper.stepper-counter li:before {
-  content: counter(step);
-  counter-increment: step;
-}
-
-ul.stepper.stepper-circle li:before {
-  border-radius: 50%;
-}
-
-ul.stepper.stepper-square li:before {
-  border-radius: var(--stepper-item-point-square-border-radius);
-}
-
 ul.stepper li:after {
   width: 100%;
   height: var(--stepper-line-border-width);
@@ -11403,40 +11367,54 @@ ul.stepper li:after {
   left: -50%;
   z-index: -1;
 }
-
-ul.stepper.stepper-small:not(.stepper-counter) li:after {
-  top: calc(var(--stepper-item-point-size-small) / 2);
-}
-
-ul.stepper.stepper-smaller:not(.stepper-counter) li:after {
-  top: calc(var(--stepper-item-point-size-smaller) / 2);
-}
-
 ul.stepper li:first-child:after {
   content: none;
 }
-
 ul.stepper li.step-completed {
   color: var(--stepper-item-completed-text-color);
 }
-
-ul.stepper li.step-processing {
-  color: var(--stepper-item-processing-text-color);
-}
-
 ul.stepper li.step-completed:before {
   color: var(--stepper-item-point-completed-text-color);
   border: var(--stepper-item-point-completed-border);
   background: var(--stepper-item-point-completed-background);
 }
-
 ul.stepper li.step-completed + li:after {
   background: var(--stepper-item-point-completed-background);
 }
-
+ul.stepper li.step-processing {
+  color: var(--stepper-item-processing-text-color);
+}
 ul.stepper li.step-processing:before {
   border: var(--stepper-item-point-processing-border);
   transform: scale(1.25);
+}
+ul.stepper.stepper-small:not(.stepper-counter) li:before:before {
+  width: var(--stepper-item-point-size-small);
+  height: var(--stepper-item-point-size-small);
+  line-height: var(--stepper-item-point-size-small);
+  margin: 0 auto calc(var(--stepper-item-point-size-small) / 2) auto;
+}
+ul.stepper.stepper-small:not(.stepper-counter) li:before:after {
+  top: calc(var(--stepper-item-point-size-small) / 2);
+}
+ul.stepper.stepper-smaller:not(.stepper-counter) li:before:before {
+  width: var(--stepper-item-point-size-smaller);
+  height: var(--stepper-item-point-size-smaller);
+  line-height: var(--stepper-item-point-size-smaller);
+  margin: 0 auto calc(var(--stepper-item-point-size-smaller) / 2) auto;
+}
+ul.stepper.stepper-smaller:not(.stepper-counter) li:before:after {
+  top: calc(var(--stepper-item-point-size-smaller) / 2);
+}
+ul.stepper.stepper-counter li:before {
+  content: counter(step);
+  counter-increment: step;
+}
+ul.stepper.stepper-circle li:before {
+  border-radius: 50%;
+}
+ul.stepper.stepper-square li:before {
+  border-radius: var(--stepper-item-point-square-border-radius);
 }
 
 :root {
