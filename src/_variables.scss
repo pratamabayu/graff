@@ -2,8 +2,8 @@ $color-primary: #005bff;
 $color-secondary: adjust-hue($color-primary, 180deg);
 $color-dark: #1b1c1e;
 $color-light: #fffefd;
-$color-gray: lighten($color-dark, 55%);
-$color-border: lighten($color-dark, 65%);
+$color-gray: lighten($color-dark, 50%);
+$color-border: lighten($color-dark, 55%);
 $color-background: lighten($color-dark, 80%); // old is 93%
 $color-text: lighten($color-dark, 5%);
 $color-link: $color-primary;

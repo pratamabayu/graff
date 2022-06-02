@@ -6,6 +6,6 @@ categories: ["About"]
 categories_weight: 1
 ---
 
-{{< heading text="Brand" sub-text="Helps people identify Graff" >}}
+{{< heading text="Brand" sub-text="Helps people to identify Graff" >}}
 
 Graff has `#005bff` as brand color and [Jost](https://fonts.google.com/specimen/Jost) as main font.

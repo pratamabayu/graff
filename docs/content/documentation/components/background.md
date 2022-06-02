@@ -28,6 +28,8 @@ Add `background-*` and its combination class to block tag. A background can be a
 
 ## Background by image
 
+>   See [background utility](/documentation/utilities/background) documentation
+
 ### Size
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
@@ -126,7 +128,9 @@ Add `background-*` and its combination class to block tag. A background can be a
 </section>
 ```
 
-### Linear gradient color overlay
+### Linear gradient overlay
+
+>   See [background-gradient utility](/documentation/utilities/background-gradient) documentation
 
 <section class="grid grid-2-columns grid-1-columns@m gap-small">
     <div class="background-cover background-no-repeat width-1/1 height-medium flex flex-align-items-end flex-justify-content-end" style="background-image: url(/images/documentation/breathtaking-mountains-view.jpg)">
