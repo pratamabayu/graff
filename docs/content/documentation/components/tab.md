@@ -10,6 +10,34 @@ table_of_contents: true
 
 ## Usage
 
+Add `tab` class to `<ul>` tag and fill the content in `<li>` tag.
+
+<section>
+    <ul class="tab">
+        <li><a href="">Tab Item 1</a></li>
+        <li><a href="">Tab Item 2</a></li>
+        <li><a href="">Tab Item 3</a></li>
+        <li><a href="">Tab Item 4</a></li>
+    </ul>
+</section>
+
+``` html
+<section>
+    <ul class="tab">
+        <li><a href="">Tab Item 1</a></li>
+        <li><a href="">Tab Item 2</a></li>
+        <li><a href="">Tab Item 3</a></li>
+        <li><a href="">Tab Item 4</a></li>
+    </ul>
+</section>
+```
+
+## Appearance
+
+### Is active
+
+Add `active` class to `<li>` tag.
+
 <section>
     <ul class="tab">
         <li><a href="">Tab Item 1</a></li>
@@ -30,25 +58,9 @@ table_of_contents: true
 </section>
 ```
 
-<section>
-    <ul class="tab tab-pills">
-        <li><a href="">Tab Item 1</a></li>
-        <li class="active"><a href="">Tab Item 2</a></li>
-        <li><a href="">Tab Item 3</a></li>
-        <li><a href="">Tab Item 4</a></li>
-    </ul>
-</section>
+### Alignment
 
-``` html
-<section>
-    <ul class="tab tab-pills">
-        <li><a href="">Tab Item 1</a></li>
-        <li class="active"><a href="">Tab Item 2</a></li>
-        <li><a href="">Tab Item 3</a></li>
-        <li><a href="">Tab Item 4</a></li>
-    </ul>
-</section>
-```
+Add `flex` class to `ul` tag where `tab` class is located. See [flex](/documentation/utilities/flex).
 
 <section class="flex flex-column flex-justify-content-start gap-row-small">
     <section>
@@ -87,6 +99,32 @@ table_of_contents: true
             <li><a href="">Tab Item 4</a></li>
         </ul>
     </section>
+</section>
+```
+
+### Alternate styles
+
+#### Pills
+
+Add `tab-pills` class to `<ul>` tag where `tab` class is located.
+
+<section>
+    <ul class="tab tab-pills">
+        <li><a href="">Tab Item 1</a></li>
+        <li class="active"><a href="">Tab Item 2</a></li>
+        <li><a href="">Tab Item 3</a></li>
+        <li><a href="">Tab Item 4</a></li>
+    </ul>
+</section>
+
+``` html
+<section>
+    <ul class="tab tab-pills">
+        <li><a href="">Tab Item 1</a></li>
+        <li class="active"><a href="">Tab Item 2</a></li>
+        <li><a href="">Tab Item 3</a></li>
+        <li><a href="">Tab Item 4</a></li>
+    </ul>
 </section>
 ```
 

@@ -22,6 +22,8 @@ Add `placeholder` class to `<div>` tag.
 </div>
 ```
 
+## More examples
+
 <div>
     <div class="placeholder inline-block"><span>Drop here ...</span></div>
 </div>

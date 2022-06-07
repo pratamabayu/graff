@@ -11,6 +11,172 @@ table_of_contents: true
 ## Usage
 
 <section>
+    <nav class="navbar navbar-light">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-light">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+<section>
+    <nav class="navbar navbar-dark">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-dark">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+## Appearance
+
+### Is active
+
+<section>
+    <nav class="navbar navbar-light">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-light">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+<section>
+    <nav class="navbar navbar-dark">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-dark">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+### Alternate styles
+
+#### Pills
+
+<section>
+    <nav class="navbar navbar-light navbar-pills">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-light navbar-pills">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+<section>
+    <nav class="navbar navbar-dark navbar-pills">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+``` html
+<section>
+    <nav class="navbar navbar-dark navbar-pills">
+        <div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+```
+
+### Alignment
+
+<section>
     <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">
         <div>
             <ul class="navbar-nav">
@@ -153,6 +319,10 @@ table_of_contents: true
     </nav>
 </section>
 ```
+
+## More examples
+
+### With dropdown
 
 <section>
     <nav class="flex flex-align-items-center flex-justify-content-between navbar navbar-light border-radius-2xsmall">

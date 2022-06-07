@@ -32,7 +32,7 @@ Horizontal is default orientation.
 
 ### Vertical
 
-Add `divider-vertical` and `height-*` class to `<div`> tag where `divider` class is located
+Add `divider-vertical` and `height-*` class to `<div>` tag where `divider` class is located.
 
 <section class="flex flex-justify-content-start gap-column-medium">
     <div><hr class="divider divider-vertical height-small"/></div>

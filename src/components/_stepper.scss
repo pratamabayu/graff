@@ -38,24 +38,11 @@ ul.stepper {
     color: var(--stepper-item-text-color);
   }
 
-  &.stepper-steps-2 li {
-    width: calc(100% / 2);
-  }
+  @each $step in (2, 3, 4, 5, 6) {
 
-  &.stepper-steps-3 li {
-    width: calc(100% / 3);
-  }
-
-  &.stepper-steps-4 li {
-    width: calc(100% / 4);
-  }
-
-  &.stepper-steps-5 li {
-    width: calc(100% / 5);
-  }
-
-  &.stepper-steps-6 li {
-    width: calc(100% / 6);
+    &.stepper-steps-#{$step} li {
+      width: calc(100% / #{$step});
+    }
   }
 
   li {
