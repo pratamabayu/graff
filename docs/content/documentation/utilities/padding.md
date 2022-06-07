@@ -20,7 +20,7 @@ Add `padding-*` class to block or inline block element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `padding-2xsmall` | `var(--padding-2xsmall)` |

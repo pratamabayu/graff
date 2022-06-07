@@ -18,7 +18,7 @@ Add `fit-*` class to `<img>` or `<video>` tag.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `fit-none` |

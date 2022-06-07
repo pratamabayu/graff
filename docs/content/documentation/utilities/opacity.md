@@ -20,7 +20,7 @@ Add `opacity-*` class to an element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `opacity-0` | `0` |

@@ -55,12 +55,12 @@ For a more colorful setting. You can change the value of the [color variables](/
 ``` css
 .dark {
     --color-border: white;
-    --color-border-dark: #b0b0b0;
-    --color-border-light: #ababab;
-    --color-background: #0d0d0d;
-    --color-background-dark: #050505;
-    --color-background-light: #141414;
-    --color-text: #ededed;
+    --color-border-dark: white;
+    --color-border-light: white;
+    --color-background: #27292b;
+    --color-background-dark: #202123;
+    --color-background-light: #2e3033;
+    --color-text: #e7e8ea;
     --color-text-light: white;
     --color-code: white;
 }

@@ -24,7 +24,7 @@ Add `list-*` class to an `<ul>` or `<ol>` tag.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `list-style-none` |

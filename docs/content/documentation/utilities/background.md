@@ -22,7 +22,7 @@ See implementation in [background component](http://localhost:1313/documentation
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `background-center` |

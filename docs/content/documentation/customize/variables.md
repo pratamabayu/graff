@@ -25,24 +25,24 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 | `--color-secondary-dark` | `#f09a00` |
 | `--color-dark` | `#1b1c1e` |
 | `--color-light` | `#fffefd` |
-| `--color-gray` | `#a4a7ad` |
-| `--color-gray-light` | `#f5f5f6` |
-| `--color-gray-dark` | `#898d95` |
-| `--color-border` | `#bfc1c5` |
-| `--color-border-light` | `#d5d6d9` |
-| `--color-border-dark` | `#a4a7ad` |
-| `--color-background` | `#ededed` |
-| `--color-background-light` | `#fafafa` |
-| `--color-background-dark` | `#e6e6e6` |
-| `--color-text` | `#0d0d0d` |
-| `--color-text-light` | `#737373` |
+| `--color-gray` | `#bfc1c5` |
+| `--color-gray-light` | `#dadbde` |
+| `--color-gray-dark` | `#70747c` |
+| `--color-border` | `#a4a7ad` |
+| `--color-border-light` | `#babcc1` |
+| `--color-border-dark` | `#898d95` |
+| `--color-background` | `#e7e8ea` |
+| `--color-background-light` | `#eff0f1` |
+| `--color-background-dark` | `#dfe0e2` |
+| `--color-text` | `#27292b` |
+| `--color-text-light` | `#898d95` |
 | `--color-success` | `#32b643` |
 | `--color-warning` | `#ffb700` |
 | `--color-error` | `#e85600` |
-| `--color-link` | `#005BFF` |
+| `--color-link` | `#005bff` |
 | `--color-link-light` | `#337cff` |
 | `--color-link-dark` | `#0049cc` |
-| `--color-code` | `#404040` |
+| `--color-code` | `#575b61` |
 | `--color-highlight` | `#ffe9b3` |
 {{</table>}}
 

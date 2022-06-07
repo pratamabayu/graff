@@ -20,7 +20,7 @@ Add `rotate-*` and `flip-*` class to an element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `rotate-90` |

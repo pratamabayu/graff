@@ -20,7 +20,7 @@ Add `gap-*` class to a tag where `flex`, `flex-inline`, or `grid` class is locat
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `gap-small` | `var(--gap-small)` |

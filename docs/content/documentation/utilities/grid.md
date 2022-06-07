@@ -20,7 +20,7 @@ Add `grid-*` class to an element where `grid` class is located.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `grid` |

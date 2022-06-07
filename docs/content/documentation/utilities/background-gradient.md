@@ -22,7 +22,7 @@ See implementation in [background component](/documentation/components/backgroun
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `background-gradient-0deg` |

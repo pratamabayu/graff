@@ -20,7 +20,7 @@ Add `vertical-align-*` class to inline or inline block element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `vertical-align-auto` |

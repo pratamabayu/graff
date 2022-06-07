@@ -20,7 +20,7 @@ Add `color-*`, `background-color-*`, and/or `border-color-*`  class to an elemen
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `color-transparent` | `transparent` |

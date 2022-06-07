@@ -23,7 +23,7 @@ Add `animation-*` class to an element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `animation-delay-.25s` | `.25s` |

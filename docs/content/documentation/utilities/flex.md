@@ -20,7 +20,7 @@ Add `flex-*` class to an element where `flex` or `flex-inline` class is located.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `flex` |

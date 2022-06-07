@@ -20,7 +20,7 @@ Add `width-*` class to block or inline block element.
 
 ## Classes
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Class | Value |
 |----------|----------|
 | `width-small` | `var(--width-small)` |
