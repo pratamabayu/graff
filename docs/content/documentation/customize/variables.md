@@ -14,7 +14,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Color
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--color-primary` | `#005BFF` |
@@ -48,7 +48,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Margin
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--margin-2xsmall` | `3px` |
@@ -61,7 +61,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Padding
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--padding-2xsmall` | `3px` |
@@ -74,7 +74,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ## Width
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--width-small` | `150px` |
@@ -86,7 +86,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ## Height
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--height-small` | `150px` |
@@ -98,7 +98,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ## Gap
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--gap-small` | `10px` |
@@ -108,7 +108,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Border
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--border-width` | `2px` |
@@ -123,7 +123,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Font
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--font-family` | `"Jost", Verdana, sans-serif` |
@@ -143,7 +143,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Line height
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--line-height` | `1.5` |
@@ -152,7 +152,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Heading space
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--heading-space-before` | `1rem` |
@@ -161,7 +161,7 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 
 ### Animation
 
-{{<table "table table-divider">}}
+{{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
 | `--animation-duration` | `1s` |
