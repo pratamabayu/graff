@@ -13,14 +13,35 @@ table_of_contents: true
 <section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
         <li class="nav-header">Header</li>
-        <li class="active"><a href="">Item 1</a></li>
+        <li><a href="">Item 1</a></li>
         <li><a href="">Item 2</a></li>
         <li><a href="">Item 3</a></li>
         <li class="nav-divider"></li>
         <li><a href="">Item 4</a></li>
         <li><a href="">Item 5</a></li>
     </ul>
-    <ul class="nav nav-pills">
+</section>
+
+``` html
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
+    <ul class="nav">
+        <li class="nav-header">Header</li>
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li class="nav-divider"></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+    </ul>
+</section>
+```
+
+## Appearance
+
+### Is active
+
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
+    <ul class="nav">
         <li class="nav-header">Header</li>
         <li class="active"><a href="">Item 1</a></li>
         <li><a href="">Item 2</a></li>
@@ -42,6 +63,27 @@ table_of_contents: true
         <li><a href="">Item 4</a></li>
         <li><a href="">Item 5</a></li>
     </ul>
+</section>
+```
+
+### Alternate styles
+
+### Pills
+
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
+    <ul class="nav nav-pills">
+        <li class="nav-header">Header</li>
+        <li class="active"><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li class="nav-divider"></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+    </ul>
+</section>
+
+``` html
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav nav-pills">
         <li class="nav-header">Header</li>
         <li class="active"><a href="">Item 1</a></li>
@@ -54,23 +96,12 @@ table_of_contents: true
 </section>
 ```
 
+## More examples
+
+### With sub nav
+
 <section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav">
-        <li class="nav-header">Header</li>
-        <li>
-            <a href="">Item 1</a>
-            <ul class="nav-nested">
-                <li class="active"><a href="">Item 1.1</a></li>
-                <li><a href="">Item 1.2</a></li>
-            </ul>
-        </li>
-        <li><a href="">Item 2</a></li>
-        <li><a href="">Item 3</a></li>
-        <li class="nav-divider"></li>
-        <li><a href="">Item 4</a></li>
-        <li><a href="">Item 5</a></li>
-    </ul>
-    <ul class="nav nav-pills">
         <li class="nav-header">Header</li>
         <li>
             <a href="">Item 1</a>
@@ -104,6 +135,29 @@ table_of_contents: true
         <li><a href="">Item 4</a></li>
         <li><a href="">Item 5</a></li>
     </ul>
+</section>
+```
+
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
+    <ul class="nav nav-pills">
+        <li class="nav-header">Header</li>
+        <li>
+            <a href="">Item 1</a>
+            <ul class="nav-nested">
+                <li class="active"><a href="">Item 1.1</a></li>
+                <li><a href="">Item 1.2</a></li>
+            </ul>
+        </li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li class="nav-divider"></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+    </ul>
+</section>
+
+``` html
+<section class="grid grid-2-columns grid-1-columns@m gap-column-small">
     <ul class="nav nav-pills">
         <li class="nav-header">Header</li>
         <li>

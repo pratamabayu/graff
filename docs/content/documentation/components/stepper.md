@@ -10,24 +10,34 @@ table_of_contents: true
 
 ## Usage
 
-Add `stepper` class in `<ul>` tag. The content in `<li>` tag can be anything. Add `active` class to current `<li>` tag.
+Add `stepper` and `stepper-steps-[2-6]` classes in `<ul>` tag. Then add `stepper-square` or `stepper-circle` classes to `<ul>` tag where `stepper` class is located to get specific styles. The content in `<li>` tag can be anything. Add `step-completed` class to current `<li>` tag to mark completed or `step-processing` class to current `<li>` tag to mark step is processing. 
+
+<section>
+    <ul class="stepper stepper-square stepper-steps-4">
+        <li class="step-completed">Step 1</li>
+        <li class="step-completed">Step 2</li>
+        <li class="step-processing">Step 3</li>
+        <li>Step 4</li>
+    </ul>
+</section>
 
 ``` html
-<ul class="stepper stepper-circle stepper-steps-4">
-    <li class="step-completed"> ... </li>
-    <li class="step-processing"> ... </li>
-    <li> ... </li>
-</ul>
+<section>
+    <ul class="stepper stepper-square stepper-steps-4">
+        <li class="step-completed">Step 1</li>
+        <li class="step-completed">Step 2</li>
+        <li class="step-processing">Step 3</li>
+        <li>Step 4</li>
+    </ul>
+</section>
 ```
-
-## Example
 
 <section>
     <ul class="stepper stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
-        <li class="step-completed">Step 3</li>
-        <li class="step-processing">Step 4</li>
+        <li class="step-processing">Step 3</li>
+        <li>Step 4</li>
     </ul>
 </section>
 
@@ -36,11 +46,17 @@ Add `stepper` class in `<ul>` tag. The content in `<li>` tag can be anything. Ad
     <ul class="stepper stepper-circle stepper-steps-4">
         <li class="step-completed">Step 1</li>
         <li class="step-completed">Step 2</li>
-        <li class="step-completed">Step 3</li>
-        <li class="step-processing">Step 4</li>
+        <li class="step-processing">Step 3</li>
+        <li>Step 4</li>
     </ul>
 </section>
 ```
+
+## Appearance
+
+### Alternate styles
+
+#### Counterable
 
 <section>
     <ul class="stepper stepper-square stepper-counter stepper-steps-5">
@@ -63,6 +79,8 @@ Add `stepper` class in `<ul>` tag. The content in `<li>` tag can be anything. Ad
     </ul>
 </section>
 ```
+
+## More examples
 
 <section>
     <ul class="stepper stepper-small stepper-circle stepper-steps-4">

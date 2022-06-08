@@ -94,7 +94,7 @@ To change pointer style of list, add `list-style-*` class to `<ul>` tag.
 
 To change appearance, add `list` class to `<ul>` or `<ol>` tag.
 
-### Style
+### Alternate styles
 
 #### Divider
 
