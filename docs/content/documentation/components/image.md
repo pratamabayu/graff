@@ -78,6 +78,8 @@ Add `border-radius-*` class to `<img>` tag.
 </section>
 ```
 
+## More examples
+
 ### In figure
 
 Sometimes, an image need to display as part of figure in an article, wrap `<img>` tag in `<figure` tag.

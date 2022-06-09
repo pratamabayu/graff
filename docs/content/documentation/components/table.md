@@ -10,6 +10,8 @@ table_of_contents: true
 
 ## Usage
 
+Add `table` class to `<table>` tag.
+
 <section>
     <table class="table">
         <thead>
@@ -79,6 +81,10 @@ table_of_contents: true
     </table>
 </section>
 ```
+
+## Appearance
+
+### Sizes
 
 <section>
     <table class="table width-1/1">
@@ -151,6 +157,80 @@ table_of_contents: true
 ```
 
 <section>
+    <table class="table table-larger width-1/1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+``` html
+<section>
+    <table class="table table-larger width-1/1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+```
+
+### Alternate styles
+
+#### Striped
+
+<section>
     <table class="table table-striped width-1/1">
         <thead>
             <tr>
@@ -220,8 +300,10 @@ table_of_contents: true
 </section>
 ```
 
+#### Divider
+
 <section>
-    <table class="table table-divider table-larger width-1/1">
+    <table class="table table-divider width-1/1">
         <thead>
             <tr>
                 <th>Name</th>
@@ -256,7 +338,7 @@ table_of_contents: true
 
 ``` html
 <section>
-    <table class="table table-divider table-larger width-1/1">
+    <table class="table table-divider width-1/1">
         <thead>
             <tr>
                 <th>Name</th>
@@ -289,6 +371,82 @@ table_of_contents: true
     </table>
 </section>
 ```
+
+#### Striped with divider
+
+<section>
+    <table class="table table-striped table-divider width-1/1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+``` html
+<section>
+    <table class="table table-striped table-divider width-1/1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@email.com</td>
+                <td>Singapore</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>jane.doe@email.com</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Jo Doe</td>
+                <td>jo.doe@email.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Ja Doe</td>
+                <td>ja.doe@email.com</td>
+                <td>Taiwan</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+```
+
+## Overflow
+
+### Horizontally
 
 <section class="overflow-auto text-nowrap">
     <table class="table table-divider width-1/1">
@@ -390,6 +548,8 @@ table_of_contents: true
 </section>
 ```
 
+### Vertically with head freezing
+
 <section class="overflow-auto height-small">
     <table class="table table-divider table-sticky-vertically width-1/1">
         <thead>
@@ -490,6 +650,8 @@ table_of_contents: true
 </section>
 ```
 
+### Horizontally with first column freezing
+
 <section class="overflow-auto width-large">
     <table class="table table-sticky-horizontally width-xlarge">
         <thead>
@@ -539,6 +701,8 @@ table_of_contents: true
     </table>
 </section>
 ```
+
+### Vertically and horizontally with head and first column freezing
 
 <section class="overflow-auto height-small width-large">
     <table class="table table-sticky-vertically table-sticky-horizontally width-xlarge">
@@ -639,6 +803,10 @@ table_of_contents: true
     </table>
 </section>
 ```
+
+## More examples
+
+### In figure
 
 <section>
     <figure>
