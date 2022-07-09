@@ -10,6 +10,8 @@ table_of_contents: true
 
 ## Usage
 
+Add _#{anchor}_ to `href` attribute in `<a>` tag and add `modal` class to `<div>` tag as the container and _{anchor}_ to its `id` attribute. Then inside the container, add add `modal-overlay` class to `<div>` tag and  `modal-dialog` class to `<div>` tag.
+
 <section>
     <a href="{{< permalink >}}#my-modal1" class="button button-default">Open modal</a>
     <div id="my-modal1" class="modal">
@@ -41,6 +43,12 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+## Appearance
+
+### Close button
+
+To place close button, add _#{anchor}_ to `href` attribute in `<a>` tag.
 
 <section>
     <a href="{{< permalink >}}#my-modal3" class="button button-default">Open modal</a>
@@ -83,6 +91,10 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+### Close button and overlay
+
+Close button work well with overlay button too.
 
 <section>
     <a href="{{< permalink >}}#my-modal2" class="button button-default">Open modal</a>
@@ -129,6 +141,12 @@ table_of_contents: true
     </div>
 </section>
 ```
+
+### Position
+
+To place and align the modal, add `position-*` class in `<div>` tag where the `modal-dialog` class is located.
+
+>   See [position utility](/documentation/utilities/position) documentation
 
 <section>
     <a href="{{< permalink >}}#my-modal4" class="button button-default">Open modal</a>

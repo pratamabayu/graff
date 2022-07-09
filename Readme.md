@@ -1,10 +1,12 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 # Graff
-Graff is a lightweigt and modular CSS kit to accelerate styling. No javascript required to kick start.
+Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with beautiful components and utilities, just 179kb or 23kb gzip compressed.
+
+Component is ready to use of style for UI while utility is to modify existing components or creating custom components without touching the CSS.
 
 # Usage
-You can read the documentation in https://graff.com/documentation
+You can read the documentation in https://graffcss.com/documentation
 
 # Prerequesite
 1. Download NPM in https://www.npmjs.com/get-npm and install it on your computer

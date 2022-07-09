@@ -12,7 +12,7 @@ table_of_contents: false
 
 {{< heading text="Introduction" sub-text="The brief of Graff" >}}
 
-Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with beautiful [components](/documentation/components) and [utilities](/documentation/utilities), just 144kb or 20kb gzip compressed.
+Graff is a lightweight and modular CSS kit to accelerate styling. No javascript required to use Graff. It small with beautiful [components](/documentation/components) and [utilities](/documentation/utilities), just 179kb or 23kb gzip compressed.
 
 Component is ready to use of style for UI while utility is to modify existing components or creating custom components without touching the CSS.
 
