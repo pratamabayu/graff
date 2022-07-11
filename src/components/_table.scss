@@ -12,19 +12,19 @@ table.table {
 table.table > thead > tr > th,
 table.table > tfoot > tr > td,
 table.table > tbody > tr > td {
-  padding: var(--padding-small);
+  padding: var(--padding-xsmall);
 }
 
 table.table.table-smaller > thead > tr > th,
 table.table.table-smaller > tfoot > tr > td,
 table.table.table-smaller > tbody > tr > td {
-  padding: var(--padding-xsmall);
+  padding: var(--padding-2xsmall);
 }
 
 table.table.table-larger > thead > tr > th,
 table.table.table-larger > tfoot > tr > td,
 table.table.table-larger > tbody > tr > td {
-  padding: var(--padding-medium);
+  padding: var(--padding-small);
 }
 
 table.table {

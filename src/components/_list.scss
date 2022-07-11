@@ -10,14 +10,14 @@ ul.list {
   padding: 0px;
 
   > li {
-    padding: var(--padding-small);
+    padding: var(--padding-xsmall);
   }
 
   &.list-smaller > li {
-    padding: var(--padding-xsmall);
+    padding: var(--padding-2xsmall);
   }
   &.list-larger > li {
-    padding: var(--padding-medium);
+    padding: var(--padding-small);
   }
 
   &.list-striped > li:nth-child(odd) {

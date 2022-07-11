@@ -51,12 +51,12 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 {{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
-| `--margin-2xsmall` | `3px` |
-| `--margin-xsmall` | `5px` |
-| `--margin-small` | `10px` |
-| `--margin-medium` | `20px` |
-| `--margin-large` | `40px` |
-| `--margin-xlarge` | `60px` |
+| `--margin-2xsmall` | `4px` |
+| `--margin-xsmall` | `8px` |
+| `--margin-small` | `16px` |
+| `--margin-medium` | `32px` |
+| `--margin-large` | `64px` |
+| `--margin-xlarge` | `128px` |
 {{</table>}}
 
 ### Padding
@@ -64,12 +64,12 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 {{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
-| `--padding-2xsmall` | `3px` |
-| `--padding-xsmall` | `5px` |
-| `--padding-small` | `10px` |
-| `--padding-medium` | `20px` |
-| `--padding-large` | `40px` |
-| `--padding-xlarge` | `60px` |
+| `--padding-2xsmall` | `4px` |
+| `--padding-xsmall` | `8px` |
+| `--padding-small` | `16px` |
+| `--padding-medium` | `32px` |
+| `--padding-large` | `64px` |
+| `--padding-xlarge` | `128px` |
 {{</table>}}
 
 ## Width
@@ -101,9 +101,9 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 {{<table "table table-divider table-striped">}}
 | Variable | Value |
 |----------|----------|
-| `--gap-small` | `10px` |
-| `--gap-medium` | `20px` |
-| `--gap-large` | `40px` |
+| `--gap-small` | `16px` |
+| `--gap-medium` | `32px` |
+| `--gap-large` | `64px` |
 {{</table>}}
 
 ### Border
@@ -114,11 +114,11 @@ Core variables is 77 important variables to customize UI globally. They are `--c
 | `--border-width` | `2px` |
 | `--border-width-thin` | `1px` |
 | `--border-width-thick` | `4px` |
-| `--border-radius-2xsmall` | `3px` |
-| `--border-radius-xsmall` | `5px` |
-| `--border-radius-small` | `10px` |
-| `--border-radius-medium` | `20px` |
-| `--border-radius-large` | `40px` |
+| `--border-radius-2xsmall` | `4px` |
+| `--border-radius-xsmall` | `8px` |
+| `--border-radius-small` | `16px` |
+| `--border-radius-medium` | `32px` |
+| `--border-radius-large` | `64px` |
 {{</table>}}
 
 ### Font

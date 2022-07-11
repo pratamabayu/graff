@@ -1,5 +1,5 @@
 :root {
-  --code-padding: 0 var(--padding-xsmall);
+  --code-padding: var(--padding-2xsmall) var(--padding-xsmall);
 
   --pre-code-text-color: var(--color-code);
   --pre-code-background: var(--color-background-dark);
