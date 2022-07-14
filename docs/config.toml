@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/graff"
 languageCode = "en-us"
 title = "Graff"
 theme = "dooc"
