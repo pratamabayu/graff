@@ -37,6 +37,7 @@ button:focus {
   height: auto;
   line-height: 1rem;
   vertical-align: middle;
+  display: inline-block;
 
   &.button-primary {
     color: var(--button-primary-text-color) !important;

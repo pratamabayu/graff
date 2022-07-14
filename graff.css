@@ -10001,6 +10001,7 @@ button:focus {
   height: auto;
   line-height: 1rem;
   vertical-align: middle;
+  display: inline-block;
 }
 .button.button-primary {
   color: var(--button-primary-text-color) !important;
@@ -10717,6 +10718,7 @@ ul.nav-nested > li:last-child {
   padding: var(--navbar-item-padding);
   text-decoration: none;
   line-height: 100%;
+  display: inline-block;
 }
 .navbar ul.navbar-nav > li.active > a {
   border-style: solid;
@@ -11275,6 +11277,7 @@ ul.tab > li > a {
   text-decoration: none;
   color: var(--tab-item-text-color);
   line-height: 100%;
+  display: inline-block;
 }
 ul.tab > li > a:hover {
   color: var(--tab-item-hover-text-color);

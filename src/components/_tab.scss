@@ -28,6 +28,7 @@ ul.tab {
       text-decoration: none;
       color: var(--tab-item-text-color);
       line-height: 100%;
+      display: inline-block;
 
       &:hover {
         color: var(--tab-item-hover-text-color);
