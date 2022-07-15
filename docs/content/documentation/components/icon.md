@@ -10,11 +10,11 @@ table_of_contents: true
 
 ## Usage
 
-Replace ```symbol-name``` with a preferred symbol name.
+Grab `graff-icons.svg` from [graff](https://github.com/pratamabayu/graff) repository or create your own and linking to your document html then replace ```symbol-name``` with a preferred symbol name.
 
 ``` html
 <svg class="icon">
-    <use xlink:href="icons/graff-icons.svg#symbol-name" />
+    <use xlink:href="path/to/graff-icons.svg#symbol-name" />
 </svg>
 ```
 

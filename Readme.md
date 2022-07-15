@@ -6,7 +6,7 @@ Graff is a lightweight and modular CSS kit to accelerate styling. No javascript 
 Component is ready to use of style for UI while utility is to modify existing components or creating custom components without touching the CSS.
 
 # Usage
-You can read the documentation in https://graffcss.com/documentation
+You can read the documentation in https://graff.pratamabayu.com/documentation
 
 # Prerequesite
 1. Download NPM in https://www.npmjs.com/get-npm and install it on your computer
