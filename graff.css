@@ -9845,6 +9845,21 @@ img {
   font-size: var(--heading-font-size-2xlarge);
 }
 
+.heading-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.heading-line::before,
+.heading-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
 p.has-drop-cap:first-letter {
   float: left;
   font-weight: bolder;
@@ -9918,6 +9933,7 @@ blockquote cite::before {
   --kbd-background: var(--color-dark);
   --kbd-text-color: var(--color-light);
   --kbd-border-radius: var(--border-radius-2xsmall);
+  --text-underline-offset: .5em;
 }
 
 mark {
@@ -9930,6 +9946,10 @@ kbd {
   color: var(--kbd-text-color);
   border-radius: var(--kbd-border-radius);
   font-family: var(--font-family);
+}
+
+u {
+  text-underline-offset: var(--text-underline-offset);
 }
 
 :root {
@@ -9988,6 +10008,10 @@ a:hover {
   --button-border-radius: var(--border-radius-2xsmall);
 }
 
+button[disabled] {
+  cursor: not-allowed;
+}
+
 button:focus {
   outline: none;
 }
@@ -9999,7 +10023,7 @@ button:focus {
   cursor: pointer;
   white-space: nowrap;
   height: auto;
-  line-height: 1rem;
+  line-height: 1.15;
   vertical-align: middle;
   display: inline-block;
 }
@@ -11078,11 +11102,15 @@ ul.iconnav.iconnav-vertical > li {
   border: var(--placeholder-hover-border);
   border-style: var(--placeholder-border-style);
 }
+.placeholder.drag-over {
+  border-color: var(--color-border-dark);
+  background-color: var(--color-background-dark);
+}
 
 :root {
-  --modal-overlay-backgruond: rgba(0, 0, 0, 0.1);
+  --modal-overlay-background: rgba(0, 0, 0, 0.1);
   --modal-dialog-width: var(--width-large);
-  --modal-dialog-min-height: var(--height-small);
+  --modal-dialog-min-height: auto;
   --modal-dialog-padding: var(--padding-medium);
   --modal-dialog-background: var(--color-background-light);
   --modal-dialog-border-radius: var(--border-radius-2xsmall);
@@ -11113,7 +11141,7 @@ ul.iconnav.iconnav-vertical > li {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--modal-overlay-backgruond);
+  background: var(--modal-overlay-background);
   opacity: 1;
   transition: opacity 0.15s linear;
 }
@@ -11124,9 +11152,86 @@ ul.iconnav.iconnav-vertical > li {
   border-radius: var(--modal-dialog-border-radius);
   width: var(--modal-dialog-width);
   min-height: var(--modal-dialog-min-height);
+  height: auto;
   position: absolute;
 }
 
+.modal-dialog-small {
+  width: 300px;
+}
+
+.modal-dialog-medium {
+  width: 500px;
+}
+
+.modal-dialog-large {
+  width: 800px;
+}
+
+.modal-dialog-xlarge {
+  width: 1140px;
+}
+
+.modal-dialog-full {
+  width: 95vw;
+  height: 95vh;
+}
+
+/* Scrollable mode: constrain height to viewport */
+.modal-dialog-scrollable {
+  max-height: 90vh;
+  /* Never exceed 90% of viewport height */
+  height: auto;
+  /* Height based on content, but capped by max-height */
+}
+
+.modal-dialog-full.modal-dialog-scrollable {
+  max-height: 95vh;
+  height: 95vh;
+}
+
+.modal-header {
+  margin-bottom: var(--gap-small);
+  flex-shrink: 0;
+  /* Prevents header from shrinking */
+}
+
+/* Content area - base styles */
+.modal-content {
+  flex: 1 1 auto;
+  /* Allows content to grow and shrink */
+}
+
+/* Auto height mode (non-scrollable) */
+.modal-content-auto {
+  overflow: visible;
+  /* Content can overflow modal if needed */
+  max-height: 75vh;
+  /* No max height restriction */
+}
+
+/* Scrollable mode */
+.modal-content-scrollable {
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  max-height: 75vh;
+  /* Let flexbox handle the height */
+}
+
+.modal-footer {
+  margin-top: var(--gap-small);
+  flex-shrink: 0;
+  /* Prevents footer from shrinking */
+}
+
+@media (max-width: 768px) {
+  .modal-dialog-large,
+.modal-dialog-xlarge,
+.modal-dialog-full {
+    width: 95vw;
+    margin: 10px;
+  }
+}
 :root {
   --offcanvas-z: 100;
   --offcanvas-bar-width: 320px;
@@ -11293,6 +11398,9 @@ ul.tab.tab-pills > li.active > a {
   border-color: var(--tab-item-pill-active-border-color);
   border-radius: var(--tab-item-pill-border-radius);
   background: var(--tab-item-pill-active-background);
+}
+ul.tab.tab-underlined {
+  border-bottom: var(--border-width-thin) solid var(--color-border-light);
 }
 
 :root {
@@ -11461,6 +11569,121 @@ ul.timeline > li:before {
 ul.timeline > li.active:before {
   background: var(--timeline-item-point-active-background);
   border-color: var(--timeline-item-point-active-border-color);
+}
+
+:root {
+  --toast-max-width: var(--width-medium);
+  --toast-padding: var(--padding-small);
+  --toast-background: var(--color-background-light);
+  --toast-border-radius: var(--border-radius-2xsmall);
+  --toast-progress-background: var(--color-primary);
+  --toast-progress-border-width: var(--border-width);
+  --toast-z: 100;
+  --toast-gap: var(--gap-small);
+}
+
+.toast {
+  position: relative;
+  width: var(--toast-max-width);
+  border-radius: var(--toast-border-radius);
+  padding: var(--toast-padding);
+  background: var(--toast-background);
+  overflow: hidden;
+}
+.toast .toast-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.toast .toast-content {
+  min-width: 0;
+}
+.toast .toast-message {
+  word-wrap: break-word;
+}
+.toast .toast-dismiss {
+  display: flex;
+  align-items: center;
+}
+.toast .toast-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--toast-progress-border-width);
+  background: var(--toast-progress-background);
+  transform-origin: left;
+  animation: toast-progress linear forwards;
+}
+
+.toast-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes toast-progress {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+.toast-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--toast-gap);
+  max-width: 100%;
+  pointer-events: none;
+  position: fixed;
+  z-index: var(--toast-z);
+}
+.toast-container.position-bottom-right, .toast-container.position-bottom-left, .toast-container.position-bottom-center {
+  flex-direction: column-reverse;
+}
+
+.avatar-2xsmall {
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+}
+
+.avatar-xsmall {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+}
+
+.avatar-small {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+}
+
+.avatar-medium {
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+}
+
+.avatar-large {
+  width: 96px;
+  height: 96px;
+  font-size: 32px;
+}
+
+.avatar-xlarge {
+  width: 128px;
+  height: 128px;
+  font-size: 48px;
+}
+
+.avatar-2xlarge {
+  width: 160px;
+  height: 160px;
+  font-size: 64px;
 }
 
 /*# sourceMappingURL=graff.css.map */

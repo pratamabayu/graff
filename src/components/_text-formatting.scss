@@ -3,6 +3,7 @@
   --kbd-background: var(--color-dark);
   --kbd-text-color: var(--color-light);
   --kbd-border-radius: var(--border-radius-2xsmall);
+  --text-underline-offset: .5em;
 }
 
 mark {
@@ -15,4 +16,8 @@ kbd {
   color: var(--kbd-text-color);
   border-radius: var(--kbd-border-radius);
   font-family: var(--font-family);
+}
+
+u {
+  text-underline-offset: var(--text-underline-offset);
 }

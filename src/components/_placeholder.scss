@@ -20,4 +20,9 @@
     border: var(--placeholder-hover-border);
     border-style: var(--placeholder-border-style);
   }
+
+  &.drag-over {
+    border-color: var(--color-border-dark);
+    background-color: var(--color-background-dark);
+  }
 }

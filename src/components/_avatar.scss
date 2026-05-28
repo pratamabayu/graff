@@ -1,0 +1,19 @@
+$avatar-map: (
+  "2xsmall": (24px, 10px),
+  "xsmall":  (32px, 14px),
+  "small":   (48px, 18px),
+  "medium":  (64px, 24px),
+  "large":   (96px, 32px),
+  "xlarge":  (128px, 48px),
+  "2xlarge": (160px, 64px)
+);
+
+@each $name, $values in $avatar-map {
+  .avatar-#{$name} {
+    $w: nth($values, 1);
+    $fs: nth($values, 2);
+    width: $w;
+    height: $w;
+    font-size: $fs;
+  }
+}

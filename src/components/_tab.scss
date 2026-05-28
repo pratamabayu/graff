@@ -50,4 +50,8 @@ ul.tab {
     border-radius: var(--tab-item-pill-border-radius);
     background: var(--tab-item-pill-active-background);
   }
+
+  &.tab-underlined {
+    border-bottom: var(--border-width-thin) solid var(--color-border-light);
+  }
 }

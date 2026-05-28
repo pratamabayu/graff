@@ -1,7 +1,7 @@
 :root {
-  --modal-overlay-backgruond: rgba(0, 0, 0, 0.1);
+  --modal-overlay-background: rgba(0, 0, 0, 0.1);
   --modal-dialog-width: var(--width-large);
-  --modal-dialog-min-height: var(--height-small);
+  --modal-dialog-min-height: auto;
 
   --modal-dialog-padding: var(--padding-medium);
   --modal-dialog-background: var(--color-background-light);
@@ -36,7 +36,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--modal-overlay-backgruond);
+  background: var(--modal-overlay-background);
   opacity: 1;
   transition: opacity 0.15s linear;
 }
@@ -47,6 +47,75 @@
   border-radius: var(--modal-dialog-border-radius);
   width: var(--modal-dialog-width);
   min-height: var(--modal-dialog-min-height);
+  height: auto;
 
   position: absolute;
+}
+
+.modal-dialog-small {
+    width: 300px;
+}
+
+.modal-dialog-medium {
+    width: 500px;
+}
+
+.modal-dialog-large {
+    width: 800px;
+}
+
+.modal-dialog-xlarge {
+    width: 1140px;
+}
+
+.modal-dialog-full {
+    width: 95vw;
+    height: 95vh;
+}
+
+/* Scrollable mode: constrain height to viewport */
+.modal-dialog-scrollable {
+    max-height: 90vh;  /* Never exceed 90% of viewport height */
+    height: auto;      /* Height based on content, but capped by max-height */
+}
+
+.modal-dialog-full.modal-dialog-scrollable {
+    max-height: 95vh;
+    height: 95vh;
+}
+
+.modal-header {
+  margin-bottom: var(--gap-small);
+  flex-shrink: 0;  /* Prevents header from shrinking */
+}
+
+/* Content area - base styles */
+.modal-content {
+  flex: 1 1 auto;  /* Allows content to grow and shrink */
+}
+
+/* Auto height mode (non-scrollable) */
+.modal-content-auto {
+    overflow: visible;  /* Content can overflow modal if needed */
+    max-height: 75vh;   /* No max height restriction */
+}
+
+/* Scrollable mode */
+.modal-content-scrollable {
+    overflow-y: auto;   /* Enable vertical scrolling */
+    max-height: 75vh;   /* Let flexbox handle the height */
+}
+
+.modal-footer {
+  margin-top: var(--gap-small);
+  flex-shrink: 0;  /* Prevents footer from shrinking */
+}
+
+@media (max-width: 768px) {
+    .modal-dialog-large,
+    .modal-dialog-xlarge,
+    .modal-dialog-full {
+        width: 95vw;
+        margin: 10px;
+    }
 }

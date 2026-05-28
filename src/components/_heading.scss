@@ -32,3 +32,18 @@
 .heading-2xlarge {
   font-size: var(--heading-font-size-2xlarge);
 }
+
+.heading-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.heading-line::before,
+.heading-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+}

@@ -24,6 +24,10 @@
   --button-border-radius: var(--border-radius-2xsmall);
 }
 
+button[disabled] {
+  cursor: not-allowed;
+}
+
 button:focus {
   outline: none;
 }
@@ -35,7 +39,7 @@ button:focus {
   cursor: pointer;
   white-space: nowrap;
   height: auto;
-  line-height: 1rem;
+  line-height: 1.15;
   vertical-align: middle;
   display: inline-block;
 
