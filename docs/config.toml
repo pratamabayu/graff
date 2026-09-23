@@ -32,6 +32,12 @@ tocMinWordCount = 80
 [[menu.main]]
   name = 'Documentation'
   url = '/documentation/'
+  weight = 1
+  [menu.main.params]
+    class = 'none@m'
+[[menu.main]]
+  name = 'Theme Editor'
+  url = '/theme-editor/'
   weight = 0
   [menu.main.params]
     class = 'none@m'
